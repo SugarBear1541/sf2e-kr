@@ -1,30 +1,38 @@
 {
   "id": "sf2e-kr",
   "title": "SF2e 한국어 번역",
-  "description": "스타파인더 2판 한국어 번역 모듈 — 범위·사거리·도달 거리의 ft 단위 및 채팅 출력 문구 통일",
+  "description": "스타파인더 2판 Foundry VTT 시스템과 컴펜디엄을 한국어로 번역하는 비공식 팬 번역 모듈입니다.",
   "version": "1.0.5",
-  "compatibility": {
-    "minimum": "14.361",
-    "verified": "14.365",
-    "maximum": "14"
-  },
   "authors": [
     {
-      "name": "스타파인더 한글화 프로젝트"
+      "name": "CacaoBear",
+      "url": "https://github.com/CacaoBear/sf2e-kr"
     }
   ],
-  "esmodules": [
-    "babele.js"
-  ],
-  "languages": [
-    {
-      "lang": "ko",
-      "name": "한국어 (SF2e-KR)",
-      "path": "lang/ko.json",
-      "flags": {}
-    }
+  "url": "https://github.com/CacaoBear/sf2e-kr",
+  "manifest": "https://github.com/CacaoBear/sf2e-kr/releases/latest/download/module.json",
+  "download": "https://github.com/CacaoBear/sf2e-kr/releases/download/v1.0.5/sf2e-kr.zip",
+  "readme": "https://github.com/CacaoBear/sf2e-kr/blob/main/README.md",
+  "changelog": "https://github.com/CacaoBear/sf2e-kr/releases",
+  "bugs": "https://github.com/CacaoBear/sf2e-kr/issues",
+  "compatibility": {
+    "minimum": "14.361",
+    "verified": "14.365"
+  },
+  "system": [
+    "sf2e"
   ],
   "relationships": {
+    "systems": [
+      {
+        "id": "sf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.4.0",
+          "verified": "1.4.0"
+        }
+      }
+    ],
     "requires": [
       {
         "id": "babele",
@@ -35,6 +43,16 @@
       }
     ]
   },
+  "esmodules": [
+    "babele.js"
+  ],
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "한국어 (SF2e-KR)",
+      "path": "lang/ko.json"
+    }
+  ],
   "styles": [
     "styles/sf2e-kr.css"
   ]

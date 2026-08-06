@@ -1,0 +1,210 @@
+{
+  "label": "베스티어리 효과",
+  "folders": {},
+  "entries": {
+    "Effect: Resonance": {
+      "name": "효과: 레조넌스(Effect: Resonance)",
+      "description": "<p>해당 특성이 있는 효과에 대해 괴물은 공격과 피해 굴림에 +1 상태 보너스를 얻습니다. 원소와 선택된 특성을 가진 괴물은 모든 공격과 피해 굴림에 이 보너스를 얻습니다.</p>"
+    },
+    "Effect: Engulf and Swallow Whole": {
+      "name": "효과: 휩쓸고 통째로 삼키기(Effect: Engulf and Swallow Whole)",
+      "description": "<p>@UUID[Compendium.sf2e.bestiary-ability-glossary-srd.Item.zU3Ovaet4xQ5Gmvy]{휩쓸어 삼키기} 또는 @UUID[Compendium.sf2e.bestiary-ability-glossary-srd.Item.uJSseLa57HZYSMUu]{통째로 삼키기}에 의해 부여됩니다.</p>\n<p>당신은 붙잡히고 속도가 1 감소하며, 숨을 참거나 질식하기 시작해야 합니다. 당신은 비무장 공격이나 가벼운 무게 또는 그 이하의 무기로만 근원을 공격할 수 있으며, 근원은 그 공격에 대해 무방비 상태입니다. 근원이 단일 공격이나 주문으로 인해 나열된 파열 값 이상의 관통 또는 참격 피해를 입으면, 당신은 스스로 풀려납니다.</p>"
+    },
+    "Effect: Gremlin's Gift": {
+      "name": "효과: 그렘린의 선물(Effect: Gremlin's Gift)",
+      "description": "<p>선택한 기술의 판정에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Interstellar Raft": {
+      "name": "효과: 성간 뗏목(Effect: Interstellar Raft)",
+      "description": "<p>비행 속도 40피트와 우주 특성을 얻습니다.</p>"
+    },
+    "Effect: Starship Possession": {
+      "name": "효과: 우주선 빙의(Effect: Starship Possession)",
+      "description": "<p>드리프트데드 크래셔는 우주선 내부 어디에서든 시야를 확보하며, 우주선 안에 있는 동안 전방위 시야를 얻습니다.</p>"
+    },
+    "Effect: Input Overload Aura": {
+      "name": "효과: 입력 하중 초과 오라(Effect: Input Overload Aura)",
+      "description": "<p>음파 효과 또는 기록되거나 저장된 데이터를 변경하는 효과에 대한 AC와 모든 내성 굴림에 -1 상태 페널티를 받습니다. 문서를 읽으려 할 때 @Check[flat|dc:5]에 성공해야 하며, 실패하면 다음 1d4+1라운드 동안 해당 문서를 읽을 수 없습니다.</p>"
+    },
+    "Effect: Rallied by the Beasts": {
+      "name": "효과: 야수들의 격려(Effect: Rallied by the Beasts)",
+      "description": "<p>임시 HP 10을 얻고, 근접 타격으로 추가 정밀 피해 1d6을 줍니다.</p>"
+    },
+    "Effect: Queen's Sacrifice": {
+      "name": "효과: 여왕의 희생(Effect: Queen's Sacrifice)",
+      "description": "<p>빠른 치유 15를 얻고 가속 상태가 됩니다.</p>"
+    },
+    "Effect: Self-Destructive Frenzy": {
+      "name": "효과: 자멸적 광란(Effect: Self-Destructive Frenzy)",
+      "description": "<p>혼란 상태가 되며, 공격 굴림에 +1 상황 보너스와 피해 굴림에 +2 상황 보너스를 얻고 AC에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Follicle Germination": {
+      "name": "효과: 모낭 발아(Effect: Follicle Germination)",
+      "description": "<p>코르자다이는 당신을 상대로 하는 공격 및 피해 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Morale Boost": {
+      "name": "효과: 사기 진작(Effect: Morale Boost)",
+      "description": "<p>모든 속도에 +5피트 보너스를 얻습니다.</p>"
+    },
+    "Effect: Scoring": {
+      "name": "효과: 홈 파기(Effect: Scoring)",
+      "description": "<p>꼬리가 치명적 d4, 방해, 파괴 특성을 얻습니다.</p>"
+    },
+    "Effect: Thaumogen Haze": {
+      "name": "효과: 소마원 안개(Effect: Thaumogen Haze)",
+      "description": "<p>주문의 피해에 주문 랭크와 같은 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Archon's Protection": {
+      "name": "효과: 아르콘의 보호(Effect: Archon's Protection)",
+      "description": "<p>발동시킨 피해에 대해 모든 피해 저항을 얻습니다.</p>"
+    },
+    "Effect: Soul Lock (Healing)": {
+      "name": "효과: 소울 락 (힐링)(Effect: Soul Lock (Healing))",
+      "description": "<p>카코데몬은 1분 동안 빠른 치유 5를 얻습니다.</p>"
+    },
+    "Effect: Atavistic Rage": {
+      "name": "효과: 격세 유전의 분노(Effect: Atavistic Rage)",
+      "description": "<p>드리머는 1분 동안 공격 및 피해 굴림에 +2 상태 보너스를 얻지만 선천 주문을 사용할 수 없습니다.</p>"
+    },
+    "Effect: Gremlin's Inverted Gift": {
+      "name": "효과: 그렘린의 뒤집힌 선물(Effect: Gremlin's Inverted Gift)",
+      "description": "<p>선택한 기술의 판정에 -4 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Enhance Mutation": {
+      "name": "효과: 돌연변이 강화(Effect: Enhance Mutation)",
+      "description": "<p>괴물 발톱 타격이 추가 산성 피해 1d6을 줍니다.</p>"
+    },
+    "Effect: Seep In": {
+      "name": "효과: 스며들기(Effect: Seep In)",
+      "description": "<p>피해의 성질에 따라 효과 하나를 얻습니다.</p><ul><li><p><strong>에너지 피해</strong> 당신의 공격은 당신이 받은 에너지 피해와 같은 유형의 추가 피해 2d6을 줍니다.</p></li><li><p><strong>물리 피해</strong> 물리 피해에 대한 저항 6을 얻습니다. 피해가 은과 같은 특수 재료로 만들어진 무기에서 비롯됐다면, 효과가 지속되는 동안 당신의 강타 슬러지 타격은 같은 재료로 간주됩니다.</p></li></ul>"
+    },
+    "Effect: Online Infamy": {
+      "name": "효과: 온라인 악명(Effect: Online Infamy)",
+      "description": "<p>그리프캐스터에 대한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +2 상황 보너스를 얻고, 그리프캐스터의 주문과 ‘화났어?’ 효과에 대한 내성 굴림에 -1 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Lead the Charge": {
+      "name": "효과: 돌격 선도(Effect: Lead the Charge)",
+      "description": "<p>표시된 대상에 대한 공격에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Buffering Zone (Failure)": {
+      "name": "효과: 버퍼링 구역(실패)(Effect: Buffering Zone (Failure))",
+      "description": "<p>공격 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Bolstering Aura": {
+      "name": "효과: 강화 오라(Effect: Bolstering Aura)",
+      "description": "<p>임시 HP 8을 얻습니다.</p>"
+    },
+    "Effect: Revert": {
+      "name": "효과: 되돌리기(Effect: Revert)",
+      "description": "<p>임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Siphon Poison": {
+      "name": "효과: 독 흡수(Effect: Siphon Poison)",
+      "description": "<p>큰턱과 산성 침 타격, 역겨운 죽음 능력의 산성 피해 주사위 크기가 한 단계 증가합니다.</p>"
+    },
+    "Effect: Armament of the Archons": {
+      "name": "효과: 아르콘의 무장(Effect: Armament of the Archons)",
+      "description": "<p>아르크셰트 타격을 얻습니다. 이는 화염 피해 2d10을 주는 군용 원거리 무기로, 레이저 그룹에 속하고 사거리 증분은 40피트이며 아날로그, 성스러움, 추적 +2 특성을 지닙니다. 이 무기로 하는 타격은 추가 영혼 피해 1d10을 줍니다.</p>"
+    },
+    "Effect: Sandstorm Vortex": {
+      "name": "효과: 모래폭풍 소용돌이(Effect: Sandstorm Vortex)",
+      "description": "<p>물리 피해에 대한 저항 11을 얻습니다.</p>"
+    },
+    "Effect: Multi-Weapon Aim (Reduce Cover)": {
+      "name": "효과: 다중 무기 조준(엄폐 감소)(Effect: Multi-Weapon Aim (Reduce Cover))",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.bestiary-effects.Item.mWa3Ff7KxRn2JqYp]{효과: 다중 무기 조준}이 부여합니다.</p>\n<p>엄폐로 얻는 상황 보너스가 감소합니다.</p>"
+    },
+    "Effect: Colony Mind": {
+      "name": "효과: 군체 정신(Effect: Colony Mind)",
+      "description": "<p>정신 효과에 대한 내성 굴림에서 성공을 굴리면 대신 대성공을 얻습니다.</p>"
+    },
+    "Effect: Attunement Aura (Graviton-Attuned)": {
+      "name": "효과: 조율 오라(중력자 조율)(Effect: Attunement Aura (Graviton-Attuned))",
+      "description": "<p>모든 속도에 -5피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Natural Thruster": {
+      "name": "효과: 천연 추진기(Effect: Natural Thruster)",
+      "description": "<p>비행 속도에 +75피트 상태 보너스를 얻고, 꼬리 타격으로 추가 참격 피해 1d10을 줍니다.</p>"
+    },
+    "Effect: Sandstorm Veil": {
+      "name": "효과: 모래폭풍 장막(Effect: Sandstorm Veil)",
+      "description": "<p>물리 피해에 대한 저항 6을 얻습니다.</p>"
+    },
+    "Effect: Turbo-Mode Injector": {
+      "name": "효과: 터보 모드 주입기(Effect: Turbo-Mode Injector)",
+      "description": "<p>가속 상태가 되며, 이 추가 행동은 이동 또는 타격에만 사용할 수 있습니다. 발톱 타격의 피해가 참격 피해 2d10+9로 증가하지만, 무기를 들거나 아이템을 사용할 수 없습니다.</p>"
+    },
+    "Effect: Eyes on You": {
+      "name": "효과: 널 지켜보고 있다(Effect: Eyes on You)",
+      "description": "<p>지정한 대상에게 추가 정밀 피해 4d6을 주며, 대상을 상대로 수색하거나 동기 파악을 할 때의 지각 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Encouraging Hope (Enemies)": {
+      "name": "효과: 희망 북돋기(적)(Effect: Encouraging Hope (Enemies))",
+      "description": "<p>감정 및 정신 효과에 대한 모든 내성 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Pile On": {
+      "name": "효과: 몰아붙이기(Effect: Pile On)",
+      "description": "<p>대상에 대한 공격 및 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Divine Farewell": {
+      "name": "효과: 신성한 작별(Effect: Divine Farewell)",
+      "description": "<p>사악함 특성이 있는 크리처와 위험의 공격 및 효과에 대한 AC와 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Multi-Weapon Aim": {
+      "name": "효과: 다중 무기 조준(Effect: Multi-Weapon Aim)",
+      "description": "<p>범위 특성이 없는 원거리 무기로 표식을 상대로 하는 원거리 타격은 추가 정밀 피해 2d4를 주고, 표식이 엄폐로 얻는 AC 상황 보너스를 1 감소시킵니다.</p>"
+    },
+    "Effect: Sharpshooter": {
+      "name": "효과: 명사수(Effect: Sharpshooter)",
+      "description": "<p>약한 엄폐 또는 일반 엄폐로 얻는 AC 보너스가 1 감소합니다.</p>"
+    },
+    "Effect: Spin Doctor": {
+      "name": "효과: 여론 조작가(Effect: Spin Doctor)",
+      "description": "<p>임시 HP 2d10을 얻습니다.</p>"
+    },
+    "Effect: Rally the Troops": {
+      "name": "효과: 병력 집결(Effect: Rally the Troops)",
+      "description": "<p>임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Blood Renewal": {
+      "name": "효과: 피의 재생(Effect: Blood Renewal)",
+      "description": "<p>재생 15(콜드 아이언)를 얻습니다.</p>"
+    },
+    "Effect: Shoot to Kill": {
+      "name": "효과: 사살 사격(Effect: Shoot to Kill)",
+      "description": "<p>AC에 -1 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Encouraging Hope (Allies)": {
+      "name": "효과: 희망 북돋기(동료)(Effect: Encouraging Hope (Allies))",
+      "description": "<p>감정 및 정신 효과에 대한 모든 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Attunement Aura (Photon-Attuned)": {
+      "name": "효과: 조율 오라(광자 조율)(Effect: Attunement Aura (Photon-Attuned))",
+      "description": "<p>모든 속도에 +5피트 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Hydra Heads": {
+      "name": "효과: 히드라 헤드(Effect: Hydra Heads)",
+      "description": "<p>현재 히드라가 가지고 있는 머리의 개수입니다.</p>"
+    },
+    "Effect: Interpose": {
+      "name": "효과: 인터포즈(Effect: Interpose)",
+      "description": "<p>그 크리처는 AC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Coordinated Fire": {
+      "name": "효과: 협동 사격(Effect: Coordinated Fire)",
+      "description": "<p>다음 공격 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Assess Target": {
+      "name": "효과: 대상 평가(Effect: Assess Target)",
+      "description": "<p>표시된 대상에게 리얼리티 리퍼로 추가 피해 1d8을 주고, 리얼리티 리퍼의 사거리 증분이 80피트로 증가합니다.</p>"
+    },
+    "Effect: Lead Through Fear": {
+      "name": "효과: 공포로 이끌기(Effect: Lead Through Fear)",
+      "description": "<p>의지 DC와 공포 효과에 대한 의지 내성 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Spell Membrane": {
+      "name": "효과: 주문 막(Effect: Spell Membrane)",
+      "description": "<p>발동시킨 효과의 피해 유형 중 하나에 대한 저항 10을 얻습니다.</p>"
+    }
+  }
+}

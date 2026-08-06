@@ -1,0 +1,41 @@
+{
+  "id": "sf2e-kr",
+  "title": "SF2e 한국어 번역",
+  "description": "스타파인더 2판 한국어 번역 모듈 — 범위·사거리·도달 거리의 ft 단위 및 채팅 출력 문구 통일",
+  "version": "1.0.5",
+  "compatibility": {
+    "minimum": "14.361",
+    "verified": "14.365",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "스타파인더 한글화 프로젝트"
+    }
+  ],
+  "esmodules": [
+    "babele.js"
+  ],
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "한국어 (SF2e-KR)",
+      "path": "lang/ko.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.7.9"
+        }
+      }
+    ]
+  },
+  "styles": [
+    "styles/sf2e-kr.css"
+  ]
+}

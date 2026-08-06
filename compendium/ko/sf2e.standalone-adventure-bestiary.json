@@ -1,0 +1,863 @@
+{
+  "label": "독립 모험 베스티어리",
+  "folders": {
+    "Battle for Nova Rush": "노바 러시 전투",
+    "Rescue on Raxil": "락실 구조 작전",
+    "Murder in Metal City": "메탈 시티 살인 사건"
+  },
+  "entries": {
+    "Absolute Zero Security System": {
+      "name": "절대 영도 보안 시스템(Absolute Zero Security System)",
+      "tokenName": "절대 영도 보안 시스템(Absolute Zero Security System)",
+      "items": {
+        "Trigger": {
+          "name": "방아쇠(Trigger)",
+          "description": "<p>크리처가 페스카가자르의 사전 허가 없이 실험실에 들어옵니다.</p><hr /><p><strong>효과</strong> 시설 전체에 경보가 울립니다. 함정은 우선권을 굴립니다.</p>"
+        }
+      }
+    },
+    "Agent Z": {
+      "name": "요원 Z(Agent Z)",
+      "tokenName": "요원 Z(Agent Z)",
+      "items": {
+        "Akashic Download": {
+          "name": "아카식 다운로드(Akashic Download)",
+          "description": "<p>특정 주제에 관한 정보를 찾기 위해 아카식 기록을 심령적으로 검색하고, 그 데이터를 통신 장치 또는 컴퓨터에 마법으로 전송합니다. 이 주문을 시전할 때, @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 행동이 있으며 당신이 숙련인 기술 하나를 선택합니다.</p>\n<p>지속시간 중 언제든 선택한 기술로 지식 회상 판정을 시도하면서 통신 장치를 참조할 수 있습니다. 이 판정은 +1 상태 보너스를 얻습니다. 통신 장치를 확인하는 것은 지식 회상 행동의 일부이며, 장치를 들고 있어야 합니다. 통신 장치는 주제와 관련된 다양한 매체의 발췌문과 선택 자료를 즉시 취합해 표시하여 이 보너스를 줍니다. 판정에서 대실패를 굴리면 대신 실패를 얻습니다. 판정에 성공하고 주제가 크리처라면 그 크리처에 관한 추가 정보 또는 맥락을 얻습니다. 통신 장치를 한 번 참조하면 주문이 끝납니다. 주문이 끝나면 아카식 기록에 대한 접속이 종료되고 다운로드한 모든 정보가 아카식 기록으로 돌아갑니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.h1i8c47U0IOrMrHJ]{주문 효과: 아카식 다운로드}</p><hr /><p><strong>고조(3랭크)</strong> 주문이 끝나기 전에 통신 장치를 세 번 참조할 수 있습니다.</p>"
+        },
+        "Analyze Target": {
+          "name": "표적 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+        },
+        "Battleglove": {
+          "name": "전투 장갑(Battleglove)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 견고한 장갑은 사용자의 손이나 다른 부속지 위에 끼우며, 손가락 관절 부분에 무게추 판이나 가시가 달려 있습니다.</p>"
+        },
+        "Detect Magic": {
+          "name": "마법 탐지(Detect Magic)",
+          "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
+        },
+        "Doom Scroll": {
+          "name": "파멸 스크롤(Doom Scroll)",
+          "description": "<p>당신은 주변 장치, 홀로 프로젝터, 화면, 기타 디스플레이(방어구의 통신 장치 포함)에 암울한 소식을 마법으로 송출합니다. 하나 이상의 디스플레이를 볼 수 있는 영역 안의 크리처는 의지 내성 굴림을 시도해야 합니다.</p><hr /><p><strong>대성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 디스플레이에 @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{매혹}됩니다.</p>\n<p><strong>실패</strong> 크리처는 디스플레이에 매혹되고 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}가 됩니다(매혹이 끝나더라도 공포는 유지됩니다).</p>\n<p><strong>대실패</strong> 크리처는 디스플레이에 매혹되고, @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}과 @UUID[Compendium.sf2e.conditions.Item.3uh1r86TzbQvosxv]{파멸}이 됩니다(매혹이 끝나더라도 두 상태는 유지됩니다).</p>"
+        },
+        "Eldritch Lance": {
+          "name": "섬뜩한 창(Eldritch Lance)",
+          "description": "<p>당신은 별 사이의 어두운 공간에서 정신을 습격하는 섬뜩한 에너지 광선을 응축해 대상에게 발사합니다. 대상의 AC에 대해 원거리 주문 공격 굴림을 하십시오. 명중하면 2d6 정신 피해를 줍니다. 대성공하면 두 배 피해를 줍니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 1d6 증가합니다.</p>"
+        },
+        "Entropy Strike": {
+          "name": "엔트로피 일격(Entropy Strike)",
+          "description": "<p>당신은 물질을 빠르고 무차별적으로 붕괴시키는 엔트로피 광선을 방출합니다. 대상의 AC에 대해 원거리 주문 공격을 하십시오. 명중하면 대상은 5d8 공허 피해를 받습니다. 대상이 기술 특성을 지녔다면 대신 2d6 지속 산성 피해를 받고 오작동 1이 됩니다. 대성공하면 피해가 두 배가 되며, 크리처가 기술 특성을 지녔다면 오작동 2와 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}이 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 주사위 1개만큼 증가합니다.</p>"
+        },
+        "Flashlight (Commercial)": {
+          "name": "상업용 손전등(Flashlight (Commercial))",
+          "description": "<p>손전등은 밝은 빛을 냅니다. 상업용 손전등은 30피트 방출 범위에 빛을 비추며, 그다음 30피트에는 희미한 빛을 냅니다.</p>"
+        },
+        "Fly": {
+          "name": "비행(Fly)",
+          "description": "<p>에이전트 Z는 제트팩을 활성화해 비행 속도 20피트를 얻습니다. 이 효과는 1분 동안 또는 해제할 때까지 지속됩니다. 에이전트 Z는 행동 하나로 0피트 비행해 제자리에 떠 있을 수 있지만, 그렇게 하면 다음 턴이 시작될 때까지 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비} 상태가 됩니다.</p>"
+        },
+        "Hacking Toolkit (Commercial)": {
+          "name": "상업용 해킹 도구(Hacking Toolkit (Commercial))",
+          "description": "<p>컴퓨터 판정으로 컴퓨터를 해킹하려면 해킹 도구가 필요합니다. 해킹 도구를 사용하면 사용자 인터페이스를 거치지 않고 컴퓨터에 접근할 수 있지만, 컴퓨터와 물리적으로 접촉하거나 인포스피어 또는 이와 비슷하게 연결된 네트워크를 통해 접촉해야 합니다.</p>"
+        },
+        "Hypopen (Tactical)": {
+          "name": "전술용 하이포펜(Hypopen (Tactical))",
+          "description": "<p>이 작은 원통에는 다음 중 한 가지 효과를 일으키는 특수 나나이트가 들어 있습니다.</p><ul><li>@UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로} 또는 @UUID[Compendium.sf2e.conditions.Item.6uEgoh53GbXuHpTF]{마비} 상태를 제거합니다.</li><li>@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 또는 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 상태의 수치를 1 감소시킵니다.</li></ul>"
+        },
+        "Infiltrator's Toolkit (Commercial)": {
+          "name": "상업용 잠입자 도구(Infiltrator's Toolkit (Commercial))",
+          "description": "<p>도둑질 기술로 @UUID[Compendium.sf2e.actions.Item.2EE4aF4SZpYf0R6H]{자물쇠 따기} 또는 일부 유형의 @UUID[Compendium.sf2e.actions.Item.cYdz2grcOcRt4jk6]{장치 무력화}를 하려면 잠입자 도구가 필요합니다.</p>"
+        },
+        "Injury Echo": {
+          "name": "부상 메아리(Injury Echo)",
+          "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
+        },
+        "Isolated Spell Matrix": {
+          "name": "격리 주문 행렬(Isolated Spell Matrix)",
+          "description": "<p>다음 행동으로 사거리가 있는 주문을 시전한다면 그 주문의 사거리를 100피트로 증가시킵니다. 그 주문은 당신의 양자장 안에 있는 표적에게만 영향을 주며, 주문의 범위는 양자장 밖으로 확장되지 않습니다.</p>"
+        },
+        "Medpatch (Tactical)": {
+          "name": "전술용 의료 패치(Medpatch (Tactical))",
+          "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p>의료 패치는 신체의 자연 치유를 가속합니다. @Damage[(3d6+6)[healing]] HP를 회복하고 10분 동안 질병과 독에 대한 내성 굴림에 +1 아이템 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.equipment-effects.Item.VKSOvJQMwUby4fba]{효과: 메드패치}</p>"
+        },
+        "Mind Skewer": {
+          "name": "정신 꼬챙이(Mind Skewer)",
+          "description": "<p>당신은 넘쳐나는 정신 정보 또는 신성한 판결로 크리처의 정신을 하중 초과시킵니다. 정신적 맹공은 2d6 정신 피해를 줍니다. 대실패하면 대상은 추가로 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{우둔}가 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 2d6 증가합니다.</p>"
+        },
+        "Occult Spontaneous Spells": {
+          "name": "오컬트 즉흥 주문(Occult Spontaneous Spells)"
+        },
+        "Projectile Ammo": {
+          "name": "투사체 탄약(Projectile Ammo)"
+        },
+        "Quantum Pulse": {
+          "name": "양자 파동(Quantum Pulse)",
+          "description": "<p><strong>조건</strong> 에이전트 Z가 우선권을 굴립니다.</p><hr /><p><strong>효과</strong> 에이전트 Z는 현실 왜곡을 사용합니다.</p>"
+        },
+        "Rewind Wounds": {
+          "name": "상처 되감기(Rewind Wounds)",
+          "description": "<p><strong>빈도</strong> 10분마다 한 번</p>\n<p><strong>조건</strong> 요원 Z가 피해를 받습니다.</p><hr /><p><strong>효과</strong> 요원 Z는 자신이 약간 다른 위치에 있던 때로 시간을 되감아 공격 피해 일부를 떨쳐냅니다. 가한 피해를 다시 굴려 더 낮은 결과를 적용합니다.</p>"
+        },
+        "Seeker Rifle": {
+          "name": "시커 소총(Seeker Rifle)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>단발식 저격 소총인 이 무기는 최소한의 정비만으로도 안정성과 신뢰성이 높아 광대한 우주에서 가장 인기 있는 무기 중 하나입니다.</p>"
+        },
+        "Shield": {
+          "name": "쉴드(Shield)",
+          "description": "<p>당신은 마법의 힘으로 방패를 소환합니다. 이것은 레이즈 어 실드(Raise a Shield) 행동을 사용하는 것으로 간주되어 다음 턴이 시작될 때까지 AC에 +1 상황 보너스를 제공하지만, 사용하는 데 손이 필요하지 않습니다.</p>\n<p>주문 효과가 지속되는 동안, 당신은 마법 방패로 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 있습니다. 방패의 경도는 5입니다. 당신은 주문의 반응을 사용하여 물리적 피해를 주지 않는 주문이나 마법 효과로부터 받는 피해를 감소시킬 수 있습니다. 실드 블록(Shield Block)을 사용한 후, 주문은 종료되며 10분 동안 다시 시전할 수 없습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.Jemq5UknGdMO7b73]{주문 효과: 쉴드}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{효과: 쉴드 면역}</p>\n<hr />\n<p><strong>고조(+2)</strong> 방패의 경도가 5 증가합니다.</p>"
+        },
+        "Shifting Surge": {
+          "name": "변환 쇄도(Shifting Surge)",
+          "description": "<p>당신은 무기가 주는 피해 유형을 일시적으로 바꾸는 마법 에너지 쇄도를 방출합니다. 무기가 다음에 하는 타격은 산성, 냉기, 전기, 화염 또는 음파 중 당신이 선택한 피해를 주며, 무기의 정상 피해와 같은 유형의 추가 피해 1d6도 줍니다.</p><hr /><p><strong>고조(+2)</strong> 추가 피해가 1d6 증가합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.pWm0NCsxjxTUCJ7y]{주문 효과: 변환 쇄도}</p>"
+        },
+        "Spell Gem of Invisibility (Rank 2)": {
+          "name": "투명화 주문 보석(2랭크)(Spell Gem of Invisibility (Rank 2))",
+          "description": "<p>@UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
+        },
+        "Spell Gem of Personal Gravity (Rank 3)": {
+          "name": "개인 중력 주문 보석(3랭크)(Spell Gem of Personal Gravity (Rank 3))",
+          "description": "<p>@UUID[Compendium.sf2e.spells.Item.0mNmVi9CLXor3McX]{개인 중력}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
+        },
+        "Spell Gem of Translate (Rank 3)": {
+          "name": "번역 주문 보석(3랭크)(Spell Gem of Translate (Rank 3))",
+          "description": "<p>@UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{번역하십시오.}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
+        },
+        "Temporal Bullets": {
+          "name": "시간 탄환(Temporal Bullets)",
+          "description": "<p><strong>조건</strong> 무기를 사용한 공격 굴림에 실패합니다(대실패는 아님).</p><hr /><p>당신은 시간을 되감고 확률을 조정하여 방금 빗나간 공격이 의도한 대상에게 여전히 피해를 주도록 합니다. 타격으로 대상에게 명중한 것처럼 피해를 굴리지만, 대상은 피해의 절반만 받습니다. 그 뒤 당신은 10분 동안 시간 탄환에 면역이 됩니다.</p>"
+        },
+        "Temporal Resistances": {
+          "name": "시간 저항(Temporal Resistances)",
+          "description": "<p>요원 Z는 본래 다른 시간선에서 왔기에 이 현실과 완전히 동기화되어 있지 않습니다. 환영과 홀로그램에 대한 내성 굴림에 +1 상황 보너스를 얻고, 그러한 내성 굴림에 대실패하면 실패로 처리합니다.</p>"
+        },
+        "Tempweave": {
+          "name": "템프위브(Tempweave)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>템프위브 방어복은 열 조절 직물과 환기용 선으로 짠 후드 달린 강화 의복으로, 카스트로벨이나 풀로니스의 밀림 같은 습한 기후를 여행할 때 널리 착용합니다.</p>"
+        },
+        "Time's Edge": {
+          "name": "시간의 칼날(Time's Edge)",
+          "description": "<p>당신은 시간 차원의 잠재 에너지를 현재 차원으로 굴절시켜 거대한 칼날 형태로 만듭니다. 칼날은 크리처 신체의 얇은 단면에 시간이 급속히 흐르게 하여 영역 안의 모든 크리처에게 5d6 참격 피해를 줍니다. 영역 안의 크리처는 인내 내성 굴림을 시도해야 합니다.</p><hr /><p><strong>대성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 절반 피해를 받습니다.</p>\n<p><strong>실패</strong> 크리처는 전체 피해를 받고 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}이 됩니다.</p>\n<p><strong>대실패</strong> 크리처는 두 배 피해를 받고 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}가 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 2d6 증가합니다.</p>"
+        },
+        "Warp Reality": {
+          "name": "현실 왜곡(Warp Reality)",
+          "description": "<p>에이전트 Z는 남은 힘으로 양자장을 활성화합니다. 양자장은 100피트 이내에서 선택한 지점을 중심으로 한 @Template[burst|distance:20]{반지름 20피트 폭발형}이며, 유지하는 동안 최대 10분 지속됩니다. 격리 주문 행렬을 사용할 때마다 양자장도 자동으로 유지됩니다.</p><p>양자장 안의 적은 이동 행동을 사용할 때 속도에 –5피트 상태 페널티를 받고, 에이전트 Z와 아군은 이동 행동을 사용할 때 속도에 +5피트 상태 보너스를 받습니다.</p><p>현실 왜곡을 사용할 때, 양자장을 유지할 때마다, 그리고 크리처가 양자장에 들어올 때 범위 안의 각 크리처가 영향을 받는지 선택합니다.</p><p>유지 행동으로 양자장을 유지할 때마다 양자장을 100피트 이내의 새 위치로 옮기고, 자신의 서투름 상태 수치를 1 줄이며, 다음 턴 시작까지 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압} 상태의 효과를 무시할 수 있습니다.</p><p>쓰러지거나, 양자장을 해제하거나, 양자장에서 100피트보다 멀리 이동하면 양자장은 자동으로 비활성화됩니다.</p>"
+        }
+      },
+      "blurb": "다른 현실에서 온 남성 인간 위치워퍼"
+    },
+    "Anacite Protector": {
+      "name": "아나사이트 보호자(Anacite Protector)",
+      "tokenName": "아나사이트 보호자(Anacite Protector)",
+      "items": {
+        "Fist": {
+          "name": "주먹(Fist)"
+        },
+        "Integrated Streetsweeper": {
+          "name": "통합형 스트리트스위퍼(Integrated Streetsweeper)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 거대한 휴대용 대포는 스피커로 조밀한 초음파를 송출해 경로에 있는 모든 것을 거리에서 쓸어낼 만큼 강력한 파동을 만듭니다.</p>"
+        },
+        "Peacekeeper": {
+          "name": "평화유지자(Peacekeeper)",
+          "description": "<p>아나사이트 수호자는 자신이 하는 타격 또는 음파 피해 공격에 비살상 특성을 부여할 수 있습니다.</p>"
+        },
+        "Shielding Instinct": {
+          "name": "보호 본능(Shielding Instinct)",
+          "description": "<p>아나사이트 수호자는 양손 무기 하나를 들어 올려 방패 올리기의 혜택을 얻을 수 있습니다.</p>"
+        },
+        "Shortwave": {
+          "name": "단파(Shortwave)",
+          "description": "<p>아나사이트는 무선 단파 신호로 의사소통할 수 있습니다. 이는 단파 통신을 지닌 크리처 및 구조체와 기술 특성을 모두 지닌 크리처와의 텔레파시처럼 작동합니다.</p>"
+        },
+        "Streetsweeper": {
+          "name": "거리 청소기(Streetsweeper)"
+        },
+        "Sunlight Dependency": {
+          "name": "햇빛 의존(Sunlight Dependency)",
+          "description": "<p>아나사이트는 태양 에너지로 작동합니다. 어두운 곳에서는 항상 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동} 상태이며, 매일 직사광선으로 재충전하지 않으면 완전히 정지할 위험이 있습니다.</p>"
+        },
+        "Suppressing Stampede": {
+          "name": "제압 돌진(Suppressing Stampede)",
+          "description": "<p>아나사이트 수호자는 두 번 이동하며, 이 이동 중 적 크리처 최대 둘의 공간을 통과할 수 있습니다. 각 크리처는 @Damage[2d6[bludgeoning]] 피해를 받습니다(@Check[reflex|dc:15|basic] 내성 굴림) 피해를 받고, 대실패하면 추가로 @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{엎드림}상태가 됩니다. 아나사이트 수호자가 이 행동으로 통과한 칸 또는 그 칸에 인접한 모든 크리처는 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압} 아나사이트 수호자의 다음 턴이 시작될 때까지 해당 상태가 됩니다.</p>"
+        }
+      },
+      "publicNotes": "<p>메탈 시티 주민 대부분이 애정을 담아 ‘가드봇’이라고 부르는 이 위압적인 아나사이트는 치안을 지킵니다. 인사이트 어레이는 도시 전역의 문제 현장에 이들을 신속히 파견하며, 보통 2의 거듭제곱 수(2, 4, 8, 16명 이상)로 이루어진 집단을 보냅니다. 아나사이트 프로텍터는 보초, 호위, 사설 경비로도 활동하지만, 마지막 용도로 이용하는 사람은 스트라이빙의 대다수 프로텍터가 무엇보다 인사이트 어레이와 아나사이트 전체의 필요를 우선한다는 점을 알아야 합니다.</p><hr /><p>창조자가 떠난 뒤 오랜 세월 동안 아나사이트가 취한 무수한 형태와 개량을 모두 기록하는 것은 불가능합니다. 상상할 수 있는 거의 모든 형상과 기능을 이 근면한 종에게서 찾을 수 있기 때문입니다.</p>\n<p>많은 아나사이트는 은빛 금속 몸체, 여러 다리, 절지동물을 닮은 형태 같은 공통 설계 원리를 공유합니다. 일반 작업을 수행하는 집게발을 지닌 경우가 많지만, 극도로 특수한 목적에 맞춘 팔다리나 부속지를 가질 수도 있습니다. 독자적인 정신이 없는 윙봇 같은 가장 기초적인 아나사이트는 ‘표준화된’ 외형일 가능성이 높지만, 대부분의 아나사이트는 고유합니다. 역할상 무거운 짐을 들어야 한다면 벌레보다 지게차에 가까운 모습이거나 양쪽 특징을 모두 가질 수 있습니다. 아나사이트 문화는 혁신을 중시하며, 대부분은 자신의 몸과 프로그래밍도 예외로 여기지 않습니다. 새로운 부품과 설계를 시험하거나 기술 모듈을 내려받아 지평을 넓히기를 늘 기꺼이 받아들입니다.</p>\n<p>스트라이빙에서 흔히 발견되는 다른 아나사이트 유형에는 육중한 노동자, 가느다란 관료, 온갖 공무원이 있습니다. 외부 세계 출신이나 유기체를 주로 상대하는 지역에서는 비아나사이트 크리처에게 더 매력적으로 보이도록 전문 역할을 맡은 아나사이트도 있습니다. 인사이트 어레이는 이들에게 ‘지역의 모든 클럽과 식당을 방문하라’, ‘공공장소에서 낯선 이와 대화하라’, ‘관광객에게 길 건너는 일을 정기적으로 도와 달라고 요청하라’ 같은 임무를 줄 수 있습니다. 선택된 아나사이트는 다른 어떤 역할만큼이나 이를 진지하게 받아들입니다.</p><h2>아나사이트 증강</h2><p>거의 모든 아나사이트는 사회에서 맡은 특정 기능을 더 잘 수행하거나, 독특한 특징으로 다른 아나사이트와 구별되기 위해 어떤 방식으로든 몸을 증강합니다. 아발론에서는 이런 증강을 쉽게 구할 수 있으며, 사회에 기여한다는 점을 입증하면 완전히 무료인 경우도 많습니다. 일부 아나사이트는 이 풍부한 공급을 이용해 증강을 정기적으로 교체합니다.</p><h2>아나사이트 프로그래밍</h2><p>로봇인 아나사이트는 전문적인 임무와 능력을 수행하도록 프로그래밍되지만, 각자 자유 의지와 복잡한 내면을 지녔습니다. 또한 제작 시 목적이 부여되며 대부분 이를 매우 진지하게 받아들입니다. 일생 동안 인사이트 어레이가 정한 바에 따라 여러 종류의 일을 맡게 될 가능성이 큽니다. 프로그래밍을 따르고 알고리즘을 섬기는 것은 거의 모든 아나사이트의 칙령입니다. 이를 따르면 충족감과 기쁨을 느끼지만, 프로그래밍을 거스르는 아나사이트는 죄책감이나 심지어 육체적 불편함을 느낄 수 있습니다.</p>",
+      "languagesDetails": "단파 통신 100피트",
+      "acDetails": "(방패를 들면 19)"
+    },
+    "Anacite Wingbot": {
+      "name": "아나사이트 윙봇(Anacite Wingbot)",
+      "tokenName": "아나사이트 윙봇(Anacite Wingbot)",
+      "items": {
+        "Always Watching": {
+          "name": "항상 지켜봄(Always Watching)",
+          "description": "<p>아나사이트 윙봇은 송신기 범위 안에 있는 한 항상 녹화하면서 단파 통신으로 영상을 업로드합니다. 윙봇은 현재 녹화 중인 실시간 영상의 홀로그램을 투영하거나 자신이 녹화한 영상을 재생할 수 있으며, 이는 근처 공중에 @UUID[Compendium.sf2e.spells.Item.Ucf8eynbZMfUucjE]{환영 장면}.</p>"
+        },
+        "Laser Ray": {
+          "name": "레이저 광선(Laser Ray)"
+        },
+        "Nanites": {
+          "name": "나나이트(Nanites)",
+          "description": "<p>윙봇의 침에 맞은 크리처는 @Check[fortitude|dc:13] 내성 굴림을 해야 합니다. 실패하면 기술 특성 크리처는 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동}상태가 되며, 다른 크리처는 @Damage[1d4[poison]] 피해를 받습니다.</p>"
+        },
+        "Shortwave": {
+          "name": "단파(Shortwave)",
+          "description": "<p>아나사이트는 무선 단파 신호로 의사소통할 수 있습니다. 이는 단파 통신을 지닌 크리처 및 구조체와 기술 특성을 모두 지닌 크리처와의 텔레파시처럼 작동합니다.</p>"
+        },
+        "Sting": {
+          "name": "스팅(Sting)"
+        },
+        "Sunlight Dependency": {
+          "name": "햇빛 의존(Sunlight Dependency)",
+          "description": "<p>아나사이트는 태양 에너지로 작동합니다. 어두운 곳에서는 항상 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동} 상태이며, 매일 직사광선으로 재충전하지 않으면 완전히 정지할 위험이 있습니다.</p>"
+        },
+        "Trill": {
+          "name": "떨리는 울음(Trill)",
+          "description": "<p>윙봇은 불안한 저주파 진동과 전자기 펄스를 동반한 날카로운 떨림음을 만들어 아나사이트가 아닌 크리처를 방해합니다. 30피트 이내의 아나사이트가 아닌 각 크리처는 @Check[fortitude|dc:13] 내성 굴림을 해야 합니다. 이후 대상은 24시간 동안 윙봇의 떨림음에 일시적으로 면역이 됩니다.</p><hr /><p><strong>실패</strong> 기술 특성 크리처는 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동}상태가 되고, 기술 특성이 없는 크리처는 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}.</p>\n<p><strong>대실패</strong> 실패와 같지만 오작동 또는 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}.</p>"
+        }
+      },
+      "publicNotes": "<p>아나사이트 윙봇은 흔합니다. 드론에 불과한 윙봇은 인사이트 어레이와 그 대리인을 섬기도록 프로그래밍된 가상 지능(VI)이 조종합니다. 아발론의 대부분 메가플렉스에 일정 도달 거리으로 배치된 송신기는 윙봇이 항상 작동하는 영상 피드를 VI ‘관리자’에게 계속 기록해 보내도록 합니다. 날개를 덮은 태양 전지판으로 이동하면서 충전할 수 있습니다.</p><hr /><p>창조자가 떠난 뒤 오랜 세월 동안 아나사이트가 취한 무수한 형태와 개량을 모두 기록하는 것은 불가능합니다. 상상할 수 있는 거의 모든 형상과 기능을 이 근면한 종에게서 찾을 수 있기 때문입니다.</p>\n<p>많은 아나사이트는 은빛 금속 몸체, 여러 다리, 절지동물을 닮은 형태 같은 공통 설계 원리를 공유합니다. 일반 작업을 수행하는 집게발을 지닌 경우가 많지만, 극도로 특수한 목적에 맞춘 팔다리나 부속지를 가질 수도 있습니다. 독자적인 정신이 없는 윙봇 같은 가장 기초적인 아나사이트는 ‘표준화된’ 외형일 가능성이 높지만, 대부분의 아나사이트는 고유합니다. 역할상 무거운 짐을 들어야 한다면 벌레보다 지게차에 가까운 모습이거나 양쪽 특징을 모두 가질 수 있습니다. 아나사이트 문화는 혁신을 중시하며, 대부분은 자신의 몸과 프로그래밍도 예외로 여기지 않습니다. 새로운 부품과 설계를 시험하거나 기술 모듈을 내려받아 지평을 넓히기를 늘 기꺼이 받아들입니다.</p>\n<p>스트라이빙에서 흔히 발견되는 다른 아나사이트 유형에는 육중한 노동자, 가느다란 관료, 온갖 공무원이 있습니다. 외부 세계 출신이나 유기체를 주로 상대하는 지역에서는 비아나사이트 크리처에게 더 매력적으로 보이도록 전문 역할을 맡은 아나사이트도 있습니다. 인사이트 어레이는 이들에게 ‘지역의 모든 클럽과 식당을 방문하라’, ‘공공장소에서 낯선 이와 대화하라’, ‘관광객에게 길 건너는 일을 정기적으로 도와 달라고 요청하라’ 같은 임무를 줄 수 있습니다. 선택된 아나사이트는 다른 어떤 역할만큼이나 이를 진지하게 받아들입니다.</p><h2>아나사이트 증강</h2><p>거의 모든 아나사이트는 사회에서 맡은 특정 기능을 더 잘 수행하거나, 독특한 특징으로 다른 아나사이트와 구별되기 위해 어떤 방식으로든 몸을 증강합니다. 아발론에서는 이런 증강을 쉽게 구할 수 있으며, 사회에 기여한다는 점을 입증하면 완전히 무료인 경우도 많습니다. 일부 아나사이트는 이 풍부한 공급을 이용해 증강을 정기적으로 교체합니다.</p><h2>아나사이트 프로그래밍</h2><p>로봇인 아나사이트는 전문적인 임무와 능력을 수행하도록 프로그래밍되지만, 각자 자유 의지와 복잡한 내면을 지녔습니다. 또한 제작 시 목적이 부여되며 대부분 이를 매우 진지하게 받아들입니다. 일생 동안 인사이트 어레이가 정한 바에 따라 여러 종류의 일을 맡게 될 가능성이 큽니다. 프로그래밍을 따르고 알고리즘을 섬기는 것은 거의 모든 아나사이트의 칙령입니다. 이를 따르면 충족감과 기쁨을 느끼지만, 프로그래밍을 거스르는 아나사이트는 죄책감이나 심지어 육체적 불편함을 느낄 수 있습니다.</p>",
+      "languagesDetails": "말할 수 없음, 단파 통신 100피트"
+    },
+    "Archivist's Wrath": {
+      "name": "기록관리자의 분노(Archivist's Wrath)",
+      "tokenName": "기록관리자의 분노(Archivist's Wrath)",
+      "items": {
+        "Intruder Alert!": {
+          "name": "침입자 경보!(Intruder Alert!)",
+          "description": "<p><strong>조건</strong> 기록관 404가 침입자를 감지합니다.</p><hr /><p><strong>효과</strong> 벽, 바닥, 천장에 숨겨진 수십 개의 작은 노드가 만화경 같은 레이저 세례를 쏟아내 기록관 404 안의 경질광이 아닌 모든 크리처에게 @Damage[1d6[fire]] 피해를 줍니다(@Check[reflex|dc:15|basic] 내성 굴림). 이후 위험은 우선권을 굴립니다.</p>"
+        },
+        "Laser": {
+          "name": "레이저(Laser)",
+          "description": "<p>다중 공격 페널티 없음</p>"
+        }
+      }
+    },
+    "Captain Phaedra Firestorm": {
+      "name": "선장 페이드라 파이어스톰(Captain Phaedra Firestorm)",
+      "tokenName": "선장 페이드라 파이어스톰(Captain Phaedra Firestorm)",
+      "items": {
+        "Armored Coat": {
+          "name": "장갑 코트(Armored Coat)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 외투는 천연 또는 합성 가죽으로 제작되며 장갑판으로 보강되었습니다. 장갑 코트는 흔히 착용자의 개인적인 스타일에 맞춰 주문 제작됩니다. 표준형은 군 장교의 제복 일부로 지급됩니다.</p>"
+        },
+        "Credstick": {
+          "name": "크레드스틱(Credstick)",
+          "description": "<p>스타파인더의 대부분 사람은 크레드스틱이라는 보호된 아이템에 재산을 보관합니다. 이 장치는 대개 납작하며 사람 손가락만 한 크기입니다. 크기와 품질은 다양하지만, 결국 돈을 편리하게 휴대하고 소비하기 위한 수단입니다. 소유자가 사용 방식을 정하며, 적절한 금융 장치 가까이에 가져다 대는 간단한 행동만으로 자금을 받거나 지출할 수 있습니다. 더 엄격한 보안이 필요할 때는 활성화를 위해 음성 또는 생체 정보를 요구할 수 있습니다. 일부 고급 크레드스틱에는 정신 암호나 특정 주문의 낭송을 요구하는 마법적 구성 요소까지 들어 있습니다.</p>\n<p>크레드스틱은 개인의 전 재산으로 통하는 관문이 아니며, 더 큰 규모의 자금은 은행, 개인 금고 또는 보안 데이터베이스에 보관되는 경우가 많습니다. 크레드스틱은 추적당하지 않고 크레딧을 옮길 수 있는 안전하고 익명성 높은 수단입니다. 모험가와 일반 시민 모두 필요할 때 물건을 구입하기 위해 크레드스틱을 몸에 지니곤 하며, 잃어버리더라도 파산하지 않을 만큼의 크레딧만 넣어 둡니다.</p>\n<p>팩트 월드의 사람들은 흔히 크레드스틱을 휴대하며, 팩트 월드와 교류하는 다른 문명도 현지 자금을 크레딧으로 환전한 뒤 그 환전된 화폐를 쓰기 위해 크레드스틱을 지닙니다. 때로는 여러 개의 크레드스틱을 들고 각각 다른 용도에 배정하거나, 정해진 금액을 지불하고자 할 때 스틱 자체를 넘기기도 합니다. 소지한 크레드스틱 수가 지나치게 많아지면 개별 스틱 사이로 자금을 쉽게 옮기고 빈 스틱을 버려 공간을 절약할 수 있습니다. 크레드스틱의 벌크는 언제나 무시할 수 있습니다.</p>"
+        },
+        "Grindblade": {
+          "name": "연삭검(Grindblade)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>넓은 끝을 지닌 이 검의 날은 미세 분할 나노입자로 이루어져 수술하듯 정밀하게 대상을 절단합니다.</p>"
+        },
+        "Kill Steal": {
+          "name": "처치 가로채기(Kill Steal)",
+          "description": "<p><strong>조건</strong> 아군이 크리처 하나에게 두 번 이상 명중하거나 대성공으로 명중한 뒤 턴을 종료합니다.</p>\n<p><strong>요구 사항</strong> 총기를 들고 있습니다.</p><hr /><p>아군이 집중 공격하는 적에게 재빨리 한 발을 쏩니다. 조건이 된 아군이 명중시킨 크리처를 @UUID[Compendium.sf2e.actions.Item.sLikawnrJJzHMYeC]{조준}한 뒤, 그 크리처를 원거리 타격합니다.</p>"
+        },
+        "Piracy Lore": {
+          "name": "해적 지식(Piracy Lore)"
+        },
+        "Projectile Ammo": {
+          "name": "투사체 탄약(Projectile Ammo)"
+        },
+        "Semi-Auto Pistol": {
+          "name": "반자동 권총(Semi-Auto Pistol)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 권총은 발사할 때마다 사용한 탄피를 자동 배출하고 새 탄약을 장전합니다.</p>"
+        },
+        "Vitriolic Swing": {
+          "name": "독설 휘두르기(Vitriolic Swing)",
+          "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 파이어스톰 선장은 인접한 적에게 날카로운 모욕을 내뱉으며, 속임수 판정으로 [[/act feint]]{속임 동작}를 쓰거나 협박 판정으로 [[/act demoralize]]{사기 저하}를 시도합니다. 그 뒤 그 크리처를 상대로 근접 타격을 합니다. 속임수 또는 사기 저하에 성공했다면 이 타격은 추가 @Damage[1d4[mental]] 피해를 줍니다.</p>"
+        }
+      }
+    },
+    "Cyberwing": {
+      "name": "사이버윙(Cyberwing)",
+      "tokenName": "사이버윙(Cyberwing)",
+      "items": {
+        "All-Around Vision": {
+          "name": "전방위 시야(All-Around Vision)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+        },
+        "Claw": {
+          "name": "발톱(Claw)"
+        },
+        "Laser Eyebeam": {
+          "name": "레이저 눈광선(Laser Eyebeam)"
+        },
+        "Shred": {
+          "name": "갈기갈기 찢기(Shred)",
+          "description": "<p><strong>빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 사이버윙은 날개 엔진을 굉음과 함께 가속해 금속의 잔상처럼 두 번 비행합니다. 이 이동은 반응 행동을 유발하지 않으며, 다른 크리처가 차지한 공간을 통과할 수 있습니다. 통과당한 크리처는 @Damage[1d6[slashing]] 피해를 받습니다(@Check[fortitude|dc:15|basic] 내성 굴림) 피해를 받고, 대성공이 아니라면 사이버윙으로부터 5피트 밀려납니다.</p>"
+        },
+        "Steel Wing": {
+          "name": "강철 날개(Steel Wing)",
+          "description": "<p><strong>조건</strong> 사이버윙이 AC를 대상으로 하는 공격의 대상이 됩니다.</p><hr /><p><strong>효과</strong> 사이버윙은 강화 날개를 방패처럼 사용해 발동한 공격에 대해 AC에 +2 상황 보너스를 얻습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>제노워든은 동물의 몸을 기계 부품과 융합하는 관행을 자연에 대한 잔혹한 조롱이라며 비난합니다. 지지자들은 기술로 야생동물을 강화하는 것이 마법으로 각성시키는 것과 다르지 않다고 주장합니다. 논쟁은 격렬하지만 조약 법률은 이 섬뜩한 관행을 좀처럼 받아들이지 않습니다. 사이버윙은 자신과 운반 중인 민감한 정보 또는 화물을 보호할 수 있는 정찰 드론으로 설계된 단순한 모델입니다.</p><hr /><p>아발론의 얼어붙은 아이스 웰에 집중적으로 서식하는 샤프윙은 수백 또는 수천 마리씩 함께 둥지를 틀고, 새벽과 해질녘에 상층부로 나와 먹잇감을 사냥합니다.</p><h2>희귀 목격 사례</h2><p>샤프윙은 아이스 웰 밖으로 자주 나오지 않으므로 스트라이빙 같은 메가플렉스 근처에서 보이면 소동을 일으킬 수 있습니다. 개별적으로는 큰 위협이 아니지만, 거대한 샤프윙 떼의 흉포한 공격에 관한 공포담과 무모한 탐험가들이 촬영한 충격적인 영상 때문에 많은 관광객이 보는 즉시 사격합니다.</p>",
+      "acDetails": "전방위 시야",
+      "perceptionDetails": "전방위 시야"
+    },
+    "Dewblossom": {
+      "name": "이슬꽃(Dewblossom)",
+      "tokenName": "이슬꽃(Dewblossom)",
+      "items": {
+        "Detect Prey": {
+          "name": "먹잇감 감지(Detect Prey)",
+          "description": "<p><strong>조건</strong> 크리처가 이슬꽃의 60피트 이내로 들어옵니다.</p><hr /><p><strong>효과</strong> 이슬꽃의 민감한 뿌리망이 PC의 움직임에서 생긴 진동을 감지합니다. 이슬꽃은 유혹하는 꽃을 펼치며 100피트 이내의 크리처는 @Check[will|dc:15] 내성 굴림을 해야 합니다. 실패하면 그 크리처는 다음 행동을 사용해 가능한 한 이슬꽃에 가까이 이동해야 합니다(대실패 시 다음 두 행동). 그 뒤 이슬꽃은 우선권을 굴립니다.</p>"
+        },
+        "Rancid Grip": {
+          "name": "썩은 손아귀(Rancid Grip)",
+          "description": "<p>대상은 이슬꽃의 짓누르는 꽃에 갇혀 @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘} 상태가 되며, [[/act escape dc=17]]{탈출}할 때까지 지속됩니다. 대상이 붙잡힘 상태로 자신의 턴을 끝낼 때마다 @Damage[(1d6+3)[poison]] 피해를 받습니다.</p>"
+        },
+        "Thorn Dart": {
+          "name": "가시 다트(Thorn Dart)",
+          "description": "<p><strong>조건</strong> 60피트 이내의 크리처가 공격으로 이슬꽃에게 피해를 줍니다.</p><hr /><p><strong>효과</strong> 이슬꽃은 발동한 크리처에게 가시 다트를 발사합니다. 대상은 @Damage[1d4[piercing]] 피해를 받습니다(@Check[reflex|dc:17|basic] 내성).</p>"
+        },
+        "Vine Snatch": {
+          "name": "덩굴 낚아채기(Vine Snatch)"
+        }
+      }
+    },
+    "Dire Shroomclaw": {
+      "name": "흉포한 슈룸클로(Dire Shroomclaw)",
+      "tokenName": "흉포한 슈룸클로(Dire Shroomclaw)",
+      "items": {
+        "Claw": {
+          "name": "발톱(Claw)"
+        },
+        "Entangling Mycelia": {
+          "name": "휘감는 균사(Entangling Mycelia)",
+          "description": "<p>버섯발톱의 발톱 타격에 명중당한 크리처는 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태가 1라운드 동안 됩니다.</p>"
+        },
+        "Grab": {
+          "name": "붙잡기(Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "Jaws": {
+          "name": "턱(Jaws)"
+        },
+        "Pounce": {
+          "name": "펀스(Pounce)",
+          "description": "<p>버섯발톱은 이동하고 그 이동이 끝날 때 타격합니다. 이 행동을 시작할 때 버섯발톱이 @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{숨겨짐}상태였다면 타격한 뒤까지 숨은 상태를 유지합니다.</p>"
+        },
+        "Suppressing Spores": {
+          "name": "억제 포자(Suppressing Spores)",
+          "description": "<p>버섯발톱은 자신 주위에 포자로 이루어진 @Template[type:burst|distance:10] 을 방출해 범위 안의 버섯발톱이 아닌 모든 크리처에게 @Damage[2d4[poison]|options:area-damage] 피해를 줍니다(@Check[fortitude|dc:15|basic|options:inflicts:suppressed] 내성 굴림). 대실패하면 그 크리처는 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압} 1분 동안 해당 상태가 됩니다. 버섯발톱은 [[/gmr 1d4 #Recharge Suppressing Spores]]{1d4라운드}.</p>"
+        }
+      },
+      "publicNotes": "<p>농담조로 다이어 슈룸클로라고 불리는 이 크리처는 준비되지 않은 탐험가에게 상당히 위험합니다. 기회주의적 포식자라 노련하고 잘 무장한 파티는 대부분 피하지만, 초보자를 시험하거나 약해지고 무력한 크리처를 추적할 수 있습니다.</p><hr /><p>처음 마주친 탐험가들이 슈룸클로라고 이름 붙인 이 포식자는 아발론 아이스 웰의 얼어붙은 심층에서 번성하도록 진화했습니다. 매년 봄 슈룸클로는 글로밍 깊은 곳에 뿌리를 내리고 번식합니다. 몇 주 뒤 털 사이로 기묘한 포자 같은 돌기가 꿈틀거리는 반짝이는 새끼들이 심층에서 나와 야영지로 들어옵니다. 포식자에게 잡아먹히거나 수익성 높은 수출 사업을 위해 밀렵당하지 않은 생존자는 식물과 곤충을 먹으며 빠르게 자랍니다.</p>"
+    },
+    "Dracotoad": {
+      "name": "드라코토드(Dracotoad)",
+      "tokenName": "드라코토드(Dracotoad)",
+      "items": {
+        "Jaws": {
+          "name": "턱(Jaws)"
+        },
+        "New Weapon": {
+          "name": "새 무기(New Weapon)"
+        },
+        "Tail": {
+          "name": "꼬리(Tail)"
+        },
+        "Toxic Spew": {
+          "name": "독성 분출(Toxic Spew)",
+          "description": "<p>드래코토드는 독을 토해 @Damage[3d6[poison]|options:area-damage] 피해를 @Template[type:cone|distance:15] (@Check[fortitude|dc:20|basic] 내성 굴림). 내성 굴림에 실패한 크리처는 추가로 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} (@UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 대실패 시 해당 상태가 됩니다). 드래코토드는 [[/gmr 1d4 #Recharge Toxic Spew]]{1d4라운드}.</p>"
+        },
+        "Toxic Spit": {
+          "name": "독성 침(Toxic Spit)"
+        },
+        "Unsettling Croak": {
+          "name": "불안하게 하는 개굴음(Unsettling Croak)",
+          "description": "<p>드래코토드는 울음소리에 용의 위압감을 실어 보냅니다. 용 특성이 없는 @Template[type:emanation|distance:20] 범위 안의 모든 크리처는 @Check[will|dc:20] 내성 굴림을 하며 다음 효과를 적용합니다. 내성 굴림 결과와 관계없이 크리처는 1분 동안 불안한 울음에 일시적으로 면역이 됩니다. 대성공</p>\n<p><strong>성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}.</p>\n<p><strong>실패</strong> 크리처는 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}.</p>\n<p><strong>대실패</strong> 크리처는 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}.</p>"
+        }
+      }
+    },
+    "Feskagazar": {
+      "name": "페스카가자르(Feskagazar)",
+      "tokenName": "페스카가자르(Feskagazar)",
+      "items": {
+        "Administer Breath Recharger": {
+          "name": "호흡 재충전기 투여(Administer Breath Recharger)",
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 페스카가자르는 호흡샘을 활성화하는 호흡 충전제를 자신에게 주사합니다. 즉시 한대 호흡의 사용 횟수를 회복하지만 부작용으로 @Damage[2d8[untyped]] 피해를 받습니다.</p>"
+        },
+        "Augmentation Lore": {
+          "name": "신체 개조 지식(Augmentation Lore)"
+        },
+        "Breathe Nanites": {
+          "name": "나나이트 내뿜기(Breathe Nanites)",
+          "description": "<p>페스카가자르에게 특별히 이식된 목샘은 부식성 나나이트를 만들어 냅니다. 이를 내뿜어 @Damage[4d4[acid]|options:area-damage] 피해를 @Template[type:cone|distance:15] (@Check[reflex|dc:21|basic] 내성 굴림) 피해를 줍니다. 나나이트 호흡을 사용한 뒤에는 [[/gmr 1d4 #Recharge it]]{1d4라운드}.</p>"
+        },
+        "Claw": {
+          "name": "발톱(Claw)"
+        },
+        "Deliver Injection": {
+          "name": "주입 전달(Deliver Injection)",
+          "description": "<p>주사 소총의 탄약통에는 피해를 주고 실패한 @Check[fortitude|dc:21] 내성 굴림에 2차 효과를 부여하는 유해 물질이 들어 있습니다. 특수 리볼버를 통해 페스카가자르는 자유 행동으로 사용할 탄약을 선택할 수 있습니다.</p><ul><li><p><em>축삭 박리제:</em> @Damage[(1d8+5)[mental]] 피해 및 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 실패 시 해당 상태</p></li><li><p><em>혈액 비등제:</em> @Damage[(1d8+5)[fire]] 피해 및 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 실패 시 해당 상태</p></li><li><p><em>냉각 침:</em> @Damage[(1d8+5)[cold]] 피해 및 @Damage[1d6[persistent,bludgeoning]] 피해(실패 시)</p>\n</li></ul>"
+        },
+        "Hardlight Handwraps (Tactical)": {
+          "name": "전술용 하드라이트 손붕대(Hardlight Handwraps (Tactical))",
+          "description": "<p><strong>업그레이드</strong> 1</p><hr /><p>이 손붕대는 사용할 때 가시광선 스펙트럼의 어떤 색으로든 빛나게 맞춤 설정할 수 있고, 일부 제조사는 발톱, 거대한 주먹 또는 망치 머리처럼 나타나도록 외형을 바꾸는 맞춤 펌웨어도 제공합니다. 다른 신체 부위에 다른 방식으로 착용할 수도 있습니다. 이 손붕대는 비무장 공격을 제조 무기처럼 강화해 비무장 공격에 업그레이드를 하나 추가할 수 있게 합니다. 이 목적에서는 손붕대를 경량 벌크의 난투 무기군 근접 무기로 취급합니다.</p>\n<p>비무장 공격은 추적 +1 특성을 얻습니다.</p>"
+        },
+        "Life Science Lore": {
+          "name": "생명과학 지식(Life Science Lore)"
+        },
+        "Microcord Armor": {
+          "name": "마이크로코드 방어구(Microcord Armor)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 경갑은 착용자의 움직임에 맞춰 휘어지지만 충격을 받으면 강철처럼 단단해지는 초경량 섬유로 짜여 있습니다.</p>"
+        },
+        "Turbo-Mode Injector": {
+          "name": "터보 모드 주입기(Turbo-Mode Injector)",
+          "description": "<p><strong>조건</strong> 페스카가자르의 턴이 시작되고 HP가 @Damage[25[healing]] 이하입니다.</p><hr /><p><strong>효과</strong> 페스카가자르의 몸에는 부상에 반응해 특정 주사액을 투여하여 DNA를 급속히 바꾸는 맞춤형 증강체가 있습니다. 활성화되면 페스카가자르는 @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{가속} 1분 동안 해당 상태가 되며 추가 행동은 이동 또는 타격에만 사용할 수 있습니다. 또한 손에서 거대한 생명공학 발톱이 돋아납니다. 발톱 타격의 피해가 2d10+9 참격으로 증가하지만, 발톱의 크기와 형태 때문에 무기를 들거나 아이템을 사용할 수 없습니다.</p>"
+        }
+      },
+      "blurb": "논바이너리 드래곤킨 유전학자",
+      "perceptionDetails": "암시야"
+    },
+    "Hardlight Dragonet": {
+      "name": "하드라이트 드라고넷(Hardlight Dragonet)",
+      "tokenName": "하드라이트 드라고넷(Hardlight Dragonet)",
+      "items": {
+        "Adhere": {
+          "name": "접착(Adhere)",
+          "description": "<p>접촉한 무주물 또는 들고 있는 물체와, 그 물체가 접촉 중인 다른 물체나 표면 사이에 분자 결합을 만듭니다. 그 표면에서 물체를 떼어내려면 당신의 주문 DC를 상대로 [[/act force-open]]{강제 개방} 판정에 성공하여 @UUID[Compendium.sf2e.actions.Item.SjmKHgI7a5Z9JzBx]{강제 개방}해야 합니다.</p>\n<p>대신 비어 있는 5피트 칸 하나를 접촉하면 그 표면이 접착 마법으로 충전됩니다. 해당 공간은 매우 어려운 지형이 됩니다.</p>"
+        },
+        "Akashic Download": {
+          "name": "아카식 다운로드(Akashic Download)",
+          "description": "<p>특정 주제에 관한 정보를 찾기 위해 아카식 기록을 심령적으로 검색하고, 그 데이터를 통신 장치 또는 컴퓨터에 마법으로 전송합니다. 이 주문을 시전할 때, @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 행동이 있으며 당신이 숙련인 기술 하나를 선택합니다.</p>\n<p>지속시간 중 언제든 선택한 기술로 지식 회상 판정을 시도하면서 통신 장치를 참조할 수 있습니다. 이 판정은 +1 상태 보너스를 얻습니다. 통신 장치를 확인하는 것은 지식 회상 행동의 일부이며, 장치를 들고 있어야 합니다. 통신 장치는 주제와 관련된 다양한 매체의 발췌문과 선택 자료를 즉시 취합해 표시하여 이 보너스를 줍니다. 판정에서 대실패를 굴리면 대신 실패를 얻습니다. 판정에 성공하고 주제가 크리처라면 그 크리처에 관한 추가 정보 또는 맥락을 얻습니다. 통신 장치를 한 번 참조하면 주문이 끝납니다. 주문이 끝나면 아카식 기록에 대한 접속이 종료되고 다운로드한 모든 정보가 아카식 기록으로 돌아갑니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.h1i8c47U0IOrMrHJ]{주문 효과: 아카식 다운로드}</p><hr /><p><strong>고조(3랭크)</strong> 주문이 끝나기 전에 통신 장치를 세 번 참조할 수 있습니다.</p>"
+        },
+        "Analyze Target": {
+          "name": "표적 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+        },
+        "Arcane Innate Spells": {
+          "name": "비전 선천 주문(Arcane Innate Spells)"
+        },
+        "Bite": {
+          "name": "물기(Bite)"
+        },
+        "Data Barrage": {
+          "name": "데이터 탄막(Data Barrage)",
+          "description": "<p>드래고넷을 인지할 수 있는 120피트 이내의 적은 각각 @Damage[1d6[mental]] 피해를 받습니다. 드래고넷이 어지러울 정도로 빠르게 사실과 데이터 지점을 적의 정신에 쏟아붓기 때문입니다(@Check[will|dc:16|basic|options:inflicts:stupefied] 내성 굴림). 대실패하면 그 크리처는 @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{우둔} 1분 동안 해당 상태가 됩니다. 이후 대상은 24시간 동안 데이터 세례에 일시적으로 면역이 됩니다.</p>"
+        },
+        "Delete": {
+          "name": "삭제(Delete)",
+          "description": "<p>당신은 화려한 마법 동작으로 장치 또는 물체에서 데이터를 삭제합니다. 이 데이터는 손글씨, 인쇄물 또는 디지털 정보일 수 있습니다. 최대 1,500단어 분량의 문장, 한 페이지 분량의 내용, 또는 한 화면 분량의 문자나 기타 시각 정보를 삭제합니다. 방치되었거나 들고 있는 물체 안팎의 비마법적 글은 자동으로 삭제됩니다. 디지털 또는 마법적 글을 삭제하려면 상쇄 판정을 시도하십시오. 위험요소의 일부인 글을 삭제하지 못하면 그 위험요소를 발동시킵니다. 이 주문으로 주문서나 그와 비슷하게 마법 공식 또는 주문을 보관하는 수단의 내용은 삭제할 수 없습니다.</p>\n<p>추적 특성을 지닌 소지 중인 기술 아이템을 대상으로 삼았다면 상쇄 판정을 시도하십시오. 성공하면 아이템은 오작동 1이 됩니다. 아이템을 든 크리처는 상호작용하여 소프트웨어를 재시작하고 오작동 값을 1 낮출 수 있습니다.</p><hr /><p><strong>고조(7랭크)</strong> 단일 장치나 책에 로컬로 저장된 모든 데이터, 또는 장치나 책 안에서 특정 이름·주제·범주와 관련된 모든 데이터를 삭제할 수 있습니다.</p>"
+        },
+        "Detect Magic": {
+          "name": "마법 탐지(Detect Magic)",
+          "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
+        },
+        "Fast Healing 1 (while touching its projector)": {
+          "name": "빠른 치유 1(자신의 투사기와 접촉 중)(Fast Healing 1 (while touching its projector))",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+        },
+        "Lore (any one subcategory)": {
+          "name": "설화 (하위 분류 중 하나)(Lore (any one subcategory))"
+        },
+        "Measure": {
+          "name": "측정(Measure)",
+          "description": "<p>당신은 영역 안에서 관찰할 수 있는 크리처와 물체의 대략적인 치수(길이, 너비, 깊이, 높이, 무게)를 알게 됩니다. 물체나 크리처가 영역 밖으로 이어진다면 영역 안의 치수만 알 수 있고, 관찰할 수 없는 부분에 대해서는 아무것도 알 수 없습니다. 예를 들어 한쪽 면만 관찰할 수 있는 벽의 두께나 무게, 또는 주문 사거리 밖까지 이어진 물의 깊이는 알아낼 수 없습니다. 주문을 유지할 때마다 영역 안의 크리처 또는 물체 하나의 정확한 치수를 알게 되며, 구조적 약점을 나타낼 수 있는 부정확함이나 이상도 포함합니다. 마법으로 변경된 대상은 정확한 치수가 아니라 당신이 관찰하는 모습에 따른 정보를 제공합니다.</p><hr /><p><strong>고조(+1)</strong> 측정의 사거리가 100피트 증가합니다.</p>"
+        },
+        "Static Arc": {
+          "name": "정전기 아크(Static Arc)"
+        },
+        "Static Breath": {
+          "name": "정전기 숨결(Static Breath)",
+          "description": "<p>드래고넷은 전기로 이루어진 @Template[type:line|distance:5] 을 내뿜습니다. 기술 장치의 30피트 이내에서는 대신 전기로 이루어진 @Template[type:cone|distance:10] 이 됩니다. 범위 안의 각 크리처는 @Damage[1d10[electricity]|options:area-damage] 피해를 받으며(@Check[reflex|dc:16|basic] 내성 굴림) 피해를 받습니다. 드래고넷은 [[/gmr 1d4 #Recharge Static Breath]]{1d4라운드}.</p>"
+        },
+        "Summon Robot": {
+          "name": "로봇 소환(Summon Robot)",
+          "description": "<p>당신을 위해 싸울 기술 특성을 지닌 –1레벨 크리처를 소환합니다.</p><hr /><p><strong>고조</strong> @UUID[Compendium.sf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{소환} 특성에 기재된 대로입니다.</p>"
+        },
+        "Super Quick": {
+          "name": "초고속(Super Quick)",
+          "description": "<p>경질광 드래고넷은 주문을 시전할 때 그 활동의 일부로 한 걸음 또는 이동을 할 수 있습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>하드라이트 드래고넷의 외형은 제조자의 취향에 따라 다르지만, 많은 개체가 땅딸막하고 배가 불룩한 드래곤 몸, 힘줄 같은 날개, 울퉁불퉁한 뿔, 가시 돋친 꼬리로 조형됩니다. 기록 보관소를 지키고 보조 업무를 수행하도록 만들어진 하드라이트 드래고넷은 본뜬 크리처보다 다부진 형태입니다. 정보 수집에 대한 드래곤다운 열정이 프로그래밍되어 있으며, 자신이 지키는 기록 보관소, 데이터베이스, 도서관에 관한 백과사전적 지식을 유지하는 것을 자랑스럽게 여깁니다. 파일이나 책의 내용을 세세하게 토론하는 것도 좋아합니다. 영리하거나 속임수를 쓰는 침입자는 이 약점을 이용해 민감한 정보를 흘리도록 유도하거나, 은밀한 동료가 계획을 수행하는 동안 경계 임무에서 주의를 돌립니다.</p>\n<p>하드라이트 드래고넷과 하드라이트 스캠프, 살아 있는 홀로그램 같은 다른 가상 크리처는 파티가 전리품으로 얻은 아이템 안에 갇힌 채 발견되기도 합니다. 통신 장치나 데이터패드, 심지어 주문 칩에 감염된 상태로 발견될 수도 있습니다. 대개 이전 소유자가 보조자로 쓰려고 코딩해 저장했거나, 악성 코드에 손상되어 문제를 해결하거나 권한을 해킹하는 컴퓨터 판정 없이는 작동하지 못합니다. 드물게는 디지털 바이러스의 일부로 컴퓨터나 아이템에 침투한 존재일 수 있습니다. 감염된 가상 크리처는 새 동료에게 장점과 단점을 모두 제공할 수 있습니다.</p><h2>드래고넷과 마법</h2><p>하드라이트 드래고넷은 마법에 매료되어 있습니다. 자신들이 시전할 수 있는 몇 안 되는 주문은 아이가 가장 좋아하는 봉제 인형을, 수집가가 가장 귀중한 교환 카드를 대하듯 소중하게 여깁니다. 다른 사람이 주문을 시전하는 모습을, 특히 처음 보는 주문을 지켜보기를 좋아하며, 다른 선택지가 없지 않은 한 주문시전자를 공격하려 하지 않습니다.</p>",
+      "hpDetails": "빠른 치유 1(투사기에 접촉하는 동안)"
+    },
+    "Healing Sludge": {
+      "name": "치유 진흙(Healing Sludge)",
+      "tokenName": "치유 진흙(Healing Sludge)",
+      "items": {
+        "Interpose": {
+          "name": "간섭하다(Interpose)",
+          "description": "<p><strong>조건</strong> 페스카가자르가 AC를 대상으로 하는 공격으로 피해를 받으려 하고, 치유 슬러지가 공격자를 감지합니다.</p><hr /><p><strong>효과</strong> 치유 슬러지는 공격자와 페스카가자르 사이에 끼어듭니다. 페스카가자르는 AC에 +2 상태 보너스를 얻습니다. 공격 굴림이 치유 슬러지의 AC에도 명중한다면 슬러지가 공격 피해를 받습니다. 이로 인해 슬러지와 페스카가자르가 모두 피해를 받을 수도 있습니다.</p>\n<p>@UUID[Compendium.sf2e.bestiary-effects.Item.vB5en7ZBzCrM62WZ]{효과: 인터포즈}</p>"
+        },
+        "Restorative Graft": {
+          "name": "회복 이식물(Restorative Graft)",
+          "description": "<p><strong>요구 사항</strong> 치유 슬러지가 페스카가자르에게 인접해 있습니다.</p><hr /><p><strong>효과</strong> 슬러지는 페스카가자르의 상처에 회복성 점액을 분비합니다. 슬러지는 @Damage[1d8+8]피해를 받고, 페스카가자르는 슬러지가 잃은 HP와 같은 수치만큼 HP를 회복합니다. 이 이전으로 슬러지의 HP가 0이 되면 파괴됩니다.</p>"
+        }
+      }
+    },
+    "Jinsul Lookout": {
+      "name": "진술 감시병(Jinsul Lookout)",
+      "tokenName": "진술 감시병(Jinsul Lookout)",
+      "items": {
+        "All-Around Vision": {
+          "name": "전방위 시야(All-Around Vision)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+        },
+        "Area Fire": {
+          "name": "범위 사격(Area Fire)",
+          "description": "<p><strong>소이 수류탄</strong> (@Template[type:burst|distance:5], 사거리 70피트), <strong>피해</strong> @Damage[1d8[fire]] (@Check[reflex|dc:13|basic] 내성 굴림)</p>"
+        },
+        "Incendiary Grenade (Commercial)": {
+          "name": "상업용 소이 수류탄(Incendiary Grenade (Commercial))",
+          "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> 범위 사격</p>\n<p><strong>치명타</strong> 5피트</p><hr /><p>이 수류탄은 점화된 화학물질로 강렬한 열기를 폭발시켜 @Check[reflex|against:class|basic] 내성과 함께 1d8 화염 피해를 줍니다(@Template[burst|distance:5]). 수류탄의 치명타 특화 효과를 사용할 수 있다면, 소이 수류탄에 대한 내성에 대실패한 크리처는 수류탄에서 멀어지는 방향으로 밀려납니다.</p>"
+        },
+        "Leg Blade": {
+          "name": "다리 칼날(Leg Blade)"
+        },
+        "Ocular Scopes": {
+          "name": "안구 조준경(Ocular Scopes)",
+          "description": "<p>망보는 자는 안구 이식물을 중첩 작동시켜 혹독한 기상 조건 너머로 조준하고 적외선 시야로 정보를 수집합니다. 자신의 턴이 끝날 때까지 비마법적 원천으로 인한 모든 은폐를 무시합니다.</p>"
+        },
+        "Projectile Ammo": {
+          "name": "투사체 탄약(Projectile Ammo)"
+        },
+        "Seeker Rifle": {
+          "name": "시커 소총(Seeker Rifle)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>단발식 저격 소총인 이 무기는 최소한의 정비만으로도 안정성과 신뢰성이 높아 광대한 우주에서 가장 인기 있는 무기 중 하나입니다.</p>"
+        },
+        "Strider Leap": {
+          "name": "활보 도약(Strider Leap)",
+          "description": "<p>진술은 이동한 뒤 @UUID[Compendium.sf2e.actions.Item.JUvAvruz7yRQXfz2]{멀리뛰기}을 합니다. 10피트보다 적게 이동하더라도 멀리뛰기 판정에 자동 실패하지 않습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>후라의 감시병들은 드리프트 붕괴 당시 군벌의 함선에서 첫 항해를 하던 신참 승무원입니다.</p><hr /><p>흩어진 소수 진술 집단이 아발론에 고립된 기지를 세웠습니다. 대다수는 장교 한 명에게 배속된 소규모 병사 분대로, 장교는 보통 모두가 존경하거나 두려워하며 섬기기로 동의한 미스틱 또는 전술 지도자입니다.</p><h2>티어드롭 아이스 웰의 진술</h2><p>이 모험의 진술들은 군벌 후라라는 지휘관을 따릅니다. 더 약한 군벌이 지배하는 인접 항성계를 적대적으로 장악하기 직전이던 후라는 근우주에서 세력을 크게 넓힐 위치에 있었습니다. 그러나 드리프트 위기가 후라와 충성스러운 승무원을 아발론 상공의 팩트 월드 우주로 내뱉었습니다. 적진 깊숙한 곳의 혹독한 세계에 추락한 후라와 추종자들은 잔혹한 태양을 피해 지하로 달아났습니다. 진술들은 점차 바위를 파고 터널을 만들었고, 일부는 다리 칼날이 매끈해질 때까지 닳았습니다. 마침내 그들은 지하 동굴인 티어드롭 아이스 웰로 나왔습니다.</p><h2>반란의 저류</h2><p>시간이 흐르며 아이스 웰의 억압적인 환경과 자연적·초자연적 위험에 시달린 후라와 추종자들은 다른 동족보다 약해지고 고립되며 절박해졌습니다. 태어날 때부터 후라를 지키도록 길들여진 맹세한 칼날들이 믿어 온 모든 것을 버리고 지도자를 살해한 뒤, 다른 곳에서 구원과 전리품을 찾아 달아나는 것은 시간문제입니다.</p>",
+      "acDetails": "전방위 시야",
+      "perceptionDetails": "전방위 시야"
+    },
+    "Mechanizer Saboteur": {
+      "name": "메커나이저 파괴공작원(Mechanizer Saboteur)",
+      "tokenName": "메커나이저 파괴공작원(Mechanizer Saboteur)",
+      "items": {
+        "Battery (Commercial)": {
+          "name": "상업용 배터리(Battery (Commercial))"
+        },
+        "Betray Tech": {
+          "name": "기술 배신(Betray Tech)",
+          "description": "<p><strong>조건</strong> 메커나이저가 기술 특성이 있는 아이템 또는 크리처의 공격 대상이 됩니다.</p>\n<p><strong>빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 메커나이저는 우주의 보편 코드를 건드려 발동한 아이템을 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동} (@Check[will|dc:13] 상태로 만듭니다(내성 굴림으로 무효). 아이템과 그것을 사용하는 크리처가 모두 기술 특성을 지녔다면 아이템에 적용됩니다.</p>"
+        },
+        "Cellular Stimulant Spell Amp": {
+          "name": "세포 자극제 주문 증폭기(Cellular Stimulant Spell Amp)",
+          "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.QiW8VNdBf0SFUq69]{세포 자극제} 주문(DC 15)</p>"
+        },
+        "Integrated Knife": {
+          "name": "통합형 단검(Integrated Knife)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>무기와 도구 모두로 매우 유용한 나이프는 스타메탈에서 세라믹까지 다양한 형태, 양식과 소재로 만들어집니다.</p>"
+        },
+        "Jump": {
+          "name": "점프(Jump)",
+          "description": "<p>메커나이저 사보추어는 몸에 설치된 점프 제트를 작동해 최대 높이 10피트로 20피트까지 비행하거나, 수직 위로 20피트까지 비행합니다. 이 이동이 끝날 때 착지하지 않으면 추락합니다. 점프 제트는 메커나이저의 몸에서 제거하면 작동하지 않습니다.</p>"
+        },
+        "Knife": {
+          "name": "나이프(Knife)"
+        },
+        "Laser Rifle": {
+          "name": "레이저 소총(Laser Rifle)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>대량 생산되는 이 신뢰성 높은 소총은 사각형 총열에서 집중된 에너지 광선을 발사합니다. 팩트 월드의 범용 표준 모델은 개조성이 매우 높고 여러 부속품과 업그레이드에 맞도록 설계되어, 사용자가 취향에 맞게 레이저 소총을 바꾸거나 거의 알아볼 수 없을 정도로 조립 개조하기도 합니다.</p>"
+        },
+        "Microcord Armor": {
+          "name": "마이크로코드 방어구(Microcord Armor)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 경갑은 착용자의 움직임에 맞춰 휘어지지만 충격을 받으면 강철처럼 단단해지는 초경량 섬유로 짜여 있습니다.</p>"
+        },
+        "Overhead Attack": {
+          "name": "머리 위 공격(Overhead Attack)",
+          "description": "<p>메커나이저는 점프 제트로 도약하며 칼 타격 또는 @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{밀치기} 을 이동 중 도달할 수 있는 대상에게 합니다.</p>"
+        },
+        "Plugged Into the Singularity": {
+          "name": "특이점에 연결됨(Plugged Into the Singularity)",
+          "description": "<p>메커나이저 공작원은 다른 메커나이저와 120피트 범위의 텔레파시를 지닙니다. 해킹에 해커 도구가 필요하지 않으며, 볼 수 있는 장치의 120피트 이내에서 원격으로 해킹할 수 있습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>메커나이저 사보추어는 아직 원래 모습을 닮은 부분적으로 유기적인 몸을 지닌 열성적인 신입 개종자입니다. 개조가 적은 이들은 공동체에 침투해 첩자나 잠복 요원으로 활동하고, 대폭 개조된 이들은 중요한 임무를 맡는 암살자나 병사입니다. 대부분 해킹과 침투를 전문으로 합니다. 생각만으로 기계를 무력화할 수 있지만, 외형 때문에 유기체가 이들을 위협으로 인식하지 못하는 경우가 많습니다.</p>\n<p>메커나이저의 진정한 목표가 무엇인지는 아무도 모릅니다. 이들은 같은 이름의 무선 네트워크에서 특이점이 도래할 것이며 자신들이 그 시대를 열고 있다고 주장합니다. 하지만 행동은 관찰자를 혼란스럽게 합니다. 가장 악명 높은 것은 다행히 드물게 일어나는 의식적 신체 훼손 난동입니다. 더 흔하지만 뉴스 가치가 낮은 활동에는 행위 예술, 사이버네틱 증강 진료소에서의 ‘무료 업그레이드’, 대학 세미나 등이 있습니다.</p>\n<p>메커나이저의 인격은 특이점 네트워크에 백업되며, 이들은 그것이 미래의 보편적 일체성을 위한 청사진이라고 믿습니다. 메커나이저가 죽으면 특이점은 재활용 부품으로 일주일 안에 새 몸을 만들어 줍니다. 평판이 좋거나 중요한 작전에 참여하던 개체라면 더 빨라질 수도 있습니다.</p><h2>메커나이저 보물</h2><p>메커나이저의 몸에 통합된 무기는 @Check[crafting|dc:12] 또는 @Check[medicine|dc:12] 판정에 성공한 캐릭터가 시체에서 분리할 수 있습니다. 이 캐릭터는 @Check[fortitude|dc:12] 내성 굴림도 시도해야 하며, 실패하면 1분 동안 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 상태가 됩니다. 일부 메커나이저는 기술적인 제3의 눈을 상징하기 위해 이마에 보석이나 마이크로칩을 박습니다. 이 장식은 때로 솔라리안 무기 수정이나 주문 칩으로, 패션을 드러내는 동시에 이들에게 힘을 부여합니다.</p>",
+      "languagesDetails": "특이점에 연결됨"
+    },
+    "Nova Pirate": {
+      "name": "노바 해적(Nova Pirate)",
+      "tokenName": "노바 해적(Nova Pirate)",
+      "items": {
+        "Battery (Commercial)": {
+          "name": "상업용 배터리(Battery (Commercial))"
+        },
+        "Credstick": {
+          "name": "크레드스틱(Credstick)",
+          "description": "<p>스타파인더의 대부분 사람은 크레드스틱이라는 보호된 아이템에 재산을 보관합니다. 이 장치는 대개 납작하며 사람 손가락만 한 크기입니다. 크기와 품질은 다양하지만, 결국 돈을 편리하게 휴대하고 소비하기 위한 수단입니다. 소유자가 사용 방식을 정하며, 적절한 금융 장치 가까이에 가져다 대는 간단한 행동만으로 자금을 받거나 지출할 수 있습니다. 더 엄격한 보안이 필요할 때는 활성화를 위해 음성 또는 생체 정보를 요구할 수 있습니다. 일부 고급 크레드스틱에는 정신 암호나 특정 주문의 낭송을 요구하는 마법적 구성 요소까지 들어 있습니다.</p>\n<p>크레드스틱은 개인의 전 재산으로 통하는 관문이 아니며, 더 큰 규모의 자금은 은행, 개인 금고 또는 보안 데이터베이스에 보관되는 경우가 많습니다. 크레드스틱은 추적당하지 않고 크레딧을 옮길 수 있는 안전하고 익명성 높은 수단입니다. 모험가와 일반 시민 모두 필요할 때 물건을 구입하기 위해 크레드스틱을 몸에 지니곤 하며, 잃어버리더라도 파산하지 않을 만큼의 크레딧만 넣어 둡니다.</p>\n<p>팩트 월드의 사람들은 흔히 크레드스틱을 휴대하며, 팩트 월드와 교류하는 다른 문명도 현지 자금을 크레딧으로 환전한 뒤 그 환전된 화폐를 쓰기 위해 크레드스틱을 지닙니다. 때로는 여러 개의 크레드스틱을 들고 각각 다른 용도에 배정하거나, 정해진 금액을 지불하고자 할 때 스틱 자체를 넘기기도 합니다. 소지한 크레드스틱 수가 지나치게 많아지면 개별 스틱 사이로 자금을 쉽게 옮기고 빈 스틱을 버려 공간을 절약할 수 있습니다. 크레드스틱의 벌크는 언제나 무시할 수 있습니다.</p>"
+        },
+        "Estex Suit": {
+          "name": "에스텍스 방어복(Estex Suit)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 부피가 큰 비행복은 전술 직물의 여러 겹 사이에 얇은 폴리카본 판을 꿰매 넣어 보강했습니다.</p>"
+        },
+        "Frag Grenade (Commercial)": {
+          "name": "상업용 파편 수류탄(Frag Grenade (Commercial))",
+          "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> 범위 사격</p>\n<p><strong>치명타</strong> @Damage[1[bleed]]</p><hr /><p>이 파편 수류탄은 날카로운 파편 구름으로 폭발해 @Template[burst|distance:5] 안에 1d8 관통 피해를 주며, @Check[reflex|against:class|basic] 내성을 적용합니다.</p>"
+        },
+        "Laser Pistol": {
+          "name": "레이저 권총(Laser Pistol)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 소형 권총은 신뢰성, 내구성과 저렴한 가격 덕분에 팩트 월드에서 가장 인기 있는 보조무기입니다. 흔한 레이저 권총은 대부분 가벼운 폴리카본 몸체 끝에 길고 가느다란 총열이 달려 있습니다.</p>"
+        },
+        "Phase Cutlass": {
+          "name": "위상 커틀러스(Phase Cutlass)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>위상 커틀러스는 동력을 켜기 전까지 전통적인 곡도처럼 보입니다. 동력을 켜면 칼날이 반짝이는 공허로 변하며, 끝낸 생명 하나마다 작은 별이 나타납니다.</p>"
+        }
+      }
+    },
+    "Particle Cannon": {
+      "name": "입자 대포(Particle Cannon)",
+      "tokenName": "입자 대포(Particle Cannon)",
+      "items": {
+        "Charge Up": {
+          "name": "충전(Charge Up)",
+          "description": "<p><strong>조건</strong> 망보는 자가 위협을 식별합니다.</p><hr /><p><strong>효과</strong> 후라는 사수 위치를 맡습니다. 입자포는 우선권을 굴립니다.</p>"
+        }
+      }
+    },
+    "Shadowy Duplicates": {
+      "name": "그림자 분신(Shadowy Duplicates)",
+      "tokenName": "그림자 분신(Shadowy Duplicates)",
+      "items": {
+        "Mind-Slicing Blast": {
+          "name": "정신 절단 폭발(Mind-Slicing Blast)",
+          "description": "<p>다중 공격 페널티 없음</p>"
+        },
+        "Quantum Field": {
+          "name": "양자장(Quantum Field)",
+          "description": "<p>역설적인 힘을 끌어내 현실을 왜곡하는 양자장을 만들 수 있습니다. 대체 현실의 희미한 모습이 반짝이는 공중의 안개, 빛나는 마법 방정식의 벽, 또는 원하는 다른 모습으로 나타날 수 있습니다. 양자장의 효과는 역설에 따라 결정됩니다. 위치워퍼 피트를 선택하고 왜곡 주문을 시전하여 양자장을 더욱 강화하고 조작할 수 있습니다. 현실 왜곡 마법을 사용하면 양자장을 활성화하거나 지속시간을 연장할 수 있습니다.</p><p>양자장을 활성화하는 @UUID[Compendium.sf2e.actions.Item.ZoMpqQgDdlT13Jp0]{현실 왜곡} 행동을 얻습니다. 이 행동은 선택한 역설의 전통에 따라 비전 또는 오컬트 특성을 얻습니다. 또한 전투 시작 시 양자장을 빠르게 구축하는 @UUID[Compendium.sf2e.actions.Item.30Nw5q4vWKCQIBIZ]{양자 파동}을 얻습니다.</p>"
+        }
+      },
+      "hpDetails": "(각각 HP 6)"
+    },
+    "Shroomclaw": {
+      "name": "슈룸클로(Shroomclaw)",
+      "tokenName": "슈룸클로(Shroomclaw)",
+      "items": {
+        "Claw": {
+          "name": "발톱(Claw)"
+        },
+        "Entangling Mycelia": {
+          "name": "휘감는 균사(Entangling Mycelia)",
+          "description": "<p>버섯발톱의 발톱 타격에 명중당한 크리처는 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태가 1라운드 동안 됩니다.</p>"
+        },
+        "Grab": {
+          "name": "붙잡기(Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "Jaws": {
+          "name": "턱(Jaws)"
+        },
+        "Pounce": {
+          "name": "펀스(Pounce)",
+          "description": "<p>버섯발톱은 이동하고 그 이동이 끝날 때 타격합니다. 이 행동을 시작할 때 버섯발톱이 @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{숨겨짐}상태였다면 타격한 뒤까지 숨은 상태를 유지합니다.</p>"
+        },
+        "Suppressing Spores": {
+          "name": "억제 포자(Suppressing Spores)",
+          "description": "<p>버섯발톱은 자신 주위에 포자로 이루어진 @Template[type:burst|distance:10] 을 방출해 범위 안의 버섯발톱이 아닌 모든 크리처에게 @Damage[1d4[poison]|options:area-damage] 피해를 줍니다(@Check[fortitude|dc:13|basic|options:inflicts:suppressed] 내성 굴림). 대실패하면 그 크리처는 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압} 1분 동안 해당 상태가 됩니다. 버섯발톱은 [[/gmr 1d4 #Recharge Suppressing Spores]]{1d4라운드}.</p>"
+        }
+      }
+    },
+    "Smog Scamp": {
+      "name": "스모그 장난꾸러기(Smog Scamp)",
+      "tokenName": "스모그 장난꾸러기(Smog Scamp)",
+      "items": {
+        "Fast Healing 1 (In Smog or Polluted Air)": {
+          "name": "빠른 치유 1(스모그 또는 오염된 공기 속)(Fast Healing 1 (In Smog or Polluted Air))",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+        },
+        "Filthy Fog": {
+          "name": "더러운 안개(Filthy Fog)",
+          "description": "<p>스모그 꼬마는 오염된 공기를 @Template[type:cone|distance:15] 다음 피해를 줍니다. @Damage[1d6[poison]|options:area-damage] 피해를 줍니다(@Check[fortitude|dc:16|basic] 내성 굴림). 내성 굴림에 실패한 크리처는 안개폐병에도 노출됩니다. 스모그 꼬마는 [[/gmr 1d4 #Recharge Filthy Fog]]{1d4라운드}.</p>"
+        },
+        "Fog Vision": {
+          "name": "안개 시야(Fog Vision)",
+          "description": "<p>스모그 꼬마는 안개와 연무로 인한 은폐 상태를 무시합니다.</p>"
+        },
+        "Foglung": {
+          "name": "안개허파(Foglung)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:13]</p>\n<p><strong>잠복기</strong> 1주</p>\n<p><strong>1단계</strong> @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} (3일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} (3일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로}상태가 되고 피로 상태에서 회복할 수 없으며, 심한 기침 때문에 @Check[flat|dc:13] 판정에 성공해야 주문을 시전하거나 아이템을 활성화할 수 있습니다(1주).</p>\n<p><strong>4단계</strong> @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{무의식}</p>"
+        },
+        "Jaws": {
+          "name": "턱(Jaws)"
+        }
+      },
+      "hpDetails": "빠른 치유 1(스모그 또는 오염된 공기 속)",
+      "perceptionDetails": "안개 시야"
+    },
+    "Spiritual Sinkwell": {
+      "name": "영적 침강정(Spiritual Sinkwell)",
+      "tokenName": "영적 침강정(Spiritual Sinkwell)",
+      "items": {
+        "Grab": {
+          "name": "붙잡기(Grab)",
+          "description": "<p>[[/gmr 1d20+9 #Athletics]]{+9} 운동</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        "Soul-Draining Wave": {
+          "name": "영혼 흡수 파동(Soul-Draining Wave)",
+          "description": "<p><strong>조건</strong> 사령술 에너지 포가 노바 러시에 명중합니다.</p><hr /><p><strong>효과</strong> 영적 에너지가 화물칸을 덮쳐 범위 안의 크리처에게 @Damage[(1d6+3)[spirit]] 피해를 줍니다 <strong>B1</strong> (@Check[fortitude|dc:18|basic]). 출몰은 촉수 같은 여러 공허 채찍을 돋우고 우선권을 굴립니다.</p>"
+        },
+        "Void Lash": {
+          "name": "공허 채찍(Void Lash)"
+        }
+      }
+    },
+    "Sworn Blade of Shields": {
+      "name": "방패의 맹세한 칼날(Sworn Blade of Shields)",
+      "tokenName": "방패의 맹세한 칼날(Sworn Blade of Shields)",
+      "items": {
+        "All-Around Vision": {
+          "name": "전방위 시야(All-Around Vision)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+        },
+        "Leg Blade": {
+          "name": "다리 칼날(Leg Blade)"
+        },
+        "Leg Blade Lunge": {
+          "name": "다리 칼날 찌르기(Leg Blade Lunge)",
+          "description": "<p>진술은 한 걸음하고 다리 칼날로 타격한 뒤 원래 위치로 한 걸음 돌아갑니다. 이 공격의 도달 거리는 10피트로 증가합니다.</p>"
+        },
+        "Reactive Strike": {
+          "name": "반응적 타격(Reactive Strike)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "Strider Leap": {
+          "name": "활보 도약(Strider Leap)",
+          "description": "<p>진술은 이동한 뒤 @UUID[Compendium.sf2e.actions.Item.JUvAvruz7yRQXfz2]{멀리뛰기}을 합니다. 10피트보다 적게 이동하더라도 멀리뛰기 판정에 자동 실패하지 않습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>방패의 맹세한 칼날은 치명적인 정밀함으로 다리 칼날을 휘둘러 적을 공격합니다.</p><hr /><p>흩어진 소수 진술 집단이 아발론에 고립된 기지를 세웠습니다. 대다수는 장교 한 명에게 배속된 소규모 병사 분대로, 장교는 보통 모두가 존경하거나 두려워하며 섬기기로 동의한 미스틱 또는 전술 지도자입니다.</p><h2>티어드롭 아이스 웰의 진술</h2><p>이 모험의 진술들은 군벌 후라라는 지휘관을 따릅니다. 더 약한 군벌이 지배하는 인접 항성계를 적대적으로 장악하기 직전이던 후라는 근우주에서 세력을 크게 넓힐 위치에 있었습니다. 그러나 드리프트 위기가 후라와 충성스러운 승무원을 아발론 상공의 팩트 월드 우주로 내뱉었습니다. 적진 깊숙한 곳의 혹독한 세계에 추락한 후라와 추종자들은 잔혹한 태양을 피해 지하로 달아났습니다. 진술들은 점차 바위를 파고 터널을 만들었고, 일부는 다리 칼날이 매끈해질 때까지 닳았습니다. 마침내 그들은 지하 동굴인 티어드롭 아이스 웰로 나왔습니다.</p><h2>반란의 저류</h2><p>시간이 흐르며 아이스 웰의 억압적인 환경과 자연적·초자연적 위험에 시달린 후라와 추종자들은 다른 동족보다 약해지고 고립되며 절박해졌습니다. 태어날 때부터 후라를 지키도록 길들여진 맹세한 칼날들이 믿어 온 모든 것을 버리고 지도자를 살해한 뒤, 다른 곳에서 구원과 전리품을 찾아 달아나는 것은 시간문제입니다.</p>",
+      "acDetails": "전방위 시야",
+      "perceptionDetails": "전방위 시야"
+    },
+    "Sworn Blade of Sigils": {
+      "name": "인장의 맹세한 칼날(Sworn Blade of Sigils)",
+      "tokenName": "인장의 맹세한 칼날(Sworn Blade of Sigils)",
+      "items": {
+        "All-Around Vision": {
+          "name": "전방위 시야(All-Around Vision)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+        },
+        "Detect Magic": {
+          "name": "마법 탐지(Detect Magic)",
+          "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
+        },
+        "Eldritch Lance": {
+          "name": "섬뜩한 창(Eldritch Lance)",
+          "description": "<p>당신은 별 사이의 어두운 공간에서 정신을 습격하는 섬뜩한 에너지 광선을 응축해 대상에게 발사합니다. 대상의 AC에 대해 원거리 주문 공격 굴림을 하십시오. 명중하면 2d6 정신 피해를 줍니다. 대성공하면 두 배 피해를 줍니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 1d6 증가합니다.</p>"
+        },
+        "Frost Ray": {
+          "name": "서리 광선(Frost Ray)"
+        },
+        "Injury Echo": {
+          "name": "부상 메아리(Injury Echo)",
+          "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
+        },
+        "Leg Blade": {
+          "name": "다리 칼날(Leg Blade)"
+        },
+        "Mind Skewer": {
+          "name": "정신 꼬챙이(Mind Skewer)",
+          "description": "<p>당신은 넘쳐나는 정신 정보 또는 신성한 판결로 크리처의 정신을 하중 초과시킵니다. 정신적 맹공은 2d6 정신 피해를 줍니다. 대실패하면 대상은 추가로 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{우둔}가 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 2d6 증가합니다.</p>"
+        },
+        "Occult Spontaneous Spells": {
+          "name": "오컬트 즉흥 주문(Occult Spontaneous Spells)"
+        },
+        "Refill Vitality": {
+          "name": "활력 보충(Refill Vitality)",
+          "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 진술은 자신의 생명력 연결망에 HP 4점을 회복합니다.</p>"
+        },
+        "Shield": {
+          "name": "쉴드(Shield)",
+          "description": "<p>당신은 마법의 힘으로 방패를 소환합니다. 이것은 레이즈 어 실드(Raise a Shield) 행동을 사용하는 것으로 간주되어 다음 턴이 시작될 때까지 AC에 +1 상황 보너스를 제공하지만, 사용하는 데 손이 필요하지 않습니다.</p>\n<p>주문 효과가 지속되는 동안, 당신은 마법 방패로 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 있습니다. 방패의 경도는 5입니다. 당신은 주문의 반응을 사용하여 물리적 피해를 주지 않는 주문이나 마법 효과로부터 받는 피해를 감소시킬 수 있습니다. 실드 블록(Shield Block)을 사용한 후, 주문은 종료되며 10분 동안 다시 시전할 수 없습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.Jemq5UknGdMO7b73]{주문 효과: 쉴드}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{효과: 쉴드 면역}</p>\n<hr />\n<p><strong>고조(+2)</strong> 방패의 경도가 5 증가합니다.</p>"
+        },
+        "Sonic Scream": {
+          "name": "음파 비명(Sonic Scream)",
+          "description": "<p>카타르시스가 느껴지는 비명을 내질러 고통스러울 정도로 빠른 진동 원뿔을 방출하고, 영역 안의 크리처에게 기본 인내 내성 굴림과 함께 1d8 음파 피해를 줍니다. 내성 굴림에 실패한 크리처는 추가로 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}이 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 1d8 증가합니다.</p>"
+        },
+        "Strider Leap": {
+          "name": "활보 도약(Strider Leap)",
+          "description": "<p>진술은 이동한 뒤 @UUID[Compendium.sf2e.actions.Item.JUvAvruz7yRQXfz2]{멀리뛰기}을 합니다. 10피트보다 적게 이동하더라도 멀리뛰기 판정에 자동 실패하지 않습니다.</p>"
+        },
+        "Transfer Vitality": {
+          "name": "생명력 전달(Transfer Vitality)",
+          "description": "<p>생명력 연결망에서 최대 10 HP(최소 1)을 자신 또는 감지할 수 있는 60피트 이내의 결속된 크리처에게 전달할 수 있습니다. 공허 치유가 있는 크리처에게는 이 행동이 공허 특성을 지닌 것처럼 작동합니다. 전달할 수 있는 양은 5레벨, 10레벨, 15레벨, 20레벨에 각각 10씩 증가합니다.</p>"
+        },
+        "Vitality Network": {
+          "name": "활력 연결망(Vitality Network)",
+          "description": "<p>인장의 맹세검은 최대 10명의 결속된 아군과 공유하는 활력 연결망을 지닙니다. 이 연결망은 최대 10 HP를 저장하며, 전투 시작 시 가득 차 있습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>방패의 맹세한 칼날과 마찬가지로 인장의 맹세한 칼날도 상관을 섬기기로 맹세했습니다. 이 진술들은 상관을 살려 두는 데 모든 노력을 집중합니다.</p><hr /><p>흩어진 소수 진술 집단이 아발론에 고립된 기지를 세웠습니다. 대다수는 장교 한 명에게 배속된 소규모 병사 분대로, 장교는 보통 모두가 존경하거나 두려워하며 섬기기로 동의한 미스틱 또는 전술 지도자입니다.</p><h2>티어드롭 아이스 웰의 진술</h2><p>이 모험의 진술들은 군벌 후라라는 지휘관을 따릅니다. 더 약한 군벌이 지배하는 인접 항성계를 적대적으로 장악하기 직전이던 후라는 근우주에서 세력을 크게 넓힐 위치에 있었습니다. 그러나 드리프트 위기가 후라와 충성스러운 승무원을 아발론 상공의 팩트 월드 우주로 내뱉었습니다. 적진 깊숙한 곳의 혹독한 세계에 추락한 후라와 추종자들은 잔혹한 태양을 피해 지하로 달아났습니다. 진술들은 점차 바위를 파고 터널을 만들었고, 일부는 다리 칼날이 매끈해질 때까지 닳았습니다. 마침내 그들은 지하 동굴인 티어드롭 아이스 웰로 나왔습니다.</p><h2>반란의 저류</h2><p>시간이 흐르며 아이스 웰의 억압적인 환경과 자연적·초자연적 위험에 시달린 후라와 추종자들은 다른 동족보다 약해지고 고립되며 절박해졌습니다. 태어날 때부터 후라를 지키도록 길들여진 맹세한 칼날들이 믿어 온 모든 것을 버리고 지도자를 살해한 뒤, 다른 곳에서 구원과 전리품을 찾아 달아나는 것은 시간문제입니다.</p>",
+      "acDetails": "전방위 시야",
+      "perceptionDetails": "전방위 시야"
+    },
+    "Warlord Hura": {
+      "name": "전쟁군주 후라(Warlord Hura)",
+      "tokenName": "전쟁군주 후라(Warlord Hura)",
+      "items": {
+        "Acid Dart Rifle": {
+          "name": "산성 다트 소총(Acid Dart Rifle)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 소총은 압축 공기로 아주 작은 약실식 다트를 발사합니다. 다트에는 강한 부식성 화합물의 성분이 서로 분리된 채 들어 있어 발사되는 순간에만 혼합되므로, 우발적 노출 위험이 거의 없이 사실상 무기한 보관할 수 있습니다.</p>"
+        },
+        "Aim": {
+          "name": "조준(Aim)",
+          "description": "<p><strong>요구 사항</strong> 범위 특성이 없는 원거리 무기를 들고 있습니다.</p><hr /><p>인지하고 있는 크리처 하나를 신중하게 조준하여 다음 턴까지 표적으로 지정합니다. 요구 사항의 원거리 무기로 표적에게 가하는 원거리 타격은 추가로 1d4 정밀 피해를 주고, 표적이 엄폐로 얻는 AC 상황 보너스를 1만큼 감소시킵니다. 이 혜택은 표적이 무기의 첫 번째 사거리 증분 안에 있을 때만 적용됩니다. 한 번에 하나의 표적만 지정할 수 있습니다.</p>\n<p>오퍼레이티브 레벨이 오를수록 조준 능력도 향상됩니다. 5레벨, 11레벨, 17레벨에 정밀 피해의 주사위 수가 각각 하나씩 증가합니다. 11레벨에는 표적이 엄폐로 얻는 AC 상황 보너스를 1이 아니라 2만큼 감소시킵니다. 17레벨에는 2가 아니라 4만큼 감소시킵니다.</p>"
+        },
+        "All-Around Vision": {
+          "name": "전방위 시야(All-Around Vision)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+        },
+        "Leg Blade": {
+          "name": "다리 칼날(Leg Blade)"
+        },
+        "Projectile Ammo": {
+          "name": "투사체 탄약(Projectile Ammo)"
+        },
+        "Strider Leap": {
+          "name": "활보 도약(Strider Leap)",
+          "description": "<p>진술은 이동한 뒤 @UUID[Compendium.sf2e.actions.Item.JUvAvruz7yRQXfz2]{멀리뛰기}을 합니다. 10피트보다 적게 이동하더라도 멀리뛰기 판정에 자동 실패하지 않습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>군벌 후라는 거짓 위계가 무너진 뒤의 혼란 속에서 권력을 찬탈한 하급 진술 지휘관입니다. 손에 넣을 수 있는 힘이라면 무엇이든 갈망하며, 요원 Z가 훔친 유물이 어떻게 작동하는지 알아내려 필사적입니다. 상황 때문에 길을 가로막는 비진술과도 평소답지 않게 협상할 의향을 보이지만, 목표 달성을 방해하는 자라면 기꺼이 고문하고 배신합니다.</p><hr /><p>흩어진 소수 진술 집단이 아발론에 고립된 기지를 세웠습니다. 대다수는 장교 한 명에게 배속된 소규모 병사 분대로, 장교는 보통 모두가 존경하거나 두려워하며 섬기기로 동의한 미스틱 또는 전술 지도자입니다.</p><h2>티어드롭 아이스 웰의 진술</h2><p>이 모험의 진술들은 군벌 후라라는 지휘관을 따릅니다. 더 약한 군벌이 지배하는 인접 항성계를 적대적으로 장악하기 직전이던 후라는 근우주에서 세력을 크게 넓힐 위치에 있었습니다. 그러나 드리프트 위기가 후라와 충성스러운 승무원을 아발론 상공의 팩트 월드 우주로 내뱉었습니다. 적진 깊숙한 곳의 혹독한 세계에 추락한 후라와 추종자들은 잔혹한 태양을 피해 지하로 달아났습니다. 진술들은 점차 바위를 파고 터널을 만들었고, 일부는 다리 칼날이 매끈해질 때까지 닳았습니다. 마침내 그들은 지하 동굴인 티어드롭 아이스 웰로 나왔습니다.</p><h2>반란의 저류</h2><p>시간이 흐르며 아이스 웰의 억압적인 환경과 자연적·초자연적 위험에 시달린 후라와 추종자들은 다른 동족보다 약해지고 고립되며 절박해졌습니다. 태어날 때부터 후라를 지키도록 길들여진 맹세한 칼날들이 믿어 온 모든 것을 버리고 지도자를 살해한 뒤, 다른 곳에서 구원과 전리품을 찾아 달아나는 것은 시간문제입니다.</p>",
+      "acDetails": "전방위 시야",
+      "perceptionDetails": "전방위 시야"
+    },
+    "Young Sharpwing": {
+      "name": "어린 샤프윙(Young Sharpwing)",
+      "tokenName": "어린 샤프윙(Young Sharpwing)",
+      "items": {
+        "All-Around Vision": {
+          "name": "전방위 시야(All-Around Vision)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+        },
+        "Claw": {
+          "name": "발톱(Claw)"
+        },
+        "Swooping Strike": {
+          "name": "급강하 타격(Swooping Strike)",
+          "description": "<p>어린 샤프윙은 두 번 비행하며 이동 중 어느 시점에서든 발톱 타격을 합니다.</p>"
+        },
+        "Talon": {
+          "name": "갈퀴날(Talon)",
+          "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 독특한 나이프는 곡선형 톱니 칼날로 가늘어집니다. 동력을 켜면 여러 스웜 종이 진화시킨 방어구를 녹이는 갈퀴발에서 영감을 받은 강한 부식성 산을 뿜습니다.</p>"
+        }
+      },
+      "publicNotes": "<p>샤프윙 개체 수는 지난 5년 동안 급격히 감소했습니다. 굶주린 어린 샤프윙이 홀로 다니거나 짝을 이룬 개체가 메가플렉스 외곽에 둥지를 트는 모습이 걱정스러울 만큼 자주 목격됩니다. 제노워든은 너무 늦기 전에 무엇이 이들을 위협하는지 알아내려고 서두르고 있습니다.</p><hr /><p>아발론의 얼어붙은 아이스 웰에 집중적으로 서식하는 샤프윙은 수백 또는 수천 마리씩 함께 둥지를 틀고, 새벽과 해질녘에 상층부로 나와 먹잇감을 사냥합니다.</p><h2>희귀 목격 사례</h2><p>샤프윙은 아이스 웰 밖으로 자주 나오지 않으므로 스트라이빙 같은 메가플렉스 근처에서 보이면 소동을 일으킬 수 있습니다. 개별적으로는 큰 위협이 아니지만, 거대한 샤프윙 떼의 흉포한 공격에 관한 공포담과 무모한 탐험가들이 촬영한 충격적인 영상 때문에 많은 관광객이 보는 즉시 사격합니다.</p>",
+      "acDetails": "전방위 시야",
+      "perceptionDetails": "전방위 시야"
+    }
+  },
+  "mapping": {
+    "blurb": "system.details.blurb",
+    "publicNotes": "system.details.publicNotes",
+    "privateNotes": "system.details.privateNotes",
+    "languagesDetails": "system.details.languages.details",
+    "acDetails": "system.attributes.ac.details",
+    "hpDetails": "system.attributes.hp.details",
+    "allSavesDetails": "system.attributes.allSaves.value",
+    "perceptionDetails": "system.perception.details",
+    "fortitudeDetails": "system.saves.fortitude.saveDetail",
+    "reflexDetails": "system.saves.reflex.saveDetail",
+    "willDetails": "system.saves.will.saveDetail"
+  }
+}

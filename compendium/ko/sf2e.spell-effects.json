@@ -1,0 +1,434 @@
+{
+  "label": "주문 효과",
+  "folders": {},
+  "entries": {
+    "Spell Effect: Earthquake (Shaking Ground)": {
+      "name": "주문 효과: 어스퀘이크 (쉐이킹 그라운드)(Spell Effect: Earthquake (Shaking Ground))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.x7SPrsRxGb2Vy2nu]{지진}에 의해 부여됩니다.</p>\n<p>흔들리는 지면 위의 크리처들은 공격 굴림, AC, 그리고 기술 판정에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Spell Effect: Carcinization": {
+      "name": "주문 효과: 게화(Spell Effect: Carcinization)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.n5a3t5Qnx5AU8auy]{게화}이 부여합니다.</p>\n<p>이 주문과 같은 랭크로 고조한 @UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}를 시전한 것처럼 게로 변하며 다음 능력치를 사용합니다.</p><ul><li>속도 25피트, 수영 15피트</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 큰 집게, <strong>피해</strong> 관통 2d8</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 집게(기민), <strong>피해</strong> 관통 2d4.</li></ul>"
+    },
+    "Spell Effect: Fire Shield": {
+      "name": "주문 효과: 파이어 쉴드(Spell Effect: Fire Shield)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.YrzBLPLd3r9m6t1p]{파이어 쉴드}에 의해 부여됩니다.</p>\n<p>당신은 냉기 피해에 대한 저항을 얻습니다. 화염 방패를 일반 방패처럼 사용하여 방패 올리기를 할 수 있으며, 이는 AC에 +1 상황 보너스를 제공합니다.</p>"
+    },
+    "Spell Effect: Feline Senses": {
+      "name": "주문 효과: 고양이 감각(Spell Effect: Feline Senses)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.1lv6Zmp2eWRIPn1n]{고양이 감각}이 부여합니다.</p>\n<p>암시야를 얻습니다.</p>"
+    },
+    "Spell Effect: Dragon Form": {
+      "name": "주문 효과: 드래곤 형태(Spell Effect: Dragon Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.5c692cCcTDXjSEzk]{드래곤 형태}가 부여합니다.</p>\n<p>대형 드래곤 전투 형태를 얻습니다. 드래곤 유형 하나를 선택하십시오. 이 형태인 동안 드래곤 특성을 얻습니다. 이 전투 형태에서는 손이 있어 조작 행동을 할 수 있습니다. 주문을 해제할 수 있습니다.</p>\n<p>어떤 전투 형태를 선택하든 다음 통계와 능력을 얻습니다.</p><ul><li><p>AC = 18 + 당신의 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</p></li><li><p>임시 HP 10.</p></li><li><p>속도 40피트, 비행 100피트. 선택한 드래곤이 다음 속도를 지녔다면 명시된 수치로 얻습니다: 굴착 20피트, 등반 40피트, 수영 60피트.</p></li><li><p>드래곤 숨결의 피해 유형에 대한 저항 10.</p></li><li><p>암시야와 부정확한 후각 60피트.</p></li><li><p>다음 비무장 근접 공격을 얻으며, 이 형태에서는 이 공격으로만 타격할 수 있습니다. 당신은 이 공격에 숙련입니다. 공격 수정치는 +22이고 피해 보너스는 +6입니다. 이 공격은 근력 기반입니다(예: 약화 상태의 목적에서). 자신의 비무장 공격 수정치가 더 높다면 대신 그 값을 사용할 수 있습니다. 이 공격에 대한 자세한 내용은 아래를 참조하십시오.</p><ul><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱, <strong>피해</strong> 2d12 관통 + 드래곤 숨결과 같은 피해 유형의 2d6 피해;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 발톱(기민), <strong>피해</strong> 3d10 베기;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 꼬리(도달 거리 10피트), <strong>피해</strong> 3d10 타격.</p></li></ul></li><li><p>자신의 수정치가 더 높지 않다면 운동 수정치 +23.</p></li><li><p><strong>드래곤 숨결</strong> <span class=\"action-glyph\">2</span> 영역에 치명적인 마법 에너지를 내뿜어 영역 안의 각 크리처에게 주문 DC를 사용하는 기본 내성 굴림과 함께 10d6 피해를 줍니다. 형태, 피해 유형, 내성 굴림 종류는 선택한 드래곤의 숨결과 같습니다. 선택한 드래곤의 숨결이 둘 이상의 피해 유형을 줄 수 있다면 드래곤 형태를 시전할 때 하나를 선택하십시오. 형태는 30피트 원뿔 또는 100피트 선입니다. 한 번 사용하면 드래곤 숨결은 1d4라운드 동안 다시 사용할 수 없습니다. 드래곤 숨결은 드래곤 유형에 맞는 전통 특성과, 해당한다면 주는 피해 유형에 맞는 피해 특성을 지닙니다.</p></li><li><p><strong>전통 저항</strong> 드래곤의 마법 전통이 드래곤 형태 주문의 전통과 일치한다면 명시된 능력을 얻습니다. <strong>비전</strong> 마법에 대한 저항 5; <strong>신성</strong> 영혼·활력·공허에 대한 저항 10; <strong>오컬트</strong> 정신에 대한 저항 10; <strong>원시</strong> 물리 피해에 대한 저항 5.</p></li></ul><hr /><p><strong>고조(8랭크)</strong> 전투 형태가 초대형이 되고 비행 속도에 +20피트 상태 보너스를 얻으며, 공격의 도달 거리가 10피트가 됩니다(기존에 도달 거리 10피트였다면 15피트). 대신 AC = 21 + 당신의 레벨, 임시 HP 15, 공격 수정치 +28, 피해 보너스 +12, 운동 +28을 얻습니다. 드래곤 숨결은 추가로 4d6 피해를 줍니다.</p>"
+    },
+    "Spell Effect: Figment": {
+      "name": "주문 효과: 피그먼트(Spell Effect: Figment)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트}에 의해 부여됩니다.</p>\n<p>당신은 환영으로 눈속임을 만들려고 시도할 수 있으며, 당신의 속임수 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Illusory Disguise": {
+      "name": "주문 효과: 환영 변장(Spell Effect: Illusory Disguise)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.i35dpZFI7jZcRoBo]{환상 변장}에 의해 부여됩니다.</p>\n<p>대상은 속임수 감지에 대한 +4 상태 보너스를 받아 다른 사람들이 변장을 간파하는 것을 막을 수 있으며, 숙련되지 않았더라도 해당 속임수 감지 판정에 자신의 레벨을 더할 수 있습니다.</p>"
+    },
+    "Effect: Guidance Immunity": {
+      "name": "효과: 가이던스 면역(Effect: Guidance Immunity)",
+      "description": "<p>누군가 당신에게 @UUID[Compendium.sf2e.spells.Item.izcxFQFwf3woCnFs]{지침}을 사용하면 부여되며, 지속시간 동안 해당 주문의 효과에 면역이 됩니다.</p>"
+    },
+    "Spell Effect: Guidance": {
+      "name": "주문 효과: 가이던스(Spell Effect: Guidance)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.izcxFQFwf3woCnFs]{지침}에 의해 부여됩니다.</p>\n<p>당신은 시도하는 한 번의 공격 굴림, 지각 판정, 내성 굴림 또는 기술 판정에 +1 상태 보너스를 얻습니다. 굴림 전에 보너스를 사용할 굴림을 선택해야 합니다.</p>"
+    },
+    "Spell Effect: Elemental Barrier": {
+      "name": "주문 효과: 원소 장벽(Spell Effect: Elemental Barrier)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.5apI8Yamauo02VYR]{원소 장벽}이 부여합니다.</p>\n<p>AC에 +1 상황 보너스를 얻습니다. 주문이 적용되는 동안 대상은 원소 방벽이 들어 올린 방패인 것처럼 방패 막기 반응 행동을 사용할 수 있습니다. 일반 방패 막기와 달리, 선택한 원소 특성이 있고 해당 크리처를 대상으로 시전된 주문에도 이 주문의 반응 행동을 사용할 수 있습니다.</p>"
+    },
+    "Spell Effect: Energy Aegis": {
+      "name": "주문 효과: 에너지 이지스(Spell Effect: Energy Aegis)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.m2xFMNyQiUKQDRaj]{에너지 이지스}에 의해 부여됩니다.</p>\n<p>대상은 산성, 냉기, 전기, 화염, 역장, 음파, 활력, 공허 피해에 대한 저항을 얻습니다.</p>"
+    },
+    "Spell Effect: Subjective Reality": {
+      "name": "주문 효과: 주관적 현실(Spell Effect: Subjective Reality)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.CptKtBneM7od45nc]{주관적 현실}이 부여합니다.</p>\n<p>대상에게서 비롯되는 모든 피해에 자신의 레벨과 같은 저항을 얻습니다.</p>"
+    },
+    "Spell Effect: Genetic Regeneration": {
+      "name": "주문 효과: 유전자 재생(Spell Effect: Genetic Regeneration)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.s6J1Q0e28Gb42epQ]{유전자 재생}이 부여합니다.</p>\n<p>재생을 얻습니다.</p>"
+    },
+    "Spell Effect: Tangling Creepers": {
+      "name": "주문 효과: 탱글링 크리퍼스(Spell Effect: Tangling Creepers)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.JbAcSLu62TU1OgNF]{얽히는 덩굴}에 의해 부여됩니다.</p>\n<p>당신은 해당 지역에 있는 동안 땅, 등반 또는 수영 속도에 -10 상황 페널티를 받습니다.</p>"
+    },
+    "Spell Effect: Ant Haul": {
+      "name": "주문 효과: 앤트 홀(Spell Effect: Ant Haul)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.X9dkmh23lFwMjrYd]{앤트 홀}에 의해 부여됩니다.</p>\n<p>당신은 하중 초과에 걸리기 전에 평소보다 3 더 많은 Bulk를 휴대할 수 있으며, 최대 6 더 많은 Bulk까지 휴대할 수 있습니다.</p>"
+    },
+    "Spell Effect: Acid Grip": {
+      "name": "주문 효과: 애시드 그립(Spell Effect: Acid Grip)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.9h9YCncqah6VNsKf]{애시드 그립}에 의해 부여됩니다.</p>\n<p>당신이 이 주문으로부터 지속 피해를 받는 동안, 당신의 속도에 -10피트 상태 보너스를 받습니다.</p>"
+    },
+    "Spell Effect: Honeyed Words": {
+      "name": "주문 효과: 감언이설(Spell Effect: Honeyed Words)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.JyxTmqjYYn63V5LY]{달콤한 말}이 부여합니다.</p>\n<p>속임수 판정에 +4 상태 보너스를 얻으며, 속임수에 비숙련이어도 자신의 레벨을 더할 수 있습니다.</p>"
+    },
+    "Spell Effect: Analyze Target": {
+      "name": "주문 효과: 표적 분석(Spell Effect: Analyze Target)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.NkvRoN33RbDg3fl9]{표적 분석}이 부여합니다.</p>\n<p>대상을 상대로 하는 변장, 상처 치료, 지식 회상에 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Tailwind (8 hours)": {
+      "name": "주문 효과: 테일윈드 (8시간)(Spell Effect: Tailwind (8 hours))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{테일윈드}에 의해 부여됩니다.</p>\n<p>당신의 속도에 +10피트 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Shuffle Repeat": {
+      "name": "주문 효과: 셔플 반복(Spell Effect: Shuffle Repeat)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.AlYzxLKWZujnzsjJ]{셔플 반복}이 부여합니다.</p>\n<p>음파 피해 주사위 하나를 추가로 주고, 의지 내성 굴림과 의지 DC에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Skyfire Wings (7th-Rank)": {
+      "name": "주문 효과: 천화 날개(7랭크)(Spell Effect: Skyfire Wings (7th-Rank))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.VmtQlZqeraTv0Eer]{천화 날개}이 부여합니다.</p>\n<p>자신의 속도 또는 20피트 중 더 높은 값과 같은 비행 속도를 얻습니다. 날개는 화염 피해 3d8을 주고 백스윙, 도달 거리, 비무장 특성을 가진 비무장 공격입니다. 날개 공격으로 치명타를 내면 대상은 지속 전기 피해 6을 받습니다.</p>"
+    },
+    "Spell Effect: Ill Omen": {
+      "name": "주문 효과: 일 오멘(Spell Effect: Ill Omen)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.6ZIKB0151LUR19Rw]{흉조}에 의해 부여됩니다.</p>\n<p>당신이 공격 굴림 또는 기술 판정을 시도할 때, 두 번 굴려야 하며 실패 시 첫 번째 결과 중 더 나쁜 결과를 사용하거나, 대실패였을 경우 지속시간 내내 더 나쁜 결과를 사용해야 합니다.</p>"
+    },
+    "Spell Effect: Humanoid Form": {
+      "name": "주문 효과: 인간형 형태(Spell Effect: Humanoid Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.2qGqa33E4GPUCbMV]{인간형 형태}이 부여합니다.</p>\n<p>외모가 소형 또는 중형 인간형으로 변합니다. 인간형 특성을 얻습니다. 이 변신으로 크기가 줄어들면 도달 거리도 그에 맞게 줄어듭니다(보통 5피트). 선택한 종족의 일반적인 구성원으로 가장하기 위한 속임수 판정에 +4 상태 보너스를 얻고, 비숙련이어도 레벨을 더하지만 특정 인물처럼 보이게 할 수는 없습니다.</p>\n<p><strong>고조(3랭크)</strong> 취한 형태가 암시야 또는 저광시야를 지녔다면 그 능력을 얻습니다.</p>\n<p><strong>고조(5랭크)</strong> 대형 인간형의 외모를 취할 수 있습니다. 이로 인해 크기가 커지면 거대화 주문의 효과를 얻습니다.</p>"
+    },
+    "Spell Effect: Animal Form (Bull)": {
+      "name": "주문 효과: 애니멀 폼 (불)(Spell Effect: Animal Form (Bull))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됩니다.</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다.</p><ul><li>AC = 16 + 당신의 레벨. 방어구의 수정치 감소와 속도 감소를 무시합니다.</li><li>임시 HP 5.</li><li>저조도 시야 및 30피트 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 하나 이상의 비무장 근접 공격. 이것이 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것에 숙련되어 있습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격들은 (예를 들어, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>당신 자신의 수정치가 더 높지 않다면 +9의 운동 능력 수정치.</li></ul><p>당신은 또한 당신이 선택한 동물의 종류에 따라 특정 능력을 얻습니다.</p><ul><li><p><strong>황소</strong></p><ul><li>속도 30피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 뿔, <strong>피해</strong> 2d8 관통.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 10의 임시 HP, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 운동 능력 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 10피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 15의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 운동 능력 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 15피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 20의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7 및 피해 주사위 개수의 두 배, 그리고 운동 능력 +20을 얻습니다.</p>"
+    },
+    "Effect: Plant Form (Fungal Evolution)": {
+      "name": "효과: 식물 형태(균류 진화)(Effect: Plant Form (Fungal Evolution))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.RUnpmQL06z9VHOoU]{균류 진화}가 부여합니다.</p>\n<p>당신은 대형 식물 전투 형태로 변신합니다. 이 주문을 시전할 때 목록에 있는 전투 형태 하나를 선택하십시오. 비슷한 특정 식물로 대신 변신할 수 있지만(예: 파리지옥 대신 벌레잡이통풀), 이는 형태의 크기나 통계에 영향을 주지 않습니다. 이 형태인 동안 식물 특성을 얻습니다. 주문을 해제할 수 있습니다.</p>\n<p>어떤 전투 형태를 선택하든 다음 통계와 능력을 얻습니다.</p><ul><li><p>AC = 19 + 당신의 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</p></li><li><p>임시 HP 12.</p></li><li><p>독 저항 10.</p></li><li><p>저광시야.</p></li><li><p>선택한 전투 형태에 맞는 하나 이상의 비무장 근접 공격을 얻으며, 이 형태에서는 이 공격으로만 타격할 수 있습니다. 당신은 이 공격에 숙련입니다. 공격 수정치는 +17이고 피해 보너스는 +11입니다. 이 공격은 근력 기반입니다(예: @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 상태의 목적에서). 자신의 비무장 공격 수정치가 더 높다면 대신 그 값을 사용할 수 있습니다.</p></li><li><p>자신의 수정치가 더 높지 않다면 운동 수정치 +19.</p></li></ul><p>다음 특수 능력을 얻습니다.</p><ul><li><p><strong>속도</strong> 30피트;</p></li><li><p><strong>저항</strong> 10: 산성 10, 독 10;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 덩굴손(도달 거리 20피트), <strong>피해</strong> 2d6 타격 + 붙잡기;</p></li><li><p>덩굴손에 @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘} 대상은 @Damage[2d4[persistent,poison]] 피해를 받습니다.</p></li></ul><hr /><p><strong>고조(6랭크)</strong> 전투 형태가 초대형이 되고 공격의 도달 거리가 5피트 증가합니다. 대신 AC = 22 + 당신의 레벨, 임시 HP 24, 공격 수정치 +21, 피해 보너스 +16, 운동 +22를 얻습니다.</p>"
+    },
+    "Spell Effect: Unfettered Movement": {
+      "name": "주문 효과: 언페터드 무브먼트(Spell Effect: Unfettered Movement)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유로운 이동}에 의해 부여됩니다.</p>\n<p>당신은 속도에 대한 상황 페널티를 무시합니다.</p>"
+    },
+    "Spell Effect: Frostbite": {
+      "name": "주문 효과: 프로스트바이트(Spell Effect: Frostbite)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.IxhGEKl63R4QBvkj]{프로스트바이트}에 의해 부여됩니다.</p>\n<p>대상은 주문 랭크와 같은 둔기 공격에 대한 약점을 얻습니다.</p>"
+    },
+    "Spell Effect: Haste": {
+      "name": "주문 효과: 헤이스트(Spell Effect: Haste)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{헤이스티}에 의해 부여됩니다.</p>\n<p>당신은 가속 상태가 되며, 추가 행동을 라운드마다 타격과 보행 행동에만 사용할 수 있습니다.</p>"
+    },
+    "Spell Effect: Animal Form (Deer)": {
+      "name": "주문 효과: 애니멀 폼 (디어)(Spell Effect: Animal Form (Deer))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됩니다.</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다.</p><ul><li>AC = 16 + 당신의 레벨. 방어구의 수정치 감소와 속도 감소는 무시합니다.</li><li>임시 HP 5.</li><li>어둠시야 및 30피트 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 비무장 근접 공격 하나 이상을 얻습니다. 이것들은 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것들을 숙련했습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격들은 (예를 들어, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>당신 자신의 수정치보다 높지 않다면 +9의 육체능력 수정치.</li></ul><p>당신은 또한 선택한 동물의 종류에 따라 특정 능력을 얻습니다.</p><ul><li><p><strong>사슴</strong></p><ul><li>속도 50피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 뿔, <strong>피해</strong> 2d6 관통.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 10의 임시 HP, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 육체능력 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 10피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 15의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 육체능력 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 15피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 20의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7 및 피해 주사위 개수의 두 배, 그리고 육체능력 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Bless": {
+      "name": "주문 효과: 블레스(Spell Effect: Bless)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.XSujb7EsSwKl19Uu]{블레스}이 부여합니다.</p>\n<p>당신과 동료들은 발산 범위 안에 있는 동안 공격 굴림에 +1 상태 보너스를 얻습니다. 이후 턴마다 라운드당 한 번, 주문을 유지해 발산 범위의 반지름을 10피트 늘릴 수 있습니다.</p>"
+    },
+    "Spell Effect: Oaken Resilience": {
+      "name": "주문 효과: 오큰 레질리언스(Spell Effect: Oaken Resilience)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.YWrfKetOqDwVFut7]{오큰 레질리언스}에 의해 부여됩니다.</p>\n<p>당신은 둔기 및 관통 피해에 대한 저항과 화염에 대한 취약성을 얻습니다.</p>"
+    },
+    "Spell Effect: True Target": {
+      "name": "주문 효과: 트루 대상(Spell Effect: True Target)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.AlbpWWN87yGegoAF]{진정한 표적}에 의해 부여됩니다.</p>\n<p>표식이 된 크리처에 대한 당신의 다음 공격 굴림에 대해 두 번 굴리고 더 좋은 결과를 사용하십시오. 당신은 상황 페널티를 무시합니다.</p>"
+    },
+    "Spell Effect: Skyfire Wings (5th-Rank)": {
+      "name": "주문 효과: 천화 날개(5랭크)(Spell Effect: Skyfire Wings (5th-Rank))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.VmtQlZqeraTv0Eer]{천화 날개}이 부여합니다.</p>\n<p>자신의 속도 또는 20피트 중 더 높은 값과 같은 비행 속도를 얻습니다. 날개는 화염 피해 2d8을 주고 백스윙, 도달 거리, 비무장 특성을 가진 비무장 공격입니다. 날개 공격으로 치명타를 내면 대상은 지속 전기 피해 4를 받습니다.</p>"
+    },
+    "Spell Effect: Darkvision": {
+      "name": "주문 효과: 다크비전(Spell Effect: Darkvision)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.pZTqGY1MLRjgKasV]{다크비전}에 의해 부여됩니다.</p>\n<p>당신은 어둠시야를 얻습니다.</p>"
+    },
+    "Spell Effect: Quantum Analysis (Fortune)": {
+      "name": "주문 효과: 양자 분석(행운)(Spell Effect: Quantum Analysis (Fortune))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.v8JA4sG2tsVP2gOM]{양자 분석}이 부여합니다.</p>\n<p>양자장 안의 크리처를 상대로 공격 굴림을 할 때 두 번 굴려 더 좋은 결과를 사용합니다.</p>"
+    },
+    "Spell Effect: Read Aura": {
+      "name": "주문 효과: 오라 읽기(Spell Effect: Read Aura)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.OhD2Z6rIGGD5ocZA]{오라 읽기}에 의해 부여됩니다.</p>\n<p>당신은 마법 식별에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Mountain Resilience": {
+      "name": "주문 효과: 마운틴 레질리언스(Spell Effect: Mountain Resilience)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.2BV2yYPfVJ5zirZt]{산악 탄력성}에 의해 부여됩니다.</p>\n<p>당신은 아다만타이트를 제외한 물리 피해에 대한 저항을 얻습니다.</p>"
+    },
+    "Spell Effect: Shield": {
+      "name": "주문 효과: 쉴드(Spell Effect: Shield)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.TVKNbcgTee19PXZR]{쉴드}에 의해 부여됩니다.</p>\n<p>당신은 AC에 +1 상황 보너스를 얻습니다. 마법이 효과를 발휘하는 동안, 당신은 당신의 마법 방패로 쉴드 블록 반응을 사용할 수 있습니다. 쉴드 블록을 사용한 후, 마법은 종료됩니다.</p>"
+    },
+    "Spell Effect: Levitate": {
+      "name": "주문 효과: 레비테이트(Spell Effect: Levitate)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.fI20AVwOzJMHXRdo]{레비테이트}에 의해 부여됩니다.</p>\n<p>당신은 공중에 떠 있을 때 공격 굴림에 -2 상황 페널티를 받습니다. 당신은 상호작용 행동을 사용하여 자신을 안정시키고 이번 턴의 나머지 시간 동안 이 페널티를 무효화할 수 있습니다.</p>"
+    },
+    "Spell Effect: Shrink": {
+      "name": "주문 효과: 축소(Spell Effect: Shrink)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.PjhUmyKnq6K5uDby]{수축}가 부여합니다.</p>\n<p>초소형 크기가 됩니다. 장비도 함께 작아지지만 제거하면 원래 크기로 돌아옵니다. 도달 거리는 0피트가 됩니다.</p>"
+    },
+    "Spell Effect: Wild Bond": {
+      "name": "주문 효과: 야생의 유대(Spell Effect: Wild Bond)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.ssOpTABjuHAqNTPu]{야생의 유대}이 부여합니다.</p>\n<p>다음 능력 중 하나를 얻습니다.</p><ul><li>굴착 속도 15피트</li><li>등반 속도 20피트</li><li>비행 속도 20피트</li><li>수영 속도 25피트</li><li>속도 40피트</li><li>관통 피해 1d8을 주는 턱 비무장 공격</li><li>참격 피해 1d6을 주고 기민 및 기교 특성을 가진 발톱 비무장 공격</li><li>암시야</li></ul>"
+    },
+    "Spell Effect: Promession": {
+      "name": "주문 효과: 동결 분쇄(Spell Effect: Promession)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.xS4bqHnbodCwjpqI]{동결 분쇄}이 부여합니다.</p>\n<p>인내 내성 굴림의 결과가 성공 단계 한 단계만큼 나빠집니다.</p>"
+    },
+    "Spell Effect: Fly": {
+      "name": "주문 효과: 플라이(Spell Effect: Fly)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.A2JfEKe6BZcTG1S8]{비행}에 의해 부여됩니다.</p>\n<p>당신은 자신의 속도 또는 20피트 중 더 큰 값과 같은 비행 속도를 얻습니다.</p>"
+    },
+    "Spell Effect: Vague Idea": {
+      "name": "주문 효과: 어렴풋한 생각(Spell Effect: Vague Idea)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.8FT564z5zMQVZNih]{어렴풋한 생각}이 부여합니다.</p>\n<p>모든 지식 회상 판정에 상황 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Void Vessel": {
+      "name": "주문 효과: 공허의 그릇(Spell Effect: Void Vessel)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}이 부여합니다.</p>\n<p>우주 특성과 비행 속도 30피트를 얻습니다.</p>"
+    },
+    "Spell Effect: Tech Intuition": {
+      "name": "주문 효과: 기술 직감(Spell Effect: Tech Intuition)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.A09nTb61ceLF27vX]{기술 직감}이 부여합니다.</p>\n<p>발동시킨 판정을 두 번 굴려 더 좋은 결과를 사용합니다.</p>"
+    },
+    "Spell Effect: Motivating Ringtone": {
+      "name": "주문 효과: 동기 부여 벨소리(Spell Effect: Motivating Ringtone)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.5ZZca1GGJs44OxC8]{동기 부여 벨소리}이 부여합니다.</p>\n<p>모든 속도에 +5피트 상태 보너스와 공포 효과에 대한 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Knock": {
+      "name": "주문 효과: 노크(Spell Effect: Knock)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.6Ot4N22t5tPD51BO]{똑똑}가 부여합니다.</p>\n<p>대상 문, 자물쇠 또는 용기를 열기 위한 운동 또는 도둑질 판정에 +4 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: False Vitality": {
+      "name": "주문 효과: 폴스 비탈리티(Spell Effect: False Vitality)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.8ViwItUgwT4lOvvb]{가짜 생명력}에 의해 부여됩니다.</p>\n<p>당신은 일정량의 임시 HP를 얻습니다.</p>"
+    },
+    "Spell Effect: Tailwind": {
+      "name": "주문 효과: 테일윈드(Spell Effect: Tailwind)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{테일윈드}에 의해 당신께 부여됩니다.</p>\n<p>당신의 속도에 +10피트의 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Shield Immunity": {
+      "name": "효과: 쉴드 면역(Effect: Shield Immunity)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.TVKNbcgTee19PXZR]{쉴드}에 의해 부여됩니다.</p>\n<p>당신이 쉴드 블록을 사용한 후에는 주문이 종료되며 10분 동안 다시 시전할 수 없습니다.</p>"
+    },
+    "Spell Effect: Elemental Form": {
+      "name": "주문 효과: 엘리멘탈 폼(Spell Effect: Elemental Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.1K6AYGisvo9gqdhs]{엘리멘탈 폼}에 의해 부여됩니다.</p>\n<p>당신은 원소 전투 형태로 변신합니다.</p>"
+    },
+    "Spell Effect: Calm": {
+      "name": "주문 효과: 캄(Spell Effect: Calm)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.b515AZlB0sridKSq]{침착하십시오.}에 의해 부여됩니다.</p>\n<p>당신의 공격 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Spell Effect: Feline Senses (6th-Rank)": {
+      "name": "주문 효과: 고양이 감각(6랭크)(Spell Effect: Feline Senses (6th-Rank))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.1lv6Zmp2eWRIPn1n]{고양이 감각}이 부여합니다.</p>\n<p>암시야를 얻습니다.</p>"
+    },
+    "Spell Effect: Protection": {
+      "name": "주문 효과: 프로텍션(Spell Effect: Protection)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.gMODOGamz88rgHuf]{보호}에 의해 부여됩니다.</p>\n<p>당신은 AC과 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: See the Unseen": {
+      "name": "주문 효과: 숨겨진 것을 봅니다(Spell Effect: See the Unseen)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것을 보십시오.}에 의해 부여됩니다.</p>\n<p>당신은 마치 보이지 않는 것처럼 보이지 않는 크리처들을 볼 수 있습니다. 하지만 그들의 특징은 흐릿하여 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 알아보기 어렵습니다. 또한 환상을 믿지 않으려는 판정에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Fleet Step": {
+      "name": "주문 효과: 플릿 스텝(Spell Effect: Fleet Step)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.aEM2cttJ2eYcLssW]{플릿 스텝}에 의해 부여됩니다.</p>\n<p>당신의 속도에 +30피트의 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Tangle Vine": {
+      "name": "주문 효과: 탱글 바인(Spell Effect: Tangle Vine)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.uZK2BYzPnxUBnDjr]{탱글 바인}에 의해 부여됩니다.</p>\n<p>당신의 속도에 –10피트 상황 페널티를 받습니다. 대성공 시, 당신은 또한 속박됩니다.</p>"
+    },
+    "Spell Effect: Bane": {
+      "name": "주문 효과: 베인(Spell Effect: Bane)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.7ZinJNzxq0XF0oMx]{베인}에 의해 부여됩니다.</p>\n<p>당신은 공격 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Spell Effect: Anthem": {
+      "name": "주문 효과: 찬가(Spell Effect: Anthem)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.smCC1LNhMb7Z1lrU]{찬가}이 부여합니다.</p>\n<p>공격 굴림, 피해 굴림, 매혹 또는 혼란을 유발하는 효과에 대한 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Vital Beacon": {
+      "name": "주문 효과: 바이탈 비컨(Spell Effect: Vital Beacon)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.ikSb3LRGnrwXJBVX]{생명의 등불}에 의해 부여됩니다.</p>\n<p>당신 또는 당신의 아군이 상호작용 행동을 사용하여 당신에게 간청하고 손을 얹어 @Damage[(@item.level)d((2+2*@item.badge.value))[healing,vitality]|shortLabel] HP를 회복할 수 있습니다. 이 치유는 봉화가 누군가를 치유할 때마다 감소합니다.</p>"
+    },
+    "Spell Effect: Infuse Vitality": {
+      "name": "주문 효과: 인퓨즈 비탈리티(Spell Effect: Infuse Vitality)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.2iQKhCQBijhj5Rf3]{활력 주입}에 의해 부여됩니다.</p>\n<p>당신의 비무장 공격과 무기 공격은 추가적인 활력 피해를 줍니다.</p>"
+    },
+    "Spell Effect: Foresight": {
+      "name": "주문 효과: 포사이트(Spell Effect: Foresight)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.qsNeG9KZpODSACMq]{예지}에 의해 부여됩니다.</p>\n<p>당신은 우선권 굴림에 +2 상태 보너스를 얻고, 미탐지 상태인 크리처나 측면 공격을 받을 때도 무방비 상태가 아니습니다.</p>"
+    },
+    "Spell Effect: Quantum Analysis (Cover Suppression)": {
+      "name": "주문 효과: 양자 분석(엄폐 무효화)(Spell Effect: Quantum Analysis (Cover Suppression))",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.spells.Item.v8JA4sG2tsVP2gOM]{양자 분석}이 부여합니다.</p>\n<p>근원의 공격에 대해서는 엄폐로 인한 AC 상황 보너스를 받을 수 없습니다.</p>"
+    },
+    "Spell Effect: Flicker": {
+      "name": "주문 효과: 깜박임(Spell Effect: Flicker)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{플리커}이 부여합니다.</p>\n<p>역장 피해를 제외한 모든 피해에 저항을 얻습니다.</p>"
+    },
+    "Spell Effect: Plant Form": {
+      "name": "주문 효과: 식물 형태(Spell Effect: Plant Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.zCcfPS4y5SrZzU2x]{식물 형태}이 부여합니다.</p>\n<p>푸르른 크리처에게서 영감을 얻어 대형 식물 전투 형태로 변신합니다. 이 주문을 시전할 때 목록의 전투 형태 하나를 선택하십시오. 비슷한 특정 식물로 대체해 변신할 수 있지만(예: 파리지옥 대신 벌레잡이통풀), 형태의 크기나 통계에는 영향을 주지 않습니다. 이 형태인 동안 식물 특성을 얻습니다. 당신은 주문을 해제할 수 있습니다.</p>\n<p>어떤 전투 형태를 선택하든 다음 통계와 능력을 얻습니다.</p><ul><li><p>AC = 19 + 당신의 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</p></li><li><p>임시 HP 12.</p></li><li><p>독 저항 10.</p></li><li><p>저광시야.</p></li><li><p>선택한 전투 형태에 맞는 하나 이상의 비무장 근접 공격을 얻으며, 이 형태에서 타격에 사용할 수 있는 공격은 이것뿐입니다. 당신은 이 공격에 숙련입니다. 공격 수정치는 +17이고 피해 보너스는 +11입니다. 이 공격은 근력 기반입니다(예: @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 상태의 목적에서). 당신의 비무장 공격 수정치가 더 높다면 대신 그 값을 사용할 수 있습니다.</p></li><li><p>당신의 수정치가 더 높지 않다면 운동 수정치 +19.</p></li></ul><p>선택한 식물에 따라 다음 특정 능력을 얻습니다.</p><ul><li><p><strong>달꽃</strong></p><ul><li><p>속도 30피트;</p></li><li><p>전기 저항 10;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 물기(도달 15피트), <strong>피해</strong> 2d10 관통;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 뿌리(도달 15피트), <strong>피해</strong> 2d8 타격. 명중한 뒤 행동 하나를 소비해 대상을 @UUID[Compendium.sf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{잡으십시오.} 수 있습니다.</p></li></ul></li><li><p><strong>공허 야자</strong></p><ul><li><p>속도 15피트;</p></li><li><p>독 저항 10;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 공허 잎(도달 10피트), <strong>피해</strong> 2d8 베기.</p></li></ul></li></ul><hr /><p><strong>고조(6랭크)</strong> 전투 형태가 초대형이 되고 공격의 도달이 5피트 증가합니다. 대신 AC = 22 + 당신의 레벨, 임시 HP 24, 공격 수정치 +21, 피해 보너스 +16, 운동 +22를 얻습니다.</p>"
+    },
+    "Spell Effect: Warp Time": {
+      "name": "주문 효과: 시간 왜곡(Spell Effect: Warp Time)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.1gkdgFwKfAoQx163]{시간 왜곡}이 부여합니다.</p>\n<p>임시 HP를 얻습니다.</p>"
+    },
+    "Spell Effect: Quantum Analysis": {
+      "name": "주문 효과: 양자 분석(Spell Effect: Quantum Analysis)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.v8JA4sG2tsVP2gOM]{양자 분석}이 부여합니다.</p>\n<p>당신이 대상으로 지정한 크리처는 당신의 공격에 대해 엄폐로 인한 AC 상황 보너스를 받을 수 없습니다. 또한 크리처가 은폐, 숨겨짐 상태이거나 엄폐 뒤에 있어서 발생하는 공격 굴림의 상황 페널티와 필요한 순수 판정을 무시합니다.</p>\n<p>이 주문을 시전한 뒤 처음으로 양자장 안의 크리처를 상대로 공격 굴림을 할 때 두 번 굴려 더 좋은 결과를 사용합니다.</p>"
+    },
+    "Spell Effect: Eldritch Bond": {
+      "name": "주문 효과: 섬뜩한 유대(Spell Effect: Eldritch Bond)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.Y8Y0LS6sh4pkxPsq]{섬뜩한 유대}이 부여합니다.</p>\n<p>다음 능력 중 최대 두 가지를 얻습니다.</p><ul><li>암시야</li><li>자신의 레벨 절반과 같은 정신 저항(최소 1)</li><li>타격 피해를 주는 촉수 비무장 공격</li><li>산성 피해를 주고 기민 및 기교 특성을 가진 독침 비무장 공격</li><li>사거리 증분 40피트이고 정신 피해를 주는 광선 원거리 비무장 공격</li><li>모든 근접 공격에 10피트 도달 거리(위 공격 포함)</li><li>근접 타격(위 공격 포함)은 @UUID[Compendium.sf2e.equipment.Item.TgJMTB1ub5Eh4xJO]{유령 살해자} 업그레이드가 있는 것처럼 비실체 크리처에게 영향을 줍니다.</li></ul>"
+    },
+    "Spell Effect: Light": {
+      "name": "주문 효과: 라이트(Spell Effect: Light)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.WBmvzNDfpwka3qT4]{빛}에 의해 부여됩니다.</p>\n<p>당신은 빛의 구체를 기꺼이 하는 크리처에 부착하여, 그 크리처가 움직일 때 그 근처에서 떠 있게 합니다.</p>"
+    },
+    "Spell Effect: Resist Energy": {
+      "name": "주문 효과: 에너지 저항(Spell Effect: Resist Energy)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.Fr58LDSrbndgld9n]{에너지 저항}에 의해 부여됩니다.</p>\n<p>산성, 냉기, 전기, 화염, 또는 음파 피해 중 하나를 선택하십시오. 당신은 선택한 피해 유형에 대한 저항을 얻습니다.</p>"
+    },
+    "Spell Effect: Forbidding Ward": {
+      "name": "주문 효과: 포비딩 워드(Spell Effect: Forbidding Ward)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.RA7VKcen3p56rVyZ]{포비딩 워드}에 의해 부여됩니다.</p>\n<p>당신은 대상 적의 공격, 주문 및 기타 효과에 대한 AC과 내성 굴림에 대한 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Insect Form": {
+      "name": "주문 효과: 곤충 형태(Spell Effect: Insect Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.XI6Lzd2B5pernkPd]{곤충 형태}가 부여합니다.</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태인 동안 동물 특성을 얻습니다. 어떤 전투 형태를 선택하든 다음 통계와 능력을 얻습니다.</p><ul><li><p>AC = 18 + 당신의 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</p></li><li><p>임시 HP 10.</p></li><li><p>저광시야.</p></li><li><p>선택한 전투 형태에 맞는 하나 이상의 공격을 얻으며, 이 형태에서는 이 공격으로만 타격할 수 있습니다. 당신은 이 공격에 숙련입니다. 공격 수정치는 +13이고 피해 보너스는 +2입니다. 이 공격은 근력 기반입니다(@UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 상태의 목적에서). 자신의 비무장 공격 수정치가 더 높다면 대신 그 값을 사용할 수 있습니다.</p></li><li><p>자신의 수정치가 더 높지 않다면 운동 수정치 +13.</p></li></ul><p>선택한 형태에 따라 다음 특정 능력도 얻습니다.</p><ul><li><p><strong>개미</strong></p><ul><li><p>속도 30피트, 등반 속도 30피트;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 큰턱, <strong>피해</strong> 2d6 타격.</p></li></ul></li><li><p><strong>딱정벌레</strong></p><ul><li><p>속도 25피트;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 큰턱, <strong>피해</strong> 2d10 타격.</p></li></ul></li><li><p><strong>지네</strong></p><ul><li><p>속도 25피트, 등반 속도 25피트; 암시야;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 큰턱, <strong>피해</strong> 1d8 관통 + 1d4 지속 독.</p></li></ul></li><li><p><strong>사마귀</strong></p><ul><li><p>속도 40피트; 부정확한 후각 30피트;</p></li><li><p>근접 <span class=\"action-glyph\">1</span> 앞다리, <strong>피해</strong> 2d8 관통.</p></li></ul></li><li><p><strong>전갈</strong></p><ul><li><p>속도 40피트; 암시야, 부정확한 진동감각 60피트;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 독침, <strong>피해</strong> 1d8 관통 + 1d4 지속 독;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 집게(기민), <strong>피해</strong> 1d6 타격.</p></li></ul></li><li><p><strong>거미</strong></p><ul><li><p>속도 25피트, 등반 속도 25피트; 암시야;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 송곳니, <strong>피해</strong> 1d6 관통 + 1d4 지속 독;</p></li><li><p><strong>원거리</strong> <span class=\"action-glyph\">1</span> 거미줄(사거리 증분 20피트), <strong>피해</strong> 대상을 1라운드 동안 또는 탈출할 때까지 이동 불가 상태로 만듭니다.</p></li></ul></li></ul><hr /><p><strong>고조(4랭크)</strong> 전투 형태가 대형이 되고 공격의 도달 거리가 10피트가 됩니다. 커질 공간이 충분하지 않다면 주문을 잃습니다. 대신 임시 HP 15, 공격 수정치 +16, 피해 보너스 +6, 운동 +16을 얻습니다.</p>\n<p><strong>고조(5랭크)</strong> 전투 형태가 초대형이 되고 공격의 도달 거리가 15피트가 됩니다. 커질 공간이 충분하지 않다면 주문을 잃습니다. 대신 임시 HP 20, 공격 수정치 +18, 피해 보너스 +2와 두 배의 피해 주사위(지속 피해 포함), 운동 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Regenerate": {
+      "name": "주문 효과: 리제너레이트(Spell Effect: Regenerate)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.2Vkd1IxylPceUAAF]{재생}에 의해 부여됩니다.</p>\n<p>대상은 재생 능력을 얻습니다. 이는 대상의 각 턴이 시작될 때 대상의 HP를 회복시킵니다.</p>"
+    },
+    "Spell Effect: Sure Strike": {
+      "name": "주문 효과: 슈어 스트라이크(Spell Effect: Sure Strike)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{슈어 스트라이크}에 의해 부여됩니다.</p>\n<p>당신이 다음 공격 굴림을 할 때, 두 번 굴리고 더 좋은 결과를 사용하십시오. 그 공격은 상황 페널티와 표적이 은폐되거나 숨겨져서 필요한 모든 순수 판정을 무시합니다.</p>"
+    },
+    "Spell Effect: Animal Form (Bear)": {
+      "name": "주문 효과: 애니멀 폼 (베어)(Spell Effect: Animal Form (Bear))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됩니다.</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 때, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다.</p><ul><li>AC = 16 + 당신의 레벨. 당신의 방어구의 수정치 감소와 속도 감소는 무시합니다.</li><li>임시 HP 5.</li><li>어둠시야 및 30피트 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 비무장 근접 공격 하나 이상. 이것이 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것에 숙련되어 있습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격들은 (예를 들어 @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 만약 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>당신 자신의 수정치가 더 높지 않은 이상, +9의 육체능력 수정치.</li></ul><p>당신은 또한 당신이 선택한 동물의 종류에 따라 특정 능력을 얻습니다.</p><ul><li><p><strong>곰</strong></p><ul><li>속도 30피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱, <strong>피해</strong> 2d8 관통;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 발톱 (민첩), <strong>피해</strong> 1d8 베기.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 10의 임시 HP, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 육체능력 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 10피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 15의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 육체능력 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 15피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 20의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7 및 피해 주사위 개수의 두 배, 그리고 육체능력 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Akashic Download": {
+      "name": "주문 효과: 아카식 다운로드(Spell Effect: Akashic Download)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.VynaowCerc7B4yvI]{아카식 다운로드}이 부여합니다.</p>\n<p>선택한 기술을 사용하는 지식 회상 판정에 +1 상태 보너스를 얻습니다. 이 판정에서 대실패를 굴리면 대신 실패를 얻습니다.</p>"
+    },
+    "Spell Effect: Glow Up": {
+      "name": "주문 효과: 매력 단장(Spell Effect: Glow Up)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.V1cojmrEOWkJ1yPF]{매력 단장}이 부여합니다.</p>\n<p>인상 주기를 위한 외교 판정에 상태 보너스를 얻고, 외교에 비숙련이라면 외교 판정에 레벨을 더합니다.</p>"
+    },
+    "Spell Effect: Nature Incarnate": {
+      "name": "주문 효과: 자연 현현 (자연 인카네이트)(Spell Effect: Nature Incarnate)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.ZXwxs5tRjEGrjAJT]{자연 화신}이 부여합니다.</p>\n<p>녹색인 또는 카이주 중 하나인 자연의 화신으로 변신합니다. 전투 형태는 녹색인이라면 중형이고, 카이주라면 거대(30피트×30피트 공간)입니다. 이 형태인 동안 녹색인이라면 식물 특성을, 카이주라면 야수 특성을 얻습니다. 어떤 전투 형태를 선택하든 다음 통계와 능력을 얻습니다.</p><ul><li>AC = 25 + 당신의 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</li><li>임시 HP 30.</li><li>암시야.</li><li>선택한 전투 형태에 맞는 하나 이상의 공격을 얻으며, 이 형태에서는 이 공격으로만 타격할 수 있습니다. 당신은 이 공격에 숙련입니다. 공격 수정치는 +34이고 명시된 피해를 사용합니다. 이 공격은 근력 기반입니다(예: @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 상태의 목적에서). 자신의 비무장 공격 수정치가 더 높다면 대신 그 값을 사용할 수 있습니다.</li><li>자신의 수정치가 더 높지 않다면 운동 수정치 +36.</li></ul><p>선택한 화신에 따라 다음 특정 능력을 얻습니다.</p><ul><li><p><strong>녹색인</strong></p><ul><li>속도 40피트, 등반 40피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 덩굴(도달 거리 30피트, 다용도 P), <strong>피해</strong> 6d8+12 타격;</li><li><strong>원거리</strong> <span class=\"action-glyph\">1</span> 가시(사거리 100피트), <strong>피해</strong> 6d6+6 관통;</li><li><strong>녹색 손길</strong> (오라, 원시) 60피트. 식물이 아닌 적은 주문 DC에 대한 @Check[fortitude|against:spell]에 성공해야 하며, 실패하면 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태가 됩니다(대실패하면 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름}).</li></ul></li></ul><ul><li><p><strong>카이주</strong></p><ul><li>속도 50피트; 물리 피해 저항 5;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱(도달 거리 30피트), <strong>피해</strong> 6d10+10 관통;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 발톱(기민, 도달 거리 30피트), <strong>피해</strong> 6d8+8 베기;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 발(기민, 도달 거리 15피트), <strong>피해</strong> 6d6+10 타격;</li><li><strong>저지 불가</strong> @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태에 면역이며 어려운 지형과 매우 어려운 지형을 무시합니다;</li><li><strong>짓밟기</strong> <span class=\"action-glyph\">3</span> 속도의 두 배까지 이동하며 초대형 이하인 크리처의 공간을 통과해, 공간에 들어간 각 크리처를 짓밟습니다. 짓밟힌 크리처는 주문 DC에 대한 @Check[reflex|against:spell|basic]과 함께 발 피해를 받습니다.</li></ul></li></ul>"
+    },
+    "Spell Effect: Everlight": {
+      "name": "주문 효과: 에버라이트(Spell Effect: Everlight)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.ynm8JIU3sc3qUMpa]{에버라이트}에 의해 부여됩니다.</p>\n<p>당신이 만지는 보석이 빛나며, 20피트 반경 내에 밝은 빛(그리고 그 다음 20피트까지 어두운 빛)을 퍼뜨립니다.</p>"
+    },
+    "Spell Effect: Void Seed": {
+      "name": "주문 효과: 공허 씨앗(Spell Effect: Void Seed)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.FIW0VpGULprL2u8J]{공허 씨앗}이 부여합니다.</p>\n<p>공허 치유 능력을 얻습니다. 공허가 아닌 치유 특성 효과로 치유될 경우 대신 피해를 받습니다.</p>"
+    },
+    "Spell Effect: Darkvision (24 hours)": {
+      "name": "주문 효과: 다크비전 (24시간)(Spell Effect: Darkvision (24 hours))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.pZTqGY1MLRjgKasV]{다크비전}에 의해 부여됩니다.</p>\n<p>당신은 어둠보기를 얻습니다.</p>"
+    },
+    "Spell Effect: Animal Form (Frog)": {
+      "name": "주문 효과: 애니멀 폼 (개구리)(Spell Effect: Animal Form (Frog))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됨</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다:</p><ul><li>AC = 16 + 당신의 레벨. 당신의 방어구의 수정치 감소 및 속도 감소를 무시합니다.</li><li>임시 HP 5.</li><li>저조도 시야 및 30피트 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 하나 이상의 비무장 근접 공격. 이것들은 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것들을 숙련했습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격들은 (예를 들어, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 만약 당신의 비무장 공격 보너스가 더 높다면, 당신은 그것을 대신 사용할 수 있습니다.</li><li>당신 자신의 수정치보다 높지 않은 경우, +9의 운동 능력 수정치.</li></ul><p>당신은 또한 당신이 선택한 동물의 종류에 따라 특정 능력을 얻습니다:</p><ul><li><p><strong>개구리</strong></p><ul><li>속도 25피트, 수영 속도 25피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱, <strong>피해</strong> 2d6 둔기;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 혀 (도달 거리 15피트), <strong>피해</strong> 2d4 둔기.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 10의 임시 HP, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 운동 능력 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 10피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하거나 주문이 사라집니다. 당신은 대신 15의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 운동 능력 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 15피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하거나 주문이 사라집니다. 당신은 대신 20의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7 및 피해 주사위 개수의 두 배, 그리고 운동 능력 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Skyfire Wings (3rd-Rank)": {
+      "name": "주문 효과: 천화 날개(3랭크)(Spell Effect: Skyfire Wings (3rd-Rank))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.VmtQlZqeraTv0Eer]{천화 날개}이 부여합니다.</p>\n<p>자신의 속도 또는 20피트 중 더 높은 값과 같은 비행 속도를 얻습니다. 날개는 화염 피해 1d8을 주고 백스윙, 도달 거리, 비무장 특성을 가진 비무장 공격입니다. 날개 공격으로 치명타를 내면 대상은 지속 전기 피해 2를 받습니다.</p>"
+    },
+    "Spell Effect: Animal Form (Snake)": {
+      "name": "주문 효과: 애니멀 폼 (스네이크)(Spell Effect: Animal Form (Snake))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됩니다.</p>\n<p>당신은 자신을 중형 동물 전투 형태로 변신시킬 수 있습니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다.</p><ul><li>AC = 16 + 당신의 레벨. 당신의 방어구의 수정치 감소와 속도 감소는 무시합니다.</li><li>임시 HP 5.</li><li>저조도 시야 및 30피트의 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 비무장 근접 공격 하나 이상. 이것들은 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것들을 숙련했습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격들은 (예를 들어 @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>운동 수정치 +9. 단, 당신 자신의 수정치가 더 높다면 예외입니다.</li></ul><p>당신은 또한 당신이 선택한 동물의 종류에 따라 특정한 능력을 얻습니다.</p><ul><li><p><strong>뱀</strong></p><ul><li>속도 20피트, 등반 속도 20피트, 수영 속도 20피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 송곳니, <strong>피해</strong> 2d4 관통 + 1d6 독.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 임시 HP 10, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 운동 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 10피트의 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 실패합니다. 당신은 대신 임시 HP 15, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 운동 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 15피트의 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 실패합니다. 당신은 대신 임시 HP 20, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7 및 피해 주사위 개수 두 배, 그리고 운동 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Heroism": {
+      "name": "주문 효과: 히어로이즘(Spell Effect: Heroism)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.KqvqNAfGIE5a9wSv]{히어로이즘}에 의해 부여됩니다.</p>\n<p>당신은 공격 굴림, 지각 판정, 내성 굴림, 그리고 기술 판정에 대한 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Silence": {
+      "name": "주문 효과: 사일런스(Spell Effect: Silence)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.gIdDLrbswTV3OBJy]{침묵}에 의해 부여됩니다.</p>\n<p>당신은 아무런 소리도 내지 않아, 크리처들이 청각만으로 당신을 알아채는 것을 막습니다.</p><hr /><p><strong>강화됨 (4레벨)</strong> 주문은 당신 주위 10피트 범위에 오라를 생성하여 그 안이나 통과하는 모든 소리를 없앱니다. 오라 안에 있는 동안 크리처들은 대상과 같은 효과를 받습니다.</p>"
+    },
+    "Spell Effect: Aerial Form": {
+      "name": "주문 효과: 공중 형상(Spell Effect: Aerial Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.NzXpEzcZAjuDTZjK]{공중 형상}가 부여합니다.</p>\n<p>당신은 중형 비행 동물 전투 형태로 변신합니다. 동물 특성을 얻으며, 어떤 전투 형태를 선택하든 다음 통계와 능력을 얻습니다.</p><ul><li><p>AC = 18 + 당신의 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</p></li><li><p>임시 HP 5.</p></li><li><p>저광시야.</p></li><li><p>선택한 전투 형태에 맞는 하나 이상의 비무장 근접 공격을 얻으며, 이 형태에서는 이 공격으로만 타격할 수 있습니다. 당신은 이 공격에 숙련입니다. 공격 수정치는 +16이고 피해 보너스는 +5입니다. 이 공격은 민첩 기반입니다(예: @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태의 목적에서). 민첩 기반 비무장 공격의 공격 수정치가 더 높다면 대신 그 값을 사용할 수 있습니다.</p></li><li><p>자신의 수정치가 더 높지 않다면 곡예 수정치 +16.</p></li></ul><p>선택한 형태에 따라 다음 특정 능력도 얻습니다.</p><ul><li><p><strong>박쥐</strong></p><ul><li><p>속도 20피트, 비행 속도 30피트; 정밀 반향정위 40피트;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 송곳니, <strong>피해</strong> 2d8 관통;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 날개(기민), <strong>피해</strong> 2d6 타격.</p></li></ul></li></ul><ul><li><p><strong>조류</strong></p><ul><li><p>속도 10피트, 비행 속도 50피트;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 부리, <strong>피해</strong> 2d8 관통;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 발톱(기민), <strong>피해</strong> 1d10 베기.</p></li></ul></li></ul><ul><li><p><strong>익룡</strong></p><ul><li><p>속도 10피트, 비행 속도 40피트; 부정확한 후각 30피트;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 부리, <strong>피해</strong> 3d6 관통.</p></li></ul></li></ul><ul><li><p><strong>말벌</strong></p><ul><li><p>속도 20피트, 비행 속도 40피트;</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 독침, <strong>피해</strong> 1d8 관통 + 1d6 지속 독.</p></li></ul></li></ul><hr /><p><strong>고조(5랭크)</strong> 전투 형태가 대형이 되고 비행 속도에 +10피트 상태 보너스를 얻습니다. 커질 공간이 충분하지 않다면 주문을 잃습니다. 대신 임시 HP 10, 공격 수정치 +18, 피해 보너스 +8, 곡예 +20을 얻습니다.</p>\n<p><strong>고조(6랭크)</strong> 전투 형태가 초대형이 되고 비행 속도에 +15피트 상태 보너스를 얻으며, 공격의 도달 거리가 10피트가 됩니다. 커질 공간이 충분하지 않다면 주문을 잃습니다. 대신 AC = 21 + 당신의 레벨, 임시 HP 15, 공격 수정치 +21, 피해 보너스 +4와 두 배의 피해 주사위(지속 피해 포함), 곡예 +23을 얻습니다.</p>"
+    },
+    "Spell Effect: Soothe": {
+      "name": "주문 효과: 수즈(Spell Effect: Soothe)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.szIyEsvihc5e1w8n]{수즈}에 의해 부여됩니다.</p>\n<p>당신은 정신 효과에 대한 내성 굴림에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Enhance Body": {
+      "name": "주문 효과: 신체 강화(Spell Effect: Enhance Body)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.GmeI009NbLbR6sR5]{신체 강화}이 부여합니다.</p>\n<p>비무장 공격이 추적 +1 특성을 얻고 피해 주사위 수가 2개로 증가합니다.</p><hr /><p><strong>고조(6랭크)</strong> 비무장 공격이 추적 +2 특성을 얻고 무기 피해 주사위 수가 3개로 증가합니다.</p>\n<p><strong>고조(9랭크)</strong> 비무장 공격이 추적 +3 특성을 얻고 무기 피해 주사위 수가 4개로 증가합니다.</p>"
+    },
+    "Spell Effect: Monstrosity Form": {
+      "name": "주문 효과: 괴수 형태(Spell Effect: Monstrosity Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.8AMvNVOUEtxBCDvJ]{괴수 형태}가 부여합니다.</p>\n<p>전설적인 괴물의 모습으로 변신해 초대형 전투 형태를 취합니다. 이 주문을 시전할 때 먼지 쥐가오리, 니스홀로라, 우주 벌레 중 하나를 선택하십시오. 이 형태 중 하나인 동안 야수 특성을 얻습니다. 주문을 해제할 수 있습니다.</p>\n<p>어떤 전투 형태를 선택하든 다음 통계와 능력을 얻습니다.</p><ul><li>AC = 20 + 당신의 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</li><li>임시 HP 20.</li><li>암시야.</li><li>선택한 전투 형태에 맞는 하나 이상의 비무장 근접 공격을 얻으며, 이 형태에서는 이 공격으로만 타격할 수 있습니다. 당신은 이 공격에 숙련입니다. 공격 수정치는 +28이고 명시된 피해를 사용합니다. 이 공격은 근력 기반입니다(예: @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 상태의 목적에서). 자신의 비무장 공격 수정치가 더 높다면 대신 그 값을 사용할 수 있습니다.</li><li>자신의 수정치가 더 높지 않다면 운동 수정치 +30.</li></ul><p>선택한 괴물에 따라 다음 특정 능력을 얻습니다.</p><ul><li><p><strong>먼지 쥐가오리</strong></p><ul><li>속도 15피트, 굴착 40피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 독침(기민, 기교, 도달 거리 15피트), <strong>피해</strong> 2d6+12 관통 + 4d4 지속 독;</li><li><strong>굴착 돌진</strong> <span class=\"action-glyph\">2</span> (이동) 굴착 속도의 두 배까지 굴을 판 뒤, 수직으로 최대 25피트 높이까지 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약}하며 도약 중 어느 지점에서든 크리처 하나에게 독침 타격을 합니다. 도약 후 지면으로 떨어지지만 흙이나 모래에 착지하면 추락 피해를 받지 않습니다.</li></ul></li></ul><ul><li><p><strong>니스홀로라</strong></p><ul><li>속도 40피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱(도달 거리 10피트), <strong>피해</strong> 2d12+20 관통;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 위상 칼날(절삭, 도달 거리 15피트), <strong>피해</strong> 2d10+13 음파 + 위상 일격;</li><li><strong>원거리</strong> <span class=\"action-glyph\">1</span> 꼬리 채찍 방전(사거리 증분 120피트), <strong>피해</strong> 7d6 전기;</li><li><strong>위상 난무</strong> <span class=\"action-glyph\">3</span> (이동, 횡단) 속도까지 보행한 뒤 도달 거리 안의 각 크리처에게 위상 칼날 타격을 합니다. 각 공격은 다중 공격 페널티 계산에 포함되지만 모든 공격을 마칠 때까지 페널티를 증가시키지 않습니다;</li><li><strong>위상 일격</strong> 위상 칼날 타격은 적중한 물체 또는 구조체의 경도가 평소 절반인 것처럼 취급합니다.</li></ul></li><li><p><strong>우주 벌레</strong></p><ul><li>속도 40피트, 굴착 40피트, 수영 40피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱(도달 거리 15피트), <strong>피해</strong> 2d12+20 관통;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 혀(기교, 도달 거리 30피트), <strong>효과</strong> 혀 붙잡기; 혀에 적중당한 크리처는 당신에게 @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘} 상태가 됩니다. 이 크리처는 @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태는 아니지만 혀의 도달 거리 밖으로 이동할 수 없습니다. 크리처는 당신의 AC를 대상으로 타격해 최소 30 참격 피해를 주면 혀를 절단할 수 있습니다. 이는 당신에게 피해를 주지 않지만, 나중에 주문을 다시 시전하는 등의 방법으로 혀를 재생할 때까지 혀 타격을 사용할 수 없게 합니다.</li></ul></li></ul><hr /><p><strong>고조(9랭크)</strong> 대신 AC = 22 + 당신의 레벨, 임시 HP 25, 공격 수정치 +31, 피해 주사위 하나 증가, 운동 +33을 얻습니다.</p>"
+    },
+    "Spell Effect: Shifting Surge": {
+      "name": "주문 효과: 변환 쇄도(Spell Effect: Shifting Surge)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}이 부여합니다.</p>\n<p>무기가 다음에 하는 타격은 산성, 냉기, 전기, 화염, 음파 중 선택한 피해를 주며, 무기의 정상 피해와 같은 유형의 추가 피해 1d6을 줍니다.</p>"
+    },
+    "Spell Effect: Animal Form (Cat)": {
+      "name": "주문 효과: 애니멀 폼 (캣)(Spell Effect: Animal Form (Cat))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됩니다.</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다.</p><ul><li>AC = 16 + 당신의 레벨. 방어구의 수정치 감소 및 속도 감소를 무시합니다.</li><li>임시 HP 5.</li><li>어둠시야 및 30피트 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 비무장 근접 공격 하나 이상. 이것이 당신이 공격할 수 있는 유일한 공격입니다. 당신은 그것을 숙련했습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격은 (예를 들어, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 만약 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>운동 수정치 +9. 단, 당신 자신의 수정치가 더 높다면 예외입니다.</li></ul><p>당신은 또한 당신이 선택한 동물의 종류에 따라 특정 능력을 얻습니다.</p><ul><li><p><strong>고양이</strong></p><ul><li>속도 40피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱, <strong>피해</strong> 2d6 관통;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 발톱 (민첩), <strong>피해</strong> 1d10 베기.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 임시 HP 10, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 운동 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하고 당신의 공격은 10피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 실패합니다. 당신은 대신 임시 HP 15, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 운동 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하고 당신의 공격은 15피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 실패합니다. 당신은 대신 임시 HP 20, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7 및 피해 주사위 개수 두 배, 그리고 운동 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Commune with Tech": {
+      "name": "주문 효과: 기술과 교감(Spell Effect: Commune with Tech)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.dyDIRdq3QmP2QzBR]{기술과 교감}이 부여합니다.</p>\n<p>대상을 해킹하거나, 사용하거나, 조작하거나, 비활성화하거나, 식별하거나, 대상을 지식 회상하거나, 그 밖의 방식으로 상호작용할 때 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Animal Form (Shark)": {
+      "name": "주문 효과: 애니멀 폼 (샤크)(Spell Effect: Animal Form (Shark))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됩니다.</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다:</p><ul><li>AC = 16 + 당신의 레벨. 방어구의 수정치 감소와 속도 감소를 무시합니다.</li><li>임시 HP 5.</li><li>저조도 시야 및 30피트 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 하나 이상의 비무장 근접 공격. 이것이 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것에 숙련되어 있습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격들은 (예를 들어 @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건의 목적으로) 근력 기반입니다. 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>당신 자신의 수정치가 더 높지 않은 경우, +9의 육체 활동 수정치.</li></ul><p>당신은 또한 선택하는 동물의 종류에 따라 특정 능력을 얻습니다:</p><ul><li><p><strong>상어</strong></p><ul><li>수영 속도 35피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱, <strong>피해</strong> 2d8 관통;</li><li>물속에서는 숨을 쉴 수 있지만 공기 중에서는 숨을 쉴 수 없습니다.</li></ul></li></ul><hr /><p><strong>고조(3레벨)</strong> 대신에 임시 HP 10, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 육체 활동 +14를 얻습니다.</p>\n<p><strong>고조(4레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 10피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 대신에 임시 HP 15, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 육체 활동 +16을 얻습니다.</p>\n<p><strong>고조(5레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 15피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 대신에 임시 HP 20, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7 및 피해 주사위 개수 두 배, 그리고 육체 활동 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Mystic Armor": {
+      "name": "주문 효과: 미스틱 아머(Spell Effect: Mystic Armor)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.aAbfKn8maGjJjk2W]{미스틱 아머}에 의해 부여됩니다.</p>\n<p>당신은 AC에 아이템 보너스와 최대 +5의 민첩 수정치를 얻습니다. 4랭크 이상이 되면 내성 굴림에 아이템 보너스를 얻습니다.</p>"
+    },
+    "Spell Effect: Bind Undead": {
+      "name": "주문 효과: 바인드 언데드(Spell Effect: Bind Undead)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.GUeRTriJkMlMlVrk]{바인드 언데드}에 의해 부여됩니다.</p>\n<p>목표 무지성 언데드 크리처는 미니언 특성을 얻습니다.</p>"
+    },
+    "Spell Effect: Entangling Flora": {
+      "name": "주문 효과: 인탱글링 플로라(Spell Effect: Entangling Flora)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.J6vNvrUT3b1hx2iA]{얽히는 플로라}에 의해 부여됩니다.</p>\n<p>크리처는 이동 속도에 -10피트의 상황 페널티를 받습니다.</p>"
+    },
+    "Spell Effect: Skyfire Wings (9th-Rank)": {
+      "name": "주문 효과: 천화 날개(9랭크)(Spell Effect: Skyfire Wings (9th-Rank))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.VmtQlZqeraTv0Eer]{천화 날개}이 부여합니다.</p>\n<p>자신의 속도 또는 20피트 중 더 높은 값과 같은 비행 속도를 얻습니다. 날개는 화염 피해 4d8을 주고 백스윙, 도달 거리, 비무장 특성을 가진 비무장 공격입니다. 날개 공격으로 치명타를 내면 대상은 지속 전기 피해 8을 받습니다.</p>"
+    },
+    "Spell Effect: Vapor Form": {
+      "name": "주문 효과: 베이퍼 폼(Spell Effect: Vapor Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.V8wXOsoejQhe6CyG]{베이퍼 폼}에 의해 부여됩니다.</p>\n<p>당신은 AC에 대한 모든 아이템 보너스를 잃고, 8의 물리 피해 저항, 정밀 피해 면역, 그리고 10피트의 비행 속도를 얻습니다.</p>"
+    },
+    "Spell Effect: Animal Form (Canine)": {
+      "name": "주문 효과: 애니멀 폼 (캐나인)(Spell Effect: Animal Form (Canine))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됨</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다.</p><ul><li>AC = 16 + 당신의 레벨. 당신의 방어구의 수정치 감소와 속도 감소는 무시합니다.</li><li>임시 HP 5.</li><li>저조도 시야 및 30피트의 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 비무장 근접 공격 하나 이상. 이것이 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것에 숙련되어 있습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격은 (예를 들어, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>당신 자신의 수정치보다 높지 않다면 +9의 육체능력 수정치.</li></ul><p>당신은 또한 당신이 선택한 동물의 종류에 따라 특정 능력을 얻습니다.</p><ul><li><p><strong>캐나인</strong></p><ul><li>속도 40피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 턱, <strong>피해</strong> 2d8 관통.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 10의 임시 HP, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 육체능력 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하고 당신의 공격은 10피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 15의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 육체능력 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하고 당신의 공격은 15피트 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 20의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7과 피해 주사위 개수의 두 배, 그리고 육체능력 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Enlarge": {
+      "name": "주문 효과: 거대화(Spell Effect: Enlarge)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{확대}가 부여합니다.</p>\n<p>대형 크기로 자라고 서투름 1 상태가 됩니다. 도달 거리가 5피트 증가하며(초소형이었다면 10피트), 근접 공격 피해에 +2 상태 보너스를 얻습니다.</p>\n<p><strong>고조(4랭크)</strong> 초대형 크기로 자랍니다. 근접 공격 피해의 상태 보너스가 +4로 증가하고 도달 거리가 10피트 증가합니다(초소형이었다면 15피트).</p>\n<p><strong>고조(6랭크)</strong> 이 주문의 2랭크 또는 4랭크 버전 중 하나를 선택합니다.</p>"
+    },
+    "Spell Effect: Animal Form (Ape)": {
+      "name": "주문 효과: 애니멀 폼 (에이프)(Spell Effect: Animal Form (Ape))",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}에 의해 부여됩니다.</p>\n<p>당신은 중형 동물 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻습니다. 당신은 선택하는 전투 형태에 관계없이 다음 통계치와 능력을 얻습니다.</p><ul><li>AC = 16 + 당신의 레벨. 방어구의 수정치 감소와 속도 감소를 무시합니다.</li><li>임시 HP 5.</li><li>저조도 시야와 30피트의 부정확한 후각.</li><li>당신이 선택한 전투 형태에 따라 특정한 하나 이상의 비무장 근접 공격. 이것들은 당신이 공격할 수 있는 유일한 공격입니다. 당신은 이것들을 숙련했습니다. 당신의 공격 수정치는 +9이고, 당신의 피해 보너스는 +1입니다. 이 공격들은 (예를 들어, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 조건을 위해) 근력 기반입니다. 당신의 비무장 공격 보너스가 더 높다면, 대신 그것을 사용할 수 있습니다.</li><li>당신 자신의 수정치가 더 높지 않은 경우, +9의 육체 활동 수정치.</li></ul><p>당신은 또한 당신이 선택한 동물의 종류에 따라 특정 능력을 얻습니다.</p><ul><li><p><strong>유인원</strong></p><ul><li>속도 25피트, 등반 속도 20피트;</li><li><strong>근접</strong> <span class=\"action-glyph\">1</span> 주먹, <strong>피해</strong> 2d6 둔기.</li></ul></li></ul><hr /><p><strong>강화됨 (3레벨)</strong> 당신은 대신 10의 임시 HP, AC = 17 + 당신의 레벨, 공격 수정치 +14, 피해 보너스 +5, 그리고 육체 활동 +14를 얻습니다.</p>\n<p><strong>강화됨 (4레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 10피트의 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 15의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +16, 피해 보너스 +9, 그리고 육체 활동 +16을 얻습니다.</p>\n<p><strong>강화됨 (5레벨)</strong> 당신의 전투 형태는 거대하며 당신의 공격은 15피트의 도달 거리를 가집니다. 당신은 확장할 충분한 공간이 있어야 하며, 그렇지 않으면 주문이 사라집니다. 당신은 대신 20의 임시 HP, AC = 18 + 당신의 레벨, 공격 수정치 +18, 피해 보너스 +7과 피해 주사위 개수의 두 배, 그리고 육체 활동 +20을 얻습니다.</p>"
+    },
+    "Spell Effect: Cairn Form": {
+      "name": "주문 효과: 석총 형상(Spell Effect: Cairn Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{석총 형상}이 부여합니다.</p>\n<p>아다만틴을 제외한 물리 피해에 대한 저항과 타격 피해를 주는 주먹 비무장 공격을 얻습니다.</p>"
+    },
+    "Spell Effect: Pest Form": {
+      "name": "주문 효과: 페스트 폼(Spell Effect: Pest Form)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{페스트 폼}에 의해 부여됩니다.</p>\n<p>당신은 아주 작은 동물의 전투 형태로 변신합니다. 이 형태일 동안, 당신은 동물 특성을 얻고 공격을 할 수 없습니다. 당신은 다음과 같은 능력치와 능력을 얻습니다:</p><ul><li>AC = 15 + 당신의 레벨. 당신의 방어구의 감소치와 속도 감소를 무시합니다.</li><li>속도 20피트.</li><li>약점 5 물리 피해. (이 형태에서 물리 피해를 입으면, 추가로 5의 피해를 입습니다.)</li><li>어둠투시 및 부정확한 후각 30피트.</li><li>만약 당신 자신의 수정치가 더 높지 않다면, 곡예와 은신 수정치 +10; 격투 수정치 -4.</li></ul><hr /><p><strong>강화됨 (4레벨)</strong> 당신은 새와 같은 비행 크리처로 변신할 수 있으며, 이는 당신에게 20피트의 비행 속도를 부여합니다.</p>"
+    },
+    "Spell Effect: Enhance Weapon": {
+      "name": "주문 효과: 무기 강화(Spell Effect: Enhance Weapon)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.ahXTkKpQtOTAQOFm]{무기 강화}이 부여합니다.</p>\n<p>대상 무기는 고급 무기가 되어 공격 굴림에 +1 아이템 보너스를 얻고 무기 피해 주사위 수가 2개로 증가합니다.</p><hr /><p><strong>고조(6랭크)</strong> 대상이 상업용, 전술용, 고급 또는 상급 무기라면 엘리트 무기가 되어 공격 굴림에 +2 아이템 보너스를 얻고 무기 피해 주사위 수가 3개로 증가합니다.</p>\n<p><strong>고조(9랭크)</strong> 대상은 파라곤 무기가 되어 공격 굴림에 +3 아이템 보너스를 얻고 무기 피해 주사위 수가 4개로 증가합니다.</p>"
+    },
+    "Spell Effect: Supercharge Weapon": {
+      "name": "주문 효과: 무기 초충전(Spell Effect: Supercharge Weapon)",
+      "description": "<p>@UUID[Compendium.sf2e.spells.Item.SbBqa1HStMrV47fb]{무기 초충전}이 부여합니다.</p>\n<p>그 무기로 다음에 하는 타격은 초충전됩니다. 그 타격은 무기의 정상 피해와 같은 유형의 추가 피해 1d6을 줍니다.</p>"
+    }
+  }
+}

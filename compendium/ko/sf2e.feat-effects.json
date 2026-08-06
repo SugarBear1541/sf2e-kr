@@ -1,0 +1,818 @@
+{
+  "label": "피트·기능 효과",
+  "folders": {},
+  "entries": {
+    "Effect: Covering Fire": {
+      "name": "효과: 엄호 사격(Effect: Covering Fire)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bSNHMpq5e4ZYOyWo]{엄호 사격}이 부여합니다.</p>\n<p>표시된 대상을 상대로 하는 공격에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Shifthide Camouflage": {
+      "name": "효과: 변색피부 위장(Effect: Shifthide Camouflage)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.pWMwGj8lnOpkU3Hr]{변색피부 위장}이 부여합니다.</p>\n<p><span>숨기</span> 및 <span>은신 이동</span>을 위한 은신 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Protective Bulk": {
+      "name": "효과: Protective Bulk(Effect: Protective Bulk)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.DqZbNm1hcq3ZWJc4]{보호의 거체}이 부여합니다.</p>\n<p>AC에 -1 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Adaptive Locomotion": {
+      "name": "효과: 적응형 이동(Effect: Adaptive Locomotion)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.iIESt0oV0vobl41N]{적응형 이동}이 부여합니다.</p>\n<p>지느러미발을 선택하면 수영 속도 20피트를 얻습니다. 갈고리 달린 위족을 선택하면 등반 속도 20피트를 얻습니다. 이 변형은 10분 동안 지속됩니다.</p>"
+    },
+    "Effect: Intensify Shell": {
+      "name": "효과: Intensify Shell(Effect: Intensify Shell)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.i3g1VSl1fnDgZLUH]{갑각 강화}이 부여합니다.</p>\n<p>AC에 +2 상태 보너스와 물리 피해 저항 10을 얻지만, 모든 속도에 -10피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Cellular Regeneration": {
+      "name": "효과: 세포 재생(Effect: Cellular Regeneration)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.SiVWK0ksapz0Y8UU]{세포 재생}이 부여합니다.</p>\n<p>자신의 레벨 절반과 같은 재생을 얻습니다.</p>"
+    },
+    "Effect: Digital Assessment!": {
+      "name": "효과: 디지털 평가!(Effect: Digital Assessment!)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.4oIErnhDm0qCCpxs]{디지털 평가!}이 부여합니다.</p>\n<p>표시된 크리처가 하는 공격에 대한 AC에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Battle Medicine Immunity": {
+      "name": "효과: 전투 의학 면역(Effect: Battle Medicine Immunity)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.wYerMk6F1RZb0Fwt]{전투 의학}에 의해 당신은</p>\n<p>일시적으로 그 사람의 전투 의학에 면역됩니다.</p>"
+    },
+    "Effect: Venomous Cocktail": {
+      "name": "효과: Venomous Cocktail(Effect: Venomous Cocktail)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.SuzoBwGsO1myKR8w]{독성 칵테일}이 부여합니다.</p>\n<p>독이 있는 턱으로 다음에 하는 타격에 독 피해를 추가합니다.</p>"
+    },
+    "Effect: Back to Back Bond": {
+      "name": "효과: Back to Back Bond(Effect: Back to Back Bond)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.H01khd3YKhjq4Oju]{등을 맞댄 결속}이 부여합니다.</p>\n<p>자신의 레벨 이하인 크리처에게 측면 공격당할 수 없습니다.</p>"
+    },
+    "Effect: Just Happy to Help!": {
+      "name": "효과: Just Happy to Help!(Effect: Just Happy to Help!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.PyNKBPDCJIjPXXzE]{돕는 것만으로도 행복해!}이 부여합니다.</p>\n<p>원조한 동료가 사용한 것과 같은 기술로 하는 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Electrify LFAN": {
+      "name": "효과: Electrify LFAN(Effect: Electrify LFAN)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.yczQG8ddfMLyaQgq]{LFAN 대전}이 부여합니다.</p>\n<p>타격이 무기 피해 주사위 하나당 추가 전기 피해 d6을 줍니다.</p>"
+    },
+    "Effect: Meandering Mind": {
+      "name": "효과: 흐트러진 정신(Effect: Meandering Mind)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.U0g9zLZAat8RMJvx]{흐트러진 정신}이 부여합니다.</p>\n<p>다음 자신의 턴이 시작될 때까지 정신 효과에 대한 내성 굴림에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Adrenaline Rush": {
+      "name": "효과: 아드레날린 쇄도(Effect: Adrenaline Rush)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.9XB03rIA5j5OvHTE]{아드레날린 쇄도}이 부여합니다.</p>\n<p>하중 초과 상태를 무시하고 운동 판정에 +2 상황 보너스를 얻습니다. 하중 초과 상태가 아니라면 지속시간 동안 속도에 +5피트 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Diplomatic Retreat (Success)": {
+      "name": "효과: 외교적 후퇴(성공)(Effect: Diplomatic Retreat (Success))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.PbGi8qVbMWTqq3Bd]{외교적 후퇴}이 부여합니다.</p>\n<p>근원을 대상으로 포함하거나 근원을 범위에 포함하는 적대적 행동의 공격 굴림과 내성 DC에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Multi-Armed Grab": {
+      "name": "효과: Multi-Armed Grab(Effect: Multi-Armed Grab)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.P7RFvoUU2kssme4q]{다중 팔 붙잡기}이 부여합니다.</p>\n<p>근원에게서 탈출할 때 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Anchoring Impacts": {
+      "name": "효과: 고정 충격(Effect: Anchoring Impacts)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.jlfPjyWEzxQ2GiDh]{고정 충격}이 부여합니다.</p>\n<p>제압 상태로 인한 속도 페널티가 -20피트 상태 페널티로 증가합니다.</p>"
+    },
+    "Effect: Defensive Formation": {
+      "name": "효과: Defensive Formation(Effect: Defensive Formation)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.xF4Vse5IwmWveqxI]{방어 대형}이 부여합니다.</p>\n<p>AC와 반사 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Rally the Troops": {
+      "name": "효과: 병력 집결(Effect: Rally the Troops)",
+      "description": "<p>임시 HP 5를 얻습니다. 이동을 지휘관과 인접한 위치에서 끝냈다면 그 두 배를 얻습니다.</p>"
+    },
+    "Effect: Got 'Em": {
+      "name": "효과: 맞혔어(Effect: Got 'Em)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.15v6nXEIi10i0CNI]{맞혔어}이 부여합니다.</p>\n<p>근원의 매력 수정치와 같은 피해 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Aim": {
+      "name": "효과: 조준(Effect: Aim)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.sLikawnrJJzHMYeC]{조준}이 부여합니다.</p>\n<p>크리처 하나를 표식으로 지정합니다. 요구되는 원거리 무기를 사용해 표식을 상대로 하는 원거리 타격은 추가 정밀 피해를 주고, 표식이 엄폐로 얻는 AC 상황 보너스를 감소시킵니다. 이 혜택은 표식이 무기의 첫 번째 사거리 증분 안에 있을 때만 적용됩니다.</p>"
+    },
+    "Effect: Nonlethal Force": {
+      "name": "효과: 비살상 무력(Effect: Nonlethal Force)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.9ilguOX3mtpkUTVS]{비살상 무력}이 부여합니다.</p>\n<p>지정한 무기는 당신이 들고 있는 동안 비살상 특성을 얻습니다.</p>"
+    },
+    "Effect: Plant Rumor": {
+      "name": "효과: 소문 심기(Effect: Plant Rumor)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.6ErQf23Gm9km8YSz]{소문 심기}이 부여합니다.</p>\n<p>의지 DC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Manifest Energy Wings": {
+      "name": "효과: 에너지 날개 현현(Effect: Manifest Energy Wings)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.NEYVJWYtgl0rRSwg]{에너지 날개 현현}이 부여합니다.</p>\n<p>지상 속도보다 10피트 높은 비행 속도를 얻습니다.</p>"
+    },
+    "Effect: Telekinetic Sprint": {
+      "name": "효과: 염동력 질주(Effect: Telekinetic Sprint)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.r1bUsyDwcwuN3MUG]{염동력 질주}이 부여합니다.</p>\n<p>모든 속도에 +5피트 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Watch Out": {
+      "name": "효과: 조심해!(Effect: Watch Out)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.60BRmtuNHT6mpJOH]{조심해!}이 부여합니다.</p>\n<p>AC에 +2 상황 보너스를 얻습니다. 근원이 정신 차려를 보유했다면 이 보너스는 반사 내성 굴림에도 적용됩니다.</p>"
+    },
+    "Effect: Not in the Face": {
+      "name": "효과: 얼굴은 안 돼(Effect: Not in the Face)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.OlIuxKxrKAeDklfN]{얼굴은 안 돼}이 부여합니다.</p>\n<p>근원을 상대로 하는 공격 및 피해 굴림에 상태 페널티를 받습니다. 실패한 경우에는 대신 유발한 공격 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Acidic Spit": {
+      "name": "효과: 산성 침(Effect: Acidic Spit)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.zFdo4ZUj9TckfJvQ]{산성 침}이 부여합니다.</p>\n<p>관통 피해에 약점 5를 얻습니다.</p>"
+    },
+    "Effect: Bond Boost": {
+      "name": "효과: 유대 증폭(Effect: Bond Boost)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.LGrCVzOvUayHW1Pu]{유대 증폭}이 부여합니다.</p>\n<p>다음 내성 굴림에 +1 상태 보너스를 얻습니다. 활력 또는 공허 효과에 대한 내성 굴림에서 성공을 굴리면 대신 대성공을 얻습니다.</p>"
+    },
+    "Effect: Hidden Agenda": {
+      "name": "효과: 숨겨진 의도(Effect: Hidden Agenda)",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.class-features.Item.M9TRPDyDZI4dDFCJ]{숨겨진 의도}이 부여합니다.</p>\n<p>근원을 상대로 동기 파악에서 대성공을 굴리면 대신 성공을 얻습니다.</p>"
+    },
+    "Effect: Holo-Roger": {
+      "name": "효과: 홀로 로저(Effect: Holo-Roger)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.8zWFGKRXg1SxIwFH]{홀로 로저}이 부여합니다.</p>\n<p>사기 저하를 위한 협박 판정에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: You'll Have to Go Through Me!": {
+      "name": "효과: 날 먼저 쓰러뜨려야 할 거다!(Effect: You'll Have to Go Through Me!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.M8kAxAXWRRWMRTzT]{날 먼저 쓰러뜨려야 할 거다!}이 부여합니다.</p>\n<p>살아 있는 방패 반응 행동을 얻습니다.</p>"
+    },
+    "Effect: Determination Undimmed": {
+      "name": "효과: Determination Undimmed(Effect: Determination Undimmed)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bvKTmO6DfZMYca9H]{꺾이지 않는 결의}이 부여합니다.</p>\n<p>선택한 기술에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Slick Mucus": {
+      "name": "효과: Slick Mucus(Effect: Slick Mucus)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.TilhFOG89jo02XsE]{미끄러운 점액}이 부여합니다.</p>\n<p>탈출에 +2 상황 보너스를 얻습니다. 그런 다음 이동할 수 있습니다. 이 이동 동안 속도에 +10피트 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Intimidating Taunt": {
+      "name": "효과: 위협적인 도발(Effect: Intimidating Taunt)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.8EnKNTqKEZJBoIQb]{위협적인 도발}이 부여합니다.</p>\n<p>근원을 대상으로 포함하지 않는 적대적 행동의 공격 굴림과 내성 DC에 -2 상황 페널티를 받습니다. 성공한 경우에는 당신이 하는 첫 번째 적대적 행동에만 영향을 줍니다.</p>"
+    },
+    "Effect: Hang In There!": {
+      "name": "효과: 버텨!(Effect: Hang In There!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.YRy857LORIhKOgbY]{조금만 버텨}이 부여합니다.</p>\n<p>임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Mobile Aim (Ephemeral)": {
+      "name": "효과: 기동 조준(임시)(Effect: Mobile Aim (Ephemeral))",
+      "description": "<p>엄폐로 얻는 AC 보너스가 1 감소합니다.</p>"
+    },
+    "Effect: Static Shield": {
+      "name": "효과: 정전기 방패(Effect: Static Shield)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.qjcTcdQpCVMJcNgi]{정전기 방패}이 부여합니다.</p>\n<p>정신 효과에 대한 내성 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Bone Shards": {
+      "name": "효과: 뼛조각(Effect: Bone Shards)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.6EULnMpte8cl2EET]{뼛조각}이 부여합니다.</p>\n<p>관통 피해 1d8을 주는 뼛조각 비무장 공격을 얻습니다. 뼛조각은 투사체 그룹에 속하며 사거리 15피트의 범위(원뿔) 특성을 가집니다.</p>"
+    },
+    "Stance: Squox Stance": {
+      "name": "자세: Squox Stance(Stance: Squox Stance)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.HIhTJqC2UJ9G2YBr]{스쿼크스 자세}이 부여합니다.</p>\n<p>당신을 밀치기, 위치 변경, 넘어뜨리기 하려는 시도에 대한 인내 및 반사 DC에 +1 상황 보너스를 얻습니다. 이 보너스는 당신을 이동시키거나 넘어뜨리려는 주문 또는 효과에 대한 내성 굴림에도 적용됩니다.</p>"
+    },
+    "Effect: Repair Module": {
+      "name": "효과: 리페어 모듈(Effect: Repair Module)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ZGT7NLpcvREkJsMd]{수리 모듈}에 의해 부여됩니다.</p>\n<p>당신은 자신의 레벨의 절반에 해당하는 급속 치유를 얻습니다.</p>"
+    },
+    "Effect: Infernal Armaments": {
+      "name": "효과: 지옥의 무장(Effect: Infernal Armaments)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.WpJCB3dCycbIzG3w]{지옥의 무장}이 부여합니다.</p>\n<p>라운드마다 첫 번째 무기 타격의 피해에 무기 피해 주사위 수의 두 배와 같은 상태 보너스를 얻습니다. 이 추가 피해의 유형은 당신의 헬나이트 기사단에 따라 정해집니다.</p>"
+    },
+    "Effect: Xenogourmand (Success)": {
+      "name": "효과: Xenogourmand(성공)(Effect: Xenogourmand (Success))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.iDuGse1UVEfFnfom]{외계 미식가}이 부여합니다.</p>\n<p>제노고어망의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Search High and Low!": {
+      "name": "효과: 샅샅이 찾아!(Effect: Search High and Low!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.GYk8nKT8abT5S5NO]{샅샅이 찾아!}이 부여합니다.</p>\n<p>수색을 위한 지각 판정에 +2 상황 보너스를 얻습니다. 근원의 레벨이 증가하면 7레벨에 +3, 12레벨에 +4, 17레벨에 +5로 증가합니다.</p>"
+    },
+    "Effect: One with the Stone": {
+      "name": "효과: 하나 지닌 돌(Effect: One with the Stone)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.DnWPKyaMOcOghXQf]{돌과 하나 되기}이 부여합니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{확대}가 적용되는 동안 자신의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Nanite Surge": {
+      "name": "효과: 나나이트 서지(Effect: Nanite Surge)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.JS24EjgLYcHB9E3T]{나나이트 쇄도}에 의해 부여됩니다.</p>\n<p>당신의 회로가 빛나며, 1 라운드 동안 @Template[emanation|distance:10]을 희미한 빛으로 비춥니다.</p>"
+    },
+    "Effect: Aim (Reduce Cover)": {
+      "name": "효과: 조준(엄폐 감소)(Effect: Aim (Reduce Cover))",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.actions.Item.sLikawnrJJzHMYeC]{조준}이 부여합니다.</p>\n<p>엄폐로 얻는 상황 보너스가 감소합니다.</p>"
+    },
+    "Effect: Something to Protect": {
+      "name": "효과: 지켜야 할 것(Effect: Something to Protect)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.zmpqzYgqpQxLyARh]{지켜야 할 것}이 부여합니다.</p>\n<p>자신의 레벨과 같은 임시 HP를 얻고 의지 내성 굴림, AC, 공격에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Undead Understanding (Failure)": {
+      "name": "효과: Undead Understanding(실패)(Effect: Undead Understanding (Failure))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.pNhvzqasjOsMyxcW]{언데드 이해}이 부여합니다.</p>\n<p>정신 없는 언데드라면 정신 효과에 대한 면역을 잃습니다.</p>"
+    },
+    "Effect: For the Queen!": {
+      "name": "효과: 여왕을 위하여!(Effect: For the Queen!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.3pKkqpj3tlefnJ83]{여왕을 위하여!}이 부여합니다.</p>\n<p>가속 상태가 되며 정신 효과에 대한 내성 굴림에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Diplomatic Retreat (Critical Failure)": {
+      "name": "효과: 외교적 후퇴(대실패)(Effect: Diplomatic Retreat (Critical Failure))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.PbGi8qVbMWTqq3Bd]{외교적 후퇴}이 부여합니다.</p>\n<p>근원을 대상으로 포함하거나 근원을 범위에 포함하는 적대적 행동의 공격 굴림과 내성 DC에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Gigafuroid Form": {
+      "name": "효과: Gigafuroid Form(Effect: Gigafuroid Form)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bovfLCEE0ZzoSQwZ]{기가푸로이드 형태}이 부여합니다.</p>\n<p>전투 형태는 속도 30피트, 등반 속도 30피트, 산성 및 독 피해 저항 10, 암시야, 60피트 정밀 후각을 가진 이형이며, 타격 피해 2d10과 추가 산성 피해 2d6을 주는 촉수 비무장 공격(도달 거리 15피트)을 얻습니다. 촉수로 크리처를 명중시킨 뒤 행동 하나를 사용해 대상을 붙잡을 수 있습니다. 이 전투 형태인 동안 @UUID[Compendium.sf2e.actions.Item.Wt3PzHoo3BauvifP]{오물 분사} 능력도 얻습니다.</p>"
+    },
+    "Effect: Cultural Consumption": {
+      "name": "효과: 문화 흡수(Effect: Cultural Consumption)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bX2U1gmiLwmU6p4V]{문화 흡수}이 부여합니다.</p>\n<p>해당 문화와 관련된 크리처를 상대로 하는 매력 기반 기술 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Absorb Vibe": {
+      "name": "효과: 분위기 흡수(Effect: Absorb Vibe)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.B7kPbNFc2xKzfuwa]{분위기 흡수}이 부여합니다.</p>\n<p>근원의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Assistive Shove": {
+      "name": "효과: Assistive Shove(Effect: Assistive Shove)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.TD9g4O6m7jngmFag]{보조 밀치기}이 부여합니다.</p>\n<p>AC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Unstoppable Directives": {
+      "name": "효과: 멈출 수 없는 지시(Effect: Unstoppable Directives)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.Byflan3ypJEPDwby]{멈출 수 없는 지시}이 부여합니다.</p>\n<p>근원의 레벨 절반과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Unleash Majesty (Successful Demoralize)": {
+      "name": "효과: 위엄 해방(성공한 사기 저하)(Effect: Unleash Majesty (Successful Demoralize))",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.lTxbKyZoxEJWqHjX]{위엄 해방}이 부여합니다.</p>\n<p>근원의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Controlled Rage": {
+      "name": "효과: 통제된 격노(Effect: Controlled Rage)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.Mfih4GjatO1sw2Ug]{통제된 격노}이 부여합니다.</p>\n<p>자신의 레벨과 같은 임시 HP를 얻습니다. 근접 타격의 피해에도 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Coat in Bile": {
+      "name": "효과: 털가죽 속의 담즙(Effect: Coat in Bile)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.iUdoilRjGH6dI9qI]{담즙 바르기}이 부여합니다.</p>\n<p>선택한 무기로 하는 타격에 추가 독 피해를 줍니다.</p>"
+    },
+    "Effect: Sacrificial Shell": {
+      "name": "효과: Sacrificial Shell(Effect: Sacrificial Shell)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.cwDKKQoGztmdfnlf]{규율 잡힌 추종자}이 부여합니다.</p>\n<p>@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태가 되고, 맨틀 능력으로 얻은 정밀 피해 저항을 잃습니다.</p>"
+    },
+    "Effect: Dramatic Reading (Success)": {
+      "name": "효과: Dramatic Reading(성공)(Effect: Dramatic Reading (Success))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.QYQmAFvXirWpHeC3]{극적인 낭독}이 부여합니다.</p>\n<p>지각과 의지 내성 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Face in the Crowd": {
+      "name": "효과: 군중 속의 얼굴(Effect: Face in the Crowd)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.N68CjcvYmLF35KrD]{군중 속의 얼굴}이 부여합니다.</p>\n<p>최소 10명의 크리처가 있는 군중 속에서는 은신 판정에 +2 상황 보너스를, 최소 100명의 군중 속에서는 +4 상황 보너스를 얻습니다. 속임수의 달인이라면 이 보너스를 얻는 데 크리처 5명만 필요합니다.</p>"
+    },
+    "Effect: Unauthorized Helldriver": {
+      "name": "효과: 비인가 헬드라이버(Effect: Unauthorized Helldriver)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.0To4quWfTncrY5ON]{비인가 헬드라이버}이 부여합니다.</p>\n<p>조종 판정에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Instinctive Collaborator": {
+      "name": "효과: Instinctive Collaborator(Effect: Instinctive Collaborator)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.2ZPvgNZ9CfrsPWtY]{본능적인 협력자}이 부여합니다.</p>\n<p>근원을 원조하는 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Restorative Shapeshifting": {
+      "name": "효과: 회복형 변신(Effect: Restorative Shapeshifting)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.7yIxWfNZ7yEKs0Fd]{회복형 변신}이 부여합니다.</p>\n<p>자신의 레벨 절반과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: My Friends Are My Power!": {
+      "name": "효과: My Friends Are My Power!(Effect: My Friends Are My Power!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.jsHIAHWseRSVILx0]{친구들이 곧 내 힘이야!}이 부여합니다.</p>\n<p>공격 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Scorching Lifeblood": {
+      "name": "효과: Scorching Lifeblood(Effect: Scorching Lifeblood)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.1V710YUwzCDNcGfM]{타오르는 생명의 피}이 부여합니다.</p>\n<p>당신을 만지거나, 당신에게 관통 또는 참격 피해를 주거나, 근접 비무장 공격으로 명중한 크리처는 화염 피해 3d6을 받습니다.</p>"
+    },
+    "Effect: Show-Off": {
+      "name": "효과: 과시(Effect: Show-Off)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.TY7Jtspbyg5ALLgS]{과시}이 부여합니다.</p>\n<p>공연 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Voracious Bite (Temporary Hit Points)": {
+      "name": "효과: Voracious Bite(임시 HP)(Effect: Voracious Bite (Temporary Hit Points))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.4DEjy5LsbZQWl892]{게걸스러운 물기}이 부여합니다.</p>\n<p>자신의 레벨 절반과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Unleashed Anger": {
+      "name": "효과: 해방된 분노(Effect: Unleashed Anger)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.SAkw1zr6z8PKV3ZF]{해방된 분노}이 부여합니다.</p>\n<p>크기가 대형으로 증가하고 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태가 됩니다. 근접 피해에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Into Position! (Lead by Example)": {
+      "name": "효과: 위치로 이동!(모범 보이기)(Effect: Into Position! (Lead by Example))",
+      "description": "<p>모범 보이기를 사용한 @UUID[Compendium.sf2e.actions.Item.1lkfbLoteDlzoqxb]{위치로 이동!}이 부여합니다.</p>\n<p>다른 크리처를 상대로 하는 공격에 -1 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Battle Focus": {
+      "name": "효과: 전투 집중(Effect: Battle Focus)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.0c7nXTrqhEh7vyFh]{전투 집중}이 부여합니다.</p>\n<p>다음 1분 동안 적대적 크리처의 HP를 0으로 만들 때마다 자신의 레벨과 같은 HP(@Damage[@actor.level[healing]])을 회복합니다. @UUID[Compendium.sf2e.conditions.Item.Yl48xTdMh3aeQYL2]{부상} 상태라면 HP를 회복하는 대신 부상 수치를 1 감소시킬 수 있습니다.</p>"
+    },
+    "Effect: Bullet Fever": {
+      "name": "효과: 탄환 열병(Effect: Bullet Fever)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.9RqJNPSx5T6b2WoB]{탄환 열병}이 부여합니다.</p>\n<p>자신의 레벨 절반과 같은 임시 HP를 얻고, 조준 중인 것처럼 모든 대상에게 정밀 피해를 적용하며, AC와 의지 내성 굴림에 -1 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Treat Wounds Immunity": {
+      "name": "효과: 상처 치료 면역(Effect: Treat Wounds Immunity)",
+      "description": "<p>누군가 당신에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 사용하면 부여되며, 지속시간 동안 상처 치료에 일시적으로 면역이 됩니다.</p>"
+    },
+    "Effect: Frenzy": {
+      "name": "효과: Frenzy(Effect: Frenzy)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.TzaICdHvT6I8RMTP]{격분}이 부여합니다.</p>\n<p>근접 공격 굴림에 +2 상태 보너스를 얻고 AC에 -2 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Shattering Impact": {
+      "name": "효과: 파쇄 충격(Effect: Shattering Impact)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.4XYoe783SsKoVCsA]{파쇄 충격}이 부여합니다.</p>\n<p>속도에 -10피트 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Willful Defiance": {
+      "name": "효과: Willful Defiance(Effect: Willful Defiance)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.NUZClDNinM6oVgJN]{의지의 저항}이 부여합니다.</p>\n<p>표시된 크리처의 공격, 주문, 기타 효과에 대한 AC와 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Bursting Surge": {
+      "name": "효과: Bursting Surge(Effect: Bursting Surge)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.wVeEm29sNY7FKYGn]{폭발하는 쇄도}이 부여합니다.</p>\n<p>회로가 @Template[emanation|distance:10] 범위에 밝은 빛을, 그 너머 10피트까지 희미한 빛을 냅니다.</p>"
+    },
+    "Effect: Drop Tail": {
+      "name": "효과: Drop Tail(Effect: Drop Tail)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.8jmGw4nCmoq7pLWV]{꼬리 떼기}이 부여합니다.</p>\n<p>속도가 5피트 감소하고 곡예 판정에 -2 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Invoke the Leviathan": {
+      "name": "효과: 레비아탄 소환(Effect: Invoke the Leviathan)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ylKh9o44H479jxCc]{레비아탄 소환}이 부여합니다.</p>\n<p>초대형 이지티크리 레비아탄 전투 형태로 변신합니다.</p>\n<p>다음 능력치와 능력을 얻습니다.</p><ul><li>AC = 22 + 레벨. 방어구의 판정 페널티와 속도 감소를 무시합니다.</li><li>임시 HP 10.</li><li>속도 10피트, 비행 40피트, 수영 60피트.</li><li>다음 근접 비무장 공격. 이 공격에 숙련이며 공격 수정치는 +25입니다. 이 공격은 근력 기반입니다. 자신의 비무장 공격 수정치가 더 높다면 대신 사용할 수 있습니다. <strong>근접</strong> <span class=\"action-glyph\">1</span> 촉수(백스윙, 붙잡기, 도달 거리 30피트), 피해 타격 3d10+15; <strong>범위 사격</strong> <span class=\"action-glyph\">2</span> 통곡(@Template[type:cone|distance:60]), 음파 피해 3d10+15(클래스 DC 또는 주문 DC 중 더 높은 것에 대한 기본 반사 내성).</li><li>곡예 수정치 +15와 운동 수정치 +25. 자신의 수정치가 더 높다면 그 값을 사용합니다.</li></ul>"
+    },
+    "Effect: Size of the Ancients": {
+      "name": "효과: Size of the Ancients(Effect: Size of the Ancients)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ri5qV0g9RwwWLiBk]{고대종의 크기}이 부여합니다.</p>\n<p>크기가 초대형으로 커집니다. 도달 거리가 5피트 증가하며(함선 태생 드래곤킨이라면 10피트), 근접 피해에 +4 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Bring it On!": {
+      "name": "효과: 덤벼라!(Effect: Bring it On!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.3mMNEAr5wgTFC9mC]{덤벼라!}이 부여합니다.</p>\n<p>AC에 -2 상황 페널티를 받고 자신의 레벨 절반과 같은 모든 피해 저항을 얻습니다. 아머 스톰 전투 스타일이 있다면 제압된 크리처가 하는 공격에 대해서는 이 저항이 두 배가 됩니다.</p>"
+    },
+    "Effect: Rebellious Defiance": {
+      "name": "효과: 반역적 저항(Effect: Rebellious Defiance)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.nAJeT29ZJvqeg98h]{반역적 저항}이 부여합니다.</p>\n<p>표시된 크리처에 대한 공격 굴림에 +1 상황 보너스를 얻습니다. 또한 그 크리처의 공격, 주문, 효과에 대한 내성 굴림에도 이 보너스를 얻습니다.</p>"
+    },
+    "Effect: Voracious Bite (Recall Knowledge)": {
+      "name": "효과: Voracious Bite(지식 회상)(Effect: Voracious Bite (Recall Knowledge))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.4DEjy5LsbZQWl892]{게걸스러운 물기}이 부여합니다.</p>\n<p>대상과 같은 특성이 있는 크리처에 관한 정보를 회상하기 위한 다음 지식 회상 판정에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Vent Gas": {
+      "name": "효과: 가스 분출(Effect: Vent Gas)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.e9uXXN7GOtWBGz09]{가스 분출}이 부여합니다.</p>\n<p>모든 속도에 +10피트 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Contained Emotions": {
+      "name": "효과: 절제된 감정(Effect: Contained Emotions)",
+      "description": "<p>@UUID[Compendium.sf2e.ancestry-features.Item.NGInnZ5bj0dF1fo7]{절제된 감정}의 임시 효과입니다.</p>\n<p>동기 파악 판정에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Photosynthetic Regeneration": {
+      "name": "효과: Photosynthetic Regeneration(Effect: Photosynthetic Regeneration)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ywM6SzmYVXtYExQn]{광합성 재생}이 부여합니다.</p>\n<p>재생 20을 얻습니다.</p>"
+    },
+    "Effect: Unbound Mind": {
+      "name": "효과: 속박되지 않은 정신(Effect: Unbound Mind)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.j1FsKMy7CTtrp3Fu]{속박되지 않은 정신}이 부여합니다.</p>\n<p>정신 효과에 대한 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Diplomatic Retreat (Critical Success)": {
+      "name": "효과: 외교적 후퇴(대성공)(Effect: Diplomatic Retreat (Critical Success))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.PbGi8qVbMWTqq3Bd]{외교적 후퇴}이 부여합니다.</p>\n<p>근원을 대상으로 포함하거나 근원을 범위에 포함하는 적대적 행동의 공격 굴림과 내성 DC에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Become Ooze": {
+      "name": "효과: 점액체 되기(Effect: Become Ooze)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.pO1wkgklxp9j1taY]{점액체 되기}이 부여합니다.</p>\n<p>베기 및 관통 피해에 자신의 레벨 절반과 같은 저항을 얻습니다.</p>"
+    },
+    "Effect: Enter Rivener State": {
+      "name": "효과: 리브너 상태 진입(Effect: Enter Rivener State)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.kxXC7sNk5GCDqKeZ]{리브너 상태 진입}이 부여합니다.</p>\n<p>크기가 대형이 됩니다. 도달 거리가 5피트 증가하고 근접 피해에 +2 상태 보너스를 얻습니다. @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{우둔} 상태가 됩니다.</p>"
+    },
+    "Effect: Dehydrated": {
+      "name": "효과: 탈수(Effect: Dehydrated)",
+      "description": "<p>@UUID[Compendium.sf2e.ancestry-features.Item.ViiaTAW4zaoaYeim]{수분 보충}에 의해 부여됩니다.</p>\n<p>당신은 인내 내성 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Activate Sensilla": {
+      "name": "효과: 감각모 활성화(Effect: Activate Sensilla)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.OjxLbgV4KSq6NIYm]{감각모 활성화}이 부여합니다.</p>\n<p>부정확한 진동감각을 얻습니다.</p>"
+    },
+    "Effect: Size Up": {
+      "name": "효과: 파악하기(Effect: Size Up)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.iHzfiebxLxN3ogpH]{파악하기}이 부여합니다.</p>\n<p>크리처 하나를 자산으로 표시합니다. 자산을 상대로 하거나 자산과 관련된 속임수, 외교, 협박, 지각 판정에 +1 상황 보너스를 얻고, 자산에 대한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 시도에도 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Steel Yourselves!": {
+      "name": "효과: 마음을 다잡아!(Effect: Steel Yourselves!)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.gZr207z8Q7AuH2RT]{마음을 다잡아!}이 부여합니다.</p>\n<p>근원의 매력 수정치 + 그 레벨 절반과 같은 임시 HP를 얻습니다.</p>\n<p><strong>모범 보이기</strong> 피해를 주는 효과에 대한 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Psychic Wedge": {
+      "name": "효과: Psychic Wedge(Effect: Psychic Wedge)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.VPvxhpKUiRCPYxhv]{정신 쐐기}이 부여합니다.</p>\n<p>근원의 다른 선천 주문에 대한 내성 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Homing Mote": {
+      "name": "효과: 유도 광점(Effect: Homing Mote)",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.feats.Item.uLZcelY6CTKJOOLU]{유도 광점}이 부여합니다.</p>\n<p>근원은 당신의 엄폐 보너스와 은폐를 무시합니다.</p>"
+    },
+    "Effect: Visceral Warmask": {
+      "name": "효과: 본능적인 워마스크(Effect: Visceral Warmask)",
+      "description": "<p>[[/act demoralize]]{사기 저하}를 위한 협박 판정에 +1 상황 보너스, 감정 효과에 대한 의지 내성 굴림에 +1 상태 보너스를 얻으며, 턴 종료 시 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음} 상태를 1이 아니라 2 감소시킵니다.</p>"
+    },
+    "Effect: Dual Aim": {
+      "name": "효과: 이중 조준(Effect: Dual Aim)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.hE7UxbuJvB1PsB6x]{이중 조준}이 부여합니다.</p>\n<p>두 번째 크리처를 표식으로 선택합니다.</p>"
+    },
+    "Effect: One with the Void": {
+      "name": "효과: 하나 지닌 공허(Effect: One with the Void)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.u05dG8Wwt5N3K6lh]{공허와 하나 되기}이 부여합니다.</p>\n<p>공허 치유를 얻습니다.</p>"
+    },
+    "Effect: Shed Skin": {
+      "name": "효과: Shed Skin(Effect: Shed Skin)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.Wb4vtGqg2Cl2FF1k]{탈피}이 부여합니다.</p>\n<p>탈출에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Not Falling for That": {
+      "name": "그 수법에는 안 넘어가(Not Falling for That)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.tZpDvVvEqBGIKJ2n]{그 수법엔 안 넘어가}이 부여합니다.</p>\n<p>AC에 +1 상황 보너스와 속도에 +5피트 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Skillful Encouragement": {
+      "name": "효과: Skillful Encouragement(Effect: Skillful Encouragement)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.EFkWRLQwain42TFm]{능숙한 격려}이 부여합니다.</p>\n<p>기술 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Energy Infusion": {
+      "name": "효과: 에너지 주입(Effect: Energy Infusion)",
+      "description": "<p>타격이 마법적이 됩니다. 살아 있는 크리처에게는 추가 영혼 피해 1을 주고 사악함 특성을 얻거나, 언데드에게는 추가 영혼 피해 1을 주고 성스러움 특성을 얻습니다.</p>"
+    },
+    "Effect: Relentless Roller": {
+      "name": "효과: 끈질긴 구름꾼(Effect: Relentless Roller)",
+      "description": "<p>1라운드 동안 모든 속도에 +20피트 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Solar Weapon": {
+      "name": "효과: 태양 무기(Effect: Solar Weapon)",
+      "description": "<p>@UUID[Compendium.sf2e.class-features.Item.uUzVTZ7XohXlavB6]{솔라 현현}이 부여합니다.</p>\n<p>태양 무기 타격을 얻습니다.</p>"
+    },
+    "Effect: Mobile Aim": {
+      "name": "효과: 기동 조준(Effect: Mobile Aim)",
+      "description": "<p>에이란 사령관이 선택한 무기로 하는 공격은 추가 정밀 피해 2d6을 주고, 대상이 엄폐로 얻는 AC 보너스를 1 감소시킵니다.</p>"
+    },
+    "Effect: Telepredict": {
+      "name": "효과: 텔레예측(Effect: Telepredict)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bqQ80aCjgigKSJMY]{텔레예측}이 부여합니다.</p>\n<p>해당 크리처를 대상으로 하는 속임수 및 협박 판정과, 대상의 공포 특성 효과에 대한 내성 굴림에 +1 상황 보너스를 얻습니다. 대상에게 정신 피해를 주면 이 보너스가 +2로 증가합니다.</p>"
+    },
+    "Stance: All-Grabber Stance": {
+      "name": "자세: All-Grabber Stance(Stance: All-Grabber Stance)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.mKKbDTcRiCzazHis]{만물 붙잡기 태세}이 부여합니다.</p>\n<p>채찍질하는 사지 타격을 할 수 있습니다. 이는 타격 피해 3d6을 주고 난투 무기군에 속하며 붙잡기와 비무장 특성, 15피트 도달 거리를 가집니다. 세상 껴안기 활동도 사용할 수 있습니다.</p>"
+    },
+    "Effect: Fractal-Lite": {
+      "name": "효과: Fractal-Lite(Effect: Fractal-Lite)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.CSAHq7DUJIKqUH3B]{프랙털 라이트}이 부여합니다.</p>\n<p>방어구의 AC 아이템 보너스와 기타 모든 효과 및 보너스를 잃고 비무장 방어 숙련 등급을 사용합니다. 물리 피해 저항 8을 얻고 정밀 피해에 면역이 됩니다. 비행 속도가 없었다면 비행 속도 10피트를 얻습니다.</p>"
+    },
+    "Effect: Unforgiving Fury": {
+      "name": "효과: Unforgiving Fury(Effect: Unforgiving Fury)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.vCDJybbGPmPErHQV]{가차 없는 격노}이 부여합니다.</p>\n<p>자신의 매력 수정치와 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Bond Spell": {
+      "name": "효과: 유대 주문(Effect: Bond Spell)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ANmwfBz6O24D5Zje]{유대 주문}이 부여합니다.</p>\n<p>주문의 피해 또는 치유에 주문 랭크와 같은 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Harmonic Convergence": {
+      "name": "효과: 조화 수렴(Effect: Harmonic Convergence)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ELkCf9SO5URWXP0R]{조화 수렴}이 부여합니다.</p>\n<p>자신의 레벨 절반과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Nanite Armament Boost": {
+      "name": "효과: Nanite Armament Boost(Effect: Nanite Armament Boost)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.PYOgmegDpeiynDiK]{나나이트 무장 강화}이 부여합니다.</p>\n<p>무기는 전기 피해를 주며 부스트 특성을 얻습니다.</p>"
+    },
+    "Effect: Hold the Link": {
+      "name": "효과: Hold the Link(Effect: Hold the Link)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.YS5Kia3d15gzwIpi]{연결 붙잡기}이 부여합니다.</p>\n<p>정신 효과에 대한 내성 굴림에 -1 상태 페널티를 받고 정신 효과에 약점을 얻습니다.</p>"
+    },
+    "Effect: Undead Understanding (Critical Failure)": {
+      "name": "효과: Undead Understanding(대실패)(Effect: Undead Understanding (Critical Failure))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.pNhvzqasjOsMyxcW]{언데드 이해}이 부여합니다.</p>\n<p>정신 없는 언데드라면 정신 효과에 대한 면역을 잃습니다.</p>"
+    },
+    "Effect: Fight for the Fallen": {
+      "name": "효과: Fight for the Fallen(Effect: Fight for the Fallen)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.xiETkup8Lwj4LWAM]{쓰러진 이를 위한 싸움}이 부여합니다.</p>\n<p>타격을 하되 공격을 두 번 굴려 더 좋은 결과를 사용합니다.</p>"
+    },
+    "Effect: Sway the Heart, Stoke the Spirit": {
+      "name": "효과: Sway the Heart, Stoke the Spirit(Effect: Sway the Heart, Stoke the Spirit)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ypSQT2urAcrgaoQ1]{마음을 움직이고 영혼을 북돋우기}이 부여합니다.</p>\n<p>의지 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Confounding Disquisition (Failure)": {
+      "name": "효과: 혼란스러운 장광설(실패)(Effect: Confounding Disquisition (Failure))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.WR4Ziq4PIq2HFWyv]{혼란스러운 장광설}이 부여합니다.</p>\n<p>지각 판정과 의지 내성 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Let's Go": {
+      "name": "효과: Let's Go(Effect: Let's Go)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.crBuXVSCLtVwy4py]{가자!}이 부여합니다.</p>\n<p>속도에 +10피트 상태 보너스를 얻고 가속 상태가 됩니다. 라운드마다 이 추가 행동은 이동에만 사용할 수 있습니다.</p>\n<p>근원이 초음속 피트를 보유했다면, 렛츠 고로 가속된 동안 이동하면 다음 자신의 턴이 시작될 때까지 은폐를 얻습니다. 뚜렷한 시각적 현상으로 생긴 은폐이므로 평소와 마찬가지로 이 은폐를 사용해 숨을 수 없습니다.</p>"
+    },
+    "Effect: Focus Senses": {
+      "name": "효과: 감각 집중(Effect: Focus Senses)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.0vqXr3SYakIa19k3]{감각 집중}이 부여합니다.</p>\n<p>30피트 정밀 반향정위를 얻습니다.</p>"
+    },
+    "Effect: Scout (Cataclyst Human)": {
+      "name": "효과: 정찰(대재앙 인간)(Effect: Scout (Cataclyst Human))",
+      "description": "<p>@UUID[Compendium.sf2e.heritages.Item.t4Tq3fnDqou4slBY]{파국 생존자 인간}</p>\n<p>우선권 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Xenogourmand (Critical Success)": {
+      "name": "효과: Xenogourmand(대성공)(Effect: Xenogourmand (Critical Success))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.iDuGse1UVEfFnfom]{외계 미식가}이 부여합니다.</p>\n<p>제노고어망의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Infiltrator Enhanced Exploit": {
+      "name": "효과: 침투자 강화 익스플로잇(Effect: Infiltrator Enhanced Exploit)",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.class-features.Item.u4hB3FGFJwGtjrZB]{침투요원}이 부여합니다.</p>\n<p>당신이 근원을 상대로 근접 공격 굴림에서 대실패할 때마다 근원은 반응 행동으로 방해 공작을 사용할 수 있습니다.</p>"
+    },
+    "Effect: Effortless Influencer": {
+      "name": "효과: 타고난 영향력(Effect: Effortless Influencer)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.cMbBH7RBX6Qtrym3]{타고난 영향력}이 부여합니다.</p>\n<p>선택한 기술로 다음에 시도하는 판정에 +1 상태 보너스를 얻습니다. 자신의 판정이 대성공이었다면 대신 +2 보너스를 얻습니다.</p>"
+    },
+    "Effect: Stone-Faced Inscrutability": {
+      "name": "효과: Stone-Faced Inscrutability(Effect: Stone-Faced Inscrutability)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.tbJwCh7o7TfxGsnw]{돌처럼 굳은 무표정}이 부여합니다.</p>\n<p>근원을 상대로 동기 파악을 위한 지각 판정에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Gift of Gadrathar": {
+      "name": "효과: 가드라타르의 선물(Effect: Gift of Gadrathar)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.LCc4hWg33Gh1cOdO]{가드라타르의 선물}이 부여합니다.</p>\n<p>10분 동안 지상 속도와 같은 비행 속도를 얻습니다.</p>"
+    },
+    "Effect: Envenom Magazine": {
+      "name": "효과: Envenom Magazine(Effect: Envenom Magazine)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bcsiq3UyaOKTMuJi]{탄창 독 주입}이 부여합니다.</p>\n<p>선택한 무기로 산성, 타격, 독, 관통 또는 참격 피해를 주는 각 타격이나 자동 사격은 추가 독 피해 2d6도 줍니다.</p>"
+    },
+    "Effect: Shielding Arrogance": {
+      "name": "효과: 방패가 되는 오만(Effect: Shielding Arrogance)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.wI0g2nRfu2d0YFAd]{방패가 되는 오만}이 부여합니다.</p>\n<p>자신의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Nanite Form": {
+      "name": "효과: 나나이트 형상(Effect: Nanite Form)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.OlSfsaJSE4Lk7wkt]{나나이트 형상}이 부여합니다.</p>\n<p>크기가 초대형이 되고 군체 특성과 비행 속도 40피트를 얻습니다. 군체로서 다음 특징을 가집니다.</p><ul><li>@UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘}, @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{엎드림}, @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{구속} 상태에 면역입니다.</li><li>범위 및 물보라 피해에 약점 5를 가집니다.</li><li>다른 크리처와 같은 공간을 차지할 수 있으며, 피해 능력을 사용하려면 그렇게 해야 합니다.</li><li>2행동 활동으로 자신의 공간을 공유하는 모든 크리처에게 @Damage[10d6[acid]] 피해를 줄 수 있습니다. 클래스 DC 또는 주문 DC 중 높은 값에 대한 기본 반사 내성 굴림을 적용합니다.</li><li>말하거나, 주문을 시전하거나, 손이 필요한 조작 행동을 사용하거나, 마법 아이템을 활성화하거나, 원래 신체로 타격할 수 없습니다.</li><li>군체 정신 능력은 얻지 않으므로 정신 효과에는 정상적으로 영향을 받습니다.</li></ul>"
+    },
+    "Effect: Bolstered by Battle": {
+      "name": "효과: Bolstered by Battle(Effect: Bolstered by Battle)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.HKmLMpA5esbUsxTB]{전투로 고양됨}이 부여합니다.</p>\n<p>자신의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Gorge": {
+      "name": "효과: 포식(Effect: Gorge)",
+      "description": "<p>10 + 자신의 레벨 절반(내림)과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: According to My Calculations": {
+      "name": "효과: 제 계산에 따르면(Effect: According to My Calculations)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.IJvX7FJ40i84XPuR]{제 계산에 따르면}이 부여합니다.</p>\n<p>결과에 따라 다음 기술 판정 또는 공격 굴림에 상황 보너스나 페널티를 얻습니다.</p>"
+    },
+    "Effect: Nimbus Ward": {
+      "name": "효과: 후광 방호(Effect: Nimbus Ward)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.hAOjYvcgTbWQffbT]{후광 방호}이 부여합니다.</p>\n<p>현재 조율에 따라 피해 유형 하나를 선택합니다. 선택한 피해 유형에 자신의 레벨 절반(올림)과 같은 저항을 얻습니다.</p>"
+    },
+    "Effect: Heroic Last Stand": {
+      "name": "효과: 영웅적 마지막 저항(Effect: Heroic Last Stand)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.a9ER2amvCuQEJODm]{영웅적 최후의 저항}이 부여합니다.</p>\n<p>자신의 레벨과 같은 임시 HP를 얻습니다. 이 임시 HP가 남아 있는 동안 공포 효과에 대한 의지 내성 굴림에 +1 상황 보너스와 자신에게 사기 저하를 시도할 때의 의지 DC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Get in There!": {
+      "name": "효과: 들어가!(Effect: Get in There!)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ndYnIz8DvI8RpAup]{들어가!}이 부여합니다.</p>\n<p>속도에 +5피트 상태 보너스를 얻습니다. 7레벨, 12레벨, 17레벨에 이 거리가 각각 추가로 5피트 증가합니다.</p>"
+    },
+    "Effect: Sync Up": {
+      "name": "효과: Sync Up(Effect: Sync Up)",
+      "description": "<p>3라운드 동안 @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{가속} 상태가 되며, 추가 행동은 한 걸음, 이동, 원조 준비에만 사용할 수 있습니다. 지속시간 동안 측면 공격당할 수 없습니다. 하이브 마인드의 다른 동료 둘이 측면 공격 중인 대상을 원거리 타격하면, 그 타격에 대해 대상은 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비} 상태가 됩니다.</p>"
+    },
+    "Effect: Vapor Form": {
+      "name": "효과: 증기 형상(Effect: Vapor Form)",
+      "description": "<p>방어구의 AC 아이템 보너스와 기타 모든 효과 및 보너스를 잃고 비무장 방어 숙련 등급을 사용합니다. 물리 피해 저항 8을 얻고 정밀 피해에 면역이 됩니다. 주문을 시전하거나 아이템을 활성화하거나 공격 또는 조작 특성이 있는 행동을 사용할 수 없습니다. 원래 비행 속도와 같은 비행 속도를 얻고 아주 작은 틈으로 스며들 수 있습니다. 이 형태는 5분 동안 또는 해제할 때까지 지속됩니다.</p>"
+    },
+    "Effect: Primal Vitality": {
+      "name": "효과: Primal Vitality(Effect: Primal Vitality)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bRZsZmonloMTwjcE]{원시 생명력}이 부여합니다.</p>\n<p>이동을 끝낼 때 자신의 레벨과 같은 임시 HP를 얻습니다. 이는 1분 동안 지속됩니다.</p>"
+    },
+    "Effect: Get 'Em!": {
+      "name": "효과: 잡아!(Effect: Get 'Em!)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.cmCtfURzpbzkxWsy]{잡아!}이 부여합니다.</p>\n<p>표시된 대상에 대한 공격에 +1 상태 보너스를 얻습니다.</p>\n<p><strong>모범 보이기</strong> 근원은 표시된 대상에 대한 첫 타격에 자신의 매력 수정치와 같은 상태 보너스를 얻습니다. 당신은 다음 자신의 턴이 시작될 때까지 그 적을 상대로 하는 후속 타격의 피해에 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Elemental Perfect Harmony": {
+      "name": "효과: 원소 완전 조화(Effect: Elemental Perfect Harmony)",
+      "description": "<p>@UUID[Compendium.sf2e.class-features.Item.AurhNoZmNNhHktx6]{원소}이 부여합니다.</p>\n<p>미스틱의 일일 준비 중 선택한 두 원소에 대한 저항을 얻습니다.</p>"
+    },
+    "Effect: Ancestral Communion": {
+      "name": "효과: Ancestral Communion(Effect: Ancestral Communion)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.1UMvx9gjV6ekxT4Z]{선조와의 교감}이 부여합니다.</p>\n<p>선택한 기술에 +2 상태 보너스를 얻고, 일반적으로 해당 기술에 달인 숙련을 요구하는 모든 기술 판정을 시도할 수 있습니다. 그 기술에 비숙련이라면 비숙련 기술 판정의 숙련 보너스가 자신의 레벨과 같아집니다.</p>"
+    },
+    "Effect: Take 'Em Alive": {
+      "name": "효과: 생포하라(Effect: Take 'Em Alive)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.86YwN8XwJdk2kTgQ]{생포해!}이 부여합니다.</p>\n<p>무기를 사용한 공격과, 피해를 주면서 죽음 또는 공허 특성이 없는 주문에 비살상 특성을 추가합니다.</p>\n<p><strong>모범 보이기</strong> 근원의 첫 타격이 성공하면, 근원은 자신의 매력 수정치와 같은 피해 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Inscrutable": {
+      "name": "효과: 속을 알 수 없음(Effect: Inscrutable)",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.class-features.Item.8bE9icPZbaqFDGlC]{속을 알 수 없음}이 부여합니다.</p>\n<p>근원을 상대로 동기 파악에서 대성공 또는 성공을 굴리면 대신 실패를 얻습니다.</p>"
+    },
+    "Effect: Energy Consumption": {
+      "name": "효과: 에너지 소비(Effect: Energy Consumption)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.3RqBU4dfoegOPzqw]{에너지 소비}이 부여합니다.</p>\n<p>자신의 레벨과 같은 임시 HP와 에너지 차폐 피트를 얻습니다.</p>"
+    },
+    "Effect: Adhesive Grip": {
+      "name": "효과: Adhesive Grip(Effect: Adhesive Grip)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.0z6N6876SD83JfgY]{접착성 손아귀}이 부여합니다.</p>\n<p>당신이 붙잡은 크리처가 탈출 판정에서 실패를 굴리면 대신 대실패를 얻고, 대성공을 굴리면 대신 성공을 얻습니다.</p>"
+    },
+    "Effect: Solar Weapon (Twin Weapons)": {
+      "name": "효과: 태양 무기(쌍둥이 무기)(Effect: Solar Weapon (Twin Weapons))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.Mett2INmoUZxE0CR]{쌍둥이 무기}이 부여합니다.</p>\n<p>두 번째 태양 무기 타격을 얻습니다.</p>"
+    },
+    "Effect: Telekinetic Titan": {
+      "name": "효과: 염동 거인(Effect: Telekinetic Titan)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.Cj9UI2RZL6WBJ6EB]{염동 거인}이 부여합니다.</p>\n<p>하중 초과 상태가 되기 전까지 7 + 선택한 능력 수정치와 같은 벌크를 운반할 수 있으며, 총 12 + 선택한 능력 수정치와 같은 벌크를 들고 운반할 수 있습니다. @UUID[Compendium.sf2e.actions.Item.gNUrQ8jimAvAA0xg]{염동력 들어올리기} 행동을 얻습니다.</p>"
+    },
+    "Effect: Mental Interference": {
+      "name": "효과: 정신 간섭(Effect: Mental Interference)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.pOQv4G8pLP6SWbmr]{정신 간섭}이 부여합니다.</p>\n<p>공격 굴림과 의지 내성 굴림에 -1 상태 페널티를 받습니다(대성공 시 -2).</p>"
+    },
+    "Effect: Channel the World's Core": {
+      "name": "효과: 세계의 핵 전달(Effect: Channel the World's Core)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.hfICrKOU1m8UChoi]{세계의 핵 전달}이 부여합니다.</p>\n<p>무기로 다음에 하는 공격은 무기 피해 주사위 하나당 추가 피해 1d4를 줍니다.</p>"
+    },
+    "Effect: Unstable Overdrive": {
+      "name": "효과: 불안정 하중 초과(Effect: Unstable Overdrive)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.8Xp7Pj7w0jcoQVvW]{불안정 하중 초과}이 부여합니다.</p>\n<p>가속 및 오작동 1 상태가 됩니다. 이런 방식으로 가속된 동안 AC, 공격 굴림, 내성 굴림에 +2 상태 보너스를 얻습니다. 가속 상태를 잃을 때까지 오작동 수치를 감소시킬 수 없습니다.</p>"
+    },
+    "Effect: Scrapper's Ingenuity": {
+      "name": "효과: Scrapper's Ingenuity(Effect: Scrapper's Ingenuity)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.U9Cv3DBWBjTPg1eR]{고철업자의 독창성}이 부여합니다.</p>\n<p>제작 또는 수리를 위한 다음 제작 판정에 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Cannonball": {
+      "name": "효과: Cannonball(Effect: Cannonball)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.q5wpA72zrimqgAXW]{포탄}이 부여합니다.</p>\n<p>반응 행동을 사용해 근원의 몸을 무기로 원거리 타격을 시도할 수 있습니다. 이는 타격 피해 1d10을 주는 비무장 공격입니다. 이 비무장 공격은 난투 무기군에 속하고 기민, 아날로그, 야만적, 투척(20피트) 특성을 가집니다. 또한 근원이 착용한 <em>하드라이트 손붕대</em>의 혜택을 얻습니다.</p>"
+    },
+    "Effect: Adaptive Dermis": {
+      "name": "효과: Adaptive Dermis(Effect: Adaptive Dermis)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.v6wKk4pHYdaH7Ubj]{적응성 진피}이 부여합니다.</p>\n<p>선택한 피해 유형에 대한 저항 5를 얻습니다.</p>"
+    },
+    "Effect: Latch On": {
+      "name": "효과: Latch On(Effect: Latch On)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.U9AtNbpmav4v6ZPh]{달라붙기}이 부여합니다.</p>\n<p>자신의 레벨 절반과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Cue the Music": {
+      "name": "효과: 음악 시작(Effect: Cue the Music)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.BR7x21W93kN3DP2m]{음악 시작}이 부여합니다.</p>\n<p>우선권 굴림과 감정 효과에 대한 내성 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Restorative Chatter": {
+      "name": "효과: 회복의 수다(Effect: Restorative Chatter)",
+      "description": "<p>동료와 소통할 수 있을 때 몸이 물리적으로 치유됩니다. 동료와의 소통이 청각인지 시각인지 선택할 수 있으며, 이 행동은 사용할 때 해당 특성을 얻습니다. 1분 동안 자신의 레벨 절반과 같은 빠른 치유를 얻습니다. 회복의 수다가 활성화된 동안 요구 사항을 더 이상 충족하지 못하면 이 빠른 치유가 끝납니다.</p>"
+    },
+    "Effect: Unleash Majesty": {
+      "name": "효과: 위엄 해방(Effect: Unleash Majesty)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.lTxbKyZoxEJWqHjX]{위엄 해방}이 부여합니다.</p>\n<p>의지 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Hold Hands": {
+      "name": "효과: 손잡기(Effect: Hold Hands)",
+      "description": "<p>당신을 [[/act demoralize]]{사기 저하}, [[/act reposition]]{위치 바꾸기}, [[/act shove]]{밀치기}, [[/act trip]]{넘어뜨리기} 하려는 시도에 대한 내성 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Inheritor of Star's Glory": {
+      "name": "효과: 별의 영광을 잇는 자(Effect: Inheritor of Star's Glory)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.k6nITfPqPA04zc6K]{별의 영광을 잇는 자}이 부여합니다.</p>\n<p>크기가 소형이 됩니다(거대한 노비안이라면 중형). 근접 피해와 협박 판정에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Wriggling Tail (Penalty)": {
+      "name": "효과: Wriggling Tail(페널티)(Effect: Wriggling Tail (Penalty))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.z3cF7KHZKCl3LNu1]{꿈틀거리는 꼬리}이 부여합니다.</p>\n<p>균형 잡기 판정에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Undead Slayer": {
+      "name": "효과: 언데드 슬레이어(Effect: Undead Slayer)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.kC42tjY689rma6Uc]{언데드 사냥꾼}이 부여합니다.</p>\n<p>표시된 크리처를 상대로 하는 공격에서 모든 무기와 비무장 공격의 치명타 특수화 효과를 사용할 수 있습니다.</p>"
+    },
+    "Effect: Relentless Endurance": {
+      "name": "효과: 끈질긴 인내(Effect: Relentless Endurance)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.o2Tknvim2UP2W6Yk]{끈질긴 인내}이 부여합니다.</p>\n<p>임시 HP 1d8+4를 얻습니다. 이 임시 HP는 6레벨에, 그리고 그 이후 4레벨마다 1d8+4씩 증가합니다.</p>"
+    },
+    "Effect: Star Brand": {
+      "name": "효과: 별의 낙인(Effect: Star Brand)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.3HmrwfbkjMHn6jw0]{별의 낙인}이 부여합니다.</p>\n<p>크리처 하나를 표시합니다. 표시된 크리처를 대상으로 할 때 태양 플레어의 사거리 증분이 60피트 증가합니다.</p>"
+    },
+    "Effect: Hull Hop": {
+      "name": "효과: Hull Hop(Effect: Hull Hop)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.qKU2thbKGqrpplnD]{선체 도약}이 부여합니다.</p>\n<p>10분 동안 지상 속도와 같은 비행 속도를 얻습니다.</p>"
+    },
+    "Effect: Meditative Analysis": {
+      "name": "효과: 명상 분석(Effect: Meditative Analysis)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.d8ekF23HTScyOrbr]{명상 분석}이 부여합니다.</p>\n<p>다음 태양 무기 타격에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Wide Field of View": {
+      "name": "효과: 넓은 시야(Effect: Wide Field of View)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.JpSwlkJJtj9uo8UH]{넓은 시야}이 부여합니다.</p>\n<p>전방위 시야를 얻습니다.</p>"
+    },
+    "Effect: Improvised Mastery": {
+      "name": "효과: 즉석 달인(Effect: Improvised Mastery)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.WFFYDg0sgjaXCeq6]{즉석 달인}이 부여합니다.</p>\n<p>선택한 기술에 달인 숙련을 얻습니다. 전설적 즉흥이 있다면 전설 숙련을 얻습니다.</p>"
+    },
+    "Effect: Above and Below": {
+      "name": "효과: Above and Below(Effect: Above and Below)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.bzrvvxwRs9XMn1hN]{위와 아래}이 부여합니다.</p>\n<p>당신을 상대로 하는 무장 해제, 페인트, 위치 변경, 밀치기, 넘어뜨리기, 통과 곡예 시도에 대한 DC에 -2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Picklecore Music (Critical Success)": {
+      "name": "효과: Picklecore Music(대성공)(Effect: Picklecore Music (Critical Success))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.7Lfk5mDqLNQYhROJ]{피클코어 음악}이 부여합니다.</p>\n<p>모든 속도에 +5피트 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Apocalypse Smite": {
+      "name": "효과: 종말의 강타(Effect: Apocalypse Smite)",
+      "description": "<p>팽은 표시된 대상에게 추가 공허 피해 2d8을 줍니다.</p>"
+    },
+    "Effect: Dramatic Reading (Critical Success)": {
+      "name": "효과: Dramatic Reading(대성공)(Effect: Dramatic Reading (Critical Success))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.QYQmAFvXirWpHeC3]{극적인 낭독}이 부여합니다.</p>\n<p>지각과 의지 내성 굴림에 -1 상태 페널티를 받습니다.</p>"
+    },
+    "Effect: Weightless Defense": {
+      "name": "효과: Weightless Defense(Effect: Weightless Defense)",
+      "description": "<p>부유 상태로 인해 생긴 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비} 상태를 잃고, 부유 상태인 동안 또는 조작 특성이 있는 행동을 사용할 때까지 AC와 반사 내성 굴림에 +1 상황 보너스를 얻습니다.</p><hr /><p><strong>특수</strong> 공허 수행자 카사타라면 조작 특성이 있는 행동을 사용해도 무중력 방어의 혜택을 잃지 않습니다.</p>"
+    },
+    "Effect: Tactical Tutelage": {
+      "name": "효과: 전술 지도(Effect: Tactical Tutelage)",
+      "description": "<p>추가 정밀 피해 2d4를 주고, 대상이 엄폐로 얻는 AC 보너스를 1 감소시킵니다.</p>"
+    },
+    "Effect: Rush of Adrenaline": {
+      "name": "효과: Rush of Adrenaline(Effect: Rush of Adrenaline)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.JnpK0Ka0vj91Wilr]{아드레날린 쇄도}이 부여합니다.</p>\n<p>자신의 레벨과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Tangible Object (Anchoring Effect)": {
+      "name": "효과: 유형의 물체(고정 효과)(Effect: Tangible Object (Anchoring Effect))",
+      "description": "<p>@UUID[Compendium.sf2e.class-features.Item.Z1sThY5XgXiXQBIy]{유형의 물체}이 부여합니다.</p>\n<p>공포 효과에 대한 의지 내성 굴림에 +1 상황 보너스와 자신에게 사기 저하를 시도할 때의 의지 DC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Flamespewer": {
+      "name": "효과: Flamespewer(Effect: Flamespewer)",
+      "description": "<p>일일 준비 중 기술 무기 하나를 손봐 업그레이드 슬롯을 사용해 다음 일일 준비까지 화학 탱크를 적용할 수 있습니다. 무기는 화염 피해를 주고 부스트 1d6과 치명타(화염) 특성을 얻습니다. 이미 화염 피해를 줬다면 대신 부스트 1d8 특성을 얻습니다. 무기를 부스트할 때마다 화학 물질 1개를 소비합니다.</p>"
+    },
+    "Effect: Mycelium Armor": {
+      "name": "효과: 균사체 갑옷(Effect: Mycelium Armor)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.z2svGGsaTEx65Ovg]{균사체 갑옷}이 부여합니다.</p>\n<p>AC에 +2 상태 보너스와 물리 피해 저항 10을 얻고 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태가 됩니다.</p>\n<p>이 능력이 활성화된 동안 HP 또는 임시 HP를 얻으면 다음 자신의 턴이 끝날 때까지 모든 근접 비무장 타격으로 추가 독 피해 2d6을 줍니다.</p>"
+    },
+    "Effect: Nanite Surge (Bonus)": {
+      "name": "효과: 나나이트 서지 (보너스)(Effect: Nanite Surge (Bonus))",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.JS24EjgLYcHB9E3T]{나나이트 쇄도}에 의해 부여됩니다.</p>\n<p>당신은 촉발 기술 판정에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Spellsurge Ammo": {
+      "name": "효과: 주문쇄도 탄약(Effect: Spellsurge Ammo)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.nygEe8US6gwSPJ9t]{주문쇄도 탄약}이 부여합니다.</p>\n<p>무기 또는 수류탄은 주문 랭크와 같은 추가 역장 피해를 주고 마법 특성을 얻습니다. 주문이 피해를 준다면 추가 피해는 발동시킨 주문과 같은 유형이 됩니다.</p>"
+    },
+    "Effect: Keep on Keeping On!": {
+      "name": "효과: 계속 버텨!(Effect: Keep on Keeping On!)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.oRdDgSC3RVpNgisd]{계속 버텨!}이 부여합니다.</p>\n<p>다음에 받는 치유량이 근원의 매력 수정치 + 그 레벨 절반만큼 증가합니다.</p>"
+    },
+    "Effect: Tactical Strike": {
+      "name": "효과: 전술 타격(Effect: Tactical Strike)",
+      "description": "<p>공격 및 피해 굴림에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Solar Shield": {
+      "name": "효과: 태양 방패(Effect: Solar Shield)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.hKkUTNTjRztyRSJr]{태양 방패}이 부여합니다.</p>\n<p>방패 들기를 사용할 수 있으며 AC에 +1 상황 보너스를 얻습니다. 방패를 들고 있는 동안 방패로 방패 막기 반응 행동을 사용할 수 있습니다.</p>"
+    },
+    "Effect: Adaptive Resistance": {
+      "name": "효과: 적응형 저항(Effect: Adaptive Resistance)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ML54yt0PcuEz4DdO]{적응형 저항}이 부여합니다.</p>\n<p>대상이 저항 또는 면역인 피해 유형 하나를 선택합니다. 1분 동안 그 피해 유형에 자신의 레벨 절반과 같은 저항을 얻습니다. 크리처가 복합 저항 또는 면역을 지녔다면 피해 유형 하나를 선택합니다. 예를 들어 모든 물리 피해에 저항이 있다면 타격, 관통, 베기 중 하나를 선택할 수 있습니다.</p>\n<p>대상의 저항이나 면역을 모른다면 무작위로 선택된 저항을 얻습니다. 대상에게 면역이나 저항이 없다면 저항을 얻지 않으며, 이 사용은 적응 저항의 빈도에 포함되지 않습니다.</p>"
+    },
+    "Effect: Attuned Wards": {
+      "name": "효과: 조율 방호(Effect: Attuned Wards)",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.feats.Item.eTefuy0BRvwAcqbQ]{조율 방호}이 부여합니다.</p>\n<p>1라운드 동안 서투름 1 및 무방비 상태가 됩니다. 이번 턴에 근원을 두 번째로 명중한 것이라면 서투름 2로 증가합니다.</p>"
+    },
+    "Effect: Adaptive Defense": {
+      "name": "효과: 적응 방어(Effect: Adaptive Defense)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.y0dtKu1ZuwqMUFEf]{적응 방어}이 부여합니다.</p>\n<p>피해 유형 하나에 주문 랭크와 같은 저항을 얻습니다.</p>"
+    },
+    "Effect: Absorb Flame": {
+      "name": "효과: 흡수 화염(Effect: Absorb Flame)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.Y5mpjkk8s6UQJYvQ]{화염 흡수}이 부여합니다.</p>\n<p>다음 타격이 자신의 레벨 절반(올림)과 같은 추가 화염 피해를 줍니다.</p>"
+    },
+    "Effect: Hold the Line": {
+      "name": "효과: 전선을 사수하라(Effect: Hold the Line)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.FY7tx79zrMwmo5OQ]{전선을 사수하라}이 부여합니다.</p>\n<p>속도에 +5피트 상태 보너스와 첫 번째 공격에 +1 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Agglomerate Leshy": {
+      "name": "효과: Agglomerate 레시(Effect: Agglomerate Leshy)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.h1tBbW1xX0nKzkpm]{응집 레시}이 부여합니다.</p>\n<p>도달 거리가 5피트 증가하고 근접 피해 굴림에 +2 상태 보너스를 얻으며 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 상태가 됩니다.</p>"
+    },
+    "Effect: Head of Steam": {
+      "name": "효과: Head of Steam(Effect: Head of Steam)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.wCZL42wzt33CuCSX]{증기 추진력}이 부여합니다.</p>\n<p>속도가 5피트 증가합니다.</p>"
+    },
+    "Effect: Deadlift": {
+      "name": "효과: 데드리프트(Effect: Deadlift)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.Wc26O3XFKxWfxY5N]{데드리프트}이 부여합니다.</p>\n<p>하중 초과 상태가 되기 전까지 평소보다 벌크 4를 더 운반할 수 있습니다. 이 양은 전문가에서 6, 달인에서 8, 전설에서 10으로 증가합니다.</p>"
+    },
+    "Effect: Smooth Operator": {
+      "name": "효과: Smooth Operator(Effect: Smooth Operator)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.EgclcqDiOi0CvNse]{매끄러운 수완가}이 부여합니다.</p>\n<p>크리처가 당신을 붙잡기, 밀치기, 넘어뜨리기 하는 판정에서 실패를 굴리면 대신 대실패를 얻습니다.</p>"
+    },
+    "Effect: Convergent Ablation": {
+      "name": "효과: Convergent Ablation(Effect: Convergent Ablation)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.vcacDqeCGBqpBp4u]{수렴성 삭마}이 부여합니다.</p>\n<p>발동시킨 에너지 피해 유형에 자신의 레벨과 같은 저항을 얻습니다.</p>"
+    },
+    "Effect: Bionanite Skin": {
+      "name": "효과: 바이오나나이트 피부(Effect: Bionanite Skin)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.Pow1h2QqTny9Ycmz]{바이오나나이트 피부}이 부여합니다.</p>\n<p>변장 판정에 +2 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Life-Giving Light": {
+      "name": "효과: Life-Giving Light(Effect: Life-Giving Light)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.ZPBbez3ZvXHCJKtY]{생명을 주는 빛}이 부여합니다.</p>\n<p>근원의 레벨 절반과 같은 임시 HP를 얻습니다.</p>"
+    },
+    "Effect: Kindle Blaze": {
+      "name": "효과: 불길 점화(Effect: Kindle Blaze)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.dp3jTnxAb98E2BCk]{불길 점화}이 부여합니다.</p>\n<p>반경 30피트에 밝은 빛을, 그다음 30피트에 희미한 빛을 냅니다. 냉기 특성이 있는 공격, 주문, 기타 효과에 대한 내성 굴림에도 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Electric Kalo": {
+      "name": "효과: 전기 칼로(Effect: Electric Kalo)",
+      "description": "<p>@UUID[Compendium.sf2e.heritages.Item.ZAOKze0PTYPPbUua]{전기 칼로}이 부여합니다.</p>\n<p>자신의 레벨 절반과 같은 전기 저항을 얻습니다(최소 1).</p>"
+    },
+    "Effect: Cooperative": {
+      "name": "효과: 협동(Effect: Cooperative)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.LHtaCR4gS4kozJyP]{협동}이 부여합니다.</p>\n<p>원조 판정에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Elemental Harmony": {
+      "name": "효과: 원소 조화(Effect: Elemental Harmony)",
+      "description": "<p>@UUID[Compendium.sf2e.class-features.Item.AurhNoZmNNhHktx6]{원소}이 부여합니다.</p>\n<p>다음 타격은 일반적인 피해 대신 선택한 유형의 피해를 줍니다.</p>"
+    },
+    "Effect: Phase Shift": {
+      "name": "효과: 위상 전환(Effect: Phase Shift)",
+      "description": "<p>군체는 다음 자신의 턴이 시작될 때까지 비실체가 됩니다. 또한 모든 피해에 저항 10을 얻습니다(역장, 고스트 터치, 영혼 제외. 비마법 피해에는 저항 두 배). 비실체인 동안 군체는 군체 물기의 내성 굴림에 실패한 크리처에게 추가 정밀 피해 1d10을 줍니다.</p>"
+    },
+    "Effect: Atmospheric Flight": {
+      "name": "효과: Atmospheric Flight(Effect: Atmospheric Flight)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.wZyBTTRM2BjC93gg]{대기 비행}이 부여합니다.</p>\n<p>지상 속도보다 10피트 높은 비행 속도를 얻습니다.</p>"
+    },
+    "Effect: Practiced Leader": {
+      "name": "효과: 숙련된 지도자(Effect: Practiced Leader)",
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.jLcgJnDgWMkD2HF3]{숙련된 지도자}이 부여합니다.</p>\n<p>@UUID[Compendium.sf2e.actions.Item.tfa4Sh7wcxCEqL29]{전문가 따라하기}로 얻는 상황 보너스가 1 증가합니다.</p>"
+    },
+    "Effect: Redirect Energy": {
+      "name": "효과: 에너지 전환(Effect: Redirect Energy)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.9P2ZptR0PrYyiJFl]{에너지 전환}이 부여합니다.</p>\n<p>선택한 무기는 발동시킨 피해 유형의 추가 피해 1d4를 줍니다. 이 동안 완벽한 균형으로 얻은 해당 피해 유형 저항을 잃습니다.</p>"
+    }
+  }
+}

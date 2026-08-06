@@ -1,0 +1,66 @@
+{
+  "label": "스타파인더 협회 보언",
+  "folders": {},
+  "entries": {
+    "Ooranak Rescuer": {
+      "name": "우라낙 구조자(Ooranak Rescuer)",
+      "description": "<p><strong>요구 사항</strong> 우라낙 새끼를 구조하여 집으로 돌려보냈습니다.</p><hr /><p><strong>효과</strong> 현실의 결이 꿰매진 우라낙 새끼를 구한 일은 당신의 영혼에 지워지지 않는 흔적을 남겨, 당신이 영원히 동물의 친구임을 나타냅니다. 동물에게 [[/act command-an-animal]]{동물 명령}을 할 때의 자연 판정과 동물을 진정시키거나 친구가 되기 위해 시도하는 모든 기술 판정에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Secondary Initiation": {
+      "name": "보조 개시(Secondary Initiation)",
+      "description": "<p><strong>비용</strong>: 8 AcP</p><hr /><p>선택한 조직 하나의 선택지에 대한 접근 권한을 얻습니다.</p>"
+    },
+    "Glarecaster": {
+      "name": "글레어캐스터(Glarecaster)",
+      "description": "<p>코르-몬탁의 불안한 영혼 랄-티에게 무기 업그레이드를 받았습니다. 이 캐릭터는 @UUID[Compendium.sf2e.equipment.Item.raxz4fpTfjM0L1Qj]{눈부심 방사기} 무기 업그레이드에 접근할 수 있어 이를 구매할 수 있습니다.</p>"
+    },
+    "Revival Protocol": {
+      "name": "소생 프로토콜(Revival Protocol)",
+      "description": "<p><strong>비용</strong>: 40 AcP</p><hr /><p>부활 의식의 혜택을 얻습니다.</p>"
+    },
+    "Legacy Admittance: Leshy": {
+      "name": "유산 입회: 레시(Legacy Admittance: Leshy)",
+      "description": "<p><strong>비용</strong>: 8 AcP</p><hr /><p>패스파인더 플레이어 코어에 수록된 레시 종족으로 플레이어 캐릭터를 만듭니다.</p>"
+    },
+    "Legacy Admittance: Elf": {
+      "name": "유산 입회: 엘프(Legacy Admittance: Elf)",
+      "description": "<p><strong>비용</strong>: 8 AcP</p><hr /><p>패스파인더 플레이어 코어에 수록된 엘프 종족으로 플레이어 캐릭터를 만듭니다.</p>"
+    },
+    "Mnemonic Editor": {
+      "name": "기억 편집기(Mnemonic Editor)",
+      "description": "<p><strong>비용</strong>: 20 AcP</p><hr /><p>모험을 3개보다 많이 완료한 플레이어 캐릭터를 재구축합니다.</p>"
+    },
+    "Legacy Admittance: Dwarf": {
+      "name": "유산 입회: 드워프(Legacy Admittance: Dwarf)",
+      "description": "<p><strong>비용</strong>: 8 AcP</p><hr /><p>패스파인더 플레이어 코어에 수록된 드워프 종족으로 플레이어 캐릭터를 만듭니다.</p>"
+    },
+    "Legacy Admittance: Halfling": {
+      "name": "유산 입회: 하플링(Legacy Admittance: Halfling)",
+      "description": "<p><strong>비용</strong>: 8 AcP</p><hr /><p>패스파인더 플레이어 코어에 수록된 하플링 종족으로 플레이어 캐릭터를 만듭니다.</p>"
+    },
+    "Expanded Summoning - Pathfinder Monster Core": {
+      "name": "확장 소환 - 패스파인더 몬스터 코어(Expanded Summoning - Pathfinder Monster Core)",
+      "description": "<p><strong>비용</strong>: 40 AcP</p><hr /><p>이 캐릭터는 소환 주문에 사용할 목적으로 패스파인더 몬스터 코어의 크리처에 접근할 수 있습니다.</p>"
+    },
+    "Magic Unleashed": {
+      "name": "해방된 마법(Magic Unleashed)",
+      "description": "<p>아스피스 컨소시엄 기지를 방어해 준 감사의 표시로, 잭스는 마법적인 빛의 티끌을 포함한 유용한 장비 모음을 건넸습니다. 이 캐릭터는 @UUID[Compendium.sf2e.equipment.Item.6xFaHl4tPTKMFaW6]{찬란한 별빛 알갱이}에 접근할 수 있어 이를 구매할 수 있습니다.</p>"
+    },
+    "Legacy Admittance: Goblin": {
+      "name": "유산 입회: 고블린(Legacy Admittance: Goblin)",
+      "description": "<p><strong>비용</strong>: 8 AcP</p><hr /><p>패스파인더 플레이어 코어에 수록된 고블린 종족으로 플레이어 캐릭터를 만듭니다.</p>"
+    },
+    "One With the World Soul": {
+      "name": "세계 영혼과 하나 되어(One With the World Soul)",
+      "description": "<p>당신은 아키톤 행성의 영혼과 유대를 맺는 의식을 성공적으로 수행했습니다. 이 연결은 시간이 흐르며 희미해졌지만, 당신은 여전히 행성의 힘 일부를 간직하고 있습니다. 아키톤 지식에 대한 @UUID[Compendium.sf2e.feats.Item.BocFD2KV0qgUC76x]{추가 전승} 일반 피트를 얻습니다(이미 아키톤 지식에 대한 추가 지식이 있다면, 대신 아키톤 지식에 대한 @UUID[Compendium.sf2e.feats.Item.W6Gl9ePmItfDHji0]{확신} 일반 피트를 얻습니다). 원시 주문 목록에서 커먼 소마법 하나를 선택합니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}와 선택한 소마법을 원초 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 당신의 레벨 절반(올림)과 같은 주문 랭크로 고조됩니다.</p>"
+    },
+    "Legacy Admittance: Gnome": {
+      "name": "유산 입회: 노움(Legacy Admittance: Gnome)",
+      "description": "<p><strong>비용</strong>: 8 AcP</p><hr /><p>패스파인더 플레이어 코어에 수록된 노움 종족으로 플레이어 캐릭터를 만듭니다.</p>"
+    },
+    "Starfinder Condition Removal": {
+      "name": "스타파인더 상태 제거(Starfinder Condition Removal)",
+      "description": "<p><strong>비용</strong>: 20 AcP</p><hr /><p>이 캐릭터는 주문으로 해소할 수 있는 상태 하나를 제거합니다. 이 보언에는 추가 크레딧 비용이 없습니다.</p>"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "label": "장비 효과",
+  "folders": {},
+  "entries": {
+    "Effect: Jetpack": {
+      "name": "효과: 제트팩(Effect: Jetpack)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.CIZ3Walj6DmiaJGq]{상업용 제트팩}, @UUID[Compendium.sf2e.equipment.Item.DnuTMCJFBDj9nNRx]{전술용 제트팩}이 부여합니다.</p>\n<p>비행 속도를 얻습니다.</p>"
+    },
+    "Effect: Raise a Shield": {
+      "name": "효과: 실드 올리기(Effect: Raise a Shield)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.xjGwis0uaC2305pm]{방패 올리기}에 의해 부여됩니다.</p>\n<p>당신이 방패를 올렸을 때, 당신은 해당 방패의 명시된 상황 보너스를 AC에 얻습니다.</p>"
+    },
+    "Effect: Explorer's Canteen": {
+      "name": "효과: 탐험가의 수통(Effect: Explorer's Canteen)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.WGdcokSMynEyF332]{탐험가의 수통}이 부여합니다.</p>\n<p>음식이나 물에 들어 있는 독 또는 질병에 대한 내성 굴림에 +1 아이템 보너스를 얻습니다.</p>"
+    },
+    "Effect: Artificial Immortalizer": {
+      "name": "효과: 인공 불사 장치(Effect: Artificial Immortalizer)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.0J8PMTLDGIIP1KGE]{인공 불멸화 장치}가 부여합니다.</p>\n<p>임시 HP 50을 얻습니다.</p>"
+    },
+    "Effect: Force Field": {
+      "name": "효과: 역장(Effect: Force Field)",
+      "description": "<p>역장의 HP를 추적하는 효과입니다.</p>"
+    },
+    "Effect: Let the Sun Shine": {
+      "name": "효과: 햇빛을 비추자(Effect: Let the Sun Shine)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.SYDiwWNqohoedjZC]{선버스트 화환}이 부여합니다.</p>\n<p>20피트 발산 범위에 밝은 빛을, 그 너머 20피트까지 희미한 빛을 냅니다.</p>"
+    },
+    "Effect: Bone Serum": {
+      "name": "효과: 뼈 혈청(Effect: Bone Serum)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.dvvYuzx0QUORXMl1]{뼈 혈청}이 부여합니다.</p>\n<p>공허 치유를 얻습니다.</p>"
+    },
+    "Effect: Sharpshooter Serum (Reduce Cover)": {
+      "name": "효과: 명사수 혈청(엄폐 감소)(Effect: Sharpshooter Serum (Reduce Cover))",
+      "description": "<p>임시 효과를 통해 @UUID[Compendium.sf2e.equipment.Item.xBlfbu0fUmV6ucqR]{상업용 명사수 혈청}, @UUID[Compendium.sf2e.equipment.Item.vcCeNRokXv5HSlRf]{전술용 명사수 혈청}이 부여합니다.</p>\n<p>엄폐로 얻는 AC 상황 보너스가 감소합니다.</p>"
+    },
+    "Effect: Hypopen (Quickened or Fast Healing)": {
+      "name": "효과: 하이포펜(가속 또는 빠른 치유)(Effect: Hypopen (Quickened or Fast Healing))",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.gRZxPwfmz3O0bgOt]{정예 하이포펜} 또는 @UUID[Compendium.sf2e.equipment.Item.6JzH3VDHqv2rZJer]{궁극 하이포펜}가 부여합니다.</p>\n<p>다음 혜택 중 하나를 선택합니다.</p><ul><li>가속 상태가 됩니다. 추가 행동은 한 걸음, 이동, 타격에 사용할 수 있습니다.</li><li>빠른 치유 10을 얻습니다.</li></ul>"
+    },
+    "Effect: Sharpshooter Serum": {
+      "name": "효과: 명사수 혈청(Effect: Sharpshooter Serum)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.xBlfbu0fUmV6ucqR]{상업용 명사수 혈청}, @UUID[Compendium.sf2e.equipment.Item.vcCeNRokXv5HSlRf]{전술용 명사수 혈청}이 부여합니다.</p>\n<p>당신의 원거리 타격에 대해 대상이 엄폐로 얻는 AC 상황 보너스가 감소합니다.</p>"
+    },
+    "Effect: Medpatch": {
+      "name": "효과: 메드패치(Effect: Medpatch)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.B0FiYMxy7iDiHh48]{상업용 의료 패치}, @UUID[Compendium.sf2e.equipment.Item.HWHdAQArhRauTpm6]{전술용 의료 패치}, @UUID[Compendium.sf2e.equipment.Item.55nSLw1aQ0K0rK2L]{고급 의료 패치}, @UUID[Compendium.sf2e.equipment.Item.6VDHl7xkSp8Sc8yy]{상급 의료 패치}, @UUID[Compendium.sf2e.equipment.Item.KFjPEG7kw733splu]{정예 의료 패치}, @UUID[Compendium.sf2e.equipment.Item.dJyYifMFfgbIwT3c]{궁극 의료 패치}가 부여합니다.</p>\n<p>질병과 독에 대한 내성 굴림에 아이템 보너스를 얻습니다.</p>"
+    },
+    "Effect: Boost": {
+      "name": "효과: 부스트(Effect: Boost)",
+      "description": "<p>부스트된 무기는 당신이 다음으로 하는 공격에 표시된 크기의 피해 주사위 하나를 추가로 줍니다.</p>\n<p>이 특성의 피해는 고급 등급과 상급 등급 무기에서는 주사위 2개, 엘리트 등급과 궁극 등급 무기에서는 주사위 3개, 파라곤 등급 무기에서는 주사위 4개로 증가합니다. 치명타에서는 무기 피해를 두 배로 만든 뒤 이 주사위를 굴립니다. 여러 부스트는 중첩되지 않습니다.</p>"
+    },
+    "Effect: Celebrity Serum": {
+      "name": "효과: 유명인 혈청(Effect: Celebrity Serum)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.JgVv4m4sh9faVSDD]{셀러브리티 혈청}이 부여합니다.</p>\n<p>공연 판정에 +1 아이템 보너스를 얻습니다.</p>"
+    },
+    "Effect: Parry": {
+      "name": "효과: 패리(Effect: Parry)",
+      "description": "<p>AC에 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Hoverzooms": {
+      "name": "효과: 호버줌(Effect: Hoverzooms)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.KUFtUjzQ8RzQ5Ykd]{호버줌}이 부여합니다.</p>\n<p>지상 속도에 +5 상태 보너스를 얻습니다.</p>"
+    },
+    "Effect: Commando Serum": {
+      "name": "효과: 코만도 혈청(Effect: Commando Serum)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.Yuws1too4LhO7Cu9]{코만도 혈청}이 부여합니다.</p>\n<p>임시 HP 1d10+5와 임의의 속도 하나에 +5피트 아이템 보너스를 얻습니다.</p>"
+    },
+    "Effect: Aeon Stone (Uplifting)": {
+      "name": "효과: 이온 스톤(고양)(Effect: Aeon Stone (Uplifting))",
+      "description": "<p>1분 동안 자신의 속도 또는 20피트 중 더 높은 값과 같은 비행 속도를 얻습니다.</p>"
+    },
+    "Effect: Infiltrator Serum": {
+      "name": "효과: 침투자 혈청(Effect: Infiltrator Serum)",
+      "description": "<p>@UUID[Compendium.sf2e.equipment.Item.u82tssnDgj4f9UCS]{잠입자 혈청}이 부여합니다.</p>\n<p>은신 이동과 장치 해제 판정에 +1 아이템 보너스를 얻습니다.</p>"
+    }
+  }
+}

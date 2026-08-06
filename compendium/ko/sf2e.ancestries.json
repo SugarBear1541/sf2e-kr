@@ -1,0 +1,212 @@
+{
+  "label": "종족",
+  "mapping": {
+    "description": "system.description.value"
+  },
+  "entries": {
+    "Vesk": {
+      "name": "베스크(Vesk)",
+      "description": "<p><em>베스크는 우주 비행을 개발한 직후 자신들의 항성계에 있는 여덟 세계를 정복해 베스카리움 제국을 세운 호전적인 파충류형 종족입니다. 이들은 충돌을 기꺼이 받아들이며 힘과 군사력을 존중하는 경향이 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.JxPJE2NPYNZ54EUO]{베스크}</p>"
+    },
+    "Skittermander": {
+      "name": "스키터맨더(Skittermander)",
+      "description": "<p><em>스키터맨더는 밝은 색 털을 지닌 활기찬 육완 휴머노이드입니다. 혼란스러운 열정으로 일을 해내고 대체로 협동을 즐기며, 함께 힘을 모아 자신들을 정복하려는 이들조차 좌절시킵니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.kDLQjSlW2N1oEwji]{스키터맨더}</p>"
+    },
+    "Urog": {
+      "name": "우로그(Urog)",
+      "description": "<p><em>우로그는 기하학에서 영감을 얻는 사색적인 규소 기반 크리처입니다. 이들은 은하에서 가장 수수께끼 같은 질문의 답을 찾아 별들 사이를 떠도는 모습으로 흔히 발견됩니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.zPj0jzUVRNQBGevO]{우로그}</p>"
+    },
+    "Kalo": {
+      "name": "칼로(Kalo)",
+      "description": "<p><em>칼로는 브레테다를 공전하는 물의 위성 출신입니다. 이 수생 휴머노이드는 예술과 창의성을 문화의 중심에 두며, 전투에서는 유연하고 흐르는 듯한 전투 방식을 구사합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.4NBdb6i5jpPj7Fns]{칼로}</p>"
+    },
+    "Astrazoan": {
+      "name": "아스트라조안(Astrazoan)",
+      "description": "<p><em>아스트라조안의 기원과 고향 행성은 명확히 알려져 있지 않습니다. 유연하게 변하는 몸은 좀처럼 남에게 드러내지 않는 기묘한 본모습을 감춥니다. 새로운 상황에 맞춰 신체를 바꾸는 능력 덕분에, 아스트라조안은 은하의 다양한 문화 속에서 정체성만큼이나 많은 고향을 찾아냈습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.EXSYGSHJh9ekPvj2]{아스트라조안}</p>"
+    },
+    "Barathu": {
+      "name": "바라투(Barathu)",
+      "description": "<p><em>바라투는 가스 행성 브레테다에서 진화한, 기묘한 신체 형태를 지닌 부유 크리처입니다. 이들은 본능적으로, 또한 의지대로 자신의 유전 암호를 다시 써서 몸을 놀라울 만큼 다양한 독특한 형태로 바꿉니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.CFvzqUAC03CP6sJI]{바라투}</p>"
+    },
+    "Moyishuu": {
+      "name": "모이슈(Moyishuu)",
+      "description": "<p><em>제1세계에 기원을 둔 열정적인 성간 여행자 모이슈는, 즐거움을 사랑하는 탐험가이자 모험가로 은하 전역에 이름난 페이입니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.imfrKhXyiaXIKR7S]{모이슈}</p>"
+    },
+    "Orocoran": {
+      "name": "오로코란(Orocoran)",
+      "description": "<p><em>고향 행성이 파괴된 뒤, 일부 오로코란은 악턴의 사악하고 기괴한 체액이 미치는 영향에서 벗어났습니다. 이들의 삶은 여전히 고투의 연속이지만, 최근의 고난을 딛고 새로 태어난 이들은 눈을 크게 뜨고 정신을 날카롭게 가다듬어 가능성과 잠재력으로 가득한 삶을 발견하려 합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.qFDz9ZPAukZPEDAp]{오로코란}</p>"
+    },
+    "Pahtra": {
+      "name": "파트라(Pahtra)",
+      "description": "<p><em>파트라는 인근 항성계에서 온 고양잇과 휴머노이드 종족입니다. 경쟁심이 강하며 마법, 음악, 전쟁에서 이룬 성취로 유명합니다. 최근 베스카리움의 점령에서 고향 행성을 해방하고 팩트 월드에 합류했습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.9ksnOvkrSXXFFFDX]{파트라}</p>"
+    },
+    "Izalguun": {
+      "name": "이잘군(Izalguun)",
+      "description": "<p><em>스코어드 스타 항성계 출신의 비밀스러운 종족 이잘군은 고난 많은 과거를 지녔습니다. 오래전, 대부분의 이잘군은 신 카드리칼의 영향에서 벗어나기 위해 세 개의 태양을 지닌 고향 항성계를 떠났습니다. 덩치가 크고 팔다리가 여섯인 이들은 공동체와 생존을 중시하며, 자신들의 역사에 관해 말하는 것을 꺼립니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.GSVzCoZrnuXorzkk]{이잘군}</p>"
+    },
+    "Brenneri": {
+      "name": "브레네리(Brenneri)",
+      "description": "<p><em>수달을 닮은 브레네리는 대체로 친근하고 사교적이지만, 궁지에 몰리면 강한 일격을 날릴 수 있습니다. 특수한 수염으로 주변 사람들의 감정을 감지하여 보통은 공감과 이해를 키웁니다. 그러나 감정이 격하거나 공격적일 때 평화적인 브레네리는 친구의 손이나 아끼는 돌을 꼭 쥐며 안정을 찾고, 호전적인 브레네리는 분쟁 속으로 곧장 뛰어들기도 합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.6yAJOHfrvkKeJYfy]{브레네리}</p>"
+    },
+    "Khizar": {
+      "name": "키자르(Khizar)",
+      "description": "<p><em>키자르는 자연과 조화를 이루며 살아가는 지성 있는 식물로, 다른 크리처와 텔레파시로 소통하는 법을 익혔습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.J8Koe6gDxk3dzwMl]{키자르}</p>"
+    },
+    "Dwarf": {
+      "name": "드워프(Dwarf)",
+      "description": "<p><em>키가 작고 다부지며 강인한 드워프는 전통에 큰 자부심을 품고 있으며, 은하에서 가장 뛰어나고 공정한 장인으로 알려져 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.7Wjf2DofXZg1cEZ2]{드워프}</p>"
+    },
+    "Vulkarisu": {
+      "name": "불카리수(Vulkarisu)",
+      "description": "<p><em>불카리수는 여우와 다람쥐를 섞은 듯한 모습의 지성 있는 이족 보행 휴머노이드입니다. 귀엽고 복슬복슬해 스쿼크스와 혼동되기도 합니다. 호기심이 많고 적응력이 뛰어나며, 언어에 놀라운 재능을 지녔고 우주를 탐험하는 일에 열정을 보입니다.</em></p>"
+    },
+    "Shobhad": {
+      "name": "쇼바드(Shobhad)",
+      "description": "<p><em>쇼바드, 또는 스스로를 집단적으로 부르는 이름인 쇼바드네는 아키톤 행성 원주민인 유목민입니다. 다른 종족은 이들이 차원 여행자의 후손이나 다른 종족의 돌연변이 자손일지 모른다고 추측하지만, 쇼바드는 자신들이 언제나 아키톤의 일부였음을 압니다. 거대한 육체와 네 팔을 지닌 이들은 스스로를 아키톤 최초의 자식이라 여기며, 수천 년에 걸친 여정으로 행성 표면을 떠돕니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.74DsBZDbuChtrw3r]{쇼바드}</p>"
+    },
+    "Gnome": {
+      "name": "노움(Gnome)",
+      "description": "<p><em>노움은 갭 이전까지 거슬러 올라가는 혈통을 지닌 작고 강인한 종족으로, 그 기원은 제1세계에서 온 방랑자들에게 닿아 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.jYPaH2yArUQd4uQD]{노움}</p>"
+    },
+    "Bantrid": {
+      "name": "밴트리드(Bantrid)",
+      "description": "<p><em>밴트리드는 최근에야 리아바라의 작은 위성 히브에서 정지 상태를 깨고 깨어난 작지만 튼튼한 종족입니다. 이동할 때 조밀한 구체를 이용하는 독특한 생리 구조를 지녔습니다. 기술 혁신이든 성간 탐험이든 끊임없이 앞으로 나아가려는 강렬한 욕구가 육체와 문화를 함께 움직입니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.0Yl0XhHQoL6WHlqb]{밴트리드}</p>"
+    },
+    "Talphi": {
+      "name": "탈피(Talphi)",
+      "description": "<p><em>탈피는 베스크-4 출신의 두더지를 닮은 휴머노이드 종족으로, 굴착, 중력 조율, 원소 대지 마법에 특화되어 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.8BBkU57uORXYK4fl]{탈피}</p>"
+    },
+    "Shirren": {
+      "name": "시렌(Shirren)",
+      "description": "<p><em>곤충형 종족 시렌은 파괴적인 스웜에서 갈라져 나와, 무자비한 군체 정신을 버리고 개인의 자유를 추구하며 성간 폭력의 악순환을 끝내려 했습니다. 텔레파시 능력을 지닌 시렌은 개성을 지키고, 스스로 선택한 공동체를 세우며, 다른 종족과 조화롭게 살아가는 데 헌신합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.RM78QDGhVPlPrcvG]{시렌}</p>"
+    },
+    "Android": {
+      "name": "안드로이드(Android)",
+      "description": "<p><em>안드로이드는 은하의 여러 고도 기술 문명이 제작한 합성 존재로 처음 등장했습니다. 최초의 안드로이드는 휴머노이드 종족이 자신의 모습을 본떠 만들었지만, 살아 있는 인조 크리처를 움직이는 기술이 퍼지면서 매우 다양한 형태가 나타났습니다. 팩트 월드의 안드로이드는 본래 하인으로 설계되었으나, 오늘날 안드로이드와 다른 로봇 존재는 팩트 아래에서 유기체 종족과 동등한 존재로 인정받습니다. 일부는 독립 공동체를 이루었고, 대다수는 팩트 월드 사회에 자연스럽게 어우러집니다. 다른 많은 기술적 구조물과 달리 안드로이드는 정교한 합성 장기와 복잡한 프로그램 이상의 존재이며, 각자 고유한 영혼을 지닙니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.dyusFHHyaQOaQhZ0]{안드로이드}</p>"
+    },
+    "Halfling": {
+      "name": "하플링(Halfling)",
+      "description": "<p><em>하플링은 작지만 씩씩한 종족으로, 용기와 회복력을 바탕으로 우주 항행이 주는 자유를 받아들였습니다. 은하의 가장 먼 곳까지 유머와 호기심, 매력을 가져갑니다. 놀라운 행운으로 유명하지만, 많은 하플링에게 가장 두드러지는 특성은 강인한 성품과 의지입니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.c0lw5fcT5pldx2Wo]{하플링}</p>"
+    },
+    "Kasatha": {
+      "name": "카사타(Kasatha)",
+      "description": "<p><em>죽어 가는 별을 공전하는 먼 고향 행성의 고대 전통에 깊이 뿌리내린 카사타는 네 팔을 지닌 휴머노이드입니다. 이들은 이다리라는 거대한 세계선에 탑승해 팩트 월드에 도착했습니다. 모든 일에서 우주적 균형을 추구하며, 기술의 발전을 선조의 지혜로 절제하는 데 자부심을 느낍니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.PKGmC9bntc0F90mY]{카사타}</p>"
+    },
+    "Ikeshti": {
+      "name": "이케시티(Ikeshti)",
+      "description": "<p><em>이케시티는 단단한 붉은 비늘과 다부진 체격을 지닌 지성 있는 이족 보행 도마뱀입니다. 혹독한 아키톤 출신으로 강인하고 단호하며 열정적이고, 자신과 긴밀한 공동체의 생존을 위해 쉼 없이 노력합니다. 발명에 소질이 있는 이가 많고, 낡거나 망가진 물건에 새로운 쓰임을 찾아내는 일을 즐깁니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.JAOE401MJvDWQsgU]{이케시티}</p>"
+    },
+    "Entu Colony": {
+      "name": "엔투 군체(Entu Colony)",
+      "description": "<p><em>엔투는 동물 숙주와 완전한 공생 관계를 이룰 수 있는 텔레파시성 균류 군체입니다. 자발적으로 엔투를 받아들인 숙주는 지성을 얻은 크리처로 변하며, 엔투 동반자와 영구적으로 조화를 이룬 두 영혼을 지니게 됩니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.qjNwFaio5xKTYjuN]{엔투 군체}</p>"
+    },
+    "Human": {
+      "name": "인간(Human)",
+      "description": "<p><em>인간은 거의 모든 환경과 상황에 적응하는 능력으로 알려져 있으며, 야망과 다양성, 끝없는 호기심을 지녔습니다. 수많은 세계에 퍼져 사는 인간은 다양한 문화와 전통을 이루며, 은하 전역에서 탐험가와 개척자, 혁신가로 활동합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.7pU8yM7yPMw92SY3]{인간}</p>"
+    },
+    "Contemplative": {
+      "name": "컨템플레이티브(Contemplative)",
+      "description": "<p><em>정신적 자기완성에 집중한 컨템플레이티브는 수학과 마법에 똑같이 적합한 거대한 뇌를 지녔습니다. 타고난 염동력으로 공중을 이동하며, 절제된 호기심에 이끌려 발견과 혁신을 추구합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.8Opb2Tdkx6LQeINA]{컨템플레이티브}</p>"
+    },
+    "Ysoki": {
+      "name": "요소키(Ysoki)",
+      "description": "<p><em>한때 랫포크라 불렸던 요소키는 영리하고 유연합니다. 셀 수 없이 많은 세계에 뿌리를 둔 요소키는 더 큰 종족들과 함께 일하며 공동체를 세우고 어려운 일을 해냅니다. 가장 붐비는 군중 속에서든 가장 비좁은 굴속에서든 요소키는 언제나 길을 찾아냅니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.zoSkNev57C8OEDYL]{요소키}</p>"
+    },
+    "Elf": {
+      "name": "엘프(Elf)",
+      "description": "<p><em>수천 년 동안 엘프는 별들 사이에 거주하며 은하를 가로지르는 항로를 개척해 왔습니다. 광범위하게 흩어진 엘프 공동체는 수백 개 세계에서 수천 년을 살아왔고, 하늘을 나는 기술과 마법, 우주에 대한 경이로움이라는 공유된 역사로 서로 이어져 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.YL5t9HQfv8YAsyw4]{엘프}</p>"
+    },
+    "Ijtikri": {
+      "name": "이지티크리(Ijtikri)",
+      "description": "<p><em>속칭 돌얼굴 오징어라 불리는 이지티크리는 부드러운 외투막을 바위 껍질 안에 보호합니다. 성체로 변태한 이지티크리는 가장 가까운 공동체를 찾아 합류하고, 새롭게 받아들인 가족에게 열정적으로 녹아듭니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.XqrIC6bVeCGHorx6]{이지티크리}</p>"
+    },
+    "Ryphorian": {
+      "name": "라이포리안(Ryphorian)",
+      "description": "<p><em>라이포리안은 트라이액서스 행성에서 가장 널리 퍼진 종족입니다. 행성의 기묘한 공전 궤도와 연결된 독특한 계절성 삼형태가 인구 대부분에게 나타납니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.DW80wzTy6cnkVJ0l]{라이포리안}</p>"
+    },
+    "Elebrian": {
+      "name": "엘레브리안(Elebrian)",
+      "description": "<p><em>엘레브리안은 커다란 두개골과 선천적인 마법 소질을 지닌 휴머노이드입니다. 대재앙이 행성을 황폐화하기 전에는 이옥스의 지배 종족이었지만, 지금은 격리된 벙커 공동체나 기업 시설의 살아 있는 오락거리로 소수만이 생존합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.SZj7pxMnq5vKtc6K]{엘레브리안}</p>"
+    },
+    "Maraquoi": {
+      "name": "마라코이(Maraquoi)",
+      "description": "<p><em>브레테다의 위성 마라타 출신 이족 보행 휴머노이드 마라코이는 관계의 연결망을 발전시키는 데 집중합니다. 이들에게는 종족의 번식에 모두 기여하는 일곱 개의 서로 다른 성별이 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.ekHYCO63kl6TQ5kr]{마라코이}</p>"
+    },
+    "Nuar": {
+      "name": "누아르(Nuar)",
+      "description": "<p><em>누아르는 미노타우로스의 작고 먼 친척으로, 큰 키와 달리 차분한 성품을 지녔습니다. 갭의 공백 속에서 고향과 역사를 잃은 누아르는 다른 문화에서 동료를 찾는 동시에 자신들만의 문화를 새롭게 만들어 갑니다. 문제와 수수께끼를 해결하는 데 능해 어디서든 귀중한 구성원이 됩니다.</em></p>"
+    },
+    "Lashunta": {
+      "name": "라슌타(Lashunta)",
+      "description": "<p><em>아주 오래전 라슌타는 고향 행성 카스트로벨에서 살아남는 데 도움을 준 정신감응 능력과 독특한 이형성을 진화시켰습니다. 현대의 라슌타는 사춘기에 자신의 유전자를 조작하여 뛰어난 학자 또는 전사로 성장할 수 있지만, 모든 라슌타가 이 전통적인 선택을 따르는 것은 아닙니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.9ftj9N4Me4eKiz2T]{라슌타}</p>"
+    },
+    "Gnarefuroid": {
+      "name": "그나레프로이드(Gnarefuroid)",
+      "description": "<p><em>그나레프로이드는 지성 있는 폐품장 포식자로 시작해, 살아남기 위해 주변의 물질을 몸에 통합했습니다. 버려진 기술이 정교해지고 외계 크리처의 다양성이 커지면서 더욱 사회적이고 자율적인 존재로 진화했습니다. 새로운 맛을 향한 갈망은 마침내 은둔 본능을 넘어섰습니다.</em></p>"
+    },
+    "Leshy": {
+      "name": "레시(Leshy)",
+      "description": "<p><em>레시는 휴머노이드나 동물을 닮은 형태의 식물 그릇에 깃든 불멸의 자연 정령입니다. 새로운 몸으로 현현할 때에는 기억과 경험 대부분을 뒤에 남겨, 필멸자의 선입견이라는 짐 없이 우주를 새롭게 바라봅니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.QQg7aOtPsNKAx416]{레시}</p>"
+    },
+    "G'folian": {
+      "name": "그폴리안(G'folian)",
+      "description": "<p><em>그폴리안은 카즈머그의 부조리라 불리는 부서진 우주 지역에 거주하는 철학적인 육각 보행 종족입니다. 위장의 독특한 화학 조성 덕분에 화염을 뿜어낼 수 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.SlvjW6HgfmTaoMVl]{그폴리안}</p>"
+    },
+    "Sarcesian": {
+      "name": "사르세시안(Sarcesian)",
+      "description": "<p><em>사르세시안은 에너지와 빛으로 이루어진 나비 날개를 펼쳐 우주의 공허를 활공하는 타고난 우주 여행자입니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.ee8BWzMS4DI5xkOs]{사르세시안}</p>"
+    },
+    "Dragonkin": {
+      "name": "드래곤킨(Dragonkin)",
+      "description": "<p><em>드래곤을 닮은 외모와 맹렬한 충성심을 지닌 드래곤킨은 깊은 공감 능력을 가진 존재입니다. 다른 한 크리처와 거의 끊을 수 없는 영적 유대를 맺을 수 있으며, 그 유대는 텔레파시 소통과 전술적 협력으로 나타납니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.EybiktinX2zD2k45]{드래곤킨}</p>"
+    },
+    "Orc": {
+      "name": "오크(Orc)",
+      "description": "<p><em>오크는 충성심과 사나움으로 알려진 자부심 강한 종족입니다. 원칙을 지키고 믿을 만한 동료를 중시하고, 위대한 도전을 찾아 나서며, 후회나 망설임 없이 자신의 삶의 길을 선택하는 경향이 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.2fuShc4ogz1yIuAS]{오크}</p>"
+    },
+    "Raxilite": {
+      "name": "락실라이트(Raxilite)",
+      "description": "<p><em>락실라이트는 공동체를 중시하는 아주 작은 지성 식물로, 특히 몸에 유용한 도구를 결합하는 기술 혁신을 즐깁니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.88ECFV3AkpR9KUfq]{락실라이트}</p>"
+    },
+    "Vlaka": {
+      "name": "블라카(Vlaka)",
+      "description": "<p><em>블라카는 두꺼운 털가죽 덕분에 고향 행성 라조크와 같은 혹한에서 살아남는 늑대형 유목민입니다. 후각이 놀라울 정도로 예민하며, 청각장애나 시각장애 또는 시청각장애를 지니고 태어나는 경우가 많습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.K1V6GOyRxsqUKBY9]{블라카}</p>"
+    },
+    "Trox": {
+      "name": "트록스(Trox)",
+      "description": "<p><em>트록스는 거대한 체구의 이족 보행 곤충형 종족입니다. 리아바라의 위성 엔차크에서 시렌과 공존하며, 선조신인 영원한 여왕 하일락스의 살아 있는 현신에게 통치받습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.SJRGbEwS6KkIAYol]{트록스}</p>"
+    },
+    "Worlanisi": {
+      "name": "월라니시(Worlanisi)",
+      "description": "<p><em>월라니시는 천성적으로 운이 좋은 푸른 피부의 휴머노이드로, 생명공학으로 만들어진 초병사일 수도 있고 유목하는 무모한 모험가일 수도 있으며 그 사이의 어떤 존재일 수도 있습니다. 흩어진 월라니시 공동체는 매우 다양하고 광대하지만 한 가지에는 뜻을 모읍니다. 인피니티 덱은 자신들이 발명했다는 것입니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.dsoLavnmDcpCRjcT]{월라니시}</p>"
+    },
+    "Madrosarai": {
+      "name": "마드로사라이(Madrosarai)",
+      "description": "<p><em>마드로사라이는 마법이 깃든 피를 지닌 휴머노이드 종족으로, 감정을 통제하려 노력합니다. 뒤통수에도 눈이 있으며 사회 질서를 신봉합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.DYduQDqdZZkaqEcQ]{마드로사라이}</p>"
+    },
+    "Osharu": {
+      "name": "오샤루(Osharu)",
+      "description": "<p><em>민달팽이를 닮은 오샤루는 혹독한 파바크 행성에 거주합니다. 종교적으로 학구적인 이들은 독실하고 지적이며 탐구심이 강한 성품으로 은하 전역에 유명합니다. 고향 행성에는 명망 높은 대학 도시를 다수 건설했으며, 항성계에 새 드리프트 비콘이 생기면서 이제 은하 무대로 진출했습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.jqRBFcXZToPmJiCI]{오샤루}</p>"
+    },
+    "Goblin": {
+      "name": "고블린(Goblin)",
+      "description": "<p><em>고블린이 은하 전역에 퍼질 만큼 오래 번성했다는 사실은 스스로를 위험에 빠뜨리면서도 살아남는 능력을 증명합니다. 별나고 게걸스러운 장난꾼인 이들은 위험한 기계, 활활 타는 불, 불안정한 대혼란에 이끌리고 매료됩니다. 어디서든 살고 무엇이든 먹으며 어떤 장애물이 앞을 막아도 번성합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.m4CLPTYdwujw6O7T]{고블린}</p>"
+    },
+    "Copaxi": {
+      "name": "코팍시(Copaxi)",
+      "description": "<p><em>코팍시는 한때 장엄하게 떠다니는 공중 도시에 살았고 우주의 자연 중력과 선천적으로 연결되어 있었습니다. 고향 행성의 환경을 남용한 결과 파괴적인 내전이 벌어져 행성이 황폐해졌고, 이제 새로운 길을 개척해야 합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.8f9r5sVKJdRKh8du]{코팍시}</p>"
+    },
+    "Fonqugon": {
+      "name": "폰쿠곤(Fonqugon)",
+      "description": "<p><em>폰쿠곤은 여러 개의 뇌와 평화롭게 연합한 고대 행성 연결망의 축적된 전문 지식을 지닌 뛰어난 수학자이자 과학자입니다. 점액질 몸과 뛰어난 지성 덕분에 위험한 고향 행성의 혹독하고 예측 불가능한 날씨 속에서도 살아남습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.B22EiYVRXwn2ecve]{폰쿠곤}</p>"
+    },
+    "Novian": {
+      "name": "노비안(Novian)",
+      "description": "<p><em>노비안은 별의 죽음에서 태어난, 과열된 플라스마와 불꽃으로 이루어진 작은 비행 태양입니다. 크기에 비해 믿기 어려울 정도로 밀도가 높아 강력한 중력장을 방출하며, 이를 이용해 이동하고 물체를 조작하며 다른 이에게 힘을 행사합니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.2cRNeCylPnF0g5mT]{노비안}</p>"
+    },
+    "Formian": {
+      "name": "포미안(Formian)",
+      "description": "<p><em>포미안은 거대한 개미와 비슷한 특징을 지닌 정신감응성 곤충형 휴머노이드입니다. 카스트로벨에서 라슌타와 엘프와 공존하지만, 포미안 군체와 라슌타 도시국가 사이에서 여러 세대에 걸쳐 벌어진 잔혹한 전쟁은 아직도 생생한 기억으로 남아 있습니다. 포미안은 단순한 군체 정신의 부품이 아니지만, 사회적 본성과 정신적 연결은 정체성의 핵심입니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.fYn4p1tmavPS6Q7B]{포미안}</p>"
+    }
+  }
+}

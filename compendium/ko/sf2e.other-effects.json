@@ -1,0 +1,58 @@
+{
+  "label": "기타 효과",
+  "folders": {},
+  "entries": {
+    "Effect: Treat Poison": {
+      "name": "효과: 독 치료(Effect: Treat Poison)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.KjoCEEmPGTeFE4hh]{독 치료}가 부여합니다.</p>\n<p>다음에 독에 대해 굴리는 내성 굴림에 상황 보너스 또는 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Remaining Air": {
+      "name": "효과: 남은 공기(Effect: Remaining Air)",
+      "description": "<p>@UUID[Compendium.sf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.OiRwxbfLNUniLg15#drowning-and-suffocating]{익사와 질식}를 참조하십시오.</p>\n<p>당신은 5 더하기 당신의 건강 수정치와 같은 라운드 수만큼 숨을 참을 수 있습니다. 각 턴의 끝에 남은 공기를 1라운드만큼 줄이거나, 그 턴에 공격하거나 주문을 시전한 경우 2라운드만큼 줄입니다.</p>\n<p>치명타를 입거나 피해 효과에 대한 내성 굴림에 대실패를 할 때마다 남은 공기가 1라운드씩 줄어듭니다. (주문 시전을 포함한) 말을 할 경우 남은 공기가 모두 소진됩니다.</p>"
+    },
+    "Effect: Mounted": {
+      "name": "효과: 탑승(Effect: Mounted)",
+      "description": "<p>@UUID[Compendium.sf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.OiRwxbfLNUniLg15#mounted-combat]{탑승 전투}를 보십시오.</p>\n<p>당신은 탑승 중일 때 반사 내성 굴림에 –2 상황 페널티를 받습니다.</p>"
+    },
+    "Effect: Aid": {
+      "name": "효과: 에이드(Effect: Aid)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.HCl3pzVefiv9ZKQW]{원조}에 의해 부여됩니다.</p>\n<p>당신은 아군의 에이드 판정 결과에 따라 지원받는 판정에 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Scout": {
+      "name": "효과: 스카웃(Effect: Scout)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.kV3XM0YJeS2KCSOb]{정찰}에 의해 부여됩니다.</p>\n<p>당신은 자신의 선제 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Disarm (Bonus)": {
+      "name": "효과: 디스암 (보너스)(Effect: Disarm (Bonus))",
+      "description": "<p>에페머럴 효과를 통해 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}에 의해 부여됩니다.</p>\n<p>당신은 디스암에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Cover": {
+      "name": "효과: 커버(Effect: Cover)",
+      "description": "<p>무기를 막고 폭발로부터 보호하며 탐지하기 어렵게 만들 수 있는 장애물 뒤에 있다면 엄폐를 얻습니다. 일반 엄폐는 AC, 범위 효과에 대한 반사 내성 굴림, 그리고 숨기·은신 이동 또는 그 밖의 방법으로 탐지를 피하기 위한 은신 판정에 +2 상황 보너스를 줍니다. 기본 행동인 엄폐하기를 사용하면 이를 상급 엄폐로 높여 상황 보너스를 +4로 증가시킬 수 있습니다. 엄폐가 특히 약한 경우, 대개 다른 크리처가 엄폐를 제공하는 경우에는 하급 엄폐를 얻으며, 이는 AC에 +1 상황 보너스를 줍니다. 일반 엄폐 또는 상급 엄폐가 있는 크리처는 은신을 사용해 숨기를 시도할 수 있지만, 하급 엄폐만으로는 충분하지 않습니다.</p>"
+    },
+    "Effect: Disarm (Success)": {
+      "name": "효과: 디스암 (성공)(Effect: Disarm (Success))",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}에 의해 부여됩니다.</p>\n<p>당신은 목표물 아이템을 사용하는 공격에 대해 –2 상황 페널티를 받습니다. 당신을 무장 해제하려는 추가 시도는 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Treat Disease": {
+      "name": "효과: 질병 치료(Effect: Treat Disease)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.TC7OcDa7JlWbqMaN]{질병 치료}에 의해 부여됩니다.</p>\n<p>당신은 다음 질병에 대한 내성 굴림에 상황 보너스 또는 페널티를 얻습니다.</p>"
+    },
+    "Effect: Aquatic Combat": {
+      "name": "효과: 수중 전투(Effect: Aquatic Combat)",
+      "description": "<p>@UUID[Compendium.sf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.OiRwxbfLNUniLg15#aquatic-combat]{수중 전투}</p>\n<p>물이나 수중에서의 전투에는 다음 규칙을 적용하십시오.</p><ul><li>당신이 수영 속도를 가지고 있지 않다면 무방비 상태입니다.</li><li>당신은 산성과 화염에 대한 저항 5를 얻습니다.</li><li>물을 통과하는 타격 또는 베기 공격에 대해서는 공격 굴림에 –2 상황 페널티를 받습니다.</li><li>수중 크리처가 하거나 수중 목표물에 대한 원거리 공격은 사거리가 절반으로 줄어듭니다.</li><li>당신은 수중에서 화염 마법을 시전하거나 화염 특성이 있는 행동을 사용할 수 없습니다. 특성의 작동 방식에 따라, 화염과 관련 없는 효과의 일부는 여전히 작동합니다. 예를 들어, <em>불타는 전투 도끼</em>로 하는 공격은 화염 피해는 입히지 못하지만 물리적 피해는 여전히 입힐 수 있습니다.</li></ul><p>@UUID[Compendium.sf2e.other-effects.Item.2u26bmArDPuoCljc]{효과: 남은 공기}</p>"
+    },
+    "Effect: Follow The Expert": {
+      "name": "효과: 팔로우 더 전문가(Effect: Follow The Expert)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.tfa4Sh7wcxCEqL29]{전문가 따라하기}에 의해 부여됩니다.</p>\n<p>당신은 숙련되지 않았더라도 관련 기술 판정에 자신의 레벨을 숙련 보너스로 더할 수 있습니다.  또한, 아군의 숙련도에 따라 기술 판정에 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Avert Gaze": {
+      "name": "효과: 애버트 게이즈(Effect: Avert Gaze)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.UWdRX1VelipCzrCg]{시선 피하기}에 의해 부여됩니다.</p>\n<p>당신은 크리처나 물체를 봐야 하는 시각 능력(예: 메두사의 석화시키는 시선)에 대한 내성 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Effect: Adverse Subsist Situation": {
+      "name": "효과: 역효과 지속 상황(Effect: Adverse Subsist Situation)",
+      "description": "<p>@UUID[Compendium.sf2e.actions.Item.49y9Ec4bDii8pcD3]{생계 유지}에 의해 부여됩니다.</p>\n<p>당신은 서바이스트 판정에 –2 상황 페널티를 받습니다.</p>"
+    }
+  }
+}

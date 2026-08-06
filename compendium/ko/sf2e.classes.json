@@ -1,0 +1,32 @@
+{
+  "label": "클래스",
+  "mapping": {
+    "description": "system.description.value"
+  },
+  "entries": {
+    "Mystic": {
+      "name": "미스틱(Mystic)",
+      "description": "<p><em>당신은 우주의 모든 것을 연결하고 결속하는 근원적 힘을 전달하는 통로입니다. 이 초자연적 원천을 끌어내 아군과 깊은 영적 유대를 맺고, 전투에서 그들에게 힘을 부여하며, 부상을 입었을 때 건강을 회복시킬 수 있습니다. 당신의 능력은 선택한 연결에 따라 고유한 형태를 띠며, 그 연결을 더 깊이 탐구할수록 새롭고 더욱 강력한 주문을 얻게 됩니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.yiqOagqH2NXjlisZ]{미스틱}</p>"
+    },
+    "Witchwarper": {
+      "name": "위치워퍼(Witchwarper)",
+      "description": "<p><em>기묘한 역설적 사건이 당신의 존재를 영원히 바꾸었고, 이제 당신은 현실을 조작할 수 있습니다. 당신은 다중우주의 무한한 가능성을 탐구하며, 다른 시간선이나 평행 세계를 떠올리기도 합니다. 공간과 시간을 뒤트는 영역을 만들어 강력한 마법을 시전합니다. 현실을 식별하기 위해 닻이 되는 기억, 개념 또는 물체에 정신을 집중하는 법을 익혔습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Qaue1LUZUrEFYfT0]{위치워퍼}</p>"
+    },
+    "Operative": {
+      "name": "오퍼레이티브(Operative)",
+      "description": "<p>당신은 집중력이 뛰어나고 판단이 빠르며, 위험천만한 전투에서 진가를 발휘하는 전문가입니다. 치명적인 조준 실력과 전술 훈련은 경쟁자보다 한발 앞서게 하며, 아무리 강력한 적도 당신에게는 제거해야 할 또 하나의 표적일 뿐입니다. 선택한 전문 분야에서 탁월한 기량을 갖추고 있습니다.</p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.e3x0k83hYe1awVvT]{오퍼레이티브}</p>"
+    },
+    "Soldier": {
+      "name": "솔저(Soldier)",
+      "description": "<p><em>당신은 범위 무기와 중갑 운용, 피해를 견디는 데 통달했습니다. 전투 한복판에서 적의 집중포화를 버티며 파괴적인 일제사격을 퍼붓습니다. 강력한 무기로 제압 사격을 쏟아부어 아군이 각자의 역할을 수행할 기회를 만들고, 적의 시선을 자신에게 집중시킵니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVjJqpDk71Q7MrWF]{솔저}</p>"
+    },
+    "Envoy": {
+      "name": "엔보이(Envoy)",
+      "description": "<p><em>당신은 사람을 움직이는 데 통달했습니다. 매력적인 미소와 재치, 예리한 자기보존 감각으로 우주를 헤쳐 나갑니다. 동료에게 동기를 부여하고 한계를 넘어설 수 있게 밀어주며 난관을 돌파하도록 돕는 지도자입니다. 타인이 원하는 대로 움직이게 하는 데 능하지만, 상황이 악화되면 문제와 정면으로 맞설 준비도 되어 있습니다. 사기꾼, 외교관, 공연자, 군 장교일 수도 있고, 상황이 요구하는 어떤 역할이든 맡을 수 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.r2bLZofQDDBIk6Ir]{엔보이}</p>"
+    },
+    "Solarian": {
+      "name": "솔라리안(Solarian)",
+      "description": "<p><em>당신은 우주의 항성력을 전달하는 통로이자 솔라 나이트입니다. 중력과 빛은 이 힘의 양극을 이루며, 당신은 그 사이에서 자신을 조율할 수 있습니다. 이 순환의 대행자로서 여러 솔라 장비를 구현하고, 항성력과의 연결을 통해 그 장비를 강화합니다. 항성 스펙트럼의 어느 극을 선호하더라도, 명상과 수련으로 익힌 솔라 능력을 최대한 활용하도록 조율 상태를 전환할 수 있습니다.</em></p>\n<p>@UUID[Compendium.sf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Nb6sw1oNTFwVPlLu]{솔라리안}</p>"
+    }
+  }
+}

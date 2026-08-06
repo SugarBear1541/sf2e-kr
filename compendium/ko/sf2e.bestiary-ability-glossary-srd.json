@@ -1,0 +1,324 @@
+{
+  "label": "베스티어리 능력 용어집",
+  "folders": {
+    "Infiltrator Robot": "침투 로봇",
+    "Necrovite": "네크로바이트",
+    "Nymph Queen": "님프 여왕",
+    "Warped Adjustments": "왜곡 조정",
+    "Hardlight Adjustments": "하드라이트 조정",
+    "Magical Adjustments": "마법 조정",
+    "Security Robot": "보안 로봇",
+    "Nanite Adjustments": "나나이트 조정",
+    "Rendworm Host": "렌드웜 숙주",
+    "Malevolent AI": "악의적 AI",
+    "Digital Ghost": "디지털 고스트",
+    "Environmental Adaptation Adjustments": "환경 적응 조정",
+    "Robotic War Machine": "로봇 전쟁 기계"
+  },
+  "entries": {
+    "(Malevolent AI) Energy Beam": {
+      "name": "(악의적 AI) 에너지 광선((Malevolent AI) Energy Beam)",
+      "description": ""
+    },
+    "(Robotic War Machine) Notch Position": {
+      "name": "(로봇 전쟁 기계) 위치 맞추기((Robotic War Machine) Notch Position)",
+      "description": "<p><strong>조건</strong> 적 하나가 이동합니다.</p>\n<p><strong>요구 사항</strong> 원격 전쟁 기계가 대상의 도달 거리 밖에 있습니다.</p><hr /><p><strong>효과</strong> 원격 전쟁 기계는 대상이 이동을 멈추거나 전쟁 기계가 자신의 전체 속도만큼 이동할 때까지, 대상과 같은 방향으로 자신의 속도 이하만큼 이동합니다.</p>"
+    },
+    "Rend": {
+      "name": "렌드(Rend)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+    },
+    "(Necrovite) Smother the Light": {
+      "name": "(네크로바이트) 빛을 질식시키기((Necrovite) Smother the Light)",
+      "description": "<p><strong>조건</strong> 네크로바이트로부터 30피트 이내의 크리처 하나가 빛 또는 활력 특성이 있는 주문 시전을 시작합니다.</p><hr /><p><strong>효과</strong> 네크로바이트는 발동시킨 주문에 대해 무효화 판정을 시도합니다.</p>"
+    },
+    "(Robotic War Machine) Attack Pattern Alpha": {
+      "name": "(로봇 전쟁 기계) 공격 패턴 알파((Robotic War Machine) Attack Pattern Alpha)",
+      "description": "<p>원격 전쟁 기계는 한 걸음 또는 이동한 다음, 같은 대상을 상대로 두 번 타격합니다. 두 타격 모두 다중 공격 페널티 계산에 포함되지만, 두 타격을 모두 마칠 때까지 다중 공격 페널티가 증가하지 않습니다.</p>"
+    },
+    "(Nymph Queen) Astronomical Ties": {
+      "name": "(님프 여왕) 천체의 유대((Nymph Queen) Astronomical Ties)",
+      "description": "<p>님프 여왕은 헬리아드 여왕의 초거성처럼 특정 천체와 본질적으로 연결되어 있습니다. 여왕이 건강한 동안에는 그녀의 영토가 번영하며, 자신의 주문 공격 굴림을 사용하고 자신이 시전할 수 있는 최고 랭크 주문과 같은 무효화 랭크로 그 천체의 물리적 성질을 바꾸는 주문과 의식을 무효화할 수 있습니다. 그러나 님프 여왕이 부상을 입거나 건강을 잃으면 그녀의 천체도 약해집니다. 소행성은 궤도에서 비틀거리고, 별은 희미해지며, 블랙홀의 중력은 약해집니다. 님프 여왕을 회복시키면 그녀의 천체도 평형을 되찾습니다.</p>"
+    },
+    "Improved Push": {
+      "name": "임프루브드 푸시(Improved Push)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedPush]</p>"
+    },
+    "(Rendworm Host) Self-Destructive Frenzy": {
+      "name": "(렌드웜 숙주) 자멸적 광란((Rendworm Host) Self-Destructive Frenzy)",
+      "description": "<p><strong>요구 사항</strong> 렌드웜 숙주가 @UUID[Compendium.sf2e.conditions.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 아니며, 이미 광란 중이지 않습니다.</p>\n<p><strong>조건</strong> 렌드웜 숙주가 피해를 받습니다.</p><hr /><p><strong>효과</strong> 렌드웜 숙주는 3라운드 동안 지속되는 광란에 빠져 혼란 상태를 얻습니다. 혼란 상태인 동안 렌드웜 숙주는 공격 굴림에 +1 상황 보너스, 피해 굴림에 +2 상황 보너스를 얻고 AC에 -2 상황 페널티를 받습니다. 렌드웜 숙주는 이 광란을 자발적으로 끝낼 수 없습니다.</p>"
+    },
+    "(Security Robot) Fire Suppressor": {
+      "name": "(보안 로봇) 화재 진압기((Security Robot) Fire Suppressor)",
+      "description": "<p>로봇은 @UUID[Compendium.sf2e.spells.Item.jfVCuOpzC6mUrf6f]{하이드롤릭 푸시}처럼 기능하는 거센 물줄기를 뿜습니다. 이 능력을 사용한 뒤 로봇은 물탱크를 다시 채워야 합니다.</p>"
+    },
+    "(Magical) Magical Resilience": {
+      "name": "(마법적) 마법 회복력((Magical) Magical Resilience)",
+      "description": "<p><strong>조건</strong> 크리처가 자신의 마법 전통에 속한 주문 또는 마법 효과에 대한 내성 굴림을 시도하려 하지만 아직 굴리지 않았습니다.</p><hr /><p><strong>효과</strong> 크리처는 발동시킨 효과에 대한 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+    },
+    "(Necrovite) Keeper of the Old Ways": {
+      "name": "(네크로바이트) 옛 방식의 수호자((Necrovite) Keeper of the Old Ways)",
+      "description": "<p>30피트. 기술 특성이 있는 크리처와 기술 특성이 있는 무기를 들고 있는 크리처가 오라 안에서 자신의 턴을 시작하면 인내 내성 굴림을 시도해야 합니다. 그 후 해당 크리처는 1시간 동안 이 오라에 일시적으로 면역이 됩니다.</p>\n<p><strong>성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 크리처는 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동} 상태가 됩니다.</p>"
+    },
+    "(Infiltrator Robot) Integrated Infiltration Gear": {
+      "name": "(침투 로봇) 통합 침투 장비((Infiltrator Robot) Integrated Infiltration Gear)",
+      "description": "<p>로봇에는 @UUID[Compendium.sf2e.equipment.Item.coJUVZGcuVg3FoYh]{상업용 잠입자 도구}(7레벨 이상이면 @UUID[Compendium.sf2e.equipment.Item.ao5MC3I1b4Gx9LNC]{전술용 잠입자 도구})과 @UUID[Compendium.sf2e.equipment.Item.qqjDcCW118ySAlAS]{상업용 해킹 도구}(7레벨 이상이면 @UUID[Compendium.sf2e.equipment.Item.5o7wOnkxEsyBwBNj]{전술용 해킹 도구}, 9레벨 이상이면 @UUID[Compendium.sf2e.equipment.Item.dk4qkf4BF7wCPV4u]{고급 해킹 도구})이 통합되어 있습니다.</p>"
+    },
+    "All-Around Vision": {
+      "name": "전방위 시야(All-Around Vision)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+    },
+    "(Necrovite) Rejuvenation": {
+      "name": "(네크로바이트) 회춘((Necrovite) Rejuvenation)",
+      "description": "<p>네크로바이트가 파괴되면 그 의식은 즉시 전기뇌로 전송됩니다. 네크로바이트를 영구적으로 파괴하려면 그 전기뇌를 찾아 파괴해야 합니다.</p>"
+    },
+    "Knockdown": {
+      "name": "넉다운(Knockdown)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+    },
+    "Pull": {
+      "name": "당신이 풀을 합니다.(Pull)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Pull]</p>"
+    },
+    "Aquatic Ambush": {
+      "name": "수중 매복(Aquatic Ambush)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
+    },
+    "Light Blindness": {
+      "name": "라이트 블라인드니스(Light Blindness)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+    },
+    "(Robotic War Machine) Attack Pattern Gamma": {
+      "name": "(로봇 전쟁 기계) 공격 패턴 감마((Robotic War Machine) Attack Pattern Gamma)",
+      "description": "<p>원격 전쟁 기계는 원하는 조합의 대상들을 상대로 세 번 타격합니다. 각 타격은 기민 특성을 얻으며, 각 타격은 다중 공격 페널티 계산에 포함됩니다.</p>"
+    },
+    "(Robotic War Machine) Attack Pattern Delta": {
+      "name": "(로봇 전쟁 기계) 공격 패턴 델타((Robotic War Machine) Attack Pattern Delta)",
+      "description": "<p>원격 전쟁 기계는 두 번 이동한 다음 타격합니다.</p>"
+    },
+    "Improved Knockdown": {
+      "name": "임프루브드 넉다운(Improved Knockdown)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedKnockdown]</p>"
+    },
+    "(Digital Ghost) Malware Infection": {
+      "name": "(디지털 고스트) 악성코드 감염((Digital Ghost) Malware Infection)",
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 디지털 고스트는 30피트 이내의 크리처가 들거나 사용 중인 기술 특성 아이템 하나를 감염시키려 합니다. 소지자는 의지 내성 굴림을 시도할 수 있습니다.</p><hr /><p><strong>대성공</strong> 아이템은 영향을 받지 않으며, 디지털 고스트는 1주일 동안 악성코드 감염을 사용할 수 없습니다.</p>\n<p><strong>성공</strong> 아이템은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 아이템은 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 아이템은 오작동 2 상태가 되며, [[/gmr 2d4 #days]]{2d4일} 뒤 그 장치에 소지자를 바탕으로 한 오프라인 디지털 고스트가 생성됩니다.</p>"
+    },
+    "(Rendworm Host) Rendworm Eruption": {
+      "name": "(렌드웜 숙주) 렌드웜 분출((Rendworm Host) Rendworm Eruption)",
+      "description": "<p>렌드웜 숙주가 화염 피해가 아닌 원인으로 HP 0이 되면 몸이 파열되며, 자신의 레벨 절반(내림)과 같은 수의 렌드웜이 생성됩니다.</p>"
+    },
+    "(Environmental Adaptation) Temperature Adaptation": {
+      "name": "(환경 적응) 온도 적응((Environmental Adaptation) Temperature Adaptation)",
+      "description": "<p>크리처는 환경 온도 효과를 한 단계 덜 극심한 것으로 취급합니다(불가사의한 고열은 극심한 고열로, 극심한 고열은 심한 고열로 취급하는 식입니다).</p>"
+    },
+    "Ferocity": {
+      "name": "피로시티(Ferocity)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
+    },
+    "(Robotic War Machine) BVR Engagement": {
+      "name": "(로봇 전쟁 기계) 가시거리 밖 교전((Robotic War Machine) BVR Engagement)",
+      "description": "<p>원격 전쟁 기계는 무기의 정상 사거리 두 배인 것처럼 대상을 상대로 원거리 타격을 합니다. 이 타격은 모든 형태의 은폐와 엄폐를 무시합니다.</p>"
+    },
+    "Greater Constrict": {
+      "name": "그레이터 컨스트릭트(Greater Constrict)",
+      "description": "<p>@Damage[(0)[bludgeoning]], @Check[fortitude|dc:|basic|options:inflicts:unconscious]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+    },
+    "(Necrovite) Fatiguing Presence": {
+      "name": "(네크로바이트) 피로의 존재감((Necrovite) Fatiguing Presence)",
+      "description": "<p>30피트. 오라에 처음 들어온 크리처는 인내 내성 굴림에 성공해야 하며, 실패하면 @UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 됩니다. 내성 굴림 결과와 관계없이, 해당 크리처는 24시간 동안 네크로바이트의 피로의 존재감에 일시적으로 면역이 됩니다.</p>"
+    },
+    "Stench": {
+      "name": "악취(Stench)",
+      "description": "<p>0피트. @Check[fortitude|dc:|options:area-effect,inflicts:sickened,inflicts:slowed]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
+    },
+    "(Nymph Queen) Broadcast Allure": {
+      "name": "(님프 여왕) 매혹 송출((Nymph Queen) Broadcast Allure)",
+      "description": "<p>님프 여왕은 데이터패드나 통신기처럼 영상을 표시할 수 있는 행성 범위 내의 모든 기술 아이템에 마법적으로 자신의 모습을 겹쳐 표시합니다. 대신 자신이 아는 하나 이상의 통신 주소로 이 영상을 보낼 수도 있습니다. 영상을 볼 수 있는 각 크리처는 님프 여왕의 주문 DC에 대한 의지 내성 굴림에 성공해야 하며, 실패하면 그녀에 대한 태도가 한 단계 좋아집니다(대실패 시 두 단계). 님프 여왕이 영향을 받은 크리처 또는 그 동료에게 적대적 행동을 하면, 해당 크리처의 태도는 이전 단계로 돌아갑니다.</p>"
+    },
+    "Void Healing": {
+      "name": "공허 치유(Void Healing)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+    },
+    "Grab": {
+      "name": "잡으십시오.(Grab)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+    },
+    "(Warped) Unsettling": {
+      "name": "(뒤틀린) 불안정한 기운((Warped) Unsettling)",
+      "description": "<p>20피트. 오라에 들어온 크리처는 의지 내성 굴림에 성공해야 하며, 실패하면 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음} 상태가 됩니다(대실패 시 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}). 그 후 해당 크리처는 1분 동안 일시적으로 면역이 됩니다. 크리처의 주문 DC 또는 기존 능력 중 하나의 DC 가운데 더 높은 것을 사용하거나, 크리처의 레벨에 따라 DC를 정하십시오.</p>"
+    },
+    "Trample": {
+      "name": "짓밟기(Trample)",
+      "description": "<p>[크기], [명시된 타격], @Check[reflex|dc:|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+    },
+    "Wavesense": {
+      "name": "웨이브센스(Wavesense)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Wavesense]</p>"
+    },
+    "(Necrovite) Scramble Psyche": {
+      "name": "(네크로바이트) 정신 뒤섞기((Necrovite) Scramble Psyche)",
+      "description": "<p>네크로바이트는 인접한 크리처 하나를 만져 사고 패턴을 뒤섞습니다. 대상은 의지 내성 굴림에 성공해야 하며, 실패하면 1분 동안 @UUID[Compendium.sf2e.conditions.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다. 혼란이 지속되는 동안 네크로바이트는 혼란 상태의 대상에게 @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{숨겨짐} 상태로 간주됩니다.</p>"
+    },
+    "Reactive Strike": {
+      "name": "반응적 타격(Reactive Strike)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+    },
+    "(Necrovite) Decompose": {
+      "name": "(네크로바이트) 분해((Necrovite) Decompose)",
+      "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 네크로바이트는 크리처 하나를 상대로 래크스태프 타격을 합니다. 공격이 명중하여 피해를 주면, 해당 크리처는 @Damage[3d6[persistent,void]] 피해를 받습니다.</p>"
+    },
+    "(Nanite) Compression": {
+      "name": "(나나이트) 압축((Nanite) Compression)",
+      "description": "<p>크리처는 비집기 없이 폭이 최소 2피트인 틈을 통과할 수 있으며, 폭이 최소 1피트인 틈을 비집고 통과할 수 있습니다.</p>"
+    },
+    "Throw Rock": {
+      "name": "돌 던지기(Throw Rock)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ThrowRock]</p>"
+    },
+    "Swarm Mind": {
+      "name": "스웜 마인드(Swarm Mind)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>"
+    },
+    "(Necrovite) Undying Vigor": {
+      "name": "(네크로바이트) 불멸의 활력((Necrovite) Undying Vigor)",
+      "description": "<p><strong>빈도</strong> 분당 한 번</p><hr /><p><strong>효과</strong> 네크로바이트는 50피트 이내의 언데드 크리처 하나에 공허 에너지의 쇄도를 주입합니다. 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{가속} 상태가 됩니다. 강화된 언데드는 이 추가 행동을 이동 또는 타격에만 사용할 수 있습니다.</p>"
+    },
+    "(Security Robot) Exigency": {
+      "name": "(보안 로봇) 긴급 회피((Security Robot) Exigency)",
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<p><strong>조건</strong> 크리처 하나가 보안 로봇을 공격의 대상으로 지정합니다.</p><hr /><p><strong>효과</strong> 로봇은 공격을 피하기 위해 처리 능력을 오버클럭하며, 유발한 공격에 대한 AC에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Change Shape": {
+      "name": "변신(Change Shape)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+    },
+    "Hover": {
+      "name": "호버(Hover)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Hover]</p>"
+    },
+    "Frightful Presence": {
+      "name": "공포의 존재(Frightful Presence)",
+      "description": "<p>0 피트 @Check[will|dc:|options:area-effect,inflicts:frightened]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+    },
+    "Low-Light Vision": {
+      "name": "저조도 시야(Low-Light Vision)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LowLightVision]</p>"
+    },
+    "Fast Healing": {
+      "name": "패스트 힐링(Fast Healing)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+    },
+    "Constrict": {
+      "name": "컨스트릭트(Constrict)",
+      "description": "<p>@Damage[(0)[bludgeoning]], @Check[fortitude|dc:|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+    },
+    "(Environmental Adaptation) Terrain Adaptation": {
+      "name": "(환경 적응) 지형 적응((Environmental Adaptation) Terrain Adaptation)",
+      "description": "<p>크리처는 자신의 환경에서 가장 흔한 지형으로 인해 생기는 울퉁불퉁한 지면과 어려운 지형을 무시합니다. 예를 들어 혹한의 위성에서는 설원 지형을 무시합니다(매우 어려운 지형은 일반 어려운 지형으로 완화합니다).</p>"
+    },
+    "Improved Grab": {
+      "name": "임프루브드 그랩(Improved Grab)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+    },
+    "(Necrovite) Clear Mind": {
+      "name": "(네크로바이트) 맑은 정신((Necrovite) Clear Mind)",
+      "description": "<p><strong>조건</strong> 네크로바이트가 감정 특성이 있는 주문의 대상이 됩니다.</p><hr /><p><strong>효과</strong> 네크로바이트는 발동시킨 주문에 대해 무효화 판정을 시도합니다. 주문이 방해되면, 네크로바이트는 1분 동안 지속되는 임시 HP를 무효화한 주문 랭크의 두 배만큼 얻습니다.</p>"
+    },
+    "(Warped) Not Really There": {
+      "name": "(뒤틀린) 실제로는 그곳에 없다((Warped) Not Really There)",
+      "description": "<p><strong>조건</strong> 크리처 하나가 뒤틀린 크리처를 공격 또는 범위 효과의 대상으로 지정하며, 뒤틀린 크리처가 공격자를 인지하고 있습니다.</p><hr /><p><strong>효과</strong> 뒤틀린 크리처는 10피트 순간이동합니다. 이로 인해 공격의 사거리 또는 범위에서 벗어나면 공격은 빗나갑니다. 그렇지 않으면 뒤틀린 크리처는 해당 공격에 대한 AC와 반사 내성 굴림에 +2 상황 보너스를 얻습니다.</p>"
+    },
+    "Tremorsense": {
+      "name": "진동 감지(Tremorsense)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+    },
+    "Constant Spells": {
+      "name": "지속 주문(Constant Spells)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+    },
+    "Telepathy": {
+      "name": "텔레파시(Telepathy)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+    },
+    "Regeneration": {
+      "name": "재생(Regeneration)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+    },
+    "(Malevolent AI) Electric Cable": {
+      "name": "(악의적 AI) 전기 케이블((Malevolent AI) Electric Cable)",
+      "description": ""
+    },
+    "(Hardlight) Tethered": {
+      "name": "(하드라이트) 연결 제한((Hardlight) Tethered)",
+      "description": "<p>하드라이트 크리처는 투사기로부터 표시된 피트보다 더 멀리 이동할 수 없습니다. HP 0이 된 하드라이트 크리처는 사라지지만, 투사기가 [[/gmr 1d4 #hours]]{1d4시간} 뒤 재구성합니다. 하드라이트 크리처를 영구적으로 파괴하는 유일한 방법은 투사기를 찾아 수리하거나 파괴하는 것입니다.</p>"
+    },
+    "Shield Block": {
+      "name": "쉴드 블록(Shield Block)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+    },
+    "(Nymph Queen) Fan Mail": {
+      "name": "(님프 여왕) 팬 메시지((Nymph Queen) Fan Mail)",
+      "description": "<p>님프 여왕은 지능이 있는 크리처 하나에게 동기 부여 영상이나 문자 메시지를 보내 영감을 줄 수 있습니다. 해당 크리처가 메시지를 저장해 두고 님프 여왕과 좋은 관계를 유지하는 동안, 예술 또는 공연과 관련된 모든 제작, 공연, 지식 판정에 +1 상태 보너스를 얻습니다. 크리처는 1행동 상호작용으로 메시지를 재생하거나 확인하여 정신을 북돋울 수 있습니다. 그러면 자신에게 영향을 주는 감정 효과 하나에 대해 님프 여왕의 주문 공격 수정치를 사용하여 무효화 판정을 시도할 수 있습니다. 님프 여왕의 메시지를 이런 방식으로 사용하면 이후에는 평범한 영상이나 문자로 변합니다.</p>"
+    },
+    "(Necrovite) Entropic Touch": {
+      "name": "(네크로바이트) 엔트로피의 손길((Necrovite) Entropic Touch)",
+      "description": "<p>네크로바이트가 주는 공허 피해는 언데드와 공허 치유가 있는 크리처에게 활력 피해인 것처럼 피해를 줍니다. 네크로바이트의 근접 타격은 비실체 언데드를 공격할 때 고스트 킬러 업그레이드의 이점을 얻습니다.</p>"
+    },
+    "(Robotic War Machine) Ballistic Defense Matrix": {
+      "name": "(로봇 전쟁 기계) 탄도 방어 매트릭스((Robotic War Machine) Ballistic Defense Matrix)",
+      "description": "<p><strong>조건</strong> 크리처 하나가 원격 전쟁 기계를 상대로 원거리 타격을 시도합니다.</p>\n<p><strong>요구 사항</strong> 전쟁 기계가 현재 해당 크리처의 도달 거리 밖에 있습니다.</p><hr /><p><strong>효과</strong> 원격 전쟁 기계는 유발한 크리처를 상대로 원거리 타격을 합니다. 이 타격의 결과가 유발한 타격의 결과 이상이면, 유발한 타격은 대실패한 것으로 취급합니다.</p>"
+    },
+    "(Security Robot) Nanite Surge": {
+      "name": "(보안 로봇) 나나이트 쇄도((Security Robot) Nanite Surge)",
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 보안 로봇은 기술 크리처 또는 기술 아이템 하나의 HP를 로봇의 레벨당 6점(@Damage[(@actor.level*6)[healing]]) 회복합니다.</p>"
+    },
+    "Darkvision": {
+      "name": "다크비전(Darkvision)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+    },
+    "(Nymph Queen) Celestial Step": {
+      "name": "(님프 여왕) 천체 걸음((Nymph Queen) Celestial Step)",
+      "description": "<p>님프 여왕은 자신의 천체를 거의 즉시 횡단할 수 있습니다. 님프 여왕은 천체 걸음을 사용해 자신의 영토 표면 또는 내부의 어느 지역으로든 순간이동할 수 있으며, 표면 속으로 사라졌다가 의도한 목적지에서 다시 나타납니다.</p>"
+    },
+    "No Breath": {
+      "name": "무호흡(No Breath)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NoBreath]</p>"
+    },
+    "Scent": {
+      "name": "냄새(Scent)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+    },
+    "Lifesense": {
+      "name": "라이프센스(Lifesense)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+    },
+    "Push": {
+      "name": "밀다(Push)",
+      "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
+    },
+    "Swallow Whole": {
+      "name": "통째로 삼키기(Swallow Whole)",
+      "description": "<p>[명시된 크기], @Damage[(0)[bludgeoning]], 파열 [0]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+    },
+    "(Nanite) Nanite Surge": {
+      "name": "(나나이트) 나나이트 쇄도((Nanite) Nanite Surge)",
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 크리처는 기술 특성이 있는 크리처 또는 아이템 하나의 HP를 레벨당 6점(@Damage[(@actor.level*6)[healing]]) 회복합니다.</p>"
+    },
+    "(Robotic War Machine) Attack Pattern Beta": {
+      "name": "(로봇 전쟁 기계) 공격 패턴 베타((Robotic War Machine) Attack Pattern Beta)",
+      "description": "<p>원격 전쟁 기계는 대상 하나를 타격한 다음, 한 걸음 또는 이동하고 사거리 내의 다른 대상 하나를 타격합니다. 두 타격 모두 다중 공격 페널티 계산에 포함되지만, 두 타격을 모두 마칠 때까지 다중 공격 페널티가 증가하지 않습니다.</p>"
+    },
+    "(Digital Ghost) Virtual Arms": {
+      "name": "(디지털 고스트) 가상 무장((Digital Ghost) Virtual Arms)",
+      "description": "<p>디지털 고스트의 무기는 정신 피해를 주고 고스트 킬러 업그레이드를 지니며, 떨어뜨리면 사라집니다.</p>"
+    },
+    "Engulf": {
+      "name": "휩쓸어 삼키기(Engulf)",
+      "description": "<p>@Check[reflex|dc:|options:damaging-effect,inflicts:grabbed,inflicts:slowed], @Damage[(0)[damageType]] 피해, [[/act escape dc=0]]{탈출}, 파열 [0]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
+    },
+    "(Infiltrator Robot) Reactive Camouflage": {
+      "name": "(침투 로봇) 반응형 위장((Infiltrator Robot) Reactive Camouflage)",
+      "description": "<p>로봇의 외장 패널에는 감광 반사기가 기본 장착되어 있습니다. 로봇은 엄폐나 은폐가 없어도 [[/act hide]]{숨기}를 사용할 수 있습니다.</p>"
+    }
+  }
+}

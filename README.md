@@ -2,7 +2,7 @@
 
 > **별들 사이의 모험을 한국어로.**
 
-[![Release](https://img.shields.io/github/v/release/CacaoBear/sf2e-kr?label=최신%20버전)](https://github.com/CacaoBear/sf2e-kr/releases/latest)
+[![Release](https://img.shields.io/github/v/release/SugarBear1541/sf2e-kr?label=최신%20버전)](https://github.com/SugarBear1541/sf2e-kr/releases/latest)
 ![Foundry VTT](https://img.shields.io/badge/Foundry%20VTT-v14-orange)
 ![Language](https://img.shields.io/badge/언어-한국어-blue)
 ![Status](https://img.shields.io/badge/상태-공개%20베타-yellow)

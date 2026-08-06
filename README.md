@@ -48,7 +48,7 @@
 - 시트와 채팅 카드의 기계 번역 문구 수정
 - 규칙 용어집에 따른 명칭 통일
 
-전체 변경사항은 [Releases](https://github.com/CacaoBear/sf2e-kr/releases)에서 확인할 수 있습니다.
+전체 변경사항은 [Releases](https://github.com/SugarBear1541/sf2e-kr/releases)에서 확인할 수 있습니다.
 
 ---
 
@@ -70,7 +70,7 @@ SF2e-KR은 독립적인 게임 시스템이 아닙니다.
 Foundry VTT의 **애드온 모듈 설치** 화면에서 아래 주소를 입력합니다.
 
 ```text
-https://github.com/CacaoBear/sf2e-kr/releases/latest/download/module.json
+https://github.com/SugarBear1541/sf2e-kr/releases/latest/download/module.json
 ```
 
 설치가 끝나면 사용할 월드에서 다음 모듈을 활성화합니다.
@@ -82,7 +82,7 @@ https://github.com/CacaoBear/sf2e-kr/releases/latest/download/module.json
 
 ### 수동 설치
 
-[Releases](https://github.com/CacaoBear/sf2e-kr/releases)에서  
+[Releases](https://github.com/SugarBear1541/sf2e-kr/releases)에서  
 `sf2e-kr.zip`을 내려받아 압축을 푼 뒤 Foundry 사용자 데이터의 `Data/modules` 폴더에 넣습니다.
 
 최종 경로는 다음과 같아야 합니다.
@@ -109,7 +109,7 @@ Data/modules/sf2e-kr/module.json
 ## 오류 제보
 
 번역 오류나 비정상적인 출력이 발견되면  
-[GitHub Issues](https://github.com/CacaoBear/sf2e-kr/issues)에 제보해 주세요.
+[GitHub Issues](https://github.com/SugarBear1541/sf2e-kr/issues)에 제보해 주세요.
 
 다음 내용을 함께 적어주시면 확인에 도움이 됩니다.
 

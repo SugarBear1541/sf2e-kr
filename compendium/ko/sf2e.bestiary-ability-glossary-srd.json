@@ -50,7 +50,7 @@
     },
     "(Security Robot) Fire Suppressor": {
       "name": "(보안 로봇) 화재 진압기((Security Robot) Fire Suppressor)",
-      "description": "<p>로봇은 @UUID[Compendium.sf2e.spells.Item.jfVCuOpzC6mUrf6f]{하이드롤릭 푸시}처럼 기능하는 거센 물줄기를 뿜습니다. 이 능력을 사용한 뒤 로봇은 물탱크를 다시 채워야 합니다.</p>"
+      "description": "<p>로봇은 @UUID[Compendium.sf2e.spells.Item.jfVCuOpzC6mUrf6f]{수압 밀치기}처럼 기능하는 거센 물줄기를 뿜습니다. 이 능력을 사용한 뒤 로봇은 물탱크를 다시 채워야 합니다.</p>"
     },
     "(Magical) Magical Resilience": {
       "name": "(마법적) 마법 회복력((Magical) Magical Resilience)",
@@ -221,7 +221,7 @@
       "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
     },
     "(Necrovite) Clear Mind": {
-      "name": "(네크로바이트) 맑은 정신((Necrovite) Clear Mind)",
+      "name": "(네크로바이트) 명경지수((Necrovite) Clear Mind)",
       "description": "<p><strong>조건</strong> 네크로바이트가 감정 특성이 있는 주문의 대상이 됩니다.</p><hr /><p><strong>효과</strong> 네크로바이트는 발동시킨 주문에 대해 무효화 판정을 시도합니다. 주문이 방해되면, 네크로바이트는 1분 동안 지속되는 임시 HP를 무효화한 주문 랭크의 두 배만큼 얻습니다.</p>"
     },
     "(Warped) Not Really There": {
@@ -253,7 +253,7 @@
       "description": "<p>하드라이트 크리처는 투사기로부터 표시된 피트보다 더 멀리 이동할 수 없습니다. HP 0이 된 하드라이트 크리처는 사라지지만, 투사기가 [[/gmr 1d4 #hours]]{1d4시간} 뒤 재구성합니다. 하드라이트 크리처를 영구적으로 파괴하는 유일한 방법은 투사기를 찾아 수리하거나 파괴하는 것입니다.</p>"
     },
     "Shield Block": {
-      "name": "쉴드 블록(Shield Block)",
+      "name": "방패 블록(Shield Block)",
       "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
     },
     "(Nymph Queen) Fan Mail": {
@@ -273,7 +273,7 @@
       "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 보안 로봇은 기술 크리처 또는 기술 아이템 하나의 HP를 로봇의 레벨당 6점(@Damage[(@actor.level*6)[healing]]) 회복합니다.</p>"
     },
     "Darkvision": {
-      "name": "다크비전(Darkvision)",
+      "name": "암시야(Darkvision)",
       "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
     },
     "(Nymph Queen) Celestial Step": {

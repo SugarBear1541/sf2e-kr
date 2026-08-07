@@ -183,7 +183,7 @@
     },
     "Deflect Force": {
       "name": "역장 튕겨내기(Deflect Force)",
-      "description": "<p><strong>빈도</strong> 시간당 한 번</p>\n<p><strong>조건</strong> @UUID[Compendium.sf2e.spells.Item.gKKqvLohtrSJj3BM]{포스 배러지} 주문의 표적이 됩니다.</p><hr /><p><strong>효과</strong> 당신을 향해 발사된 마법적 역장 파편을 튕겨냅니다. 시전자의 주문 DC를 상대로 @Check[reflex] 내성을 시도합니다. 성공하면 피해를 받지 않습니다. 여러 역장 파편의 표적이 되었다면 첫 번째 파편만 튕겨낼 수 있습니다.</p>"
+      "description": "<p><strong>빈도</strong> 시간당 한 번</p>\n<p><strong>조건</strong> @UUID[Compendium.sf2e.spells.Item.gKKqvLohtrSJj3BM]{역장 탄막} 주문의 표적이 됩니다.</p><hr /><p><strong>효과</strong> 당신을 향해 발사된 마법적 역장 파편을 튕겨냅니다. 시전자의 주문 DC를 상대로 @Check[reflex] 내성을 시도합니다. 성공하면 피해를 받지 않습니다. 여러 역장 파편의 표적이 되었다면 첫 번째 파편만 튕겨낼 수 있습니다.</p>"
     },
     "Delay": {
       "name": "지연(Delay)",
@@ -579,7 +579,7 @@
     },
     "Polyp Print": {
       "name": "폴립 출력(Polyp Print)",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>요구 사항</strong> @UUID[Compendium.sf2e.spells.Item.pwzdSlJgYqN7bs2w]{텔레키네틱 핸드}이 활성화되어 있습니다.</p><hr /><p><strong>효과</strong> 폴립이 부풀고 자라 주 몸체의 복제체로 변하는 동안, 기존의 주 몸체는 시들어 미끼였음이 드러납니다. <em>염동력 손</em>의 공간에 나타나고 염동력 손 효과를 끝냅니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>요구 사항</strong> @UUID[Compendium.sf2e.spells.Item.pwzdSlJgYqN7bs2w]{염동력 손}이 활성화되어 있습니다.</p><hr /><p><strong>효과</strong> 폴립이 부풀고 자라 주 몸체의 복제체로 변하는 동안, 기존의 주 몸체는 시들어 미끼였음이 드러납니다. <em>염동력 손</em>의 공간에 나타나고 염동력 손 효과를 끝냅니다.</p>"
     },
     "Puff Up": {
       "name": "몸 부풀리기(Puff Up)",
@@ -651,7 +651,7 @@
     },
     "Repeat a Spell": {
       "name": "주문 반복(Repeat a Spell)",
-      "description": "<p>당신은 절반 속도로 이동하면서 같은 주문을 반복해서 시전합니다. 일반적으로 이 주문은 전투가 발생했을 때 효과를 발휘하기를 원하는 소마법이며, 2행동 이하로 시전할 수 있는 주문이어야 합니다. @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트} 와 같이 복잡한 결정을 내려야 하는 주문을 반복하면 GM이 판단했을 때 당신은 @UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로}하게 될 수 있습니다.</p>"
+      "description": "<p>당신은 절반 속도로 이동하면서 같은 주문을 반복해서 시전합니다. 일반적으로 이 주문은 전투가 발생했을 때 효과를 발휘하기를 원하는 소마법이며, 2행동 이하로 시전할 수 있는 주문이어야 합니다. @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{허상} 와 같이 복잡한 결정을 내려야 하는 주문을 반복하면 GM이 판단했을 때 당신은 @UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로}하게 될 수 있습니다.</p>"
     },
     "Reposition": {
       "name": "위치 바꾸기(Reposition)",

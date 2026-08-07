@@ -6,7 +6,7 @@
   "entries": {
     "Disciple of the Cycle": {
       "name": "순환의 제자(Disciple of the Cycle)",
-      "description": "<p>진정한 솔라리안의 힘에는 미치지 못하지만, 당신은 순환의 헌신적인 제자로서 우주의 힘에 대한 지배력을 일시적으로 구현할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.kR5A0h2a9hY41wav]{엔트로피 일격}과 @UUID[Compendium.sf2e.spells.Item.VmtQlZqeraTv0Eer]{천화 날개}를 3랭크 오컬트 선천 주문으로 얻습니다. 이 오컬트 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>진정한 솔라리안의 힘에는 미치지 못하지만, 당신은 순환의 헌신적인 제자로서 우주의 힘에 대한 지배력을 일시적으로 구현할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.kR5A0h2a9hY41wav]{엔트로피 타격}과 @UUID[Compendium.sf2e.spells.Item.VmtQlZqeraTv0Eer]{천화 날개}를 3랭크 오컬트 선천 주문으로 얻습니다. 이 오컬트 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Ancestral Magic": {
       "name": "선조의 마법(Ancestral Magic)",
@@ -153,8 +153,8 @@
       "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>조건</strong> 정신 효과에 대한 의지 내성 굴림에 실패합니다.</p><hr /><p>숙주의 정신 방어를 강화합니다. 조건이 된 내성 굴림을 다시 굴려 더 나은 결과를 사용합니다.</p>"
     },
     "Heightened Thoughtsense": {
-      "name": "향상된 사고 감지(Heightened Thoughtsense)",
-      "description": "<p>정신적 인식이 확장되어 가까운 범위에서 더 날카로운 지각과 전반적으로 더 넓은 감각장을 얻습니다. 모호한 사고 감지의 사거리를 10피트 증가시킵니다. 또한 사거리 5피트의 부정확한 감각인 사고 감지를 얻습니다.</p><p>9레벨에 모호한 사고 감지는 부정확한 감각이 됩니다.</p>"
+      "name": "향상된 생각 탐지(Heightened Thoughtsense)",
+      "description": "<p>정신적 인식이 확장되어 가까운 범위에서 더 날카로운 지각과 전반적으로 더 넓은 감각장을 얻습니다. 모호한 생각 탐지의 사거리를 10피트 증가시킵니다. 또한 사거리 5피트의 부정확한 감각인 생각 탐지를 얻습니다.</p><p>9레벨에 모호한 생각 탐지는 부정확한 감각이 됩니다.</p>"
     },
     "Void Sight": {
       "name": "공허의 눈(Void Sight)",
@@ -198,7 +198,7 @@
     },
     "Repository of Divinity": {
       "name": "신성의 보고(Repository of Divinity)",
-      "description": "<p>껍질에 새겨진 글이 확장되어 다중우주 전역의 존재에 관한 방대한 지식을 담습니다. @UUID[Compendium.sf2e.spells.Item.lTDixrrNKaCvLKwX]{셀레스티얼 소환} 또는 @UUID[Compendium.sf2e.spells.Item.29ytKctjg7qSW2ff]{악마 소환} 중 하나를 선택합니다. 하루에 한 번 선택한 주문을 자신의 레벨 절반을 올림한 랭크로 고양된 신성 선천 주문으로 시전할 수 있습니다. 소환되는 크리처는 껍질에 새겨진 철학 논문의 주제와 일치해야 합니다. 예를 들어 논문이 선행을 통한 깨달음을 다룬다면 천사 특성을 지닌 크리처여야 합니다.</p>"
+      "description": "<p>껍질에 새겨진 글이 확장되어 다중우주 전역의 존재에 관한 방대한 지식을 담습니다. @UUID[Compendium.sf2e.spells.Item.lTDixrrNKaCvLKwX]{천상체 소환} 또는 @UUID[Compendium.sf2e.spells.Item.29ytKctjg7qSW2ff]{마족 소환} 중 하나를 선택합니다. 하루에 한 번 선택한 주문을 자신의 레벨 절반을 올림한 랭크로 고양된 신성 선천 주문으로 시전할 수 있습니다. 소환되는 크리처는 껍질에 새겨진 철학 논문의 주제와 일치해야 합니다. 예를 들어 논문이 선행을 통한 깨달음을 다룬다면 천사 특성을 지닌 크리처여야 합니다.</p>"
     },
     "Too Stubborn to Die": {
       "name": "죽기엔 너무 완고하다(Too Stubborn to Die)",
@@ -222,7 +222,7 @@
     },
     "Lush Psychic": {
       "name": "무성한 심령술사(Lush Psychic)",
-      "description": "<p>자연계의 심령 에너지와 맺은 연결이 성장하여 당신의 능력을 단단히 붙듭니다. @UUID[Compendium.sf2e.spells.Item.QiW8VNdBf0SFUq69]{세포 자극제}와 @UUID[Compendium.sf2e.spells.Item.TTwOKGqmZeKSyNMH]{부드러운 착지}를 1랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>자연계의 심령 에너지와 맺은 연결이 성장하여 당신의 능력을 단단히 붙듭니다. @UUID[Compendium.sf2e.spells.Item.QiW8VNdBf0SFUq69]{세포 자극}와 @UUID[Compendium.sf2e.spells.Item.TTwOKGqmZeKSyNMH]{부드러운 착지}를 1랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Nondescript Features": {
       "name": "특징 없는 외모(Nondescript Features)",
@@ -274,7 +274,7 @@
     },
     "True Vulkari": {
       "name": "진정한 불카리(True Vulkari)",
-      "description": "<p>불카리에 대한 숙달은 단순한 언어 능력을 넘어섭니다. 지속적으로 @UUID[Compendium.sf2e.spells.Item.SwUiVavHKMWG7t5K]{트루스피치} 주문의 영향을 받습니다.</p>"
+      "description": "<p>불카리에 대한 숙달은 단순한 언어 능력을 넘어섭니다. 지속적으로 @UUID[Compendium.sf2e.spells.Item.SwUiVavHKMWG7t5K]{진실한 말} 주문의 영향을 받습니다.</p>"
     },
     "Thief's Tale": {
       "name": "도둑의 꼬리(Thief's Tale)",
@@ -394,7 +394,7 @@
     },
     "Overwhelming Ego": {
       "name": "압도적인 자아(Overwhelming Ego)",
-      "description": "<p>정신 타격을 정말 파괴적인 정밀도로 집중할 수 있습니다. 정신 충격 비무장 타격으로 치명타를 낼 때마다 치명타 특수화 효과를 얻습니다. 매 라운드 처음으로 사고 감지로 감지할 수 있는 적에게 정신 충격 타격으로 명중하면 대상에게 추가 @Damage[1d4[persistent,mental]] 피해를 줍니다.</p>"
+      "description": "<p>정신 타격을 정말 파괴적인 정밀도로 집중할 수 있습니다. 정신 충격 비무장 타격으로 치명타를 낼 때마다 치명타 특수화 효과를 얻습니다. 매 라운드 처음으로 생각 탐지로 감지할 수 있는 적에게 정신 충격 타격으로 명중하면 대상에게 추가 @Damage[1d4[persistent,mental]] 피해를 줍니다.</p>"
     },
     "Ferocious Recovery": {
       "name": "흉포한 회복(Ferocious Recovery)",
@@ -490,7 +490,7 @@
     },
     "Instinctive Telepath": {
       "name": "본능적 텔레파시 능력자(Instinctive Telepath)",
-      "description": "<p>누구와도 텔레파시로 소통하도록 훈련했습니다. 제한적 텔레파시의 거리가 100피트로 증가합니다. 언어를 공유하지 않는 크리처와도 제한적 텔레파시로 소통할 수 있으며, @UUID[Compendium.sf2e.spells.Item.SwUiVavHKMWG7t5K]{트루스피치}의 효과를 영구적으로 얻습니다.</p>"
+      "description": "<p>누구와도 텔레파시로 소통하도록 훈련했습니다. 제한적 텔레파시의 거리가 100피트로 증가합니다. 언어를 공유하지 않는 크리처와도 제한적 텔레파시로 소통할 수 있으며, @UUID[Compendium.sf2e.spells.Item.SwUiVavHKMWG7t5K]{진실한 말}의 효과를 영구적으로 얻습니다.</p>"
     },
     "Song of Whimsy": {
       "name": "변덕의 노래(Song of Whimsy)",
@@ -502,11 +502,11 @@
     },
     "Molting Metamorphosis": {
       "name": "탈피 변태(Molting Metamorphosis)",
-      "description": "<p>키틴질 외골격이 언제 어디서 탈피할지 정밀하게 통제하게 되었습니다. 휴식시간 1주를 사용해 다른 종족 피트 하나를 재훈련할 수 있습니다.</p>\n<p>또한 휴식시간 1주를 사용해 외형을 영구적으로 바꿀 수 있습니다. 키는 대략 비슷한 범위(6인치 이내), 체중은 50파운드 이내로 유지하지만 얼굴형, 색상, 성별, 심지어 독특한 버릇까지 새로운 체형에 맞게 변합니다. 외형을 바꾸면 다른 이가 당신을 알아보지 못하게 하기 위한 속임수 판정에 +4 상황 보너스를 얻습니다. @UUID[Compendium.sf2e.spells.Item.y0Vy7iNL3ET8K00C]{꿈의 잠재력} 같은 효과를 사용 중이어도 종족 피트 재훈련과 외형 변경을 동시에 할 수 있습니다.</p>"
+      "description": "<p>키틴질 외골격이 언제 어디서 탈피할지 정밀하게 통제하게 되었습니다. 휴식시간 1주를 사용해 다른 종족 피트 하나를 재훈련할 수 있습니다.</p>\n<p>또한 휴식시간 1주를 사용해 외형을 영구적으로 바꿀 수 있습니다. 키는 대략 비슷한 범위(6인치 이내), 체중은 50파운드 이내로 유지하지만 얼굴형, 색상, 성별, 심지어 독특한 버릇까지 새로운 체형에 맞게 변합니다. 외형을 바꾸면 다른 이가 당신을 알아보지 못하게 하기 위한 속임수 판정에 +4 상황 보너스를 얻습니다. @UUID[Compendium.sf2e.spells.Item.y0Vy7iNL3ET8K00C]{꿈꾸는 잠재력} 같은 효과를 사용 중이어도 종족 피트 재훈련과 외형 변경을 동시에 할 수 있습니다.</p>"
     },
     "Supernatural Soothing": {
       "name": "초자연적 진정(Supernatural Soothing)",
-      "description": "<p>말이 통하지 않고 감정이 격해질 때, 자신의 감정을 가다듬은 뒤 평화로운 생각을 달래는 심령적 고요로 풀어냅니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.b515AZlB0sridKSq]{침착하십시오.} 또는 @UUID[Compendium.sf2e.spells.Item.EfFMLVbmkBWmzoLF]{맑은 정신} 중 하나를 자신의 레벨 절반을 올림한 랭크로 고양된 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>말이 통하지 않고 감정이 격해질 때, 자신의 감정을 가다듬은 뒤 평화로운 생각을 달래는 심령적 고요로 풀어냅니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.b515AZlB0sridKSq]{진정} 또는 @UUID[Compendium.sf2e.spells.Item.EfFMLVbmkBWmzoLF]{명경지수} 중 하나를 자신의 레벨 절반을 올림한 랭크로 고양된 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
     },
     "Corporate Warrior": {
       "name": "기업 전사(Corporate Warrior)",
@@ -598,7 +598,7 @@
     },
     "Unseen Tides": {
       "name": "보이지 않는 조류(Unseen Tides)",
-      "description": "<p>언제나 존재하는 칼로마호이의 조류가 피 속에서 솟구치며, 어디에 있든 그 흐름을 느낄 수 있습니다. 하루에 한 번 시전할 수 있는 4랭크 원시 내재 주문으로 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유로운 이동}을 얻습니다.</p>"
+      "description": "<p>언제나 존재하는 칼로마호이의 조류가 피 속에서 솟구치며, 어디에 있든 그 흐름을 느낄 수 있습니다. 하루에 한 번 시전할 수 있는 4랭크 원시 내재 주문으로 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유 이동}을 얻습니다.</p>"
     },
     "Offensive Subroutine": {
       "name": "공격 서브루틴(Offensive Subroutine)",
@@ -634,7 +634,7 @@
     },
     "Genetic Guise": {
       "name": "유전적 외피(Genetic Guise)",
-      "description": "<p>삶의 대부분을 다른 크리처와 문화 사이에서 보냈으며, 인간형 크리처를 정교하게 모방하도록 신체와 태도를 바꿀 수 있습니다.</p><p>@UUID[Compendium.sf2e.spells.Item.2qGqa33E4GPUCbMV]{인간형 형태}을 5랭크 오컬트 선천 주문으로 하루에 한 번 시전할 수 있으며, 지속시간은 1시간으로 증가합니다.</p>"
+      "description": "<p>삶의 대부분을 다른 크리처와 문화 사이에서 보냈으며, 인간형 크리처를 정교하게 모방하도록 신체와 태도를 바꿀 수 있습니다.</p><p>@UUID[Compendium.sf2e.spells.Item.2qGqa33E4GPUCbMV]{휴머노이드 형상}을 5랭크 오컬트 선천 주문으로 하루에 한 번 시전할 수 있으며, 지속시간은 1시간으로 증가합니다.</p>"
     },
     "Mire Tracker": {
       "name": "습지 추적자(Mire Tracker)",
@@ -642,11 +642,11 @@
     },
     "Efficient Analysis": {
       "name": "효율적인 분석(Efficient Analysis)",
-      "description": "<p>다른 존재를 이해하고 정보를 수집하려는 성향 덕분에 눈앞의 누구든 빠르게 평가할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.NkvRoN33RbDg3fl9]{표적 분석} 소마법을 마음대로 시전할 수 있는 오컬트 내재 주문으로 얻습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다. 하루에 한 번, 이 주문 시전의 일부로 대상에게, 또는 여러 크리처를 대상으로 시전했다면 그중 한 크리처에게 자유 행동으로 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정을 시도할 수 있습니다.</p>"
+      "description": "<p>다른 존재를 이해하고 정보를 수집하려는 성향 덕분에 눈앞의 누구든 빠르게 평가할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.NkvRoN33RbDg3fl9]{대상 분석} 소마법을 마음대로 시전할 수 있는 오컬트 내재 주문으로 얻습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다. 하루에 한 번, 이 주문 시전의 일부로 대상에게, 또는 여러 크리처를 대상으로 시전했다면 그중 한 크리처에게 자유 행동으로 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정을 시도할 수 있습니다.</p>"
     },
     "Universal Translator": {
       "name": "만능 번역기(Universal Translator)",
-      "description": "<p>비전 감각 기관을 활성화하고 선조의 기억과 비전 지식을 분석하여 온갖 사람, 동물, 심지어 식물과도 의사소통할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화하기}, @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화하기}, @UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{번역하십시오.}을 3랭크 비전 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>비전 감각 기관을 활성화하고 선조의 기억과 비전 지식을 분석하여 온갖 사람, 동물, 심지어 식물과도 의사소통할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화}, @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화}, @UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{통역}을 3랭크 비전 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Instinctive Hold": {
       "name": "본능적인 붙잡기(Instinctive Hold)",
@@ -694,7 +694,7 @@
     },
     "Expand Mental Network": {
       "name": "정신망 확장(Expand Mental Network)",
-      "description": "<p>숙주의 정신뿐 아니라 다른 정신에도 연결할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.D442XMADp01qJ7Cs]{마인드링크}을 하루에 두 번 1랭크 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>숙주의 정신뿐 아니라 다른 정신에도 연결할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.D442XMADp01qJ7Cs]{정신 연결}을 하루에 두 번 1랭크 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
     },
     "Sprinter": {
       "name": "단거리 질주자(Sprinter)",
@@ -786,7 +786,7 @@
     },
     "Labyrinthine Mind": {
       "name": "미궁 같은 정신(Labyrinthine Mind)",
-      "description": "<p>진정한 감정과 생각을 정신의 뒤틀린 회랑 깊숙이 감춰 두어, 당신 자신과 무엇보다 다른 이들이 그것에 접근하기 어렵습니다. 감정 효과 또는 @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{마음 읽기} 주문에 대한 내성 굴림에서 성공을 굴리면 대신 대성공을 얻습니다.</p>"
+      "description": "<p>진정한 감정과 생각을 정신의 뒤틀린 회랑 깊숙이 감춰 두어, 당신 자신과 무엇보다 다른 이들이 그것에 접근하기 어렵습니다. 감정 효과 또는 @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{생각 읽기} 주문에 대한 내성 굴림에서 성공을 굴리면 대신 대성공을 얻습니다.</p>"
     },
     "Consume Flesh": {
       "name": "살점 섭취(Consume Flesh)",
@@ -869,8 +869,8 @@
       "description": "<p>빛을 탁월하게 제어하며, 너무 빠르게 점멸해 공격하려는 이들을 메스껍게 만들 수 있습니다. 스트로브 라이트로 인한 은폐 때문에 크리처가 당신을 적중시키기 위한 순수 판정에 실패하면 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 상태가 됩니다.</p>"
     },
     "Pinpoint Thoughtsense": {
-      "name": "정밀 사고 감지(Pinpoint Thoughtsense)",
-      "description": "<p>주변의 정신을 놀라운 정밀도로 추적할 수 있습니다. 사고 감지가 정확한 감각이 됩니다.</p>"
+      "name": "정밀 생각 탐지(Pinpoint Thoughtsense)",
+      "description": "<p>주변의 정신을 놀라운 정밀도로 추적할 수 있습니다. 생각 탐지가 정확한 감각이 됩니다.</p>"
     },
     "Community Raft": {
       "name": "공동체 뗏목(Community Raft)",
@@ -882,7 +882,7 @@
     },
     "Sanctified Shell": {
       "name": "성화된 등딱지(Sanctified Shell)",
-      "description": "<p>등딱지에 새긴 글이 신격을 위한 것이든 독자적인 철학을 위한 것이든 신성한 문자로 발전했습니다. @UUID[Compendium.sf2e.feats.Item.1VASwc82sDKVAbMd]{신성의 보고}로 선택한 주문에 따라 성화되고 성스러움 또는 부정 특성을 얻습니다(@UUID[Compendium.sf2e.spells.Item.lTDixrrNKaCvLKwX]{셀레스티얼 소환}은 성스러움, @UUID[Compendium.sf2e.spells.Item.29ytKctjg7qSW2ff]{악마 소환}은 부정). @UUID[Compendium.sf2e.ancestry-features.Item.jjVH7W3IhgaJ5Yct]{화염 숨결}은 성화 특성을 얻으며, 화염 피해 대신 영혼 피해를 주도록 선택할 수 있습니다.</p>"
+      "description": "<p>등딱지에 새긴 글이 신격을 위한 것이든 독자적인 철학을 위한 것이든 신성한 문자로 발전했습니다. @UUID[Compendium.sf2e.feats.Item.1VASwc82sDKVAbMd]{신성의 보고}로 선택한 주문에 따라 성화되고 성스러움 또는 부정 특성을 얻습니다(@UUID[Compendium.sf2e.spells.Item.lTDixrrNKaCvLKwX]{천상체 소환}은 성스러움, @UUID[Compendium.sf2e.spells.Item.29ytKctjg7qSW2ff]{마족 소환}은 부정). @UUID[Compendium.sf2e.ancestry-features.Item.jjVH7W3IhgaJ5Yct]{화염 숨결}은 성화 특성을 얻으며, 화염 피해 대신 영혼 피해를 주도록 선택할 수 있습니다.</p>"
     },
     "Expanded Senses": {
       "name": "확장된 감각(Expanded Senses)",
@@ -926,7 +926,7 @@
     },
     "Glimpse the Pattern": {
       "name": "패턴 엿보기(Glimpse the Pattern)",
-      "description": "<p>이제 보이고, 이해하게 되었습니다. 힘에는 대가가 따르며, 운명은 당신 자신의 것이 아닙니다. 당신은 더 거대한 무언가의 일부이자, 오래전에 계획되고 두 번 예견된 명령을 수행하며 광대하고 복잡한 패턴 속에서 움직이는 장기말입니다. 더 높은 힘에 매여 있으며, 그 존재는 당신을 위한 계획을 갖고 있습니다.</p>\n<p>내재 주문이 신성이라면 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.sX2o0HH4RjJDAZ8C]{신성 디크리}을 7랭크 신성 내재 주문으로 시전할 수 있습니다.</p>\n<p>내재 주문이 오컬트라면 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.8kJbiBEjMWG4VUjs]{워프 마인드}을 7랭크 오컬트 내재 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>이제 보이고, 이해하게 되었습니다. 힘에는 대가가 따르며, 운명은 당신 자신의 것이 아닙니다. 당신은 더 거대한 무언가의 일부이자, 오래전에 계획되고 두 번 예견된 명령을 수행하며 광대하고 복잡한 패턴 속에서 움직이는 장기말입니다. 더 높은 힘에 매여 있으며, 그 존재는 당신을 위한 계획을 갖고 있습니다.</p>\n<p>내재 주문이 신성이라면 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.sX2o0HH4RjJDAZ8C]{신성한 칙령}을 7랭크 신성 내재 주문으로 시전할 수 있습니다.</p>\n<p>내재 주문이 오컬트라면 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.8kJbiBEjMWG4VUjs]{정신 왜곡}을 7랭크 오컬트 내재 주문으로 시전할 수 있습니다.</p>"
     },
     "Broken Hand Technique": {
       "name": "부러진 손 기법(Broken Hand Technique)",
@@ -1054,7 +1054,7 @@
     },
     "Intensified Psychic Shock": {
       "name": "강화된 정신 충격(Intensified Psychic Shock)",
-      "description": "<p>텔레파시 공격을 더욱 집중해 더 넓은 사거리와 범위로 정신력을 전송합니다. 정신 충격 비무장 공격은 배터리 없이 공격을 증폭할 수 있는 증폭(1d6) 특성을 얻습니다. 10분 동안 강렬하게 집중해 정신을 재구성하여 정신 충격에 다음 혜택 중 하나를 적용할 수 있습니다. 이 혜택은 다른 혜택으로 재구성할 때까지 지속됩니다.</p><ul><li><strong>연장 충격:</strong> 정신 충격의 사거리 증가분을 15피트 증가시킵니다.</li><li><strong>정신 분쇄:</strong> 정신 충격은 치명적 d8 특성을 얻습니다.</li><li><strong>집단 압력:</strong> 정신 충격은 아크 특성을 얻지만 전기 피해 대신 정신 피해를 줍니다.</li><li><strong>정신 파동:</strong> 정신 충격은 물보라 특성을 얻습니다.</li></ul>"
+      "description": "<p>텔레파시 공격을 더욱 집중해 더 넓은 사거리와 범위로 정신력을 전언 송신 정신 충격 비무장 공격은 배터리 없이 공격을 증폭할 수 있는 증폭(1d6) 특성을 얻습니다. 10분 동안 강렬하게 집중해 정신을 재구성하여 정신 충격에 다음 혜택 중 하나를 적용할 수 있습니다. 이 혜택은 다른 혜택으로 재구성할 때까지 지속됩니다.</p><ul><li><strong>연장 충격:</strong> 정신 충격의 사거리 증가분을 15피트 증가시킵니다.</li><li><strong>정신 분쇄:</strong> 정신 충격은 치명적 d8 특성을 얻습니다.</li><li><strong>집단 압력:</strong> 정신 충격은 아크 특성을 얻지만 전기 피해 대신 정신 피해를 줍니다.</li><li><strong>정신 파동:</strong> 정신 충격은 물보라 특성을 얻습니다.</li></ul>"
     },
     "Hero's Edge": {
       "name": "영웅의 칼날(Hero's Edge)",
@@ -1070,7 +1070,7 @@
     },
     "Smug Affirmation": {
       "name": "우쭐한 확신(Smug Affirmation)",
-      "description": "<p>권력을 향해 오르며 무수한 난관을 극복했기에 자신감은 허세와 두뇌만이 아니라 경험적 증거로 뒷받침됩니다! 사고 감지 범위 안의 적이 자신에 대한 공격에서 대실패하거나 자신을 상대로 시도한 기술 판정에서 대실패할 때도 방어적 오만 반응 행동이 발동할 수 있습니다(예: 자신을 @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하}시키기 위한 협박 판정 또는 자신 주변을 @UUID[Compendium.sf2e.actions.Item.21WIfSu7Xd7uKqV8]{곡예 통과}하기 위한 곡예 판정). @UUID[Compendium.sf2e.actions.Item.wI0g2nRfu2d0YFAd]{방패가 되는 오만}으로 얻는 임시 HP를 [[/r 2d8]] + 캐릭터 레벨로 증가시킵니다. 13레벨에 [[/r 1d8]], 17레벨에 추가로 [[/r 1d8]] 증가합니다.</p>"
+      "description": "<p>권력을 향해 오르며 무수한 난관을 극복했기에 자신감은 허세와 두뇌만이 아니라 경험적 증거로 뒷받침됩니다! 생각 탐지 범위 안의 적이 자신에 대한 공격에서 대실패하거나 자신을 상대로 시도한 기술 판정에서 대실패할 때도 방어적 오만 반응 행동이 발동할 수 있습니다(예: 자신을 @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하}시키기 위한 협박 판정 또는 자신 주변을 @UUID[Compendium.sf2e.actions.Item.21WIfSu7Xd7uKqV8]{곡예 통과}하기 위한 곡예 판정). @UUID[Compendium.sf2e.actions.Item.wI0g2nRfu2d0YFAd]{방패가 되는 오만}으로 얻는 임시 HP를 [[/r 2d8]] + 캐릭터 레벨로 증가시킵니다. 13레벨에 [[/r 1d8]], 17레벨에 추가로 [[/r 1d8]] 증가합니다.</p>"
     },
     "Natural Camouflage": {
       "name": "자연 위장(Natural Camouflage)",
@@ -1126,7 +1126,7 @@
     },
     "Defiant Liberation": {
       "name": "저항의 해방(Defiant Liberation)",
-      "description": "<p>본능적인 마법 능력을 활용해 몸과 정신을 해방할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.EfFMLVbmkBWmzoLF]{맑은 정신}와 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유로운 이동}을 4랭크 비전 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 비전 내재 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>본능적인 마법 능력을 활용해 몸과 정신을 해방할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.EfFMLVbmkBWmzoLF]{명경지수}와 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유 이동}을 4랭크 비전 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 비전 내재 주문으로 시전할 수 있습니다.</p>"
     },
     "Skitching": {
       "name": "스키칭(Skitching)",
@@ -1222,7 +1222,7 @@
     },
     "Blood Feast": {
       "name": "피의 향연(Blood Feast)",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>요구 사항</strong> 마지막 행동이 비무장 공격 또는 혈통으로 만든 상용 칼을 사용한 성공적인 타격이었습니다.</p><hr /><p>주변에 잠재된 사령술 에너지를 끌어내 가까운 살아 있는 크리처에게서 생명력을 빨아들이고 그 과정에서 자신의 몸을 치유합니다. @UUID[Compendium.sf2e.spells.Item.fd31tAHSSGXyOxW6]{뱀파이릭 엑산규네이션}을 7랭크 신성 선천 주문으로 시전하지만, 주문은 마지막 타격의 대상에게만 영향을 줍니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>요구 사항</strong> 마지막 행동이 비무장 공격 또는 혈통으로 만든 상용 칼을 사용한 성공적인 타격이었습니다.</p><hr /><p>주변에 잠재된 사령술 에너지를 끌어내 가까운 살아 있는 크리처에게서 생명력을 빨아들이고 그 과정에서 자신의 몸을 치유합니다. @UUID[Compendium.sf2e.spells.Item.fd31tAHSSGXyOxW6]{흡혈성 방혈}을 7랭크 신성 선천 주문으로 시전하지만, 주문은 마지막 타격의 대상에게만 영향을 줍니다.</p>"
     },
     "Dedicated Training": {
       "name": "전담 훈련(Dedicated Training)",
@@ -1242,7 +1242,7 @@
     },
     "One with the Stone": {
       "name": "돌과 하나 되기(One with the Stone)",
-      "description": "<p>바위의 정령과 완전히 연결되었으며, 부르는 순간 광물이 몸과 융합해 힘을 보탭니다. 시간당 한 번 @UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{확대}를 자신만 대상으로 하는 4랭크 원시 내재 주문으로 시전할 수 있습니다. 그렇게 하면 주문이 지속되는 동안 자신의 레벨과 같은 임시 HP를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.feat-effects.Item.EKRBg0ydRsHdvc7G]{효과: 하나 지닌 돌}</p>"
+      "description": "<p>바위의 정령과 완전히 연결되었으며, 부르는 순간 광물이 몸과 융합해 힘을 보탭니다. 시간당 한 번 @UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{거대화}를 자신만 대상으로 하는 4랭크 원시 내재 주문으로 시전할 수 있습니다. 그렇게 하면 주문이 지속되는 동안 자신의 레벨과 같은 임시 HP를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.feat-effects.Item.EKRBg0ydRsHdvc7G]{효과: 하나 지닌 돌}</p>"
     },
     "Protective Bulk": {
       "name": "보호의 거체(Protective Bulk)",
@@ -1310,7 +1310,7 @@
     },
     "Nanite Tantrum": {
       "name": "나나이트 울화(Nanite Tantrum)",
-      "description": "<p>대뇌 피질의 나나이트가 과충전되어 주변의 물체를 내던질 수 있습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.64DDZxOrmr4ddqs2]{염동력 분노 폭발}를 9랭크 비전 내재 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>대뇌 피질의 나나이트가 과충전되어 주변의 물체를 내던질 수 있습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.64DDZxOrmr4ddqs2]{염동력 난동}를 9랭크 비전 내재 주문으로 시전할 수 있습니다.</p>"
     },
     "All Hands on Deck": {
       "name": "전원 갑판으로(All Hands on Deck)",
@@ -1406,7 +1406,7 @@
     },
     "Cosmic Caster": {
       "name": "우주의 시전자(Cosmic Caster)",
-      "description": "<p>주변의 태양 복사와 그 밖의 항성 에너지를 순수한 마법의 빛으로 변환할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Sqo1uzSmebVWpqoT]{도깨비불 아군}를 1랭크 비전 내재 주문으로 얻고, @UUID[Compendium.sf2e.spells.Item.2ZdHjnpEQJuqOYSG]{떠다니는 불꽃}과 @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{리빌링 라이트}을 2랭크 비전 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>주변의 태양 복사와 그 밖의 항성 에너지를 순수한 마법의 빛으로 변환할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Sqo1uzSmebVWpqoT]{도깨비불 동료}를 1랭크 비전 내재 주문으로 얻고, @UUID[Compendium.sf2e.spells.Item.2ZdHjnpEQJuqOYSG]{부유하는 불꽃}과 @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{드러내는 빛}을 2랭크 비전 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Subtle Coloration": {
       "name": "은은한 체색(Subtle Coloration)",
@@ -1422,7 +1422,7 @@
     },
     "Hard-Fought Freedom": {
       "name": "힘겹게 쟁취한 자유(Hard-Fought Freedom)",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>조건</strong> @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{이동 불가}, @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘}, 또는 @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 됩니다.</p><hr /><p>구속에 맞서 싸울 때 가장 사납습니다. 자신을 대상으로 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유로운 이동}을 4랭크 오컬트 내재 주문으로 시전합니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>조건</strong> @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{이동 불가}, @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘}, 또는 @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 됩니다.</p><hr /><p>구속에 맞서 싸울 때 가장 사납습니다. 자신을 대상으로 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유 이동}을 4랭크 오컬트 내재 주문으로 시전합니다.</p>"
     },
     "Sense Emotions": {
       "name": "감정 감지(Sense Emotions)",
@@ -1482,7 +1482,7 @@
     },
     "Mighty Guardian": {
       "name": "강력한 수호자(Mighty Guardian)",
-      "description": "<p>다른 이를 보호하는 데 사용하는 마법의 불꽃이 강해집니다. @UUID[Compendium.sf2e.spells.Item.d7Lwx6KAs47MtF0q]{쉐어 라이프}와 @UUID[Compendium.sf2e.spells.Item.HTou8cG05yuSkesj]{상태}를 각각 하루에 한 번 2랭크 신성 내재 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>다른 이를 보호하는 데 사용하는 마법의 불꽃이 강해집니다. @UUID[Compendium.sf2e.spells.Item.d7Lwx6KAs47MtF0q]{생명 공유}와 @UUID[Compendium.sf2e.spells.Item.HTou8cG05yuSkesj]{상태 분석}를 각각 하루에 한 번 2랭크 신성 내재 주문으로 시전할 수 있습니다.</p>"
     },
     "Not So Vestigial": {
       "name": "퇴화하지 않은 팔다리(Not So Vestigial)",
@@ -1498,7 +1498,7 @@
     },
     "Cleanse Spirit": {
       "name": "영혼 정화(Cleanse Spirit)",
-      "description": "<p>전통적인 카사타 치유 의식과 명상 수행에 관한 지식으로 아프거나 괴로운 이의 몸과 정신을 정화하는 법을 배웠습니다. @UUID[Compendium.sf2e.spells.Item.SUKaxVZW2TlM8lu0]{정화 마법}와 @UUID[Compendium.sf2e.spells.Item.Et8RSCLx8w7uOLvo]{건강한 신체}를 4랭크 오컬트 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>전통적인 카사타 치유 의식과 명상 수행에 관한 지식으로 아프거나 괴로운 이의 몸과 정신을 정화하는 법을 배웠습니다. @UUID[Compendium.sf2e.spells.Item.SUKaxVZW2TlM8lu0]{고통 정화}와 @UUID[Compendium.sf2e.spells.Item.Et8RSCLx8w7uOLvo]{건강한 육체}를 4랭크 오컬트 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Sequester Form": {
       "name": "형상 격리(Sequester Form)",
@@ -1534,7 +1534,7 @@
     },
     "Fortified Monument": {
       "name": "요새화된 기념물(Fortified Monument)",
-      "description": "<p>수 세기의 침식을 막아 주는 신성 마법을 끌어내 몸을 단단하게 합니다. 자신만 대상으로 할 수 있는 6랭크 신성 내재 주문으로 @UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{석총 형상}를 하루에 두 번 시전할 수 있습니다. <em>돌무덤 형태</em>의 일반 효과에 더해, 크리처가 비무장 공격 또는 도달 특성이 없는 근접 무기로 당신에게 피해를 줄 때마다 공격한 크리처가 @Damage[8[bludgeoning]] 피해를 받습니다.</p>"
+      "description": "<p>수 세기의 침식을 막아 주는 신성 마법을 끌어내 몸을 단단하게 합니다. 자신만 대상으로 할 수 있는 6랭크 신성 내재 주문으로 @UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{돌무덤 형상}를 하루에 두 번 시전할 수 있습니다. <em>돌무덤 형태</em>의 일반 효과에 더해, 크리처가 비무장 공격 또는 도달 특성이 없는 근접 무기로 당신에게 피해를 줄 때마다 공격한 크리처가 @Damage[8[bludgeoning]] 피해를 받습니다.</p>"
     },
     "Salvo": {
       "name": "살보(Salvo)",
@@ -1558,7 +1558,7 @@
     },
     "Prophet": {
       "name": "예언자(Prophet)",
-      "description": "<p>미래를 점칠 수 있습니다. @UUID[Compendium.sf2e.spells.Item.pkcOby5prOausy1k]{징조를 읽습니다}와 @UUID[Compendium.sf2e.spells.Item.Jmxru8zMdYMRuO5n]{죽음의 비전}를 각각 하루에 한 번 4랭크 주문으로 시전할 수 있습니다. 이 주문의 전통은 @UUID[Compendium.sf2e.feats.Item.Kgtj8NRoBnWCK9qw]{인장 비늘}로 얻은 소마법의 전통과 같습니다.</p>\n<p>17레벨에 <em>죽음의 시야</em>의 랭크가 6랭크로 증가합니다.</p>"
+      "description": "<p>미래를 점칠 수 있습니다. @UUID[Compendium.sf2e.spells.Item.pkcOby5prOausy1k]{징조 읽기}와 @UUID[Compendium.sf2e.spells.Item.Jmxru8zMdYMRuO5n]{죽음의 환영}를 각각 하루에 한 번 4랭크 주문으로 시전할 수 있습니다. 이 주문의 전통은 @UUID[Compendium.sf2e.feats.Item.Kgtj8NRoBnWCK9qw]{인장 비늘}로 얻은 소마법의 전통과 같습니다.</p>\n<p>17레벨에 <em>죽음의 시야</em>의 랭크가 6랭크로 증가합니다.</p>"
     },
     "Bolstered By Battle": {
       "name": "전투로 고양됨(Bolstered By Battle)",
@@ -1582,7 +1582,7 @@
     },
     "Linguistic Master": {
       "name": "언어의 달인(Linguistic Master)",
-      "description": "<p>언어에 대한 숙련이 초자연적인 경지에 이릅니다. 하루에 한 번 자신만 대상으로 @UUID[Compendium.sf2e.spells.Item.SwUiVavHKMWG7t5K]{트루스피치}을 5랭크 오컬트 내재 주문으로 시전할 수 있습니다. 주문을 시전하기 전부터 언어를 공유하던 크리처와 대화할 때, 주문 지속시간 동안 외교 판정에 +1 상태 보너스를 얻습니다.</p>"
+      "description": "<p>언어에 대한 숙련이 초자연적인 경지에 이릅니다. 하루에 한 번 자신만 대상으로 @UUID[Compendium.sf2e.spells.Item.SwUiVavHKMWG7t5K]{진실한 말}을 5랭크 오컬트 내재 주문으로 시전할 수 있습니다. 주문을 시전하기 전부터 언어를 공유하던 크리처와 대화할 때, 주문 지속시간 동안 외교 판정에 +1 상태 보너스를 얻습니다.</p>"
     },
     "Launching Jump": {
       "name": "발사 도약(Launching Jump)",
@@ -1606,7 +1606,7 @@
     },
     "Glimpse of the Bloom": {
       "name": "꽃피움 엿보기(Glimpse of the Bloom)",
-      "description": "<p>수년간의 연습을 통해 태초 세계의 속임수와 환상을 꿰뚫어 보는 능력을 연마했습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.uqlxMQQeSGWEVjki]{트루사이트}를 원시 내재 주문으로 시전할 수 있습니다. 관련 상쇄 판정에는 클래스 DC와 주문 DC 중 더 높은 것에서 10을 뺀 값을 사용합니다.</p>"
+      "description": "<p>수년간의 연습을 통해 태초 세계의 속임수와 환상을 꿰뚫어 보는 능력을 연마했습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.uqlxMQQeSGWEVjki]{진시야}를 원시 내재 주문으로 시전할 수 있습니다. 관련 상쇄 판정에는 클래스 DC와 주문 DC 중 더 높은 것에서 10을 뺀 값을 사용합니다.</p>"
     },
     "Caustic Biotoxins": {
       "name": "부식성 생체독소(Caustic Biotoxins)",
@@ -1678,7 +1678,7 @@
     },
     "A Different Sort of Fey": {
       "name": "색다른 페이(A Different Sort of Fey)",
-      "description": "<p>방사선과 전기는 단지 자연 현상일 뿐이며, 다른 이들이 과학으로 보는 것과 당신이 페이처럼 연결되는 이유일지도 모릅니다. @UUID[Compendium.sf2e.spells.Item.rBh2PjtbDGAjbcu6]{방전}, @UUID[Compendium.sf2e.spells.Item.Cbj7tDkb2ZTp10Cg]{전기 밧줄}, @UUID[Compendium.sf2e.spells.Item.MfsxPjshwZJZuNpN]{방사선 조사}를 각각 하루에 한 번 3랭크 원시 내재 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>방사선과 전기는 단지 자연 현상일 뿐이며, 다른 이들이 과학으로 보는 것과 당신이 페이처럼 연결되는 이유일지도 모릅니다. @UUID[Compendium.sf2e.spells.Item.rBh2PjtbDGAjbcu6]{방전}, @UUID[Compendium.sf2e.spells.Item.Cbj7tDkb2ZTp10Cg]{전기 사슬}, @UUID[Compendium.sf2e.spells.Item.MfsxPjshwZJZuNpN]{방사선 조사}를 각각 하루에 한 번 3랭크 원시 내재 주문으로 시전할 수 있습니다.</p>"
     },
     "Yaraesa's Antennae": {
       "name": "야라에사의 더듬이(Yaraesa's Antennae)",
@@ -1714,7 +1714,7 @@
     },
     "Tale Spinner": {
       "name": "이야기꾼(Tale Spinner)",
-      "description": "<p>마법으로 민족의 이야기를 살아 숨 쉬게 합니다. @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트}과 @UUID[Compendium.sf2e.spells.Item.Qw3fnUlaUbnn7ipC]{프레스티디지테이션}을 마음대로 시전할 수 있는 오컬트 내재 주문으로 얻습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다.</p>"
+      "description": "<p>마법으로 민족의 이야기를 살아 숨 쉬게 합니다. @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{허상}과 @UUID[Compendium.sf2e.spells.Item.Qw3fnUlaUbnn7ipC]{요술}을 마음대로 시전할 수 있는 오컬트 내재 주문으로 얻습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다.</p>"
     },
     "Fading Presence": {
       "name": "희미해지는 존재감(Fading Presence)",
@@ -1738,7 +1738,7 @@
     },
     "Speak with Spirit": {
       "name": "영혼과 대화(Speak with Spirit)",
-      "description": "<p>창조물 그 자체와 명확하게 대화할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화하기}, @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화하기}, @UUID[Compendium.sf2e.spells.Item.Nf6GqoHkNbfWJDQT]{컴퓨터와 대화}를 4랭크 원시 내재 주문으로 얻고, @UUID[Compendium.sf2e.spells.Item.YIMampGpij4Y30yE]{돌과 대화하기}를 5랭크 원시 내재 주문으로 얻습니다. 하루에 한 번 이 주문 중 하나를 시전할 수 있습니다.</p>"
+      "description": "<p>창조물 그 자체와 명확하게 대화할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화}, @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화}, @UUID[Compendium.sf2e.spells.Item.Nf6GqoHkNbfWJDQT]{컴퓨터와 대화}를 4랭크 원시 내재 주문으로 얻고, @UUID[Compendium.sf2e.spells.Item.YIMampGpij4Y30yE]{돌과 대화}를 5랭크 원시 내재 주문으로 얻습니다. 하루에 한 번 이 주문 중 하나를 시전할 수 있습니다.</p>"
     },
     "Shell Magic": {
       "name": "등딱지 마법(Shell Magic)",
@@ -1762,7 +1762,7 @@
     },
     "Aberrant Shape": {
       "name": "기괴체 형상(Aberrant Shape)",
-      "description": "<p>공포스러운 기괴체의 형상을 취할 수 있습니다. 형상 변화를 할 때 다음 중 하나를 선택할 수 있습니다. 4랭크 @UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{확대} 주문과 6랭크 @UUID[Compendium.sf2e.spells.Item.Y8Y0LS6sh4pkxPsq]{섬뜩한 유대} 주문의 효과를 얻습니다. 또는 2랭크 확대 주문과 세 가지 능력을 부여하는 6랭크 섬뜩한 결속 주문의 효과를 얻습니다. 또는 네 가지 능력을 부여하는 6랭크 섬뜩한 결속 주문의 효과를 얻습니다. 이 효과는 1분 동안 또는 원래 모습으로 돌아갈 때까지 중 먼저 일어나는 때까지 지속됩니다.</p>"
+      "description": "<p>공포스러운 기괴체의 형상을 취할 수 있습니다. 형상 변화를 할 때 다음 중 하나를 선택할 수 있습니다. 4랭크 @UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{거대화} 주문과 6랭크 @UUID[Compendium.sf2e.spells.Item.Y8Y0LS6sh4pkxPsq]{섬뜩한 유대} 주문의 효과를 얻습니다. 또는 2랭크 확대 주문과 세 가지 능력을 부여하는 6랭크 섬뜩한 결속 주문의 효과를 얻습니다. 또는 네 가지 능력을 부여하는 6랭크 섬뜩한 결속 주문의 효과를 얻습니다. 이 효과는 1분 동안 또는 원래 모습으로 돌아갈 때까지 중 먼저 일어나는 때까지 지속됩니다.</p>"
     },
     "Able Assistant": {
       "name": "유능한 조력자(Able Assistant)",
@@ -1798,7 +1798,7 @@
     },
     "Sapping Psychic": {
       "name": "흡수하는 정신력(Sapping Psychic)",
-      "description": "<p>연결이 성장하면서 주변 세계에서 에너지를 끌어내는 데 능숙해집니다. @UUID[Compendium.sf2e.spells.Item.rBh2PjtbDGAjbcu6]{방전}과 @UUID[Compendium.sf2e.spells.Item.gPvtmKMRpg9I9D7H]{어스바인드}을 3랭크 원시 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>연결이 성장하면서 주변 세계에서 에너지를 끌어내는 데 능숙해집니다. @UUID[Compendium.sf2e.spells.Item.rBh2PjtbDGAjbcu6]{방전}과 @UUID[Compendium.sf2e.spells.Item.gPvtmKMRpg9I9D7H]{대지 속박}을 3랭크 원시 내재 주문으로 얻습니다. 각 주문을 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Let it Ride": {
       "name": "운에 맡기기(Let it Ride)",
@@ -1810,7 +1810,7 @@
     },
     "A Life For a Life": {
       "name": "생명에는 생명으로(A Life For a Life)",
-      "description": "<p>생명력과 공허의 힘을 조작해 죽음을 속이는 법을 배웠습니다. 다음 소마법 중 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.RA7VKcen3p56rVyZ]{포비딩 워드} 또는 @UUID[Compendium.sf2e.spells.Item.SnjhtQYexDtNDdEg]{안정화}. 이 주문을 신성 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 주문 랭크로 고조됩니다.</p><hr /><p><strong>특별</strong> 이 피트를 두 번 선택할 수 있습니다. 그때마다 다른 소마법을 선택해야 합니다.</p>"
+      "description": "<p>생명력과 공허의 힘을 조작해 죽음을 속이는 법을 배웠습니다. 다음 소마법 중 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.RA7VKcen3p56rVyZ]{금제의 방호} 또는 @UUID[Compendium.sf2e.spells.Item.SnjhtQYexDtNDdEg]{안정화}. 이 주문을 신성 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 주문 랭크로 고조됩니다.</p><hr /><p><strong>특별</strong> 이 피트를 두 번 선택할 수 있습니다. 그때마다 다른 소마법을 선택해야 합니다.</p>"
     },
     "Brightbomb": {
       "name": "광휘 폭탄(Brightbomb)",
@@ -1842,7 +1842,7 @@
     },
     "Seven-Eyed Scrutiny": {
       "name": "일곱 눈의 통찰(Seven-Eyed Scrutiny)",
-      "description": "<p>뇌가 각 눈의 입력을 효율적으로 처리해, 원래라면 숨겨져 있을 것을 드러내는 합성 이미지를 만듭니다. [[/act seek]]{탐색}하거나 @UUID[Compendium.sf2e.actions.Item.TiNDYUGlMmxzxBYU]{수색} 탐험 활동을 사용할 때 다음 턴이 끝날 때까지 @UUID[Compendium.sf2e.spells.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것을 보십시오.} 주문의 효과를 얻습니다.</p>"
+      "description": "<p>뇌가 각 눈의 입력을 효율적으로 처리해, 원래라면 숨겨져 있을 것을 드러내는 합성 이미지를 만듭니다. [[/act seek]]{탐색}하거나 @UUID[Compendium.sf2e.actions.Item.TiNDYUGlMmxzxBYU]{수색} 탐험 활동을 사용할 때 다음 턴이 끝날 때까지 @UUID[Compendium.sf2e.spells.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것 보기} 주문의 효과를 얻습니다.</p>"
     },
     "Clever Improviser": {
       "name": "영리한 임프로바이저(Clever Improviser)",
@@ -1890,7 +1890,7 @@
     },
     "Ancestral Growth": {
       "name": "선조의 성장(Ancestral Growth)",
-      "description": "<p>먼 미노타우로스 친척에게서 이어진 잠재력을 집중하여 빠르게 몸집을 키웁니다. 하루에 한 번 자신을 대상으로 @UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{확대}를 2랭크 오컬트 내재 주문으로 시전할 수 있습니다. 13레벨에 이 주문은 4랭크로 고양됩니다.</p>"
+      "description": "<p>먼 미노타우로스 친척에게서 이어진 잠재력을 집중하여 빠르게 몸집을 키웁니다. 하루에 한 번 자신을 대상으로 @UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{거대화}를 2랭크 오컬트 내재 주문으로 시전할 수 있습니다. 13레벨에 이 주문은 4랭크로 고양됩니다.</p>"
     },
     "Supersonic Speed": {
       "name": "초음속(Supersonic Speed)",
@@ -1910,7 +1910,7 @@
     },
     "Empowered Scales": {
       "name": "강화된 비늘(Empowered Scales)",
-      "description": "<p>바로 앞의 미래를 주기적으로 엿보며 통찰을 이용해 적의 움직임을 행동하기 전에 예측할 수 있습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.XSujb7EsSwKl19Uu]{블레스} 또는 @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{슈어 스트라이크}을 1랭크 주문으로 시전할 수 있습니다. 이 주문의 전통은 인장 비늘로 얻은 소마법의 전통과 같습니다.</p>"
+      "description": "<p>바로 앞의 미래를 주기적으로 엿보며 통찰을 이용해 적의 움직임을 행동하기 전에 예측할 수 있습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.XSujb7EsSwKl19Uu]{축복} 또는 @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{확실한 타격}을 1랭크 주문으로 시전할 수 있습니다. 이 주문의 전통은 인장 비늘로 얻은 소마법의 전통과 같습니다.</p>"
     },
     "Call Forth Gravity": {
       "name": "중력 불러내기(Call Forth Gravity)",
@@ -1966,7 +1966,7 @@
     },
     "Sanctuary Kin": {
       "name": "성역의 혈족(Sanctuary Kin)",
-      "description": "<p>마법의 불꽃이 동료를 수호해 공격으로부터 보호합니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.8xRzLhwGL7Dgy3EZ]{생츄어리}을 1랭크 신성 내재 주문으로 시전할 수 있습니다. 결속된 동반자가 공격의 대상이 될 때 반응 행동으로 이 주문을 시전할 수 있습니다. 단, 동반자가 40피트 이내에 있고 동반자와 공격자를 지각할 수 있어야 합니다. 그렇게 하면 주문의 사거리는 40피트가 되며 결속된 동반자만 대상으로 할 수 있습니다.</p>"
+      "description": "<p>마법의 불꽃이 동료를 수호해 공격으로부터 보호합니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.8xRzLhwGL7Dgy3EZ]{성역}을 1랭크 신성 내재 주문으로 시전할 수 있습니다. 결속된 동반자가 공격의 대상이 될 때 반응 행동으로 이 주문을 시전할 수 있습니다. 단, 동반자가 40피트 이내에 있고 동반자와 공격자를 지각할 수 있어야 합니다. 그렇게 하면 주문의 사거리는 40피트가 되며 결속된 동반자만 대상으로 할 수 있습니다.</p>"
     },
     "Doom-Strengthened": {
       "name": "파멸로 강화됨(Doom-Strengthened)",
@@ -1978,7 +1978,7 @@
     },
     "Primafloral Adaptation": {
       "name": "원시꽃 적응(Primafloral Adaptation)",
-      "description": "<p>원시 힘의 샘을 끌어내 @UUID[Compendium.sf2e.spells.Item.m2xFMNyQiUKQDRaj]{에너지 이지스}을 하루에 한 번 7랭크 원시 선천 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>원시 힘의 샘을 끌어내 @UUID[Compendium.sf2e.spells.Item.m2xFMNyQiUKQDRaj]{에너지 방패}을 하루에 한 번 7랭크 원시 선천 주문으로 시전할 수 있습니다.</p>"
     },
     "Spew Acidic Bile": {
       "name": "산성 담즙 분출(Spew Acidic Bile)",
@@ -2058,7 +2058,7 @@
     },
     "Elebrian Cantrip": {
       "name": "엘레브리안 소마법(Elebrian Cantrip)",
-      "description": "<p>유쾌한 마법 묘기로 공연을 강화하여 평범한 손재주를 훨씬 뛰어넘습니다. 다음 목록에서 소마법 하나를 선택합니다: @UUID[Compendium.sf2e.spells.Item.h7IhypLwItepwhou]{접착}, @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트}, @UUID[Compendium.sf2e.spells.Item.Qw3fnUlaUbnn7ipC]{프레스티디지테이션}, @UUID[Compendium.sf2e.spells.Item.pwzdSlJgYqN7bs2w]{텔레키네틱 핸드}. 이 소마법을 마음대로 시전할 수 있는 비전 내재 주문으로 얻습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다.</p><hr /><p><strong>특별</strong> 이 피트를 여러 번 선택할 수 있습니다. 그럴 때마다 다른 소마법을 선택해야 합니다.</p>"
+      "description": "<p>유쾌한 마법 묘기로 공연을 강화하여 평범한 손재주를 훨씬 뛰어넘습니다. 다음 목록에서 소마법 하나를 선택합니다: @UUID[Compendium.sf2e.spells.Item.h7IhypLwItepwhou]{접착}, @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{허상}, @UUID[Compendium.sf2e.spells.Item.Qw3fnUlaUbnn7ipC]{요술}, @UUID[Compendium.sf2e.spells.Item.pwzdSlJgYqN7bs2w]{염동력 손}. 이 소마법을 마음대로 시전할 수 있는 비전 내재 주문으로 얻습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다.</p><hr /><p><strong>특별</strong> 이 피트를 여러 번 선택할 수 있습니다. 그럴 때마다 다른 소마법을 선택해야 합니다.</p>"
     },
     "Adapted Augmentations": {
       "name": "적응형 증강물(Adapted Augmentations)",
@@ -2162,7 +2162,7 @@
     },
     "Vibe Eruption": {
       "name": "감정 파동 분출(Vibe Eruption)",
-      "description": "<p>주변의 감정에 자신을 잠기게 하여 감정이 넘쳐흐르고 원시 에너지의 정화하는 흐름으로 주위에서 폭발하게 할 수 있습니다. 하루에 네 번 @UUID[Compendium.sf2e.spells.Item.wRNRWwCEbmSxbHDl]{분위기 확인}를 4랭크 원시 내재 주문으로 시전할 수 있습니다. 하루 동안 주문을 시전할 때마다 서로 다른 감정을 선택해야 하며, 그 감정은 현재 소울필과 일치해야 합니다(공포를 선택했다면 경이와 일치해도 됩니다).</p>"
+      "description": "<p>주변의 감정에 자신을 잠기게 하여 감정이 넘쳐흐르고 원시 에너지의 정화하는 흐름으로 주위에서 폭발하게 할 수 있습니다. 하루에 네 번 @UUID[Compendium.sf2e.spells.Item.wRNRWwCEbmSxbHDl]{분위기 읽기}를 4랭크 원시 내재 주문으로 시전할 수 있습니다. 하루 동안 주문을 시전할 때마다 서로 다른 감정을 선택해야 하며, 그 감정은 현재 소울필과 일치해야 합니다(공포를 선택했다면 경이와 일치해도 됩니다).</p>"
     },
     "Magic Collate Ball": {
       "name": "마법 대조 구체(Magic Collate Ball)",
@@ -2482,7 +2482,7 @@
     },
     "Fungal Evolution": {
       "name": "균류 진화(Fungal Evolution)",
-      "description": "<p>거대한 균류 야수로 자랄 수 있습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.zCcfPS4y5SrZzU2x]{식물 형태}를 5등급 원시 선천 주문으로 시전할 수 있습니다. 17레벨이 되면 시전할 때 주문을 6등급으로 고양할 수 있습니다. 이 주문을 시전하면 다음 특별 능력을 얻습니다.</p><ul><li><p><strong>이동 속도</strong> 30피트</p></li><li><p><strong>저항</strong> 산성 10, 독 10</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 덩굴손(도달 거리 20피트), <strong>피해</strong> 2d6 타격 및 붙잡기.</p></li><li><p>덩굴손에 @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘} 상태인 대상은 @Damage[2d4[persistent,poison]] 피해를 받습니다.</p></li></ul>"
+      "description": "<p>거대한 균류 야수로 자랄 수 있습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.zCcfPS4y5SrZzU2x]{식물 형상}를 5등급 원시 선천 주문으로 시전할 수 있습니다. 17레벨이 되면 시전할 때 주문을 6등급으로 고양할 수 있습니다. 이 주문을 시전하면 다음 특별 능력을 얻습니다.</p><ul><li><p><strong>이동 속도</strong> 30피트</p></li><li><p><strong>저항</strong> 산성 10, 독 10</p></li><li><p><strong>근접</strong> <span class=\"action-glyph\">1</span> 덩굴손(도달 거리 20피트), <strong>피해</strong> 2d6 타격 및 붙잡기.</p></li><li><p>덩굴손에 @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘} 상태인 대상은 @Damage[2d4[persistent,poison]] 피해를 받습니다.</p></li></ul>"
     },
     "Personal Sacrifice": {
       "name": "개인적 희생(Personal Sacrifice)",
@@ -2566,7 +2566,7 @@
     },
     "Furious Flap": {
       "name": "격렬한 날갯짓(Furious Flap)",
-      "description": "<p>막질 날개를 움직이는 근육이 특히 잘 발달했으며, 그 힘으로 적의 허를 찌르는 법을 압니다. 대기가 있는 지역에서 하루에 한 번 날개를 퍼덕여 @UUID[Compendium.sf2e.spells.Item.g8QqHpv2CWDwmIm1]{돌풍}을 원시 선천 주문으로 시전할 수 있습니다. 액체에 잠겨 있다면 대신 @UUID[Compendium.sf2e.spells.Item.jfVCuOpzC6mUrf6f]{하이드롤릭 푸시}를 시전할 수 있습니다. 주문을 시전한 뒤 자유 행동으로 이동 속도의 절반까지 이동할 수 있습니다. 물에 잠겨 있다면 수영 이동 속도의 절반까지 이동합니다.</p>"
+      "description": "<p>막질 날개를 움직이는 근육이 특히 잘 발달했으며, 그 힘으로 적의 허를 찌르는 법을 압니다. 대기가 있는 지역에서 하루에 한 번 날개를 퍼덕여 @UUID[Compendium.sf2e.spells.Item.g8QqHpv2CWDwmIm1]{돌풍}을 원시 선천 주문으로 시전할 수 있습니다. 액체에 잠겨 있다면 대신 @UUID[Compendium.sf2e.spells.Item.jfVCuOpzC6mUrf6f]{수압 밀치기}를 시전할 수 있습니다. 주문을 시전한 뒤 자유 행동으로 이동 속도의 절반까지 이동할 수 있습니다. 물에 잠겨 있다면 수영 이동 속도의 절반까지 이동합니다.</p>"
     },
     "Knowledge Bomb": {
       "name": "지식 폭탄(Knowledge Bomb)",
@@ -2590,7 +2590,7 @@
     },
     "Communalism": {
       "name": "공동체주의(Communalism)",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>조건</strong> 10피트 이내의 동료가 3행동 이하를 요구하는 기술 판정에 실패합니다.</p><hr /><p>동료의 정신에 도움이 되는 격려나 관련 정보를 전송합니다. 동료는 조건이 된 기술 판정을 다시 굴려 더 나은 결과를 사용합니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>조건</strong> 10피트 이내의 동료가 3행동 이하를 요구하는 기술 판정에 실패합니다.</p><hr /><p>동료의 정신에 도움이 되는 격려나 관련 정보를 전언 송신 동료는 조건이 된 기술 판정을 다시 굴려 더 나은 결과를 사용합니다.</p>"
     },
     "Venomous Cocktail": {
       "name": "독성 칵테일(Venomous Cocktail)",
@@ -2690,7 +2690,7 @@
     },
     "Advanced Targeting System": {
       "name": "고급 조준 시스템(Advanced Targeting System)",
-      "description": "<p>안구 처리장치가 고급 조준 시스템으로 증강되어, 적을 더 쉽게 포착하고 움직임을 읽을 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{슈어 스트라이크}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>안구 처리장치가 고급 조준 시스템으로 증강되어, 적을 더 쉽게 포착하고 움직임을 읽을 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{확실한 타격}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Ambidextrous Shifter": {
       "name": "양손잡이 변신자(Ambidextrous Shifter)",
@@ -2738,7 +2738,7 @@
     },
     "Harness Cosmic Forces": {
       "name": "우주의 힘 활용(Harness Cosmic Forces)",
-      "description": "<p>가장 강력한 사르세시안 중 하나로, 우주의 힘을 활용해 경이로운 항성 현상을 만들 수 있습니다. 다음 주문 중 하나를 선택하며, 그 주문을 하루에 한 번 7등급 비전 선천 주문으로 시전할 수 있습니다: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발} 또는 @UUID[Compendium.sf2e.spells.Item.a3aQxCpoj1q1NQxC]{선버스트}.</p>"
+      "description": "<p>가장 강력한 사르세시안 중 하나로, 우주의 힘을 활용해 경이로운 항성 현상을 만들 수 있습니다. 다음 주문 중 하나를 선택하며, 그 주문을 하루에 한 번 7등급 비전 선천 주문으로 시전할 수 있습니다: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발} 또는 @UUID[Compendium.sf2e.spells.Item.a3aQxCpoj1q1NQxC]{태양 폭발}.</p>"
     },
     "Unstoppable Inertia": {
       "name": "멈출 수 없는 관성(Unstoppable Inertia)",
@@ -2770,11 +2770,11 @@
     },
     "Clan Crystal Form": {
       "name": "부족 수정 형태(Clan Crystal Form)",
-      "description": "<p>부족 수정이 빛나며 팽창하여 당신이 태어난 곳에서 가장 가까운 행성의 지각에서 발견되는 광석으로 몸을 뒤덮습니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{석총 형상}를 하루에 두 번 6등급 원시 선천 주문으로 시전할 수 있습니다. 그렇게 하면 부족 수정에 새겨진 조각상과 닮은 모습이 됩니다. 돌무덤 형태인 동안 부족 수정 무기의 피해 주사위 크기를 한 단계 증가시키고, 레이저 무기 및 빛 특성 효과에 대한 저항을 두 배로 합니다.</p>"
+      "description": "<p>부족 수정이 빛나며 팽창하여 당신이 태어난 곳에서 가장 가까운 행성의 지각에서 발견되는 광석으로 몸을 뒤덮습니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{돌무덤 형상}를 하루에 두 번 6등급 원시 선천 주문으로 시전할 수 있습니다. 그렇게 하면 부족 수정에 새겨진 조각상과 닮은 모습이 됩니다. 돌무덤 형태인 동안 부족 수정 무기의 피해 주사위 크기를 한 단계 증가시키고, 레이저 무기 및 빛 특성 효과에 대한 저항을 두 배로 합니다.</p>"
     },
     "Paint Splash": {
       "name": "물감 튀기기(Paint Splash)",
-      "description": "<p>원시 마법이 깃든 빛나는 안료를 반짝이는 물감으로 뿌려 적을 눈부시게 할 수 있습니다. 드러내는 빛을 2등급 원시 선천 주문으로 시전할 수 있습니다. 새로운 안료를 찾아 1시간 동안 채집하기 전에는 @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{리빌링 라이트}을 다시 사용할 수 없습니다. 지하 동굴이나 차량 도장 및 차체 정비소처럼 물감에 적합한 광물이 풍부한 환경이라면 이 안료를 찾는 데 10분만 걸립니다.</p>"
+      "description": "<p>원시 마법이 깃든 빛나는 안료를 반짝이는 물감으로 뿌려 적을 눈부시게 할 수 있습니다. 드러내는 빛을 2등급 원시 선천 주문으로 시전할 수 있습니다. 새로운 안료를 찾아 1시간 동안 채집하기 전에는 @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{드러내는 빛}을 다시 사용할 수 없습니다. 지하 동굴이나 차량 도장 및 차체 정비소처럼 물감에 적합한 광물이 풍부한 환경이라면 이 안료를 찾는 데 10분만 걸립니다.</p>"
     },
     "Cautious Curiosity": {
       "name": "신중한 호기심(Cautious Curiosity)",
@@ -2882,7 +2882,7 @@
     },
     "Verdant Psychic": {
       "name": "녹음의 정신감응자(Verdant Psychic)",
-      "description": "<p>정신감응 능력이 자연계, 특히 카스트로벨의 정글과 비슷한 환경의 행성에 대한 초자연적 연결로 나타납니다. @UUID[Compendium.sf2e.spells.Item.uZK2BYzPnxUBnDjr]{탱글 바인}과 @UUID[Compendium.sf2e.spells.Item.nf8q0zvJDnnkzANe]{환경 스캔} 소마법을 의지대로 사용하는 원시 선천 주문으로 얻습니다. 이 소마법들은 레벨 절반에 맞춰 고양됩니다.</p>"
+      "description": "<p>정신감응 능력이 자연계, 특히 카스트로벨의 정글과 비슷한 환경의 행성에 대한 초자연적 연결로 나타납니다. @UUID[Compendium.sf2e.spells.Item.uZK2BYzPnxUBnDjr]{얽힘 덩굴}과 @UUID[Compendium.sf2e.spells.Item.nf8q0zvJDnnkzANe]{환경 스캔} 소마법을 의지대로 사용하는 원시 선천 주문으로 얻습니다. 이 소마법들은 레벨 절반에 맞춰 고양됩니다.</p>"
     },
     "Chemical Connoisseur": {
       "name": "화학 감식가(Chemical Connoisseur)",
@@ -2974,7 +2974,7 @@
     },
     "Empathic Pulse": {
       "name": "공감의 파동(Empathic Pulse)",
-      "description": "<p>강렬한 감정의 폭발로 해방할 수 있는 공감 파동이 수염에 모이며 에너지로 진동합니다. @UUID[Compendium.sf2e.spells.Item.wRNRWwCEbmSxbHDl]{분위기 확인}을 2랭크 오컬트 선천 주문으로 하루에 네 번 시전할 수 있으며, 그때마다 다른 감정을 선택합니다. 이 주문의 하루 사용 횟수를 두 번 소비해 <em>분위기 확인</em>을 4랭크 주문으로 시전할 수 있지만, 이 방식으로 시전해도 감정 하나만 투사합니다.</p>"
+      "description": "<p>강렬한 감정의 폭발로 해방할 수 있는 공감 파동이 수염에 모이며 에너지로 진동합니다. @UUID[Compendium.sf2e.spells.Item.wRNRWwCEbmSxbHDl]{분위기 읽기}을 2랭크 오컬트 선천 주문으로 하루에 네 번 시전할 수 있으며, 그때마다 다른 감정을 선택합니다. 이 주문의 하루 사용 횟수를 두 번 소비해 <em>분위기 읽기</em>을 4랭크 주문으로 시전할 수 있지만, 이 방식으로 시전해도 감정 하나만 투사합니다.</p>"
     },
     "Persistent Confidence": {
       "name": "지속되는 자신감(Persistent Confidence)",
@@ -2982,7 +2982,7 @@
     },
     "Elebrian Magic": {
       "name": "엘레브리안 마법(Elebrian Magic)",
-      "description": "<p>마법으로 청중을 더욱 잘 매혹하는 법을 배우며 비전 재능이 성장합니다. 다음 목록에서 1등급 주문 하나를 선택합니다: @UUID[Compendium.sf2e.spells.Item.vLA0q0WOK2YPuJs6]{참}, @UUID[Compendium.sf2e.spells.Item.V1cojmrEOWkJ1yPF]{매력 단장}, @UUID[Compendium.sf2e.spells.Item.i35dpZFI7jZcRoBo]{환상 변장}, 또는 @UUID[Compendium.sf2e.spells.Item.yV7Ouzaoe7DHLESI]{벤트릴로퀴즘}. 그 주문을 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p><hr /><p><strong>특별</strong> 이 피트는 여러 번 선택할 수 있습니다. 그럴 때마다 서로 다른 주문을 선택해야 합니다.</p>"
+      "description": "<p>마법으로 청중을 더욱 잘 매혹하는 법을 배우며 비전 재능이 성장합니다. 다음 목록에서 1등급 주문 하나를 선택합니다: @UUID[Compendium.sf2e.spells.Item.vLA0q0WOK2YPuJs6]{매혹}, @UUID[Compendium.sf2e.spells.Item.V1cojmrEOWkJ1yPF]{매력 단장}, @UUID[Compendium.sf2e.spells.Item.i35dpZFI7jZcRoBo]{환영 변장}, 또는 @UUID[Compendium.sf2e.spells.Item.yV7Ouzaoe7DHLESI]{복화술}. 그 주문을 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p><hr /><p><strong>특별</strong> 이 피트는 여러 번 선택할 수 있습니다. 그럴 때마다 서로 다른 주문을 선택해야 합니다.</p>"
     },
     "Machine Saboteur": {
       "name": "기계 파괴공작원(Machine Saboteur)",
@@ -3094,7 +3094,7 @@
     },
     "Chattermander": {
       "name": "수다맨더(Chattermander)",
-      "description": "<p>당신은 의사소통이 불가능하다는 이유로 새 친구들과 수다 떠는 것을 포기하지 않습니다! @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화하기}를 2랭크 원시 선천 주문으로 얻고, @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화하기}와 @UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{번역하십시오.}을 3랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>당신은 의사소통이 불가능하다는 이유로 새 친구들과 수다 떠는 것을 포기하지 않습니다! @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화}를 2랭크 원시 선천 주문으로 얻고, @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화}와 @UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{통역}을 3랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Method Actor": {
       "name": "메소드 배우(Method Actor)",
@@ -3170,7 +3170,7 @@
     },
     "Empathetic Connection": {
       "name": "공감 연결(Empathetic Connection)",
-      "description": "<p>친구를 만들고 사람에게 영향력을 행사하는 일은 인간이 특히 잘하는 일이며, 당신은 그 목적을 달성하는 가장 좋은 방법이 선천적인 마법 공감 능력을 활용하는 것임을 압니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.D442XMADp01qJ7Cs]{마인드링크}을 1랭크 오컬트 선천 주문으로 얻어, 횟수 제한 없이 시전할 수 있습니다. 이 주문을 시전할 때, 주문의 자발적인 대상이 대신 당신에게 정보를 전달하도록 할 수 있습니다. 이 주문을 시전한 뒤 대상은 24시간 동안 당신의 정신 연결 선천 주문에 일시적 면역을 얻습니다.</p>"
+      "description": "<p>친구를 만들고 사람에게 영향력을 행사하는 일은 인간이 특히 잘하는 일이며, 당신은 그 목적을 달성하는 가장 좋은 방법이 선천적인 마법 공감 능력을 활용하는 것임을 압니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.D442XMADp01qJ7Cs]{정신 연결}을 1랭크 오컬트 선천 주문으로 얻어, 횟수 제한 없이 시전할 수 있습니다. 이 주문을 시전할 때, 주문의 자발적인 대상이 대신 당신에게 정보를 전달하도록 할 수 있습니다. 이 주문을 시전한 뒤 대상은 24시간 동안 당신의 정신 연결 선천 주문에 일시적 면역을 얻습니다.</p>"
     },
     "Heightened Paranoia": {
       "name": "고조된 편집증(Heightened Paranoia)",
@@ -3194,7 +3194,7 @@
     },
     "Remix World's Rhythm": {
       "name": "세계의 리듬 리믹스(Remix World's Rhythm)",
-      "description": "<p>집중적인 음악 훈련, 마법적 통찰, 또는 메옐의 신성한 축복을 통해 당신은 주변 세계의 리듬을 느끼고 시간의 현을 잡아당겨 그 선율과 흐름을 조작할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{헤이스티}과 @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{느리게}을 3랭크 원시 선천 주문으로 얻습니다. 이 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>집중적인 음악 훈련, 마법적 통찰, 또는 메옐의 신성한 축복을 통해 당신은 주변 세계의 리듬을 느끼고 시간의 현을 잡아당겨 그 선율과 흐름을 조작할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{가속}과 @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{둔화}을 3랭크 원시 선천 주문으로 얻습니다. 이 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Verdant Sense": {
       "name": "녹음의 감각(Verdant Sense)",
@@ -3202,7 +3202,7 @@
     },
     "Data Jockey": {
       "name": "데이터 조작자(Data Jockey)",
-      "description": "<p>스펙트라 같은 기술 장치에 데이터를 손쉽게 전송할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.ZBeKxBcUOsXrfMRo]{데이터 심기} 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 당신의 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다.</p>"
+      "description": "<p>스펙트라 같은 기술 장치에 데이터를 손쉽게 전송할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.ZBeKxBcUOsXrfMRo]{데이터 이식} 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 당신의 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다.</p>"
     },
     "Heroic Last Stand": {
       "name": "영웅적 최후의 저항(Heroic Last Stand)",
@@ -3238,7 +3238,7 @@
     },
     "Death-Touched Caster": {
       "name": "죽음에 물든 시전자(Death-Touched Caster)",
-      "description": "<p>삶과 죽음의 경계에 존재하며, 불균형한 영적 정수를 마법 주문으로 흘려보낼 수 있습니다. 다음 소마법 중 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.kcelf6IHl3L9VXXg]{활력 채찍 (활력 채찍)} 또는 @UUID[Compendium.sf2e.spells.Item.mAMEt4FFbdqoRnkN]{보이드 워프}. 이 주문을 신성 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 주문 랭크로 고조됩니다.</p><hr /><p><strong>특별</strong> 이 피트를 두 번 선택할 수 있습니다. 그때마다 다른 소마법을 선택해야 합니다.</p>"
+      "description": "<p>삶과 죽음의 경계에 존재하며, 불균형한 영적 정수를 마법 주문으로 흘려보낼 수 있습니다. 다음 소마법 중 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.kcelf6IHl3L9VXXg]{활력 채찍} 또는 @UUID[Compendium.sf2e.spells.Item.mAMEt4FFbdqoRnkN]{공허 왜곡}. 이 주문을 신성 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 주문 랭크로 고조됩니다.</p><hr /><p><strong>특별</strong> 이 피트를 두 번 선택할 수 있습니다. 그때마다 다른 소마법을 선택해야 합니다.</p>"
     },
     "On A Roll": {
       "name": "거침없는 질주(On A Roll)",
@@ -3302,7 +3302,7 @@
     },
     "Listen to the Stone": {
       "name": "돌의 소리 듣기(Listen to the Stone)",
-      "description": "<p>대지의 속삭임에 정신을 열어 그 비밀을 배웁니다. @UUID[Compendium.sf2e.spells.Item.YIMampGpij4Y30yE]{돌과 대화하기}를 5랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다. 또한 생존과 지각 대신 자연을 사용해 [[/act track skill=nature]]하고 [[/act seek skill=nature]]할 수 있습니다. 자연석 또는 가공된 석재 바닥이 있는 환경에서 자연으로 추적하거나 찾을 때 +2 상황 보너스를 얻습니다.</p>"
+      "description": "<p>대지의 속삭임에 정신을 열어 그 비밀을 배웁니다. @UUID[Compendium.sf2e.spells.Item.YIMampGpij4Y30yE]{돌과 대화}를 5랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다. 또한 생존과 지각 대신 자연을 사용해 [[/act track skill=nature]]하고 [[/act seek skill=nature]]할 수 있습니다. 자연석 또는 가공된 석재 바닥이 있는 환경에서 자연으로 추적하거나 찾을 때 +2 상황 보너스를 얻습니다.</p>"
     },
     "Spray Ink": {
       "name": "먹물 분사(Spray Ink)",
@@ -3346,7 +3346,7 @@
     },
     "Fruitful Psychic": {
       "name": "결실의 정신감응자(Fruitful Psychic)",
-      "description": "<p>정신이 주변 세계와 융합되기 시작하면서 정신감응 능력이 계속 확장됩니다. @UUID[Compendium.sf2e.spells.Item.J6vNvrUT3b1hx2iA]{얽히는 플로라}과 @UUID[Compendium.sf2e.spells.Item.hk2mTLH9DIvNqDuS]{푸르른 코드}를 2랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>정신이 주변 세계와 융합되기 시작하면서 정신감응 능력이 계속 확장됩니다. @UUID[Compendium.sf2e.spells.Item.J6vNvrUT3b1hx2iA]{휘감는 식물}과 @UUID[Compendium.sf2e.spells.Item.hk2mTLH9DIvNqDuS]{푸르른 코드}를 2랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Gigafuroid Form": {
       "name": "기가푸로이드 형태(Gigafuroid Form)",
@@ -3354,7 +3354,7 @@
     },
     "Telepredict": {
       "name": "텔레예측(Telepredict)",
-      "description": "<p>대상의 뇌파에서 미묘한 단서를 읽어 제한된 텔레파시 범위 안에서 사고 감지로 탐지할 수 있는 크리처 하나의 정신 상태를 예측합니다. 그 크리처를 대상으로 하는 속임수 및 협박 판정, 대상의 공포 특성 효과에 대한 내성 굴림, @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하}처럼 대상의 협박 기술 행동에 대한 자신의 의지 DC에 +1 상황 보너스를 받습니다. 대상에게 정신 피해를 주면 이 보너스가 +2로 증가합니다.</p><p>한 번에 한 크리처의 행동만 텔레예측할 수 있습니다. 다른 크리처에게 사용하거나 그 크리처가 제한된 텔레파시 범위를 벗어나면 텔레예측이 끝납니다.</p>"
+      "description": "<p>대상의 뇌파에서 미묘한 단서를 읽어 제한된 텔레파시 범위 안에서 생각 탐지로 탐지할 수 있는 크리처 하나의 정신 상태를 예측합니다. 그 크리처를 대상으로 하는 속임수 및 협박 판정, 대상의 공포 특성 효과에 대한 내성 굴림, @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하}처럼 대상의 협박 기술 행동에 대한 자신의 의지 DC에 +1 상황 보너스를 받습니다. 대상에게 정신 피해를 주면 이 보너스가 +2로 증가합니다.</p><p>한 번에 한 크리처의 행동만 텔레예측할 수 있습니다. 다른 크리처에게 사용하거나 그 크리처가 제한된 텔레파시 범위를 벗어나면 텔레예측이 끝납니다.</p>"
     },
     "Determination Undimmed": {
       "name": "꺾이지 않는 결의(Determination Undimmed)",
@@ -3438,7 +3438,7 @@
     },
     "Magical Guardian": {
       "name": "마법 수호자(Magical Guardian)",
-      "description": "<p>소중한 이들을 위험에서 지키려는 마음이 영혼 속 마법의 불씨를 지폈으며, 그 불씨를 다른 이와 나눌 수 있습니다. @UUID[Compendium.sf2e.spells.Item.izcxFQFwf3woCnFs]{지침}와 @UUID[Compendium.sf2e.spells.Item.RA7VKcen3p56rVyZ]{포비딩 워드} 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 당신의 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다. 이 주문 중 하나를 결속한 동료에게 시전할 때 주문의 사거리는 30피트가 아니라 60피트가 됩니다.</p>"
+      "description": "<p>소중한 이들을 위험에서 지키려는 마음이 영혼 속 마법의 불씨를 지폈으며, 그 불씨를 다른 이와 나눌 수 있습니다. @UUID[Compendium.sf2e.spells.Item.izcxFQFwf3woCnFs]{안내}와 @UUID[Compendium.sf2e.spells.Item.RA7VKcen3p56rVyZ]{금제의 방호} 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 당신의 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다. 이 주문 중 하나를 결속한 동료에게 시전할 때 주문의 사거리는 30피트가 아니라 60피트가 됩니다.</p>"
     },
     "Let's Go": {
       "name": "가자!(Let's Go)",
@@ -3506,7 +3506,7 @@
     },
     "Nanite Shield": {
       "name": "나나이트 방패(Nanite Shield)",
-      "description": "<p>나나이트가 하드라이트 투사기망을 형성해 보호 장벽을 만듭니다. @UUID[Compendium.sf2e.spells.Item.TVKNbcgTee19PXZR]{쉴드} 소마법을 비전 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 당신의 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다. 주문이 부여한 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응 행동을 사용할 때 나나이트가 몸 안으로 밀려 들어와, 같은 반응 행동의 일부로 걸음할 수 있습니다.</p>"
+      "description": "<p>나나이트가 하드라이트 투사기망을 형성해 보호 장벽을 만듭니다. @UUID[Compendium.sf2e.spells.Item.TVKNbcgTee19PXZR]{방패} 소마법을 비전 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 당신의 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다. 주문이 부여한 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응 행동을 사용할 때 나나이트가 몸 안으로 밀려 들어와, 같은 반응 행동의 일부로 걸음할 수 있습니다.</p>"
     },
     "Boundless Energy": {
       "name": "무한한 활력(Boundless Energy)",
@@ -3518,7 +3518,7 @@
     },
     "Prophet's Premonition": {
       "name": "예언자의 예감(Prophet's Premonition)",
-      "description": "<p>마법적인 비늘 무늬가 미래에 대한 통찰을 줍니다. @UUID[Compendium.sf2e.spells.Item.41TZEjhO6D1nWw2X]{오거리}을 2랭크 주문으로 하루에 두 번 시전할 수 있습니다. 이 주문의 전통은 @UUID[Compendium.sf2e.feats.Item.Kgtj8NRoBnWCK9qw]{인장 비늘}에서 얻은 소마법의 전통과 같습니다.</p>"
+      "description": "<p>마법적인 비늘 무늬가 미래에 대한 통찰을 줍니다. @UUID[Compendium.sf2e.spells.Item.41TZEjhO6D1nWw2X]{점복}을 2랭크 주문으로 하루에 두 번 시전할 수 있습니다. 이 주문의 전통은 @UUID[Compendium.sf2e.feats.Item.Kgtj8NRoBnWCK9qw]{인장 비늘}에서 얻은 소마법의 전통과 같습니다.</p>"
     },
     "Toxic Transference": {
       "name": "독성 전이(Toxic Transference)",
@@ -3614,7 +3614,7 @@
     },
     "Ensnaring Vines": {
       "name": "휘감는 덩굴(Ensnaring Vines)",
-      "description": "<p>모든 표면에서 식물을 불러내 적을 휘감습니다. @UUID[Compendium.sf2e.spells.Item.JbAcSLu62TU1OgNF]{얽히는 덩굴}을 한 시간에 한 번 6랭크 원시 선천 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>모든 표면에서 식물을 불러내 적을 휘감습니다. @UUID[Compendium.sf2e.spells.Item.JbAcSLu62TU1OgNF]{휘감는 덩굴}을 한 시간에 한 번 6랭크 원시 선천 주문으로 시전할 수 있습니다.</p>"
     },
     "Arcane Consumption": {
       "name": "비전 흡수(Arcane Consumption)",
@@ -3718,7 +3718,7 @@
     },
     "Brainwave Scanner": {
       "name": "뇌파 스캐너(Brainwave Scanner)",
-      "description": "<p>살아 있는 크리처의 뇌파에 조율해 타인의 생각이 존재하는지 여부를 감지할 수 있습니다.</p><p>생각하는 크리처를 탐지할 수 있는 사거리 30피트의 정확한 감각인 사고 감지를 얻습니다. 사고 감지는 생각하는 크리처만 탐지하므로, 생각하지 않거나 그 밖의 이유로 정신 효과에 면역인 크리처(많은 수액과 로봇 등)는 아무리 정밀해도 사고 감지로 지각할 수 없습니다.</p>"
+      "description": "<p>살아 있는 크리처의 뇌파에 조율해 타인의 생각이 존재하는지 여부를 감지할 수 있습니다.</p><p>생각하는 크리처를 탐지할 수 있는 사거리 30피트의 정확한 감각인 생각 탐지를 얻습니다. 생각 탐지는 생각하는 크리처만 탐지하므로, 생각하지 않거나 그 밖의 이유로 정신 효과에 면역인 크리처(많은 수액과 로봇 등)는 아무리 정밀해도 생각 탐지로 지각할 수 없습니다.</p>"
     },
     "Inner Wellspring": {
       "name": "내면의 원천(Inner Wellspring)",
@@ -3770,7 +3770,7 @@
     },
     "Stubborn Endurance": {
       "name": "완고한 생명력(Stubborn Endurance)",
-      "description": "<p>당신은 유난히 죽이기 어렵습니다. 회복 판정의 DC는 9 + 죽어감 수치가며, 강인함 일반 피트가 있다면 8 + 죽어감 수치입니다. 또한 @UUID[Compendium.sf2e.spells.Item.IkGYwHRLhkuoGReG]{레이즈 데드}나 @UUID[Compendium.sf2e.spells.Item.kqhPt9344UkcGVYO]{리저렉트} 의식처럼 일반적으로 일주일 동안 쇠약하게 만드는 마법으로 되살아날 때, 그 상태를 겪지 않습니다.</p>"
+      "description": "<p>당신은 유난히 죽이기 어렵습니다. 회복 판정의 DC는 9 + 죽어감 수치가며, 강인함 일반 피트가 있다면 8 + 죽어감 수치입니다. 또한 @UUID[Compendium.sf2e.spells.Item.IkGYwHRLhkuoGReG]{사자 소생}나 @UUID[Compendium.sf2e.spells.Item.kqhPt9344UkcGVYO]{일시 소생} 의식처럼 일반적으로 일주일 동안 쇠약하게 만드는 마법으로 되살아날 때, 그 상태를 겪지 않습니다.</p>"
     },
     "Frilled Vesk Glide": {
       "name": "목주름 베스크 활공(Frilled Vesk Glide)",
@@ -3834,15 +3834,15 @@
     },
     "Draconic Influence": {
       "name": "용의 영향(Draconic Influence)",
-      "description": "<p>용 이웃과 대등한 우정을 추구하며 많은 라이포리안은 그들의 거대하고 날개 달린 모습을 취하는 법을 배웠습니다. @UUID[Compendium.sf2e.spells.Item.5c692cCcTDXjSEzk]{드래곤 형태}를 6랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다. 이 피트를 선택할 때 전투 형태 하나를 정하며, 이 선천 주문을 시전할 때마다 같은 형태로 변해야 합니다. 17레벨이 되면 시전할 때 주문을 8랭크로 고조할 수 있습니다.</p>"
+      "description": "<p>용 이웃과 대등한 우정을 추구하며 많은 라이포리안은 그들의 거대하고 날개 달린 모습을 취하는 법을 배웠습니다. @UUID[Compendium.sf2e.spells.Item.5c692cCcTDXjSEzk]{용 형상}를 6랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다. 이 피트를 선택할 때 전투 형태 하나를 정하며, 이 선천 주문을 시전할 때마다 같은 형태로 변해야 합니다. 17레벨이 되면 시전할 때 주문을 8랭크로 고조할 수 있습니다.</p>"
     },
     "Crew Member": {
       "name": "승무원(Crew Member)",
       "description": "<p><strong>조건</strong> 30피트 안의 아군이 원조를 시도해 실패합니다.</p><hr /><p>급할 때 언제나 손을 보탤 수 있습니다. 아군이 시도한 것과 같은 유형의 기술 판정 또는 공격 굴림을 시도하고, 도움을 준비하지 않았더라도 실패한 원조의 결과를 당신의 결과로 대체합니다.</p>"
     },
     "System Overload": {
-      "name": "시스템 하중 초과(System Overload)",
-      "description": "<p>몸 안에서 압도적인 전류를 만들어 불꽃 폭풍으로 자신을 감싸고 인접한 기술 장치를 오작동시킵니다. @UUID[Compendium.sf2e.spells.Item.5cMDrC3jX1yrxOzh]{시스템 하중 초과}를 7랭크 비전 선천 주문으로 한 시간에 한 번 시전할 수 있습니다. 락실라이트와 락실라이트 기술은 이 주문에 면역이며, 주문 범위에서 최대 네 칸을 제외할 수 있습니다.</p>"
+      "name": "시스템 과부하(System Overload)",
+      "description": "<p>몸 안에서 압도적인 전류를 만들어 불꽃 폭풍으로 자신을 감싸고 인접한 기술 장치를 오작동시킵니다. @UUID[Compendium.sf2e.spells.Item.5cMDrC3jX1yrxOzh]{시스템 과부하}를 7랭크 비전 선천 주문으로 한 시간에 한 번 시전할 수 있습니다. 락실라이트와 락실라이트 기술은 이 주문에 면역이며, 주문 범위에서 최대 네 칸을 제외할 수 있습니다.</p>"
     },
     "Called to Another World": {
       "name": "다른 세계의 부름(Called to Another World)",
@@ -3910,7 +3910,7 @@
     },
     "History Buff": {
       "name": "역사 애호가(History Buff)",
-      "description": "<p>수많은 관습, 역사, 전통을 분류해 기록했습니다. 초인지을 3랭크 오컬트 선천 주문으로 하루에 한 번 시전할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.ZYoC630tNGutgbE0]{하이퍼코그니션}를 시전하는 동안 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정을 시도할 때 다른 기술 수정치 대신 역사가로 선택한 지식 기술의 수정치를 사용할 수 있습니다.</p>"
+      "description": "<p>수많은 관습, 역사, 전통을 분류해 기록했습니다. 초인지을 3랭크 오컬트 선천 주문으로 하루에 한 번 시전할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.ZYoC630tNGutgbE0]{초고속 인지}를 시전하는 동안 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정을 시도할 때 다른 기술 수정치 대신 역사가로 선택한 지식 기술의 수정치를 사용할 수 있습니다.</p>"
     },
     "Energy Deflection": {
       "name": "에너지 굴절(Energy Deflection)",
@@ -3954,7 +3954,7 @@
     },
     "Nuke Form": {
       "name": "핵 형태(Nuke Form)",
-      "description": "<p>핵 불꽃이 번쩍이며 방사성 괴물로 갑자기 변해 1분 동안 7랭크 @UUID[Compendium.sf2e.spells.Item.1K6AYGisvo9gqdhs]{엘리멘탈 폼}의 효과를 얻습니다. 이 형태에서는 방사선에 면역입니다. 촉수에 맞은 크리처는 경증 방사선병에 대한 인내 내성 굴림을 시도해야 합니다. 이 방사선은 일반적인 방사선의 인내 DC 대신 당신의 클래스 DC와 주문 DC 중 더 높은 수치를 사용하고, 즉시 발병하며, 각 단계 사이의 간격은 1라운드입니다(오류를 일으키지는 않습니다).</p><hr /><p><strong>내성 굴림</strong> @Check[fortitude|against:class-spell|traits:disease]</p>\n<p><strong>1단계</strong> @Damage[1d4[poison]] 및 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}(1라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison]] 및 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}(1라운드)</p>\n<p><strong>3단계</strong> @Damage[1d6[poison]] 및 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}(1라운드)</p>"
+      "description": "<p>핵 불꽃이 번쩍이며 방사성 괴물로 갑자기 변해 1분 동안 7랭크 @UUID[Compendium.sf2e.spells.Item.1K6AYGisvo9gqdhs]{원소 형상}의 효과를 얻습니다. 이 형태에서는 방사선에 면역입니다. 촉수에 맞은 크리처는 경증 방사선병에 대한 인내 내성 굴림을 시도해야 합니다. 이 방사선은 일반적인 방사선의 인내 DC 대신 당신의 클래스 DC와 주문 DC 중 더 높은 수치를 사용하고, 즉시 발병하며, 각 단계 사이의 간격은 1라운드입니다(오류를 일으키지는 않습니다).</p><hr /><p><strong>내성 굴림</strong> @Check[fortitude|against:class-spell|traits:disease]</p>\n<p><strong>1단계</strong> @Damage[1d4[poison]] 및 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}(1라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison]] 및 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}(1라운드)</p>\n<p><strong>3단계</strong> @Damage[1d6[poison]] 및 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}(1라운드)</p>"
     },
     "Grace of the Ages": {
       "name": "세월의 우아함(Grace of the Ages)",
@@ -4078,7 +4078,7 @@
     },
     "Resonant Weapon": {
       "name": "공명 무기(Resonant Weapon)",
-      "description": "<p>들고 있는 무기 하나에 영적 에너지의 파동을 방출해 비물질적인 영혼 물질과 공명하게 합니다. 다음 턴이 시작될 때까지 무기는 유령 살해자 무기 융합의 효과를 얻습니다. 17레벨에는 추가로 1d6 영혼 피해를 줍니다.</p>"
+      "description": "<p>들고 있는 무기 하나에 영적 에너지의 파동을 방출해 비물질적인 영혼 물질과 공명하게 합니다. 다음 턴이 시작될 때까지 무기는 유령 살해 무기 융합의 효과를 얻습니다. 17레벨에는 추가로 1d6 영혼 피해를 줍니다.</p>"
     },
     "Shifting Plates": {
       "name": "움직이는 갑각판(Shifting Plates)",
@@ -4086,7 +4086,7 @@
     },
     "Pulse Light": {
       "name": "맥동광(Pulse Light)",
-      "description": "<p>체내의 빛을 눈부신 섬광으로 증폭하여 주변 모두의 방향 감각을 흐트러뜨리고 시야에서 숨으려는 모든 것을 드러냅니다. @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{리빌링 라이트}을 2랭크 원시 선천 주문으로 한 시간에 한 번 시전할 수 있습니다. 다만 달꽃과 달꽃 레시는 눈부심 상태로 만들지 않습니다.</p>"
+      "description": "<p>체내의 빛을 눈부신 섬광으로 증폭하여 주변 모두의 방향 감각을 흐트러뜨리고 시야에서 숨으려는 모든 것을 드러냅니다. @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{드러내는 빛}을 2랭크 원시 선천 주문으로 한 시간에 한 번 시전할 수 있습니다. 다만 달꽃과 달꽃 레시는 눈부심 상태로 만들지 않습니다.</p>"
     },
     "Floating Flight": {
       "name": "부유 비행(Floating Flight)",
@@ -4134,7 +4134,7 @@
     },
     "Ancestral Pest": {
       "name": "조상의 작은 짐승(Ancestral Pest)",
-      "description": "<p>초소형 동물 형태를 취해 1랭크 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{페스트 폼}의 효과를 얻습니다. 다만 목록의 항목과 일치하는 크리처로만 변신할 수 있으며, 정상 기본 이동 속도가 전투 형태가 부여하는 것보다 높다면 정상 기본 이동 속도를 사용할 수 있습니다. 목록의 크리처가 일반적으로 초소형보다 크다면 더 작고 어린 형태로 변합니다. 해당 크리처가 보통 수영 이동 속도를 가진다면 조상의 작은 짐승은 수영 이동 속도 20피트를 부여합니다.</p>"
+      "description": "<p>초소형 동물 형태를 취해 1랭크 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{해충 형상}의 효과를 얻습니다. 다만 목록의 항목과 일치하는 크리처로만 변신할 수 있으며, 정상 기본 이동 속도가 전투 형태가 부여하는 것보다 높다면 정상 기본 이동 속도를 사용할 수 있습니다. 목록의 크리처가 일반적으로 초소형보다 크다면 더 작고 어린 형태로 변합니다. 해당 크리처가 보통 수영 이동 속도를 가진다면 조상의 작은 짐승은 수영 이동 속도 20피트를 부여합니다.</p>"
     },
     "Prehensile Tail": {
       "name": "잡기 쉬운 꼬리(Prehensile Tail)",
@@ -4150,7 +4150,7 @@
     },
     "Magical Savior": {
       "name": "마법적 구원자(Magical Savior)",
-      "description": "<p>결정적인 순간에는 아군 대신 목숨을 내놓을 의향이 있습니다. @UUID[Compendium.sf2e.spells.Item.yHujiDQPdtXW797e]{스피릿 링크}을 3랭크 신성 선천 주문으로 얻습니다. 이 주문을 하루에 한 번 시전할 수 있습니다. 결속한 동료에게 이 주문을 시전하면 영혼 연결은 4랭크로 고조되고 사거리를 30피트가 아니라 60피트로 증가시킬 수 있습니다.</p>"
+      "description": "<p>결정적인 순간에는 아군 대신 목숨을 내놓을 의향이 있습니다. @UUID[Compendium.sf2e.spells.Item.yHujiDQPdtXW797e]{영혼 연결}을 3랭크 신성 선천 주문으로 얻습니다. 이 주문을 하루에 한 번 시전할 수 있습니다. 결속한 동료에게 이 주문을 시전하면 영혼 연결은 4랭크로 고조되고 사거리를 30피트가 아니라 60피트로 증가시킬 수 있습니다.</p>"
     },
     "Drift-Touched": {
       "name": "드리프트에 물든 자(Drift-Touched)",
@@ -4182,7 +4182,7 @@
     },
     "Thoughtful Insight": {
       "name": "신중한 통찰(Thoughtful Insight)",
-      "description": "<p>빠르게 행동하는 것보다 현명하게 행동하는 것이 중요함을 압니다. 문제를 모든 각도에서 숙고할 시간을 가지면 통찰력 있는 계시를 얻습니다. @UUID[Compendium.sf2e.spells.Item.pkcOby5prOausy1k]{징조를 읽습니다}를 4랭크 오컬트 선천 주문으로 얻습니다. 이 주문을 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>빠르게 행동하는 것보다 현명하게 행동하는 것이 중요함을 압니다. 문제를 모든 각도에서 숙고할 시간을 가지면 통찰력 있는 계시를 얻습니다. @UUID[Compendium.sf2e.spells.Item.pkcOby5prOausy1k]{징조 읽기}를 4랭크 오컬트 선천 주문으로 얻습니다. 이 주문을 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Nanite Communication": {
       "name": "나나이트 통신(Nanite Communication)",
@@ -4210,7 +4210,7 @@
     },
     "Divine-Etched Shell": {
       "name": "신성 각인 갑각(Divine-Etched Shell)",
-      "description": "<p>갑각에 우주의 근본 진실과 연결해 주는 무늬가 새겨져 있습니다. 신성 주문 목록에서 소마법 하나를 선택합니다. 이 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 또한 @UUID[Compendium.sf2e.spells.Item.ZBeKxBcUOsXrfMRo]{데이터 심기} 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 다만 이때 대상은 “당신의 갑각”이 되고, 갑각에 주입된 데이터는 그폴리안 언어를 아는 모든 크리처가 접근할 수 있습니다. 소마법은 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다.</p>"
+      "description": "<p>갑각에 우주의 근본 진실과 연결해 주는 무늬가 새겨져 있습니다. 신성 주문 목록에서 소마법 하나를 선택합니다. 이 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 또한 @UUID[Compendium.sf2e.spells.Item.ZBeKxBcUOsXrfMRo]{데이터 이식} 소마법을 신성 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 다만 이때 대상은 “당신의 갑각”이 되고, 갑각에 주입된 데이터는 그폴리안 언어를 아는 모든 크리처가 접근할 수 있습니다. 소마법은 레벨 절반을 올림한 수치와 같은 주문 랭크로 고조됩니다.</p>"
     },
     "Cooperative Nature": {
       "name": "협동적인 자연(Cooperative Nature)",
@@ -4418,7 +4418,7 @@
     },
     "Battle Saint": {
       "name": "전투 성인(Battle Saint)",
-      "description": "<p>살아 있는 전투 성인의 반열에 올랐으며 사후 다모리토시를 만날 때 진정한 신성한 종복이 되는 길을 걷고 있습니다. @UUID[Compendium.sf2e.spells.Item.BHWG0rQPTgBF5Ye1]{로켓 질주}과 @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{헤이스티}을 7랭크 신성 선천 주문으로 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>살아 있는 전투 성인의 반열에 올랐으며 사후 다모리토시를 만날 때 진정한 신성한 종복이 되는 길을 걷고 있습니다. @UUID[Compendium.sf2e.spells.Item.BHWG0rQPTgBF5Ye1]{로켓 질주}과 @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{가속}을 7랭크 신성 선천 주문으로 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Zoomies": {
       "name": "폭주 달리기(Zoomies)",
@@ -4662,7 +4662,7 @@
     },
     "Propelled Polyp Print": {
       "name": "추진 폴립 자국(Propelled Polyp Print)",
-      "description": "<p>몸의 폴립을 놀라울 정도로 정밀하게 통제합니다. @UUID[Compendium.sf2e.spells.Item.pwzdSlJgYqN7bs2w]{텔레키네틱 핸드}을 시전할 때 손에 효과선과 시선이 닿는 한, 선 또는 원뿔 범위 주문의 원점으로 <em>염동 손</em>을 사용할 수 있습니다. 또한 @UUID[Compendium.sf2e.actions.Item.RNEFfOL4d6WkTTpP]{폴립 출력} 활동을 얻습니다.</p>"
+      "description": "<p>몸의 폴립을 놀라울 정도로 정밀하게 통제합니다. @UUID[Compendium.sf2e.spells.Item.pwzdSlJgYqN7bs2w]{염동력 손}을 시전할 때 손에 효과선과 시선이 닿는 한, 선 또는 원뿔 범위 주문의 원점으로 <em>염동 손</em>을 사용할 수 있습니다. 또한 @UUID[Compendium.sf2e.actions.Item.RNEFfOL4d6WkTTpP]{폴립 출력} 활동을 얻습니다.</p>"
     },
     "Khizar Lore": {
       "name": "키자르 지식(Khizar Lore)",
@@ -4746,7 +4746,7 @@
     },
     "Psychic Scholar": {
       "name": "정신감응 학자(Psychic Scholar)",
-      "description": "<p>순식간에 방대한 정보를 다른 이의 정신으로 전달할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.D442XMADp01qJ7Cs]{마인드링크}을 하루에 두 번 1랭크 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>순식간에 방대한 정보를 다른 이의 정신으로 전달할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.D442XMADp01qJ7Cs]{정신 연결}을 하루에 두 번 1랭크 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
     },
     "Hush": {
       "name": "침묵(Hush)",
@@ -4786,7 +4786,7 @@
     },
     "Battleblessed": {
       "name": "전투의 축복(Battleblessed)",
-      "description": "<p>뛰어난 전투 무용가이자 전사로서 예언자들의 축복을 받고 조상 전통으로 단련되어 동족의 자연적인 능력을 넘어서는 위업을 행할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{테일윈드}을 1랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>뛰어난 전투 무용가이자 전사로서 예언자들의 축복을 받고 조상 전통으로 단련되어 동족의 자연적인 능력을 넘어서는 위업을 행할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{순풍}을 1랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Leg Brain": {
       "name": "다리 담당 뇌(Leg Brain)",
@@ -4878,7 +4878,7 @@
     },
     "Return to Roots": {
       "name": "뿌리로 돌아가기(Return to Roots)",
-      "description": "<p>크리처가 열악한 환경에서 번성할 수 있는 방법을 확장합니다. @UUID[Compendium.sf2e.spells.Item.J6vNvrUT3b1hx2iA]{얽히는 플로라}과 @UUID[Compendium.sf2e.spells.Item.hk2mTLH9DIvNqDuS]{푸르른 코드}를 각각 3랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>크리처가 열악한 환경에서 번성할 수 있는 방법을 확장합니다. @UUID[Compendium.sf2e.spells.Item.J6vNvrUT3b1hx2iA]{휘감는 식물}과 @UUID[Compendium.sf2e.spells.Item.hk2mTLH9DIvNqDuS]{푸르른 코드}를 각각 3랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Congregant's Acumen": {
       "name": "신도회의 수완(Congregant's Acumen)",
@@ -4890,11 +4890,11 @@
     },
     "Total Know-It-All": {
       "name": "완벽한 만물박사(Total Know-It-All)",
-      "description": "<p>지식의 깊이만큼이나 순간적으로 이를 떠올리는 능력도 뛰어납니다. @UUID[Compendium.sf2e.feats.Item.H3I2X0f7v4EzwxuN]{자동 지식} 일반 피트를 얻으며, 해당 기술에 @UUID[Compendium.sf2e.feats.Item.W6Gl9ePmItfDHji0]{확신}이 있다면 전문가인 어떤 기술에도 이를 적용할 수 있습니다. 또한 @UUID[Compendium.sf2e.spells.Item.ZYoC630tNGutgbE0]{하이퍼코그니션}를 3랭크 오컬트 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>지식의 깊이만큼이나 순간적으로 이를 떠올리는 능력도 뛰어납니다. @UUID[Compendium.sf2e.feats.Item.H3I2X0f7v4EzwxuN]{자동 지식} 일반 피트를 얻으며, 해당 기술에 @UUID[Compendium.sf2e.feats.Item.W6Gl9ePmItfDHji0]{확신}이 있다면 전문가인 어떤 기술에도 이를 적용할 수 있습니다. 또한 @UUID[Compendium.sf2e.spells.Item.ZYoC630tNGutgbE0]{초고속 인지}를 3랭크 오컬트 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Grandmother's Favorite": {
       "name": "할머니가 아끼는 아이(Grandmother's Favorite)",
-      "description": "<p>쥐 할머니에 대한 굳건한 신앙이 더 큰 보상을 내립니다. @UUID[Compendium.sf2e.spells.Item.sX2o0HH4RjJDAZ8C]{신성 디크리}를 7랭크 신성 선천 주문으로 하루에 한 번 시전할 수 있습니다. 또한 한 달에 한 번, 죽게 될 때 몸이 흩어지는 쥐 떼로 변합니다. [[/r 1d6 #days]]{1d6일} 뒤 이 쥐들은 GM이 정한 안전한 장소, 가능하다면 라오 슈 포에게 봉헌된 장소에 모여 몸을 다시 만듭니다. 최대 HP으로 되살아납니다.</p>"
+      "description": "<p>쥐 할머니에 대한 굳건한 신앙이 더 큰 보상을 내립니다. @UUID[Compendium.sf2e.spells.Item.sX2o0HH4RjJDAZ8C]{신성한 칙령}를 7랭크 신성 선천 주문으로 하루에 한 번 시전할 수 있습니다. 또한 한 달에 한 번, 죽게 될 때 몸이 흩어지는 쥐 떼로 변합니다. [[/r 1d6 #days]]{1d6일} 뒤 이 쥐들은 GM이 정한 안전한 장소, 가능하다면 라오 슈 포에게 봉헌된 장소에 모여 몸을 다시 만듭니다. 최대 HP으로 되살아납니다.</p>"
     },
     "Guilt Trip": {
       "name": "죄책감 심기(Guilt Trip)",
@@ -4946,7 +4946,7 @@
     },
     "Primal Polyps": {
       "name": "원시 폴립(Primal Polyps)",
-      "description": "<p>타브리드 마이너 코피의 원시적 우주 힘 일부와 다시 연결되어 그 에너지가 몸의 폴립에 스며듭니다. @UUID[Compendium.sf2e.spells.Item.Et8RSCLx8w7uOLvo]{건강한 신체}와 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유로운 이동}을 7랭크 원시 선천 주문으로 시전할 수 있습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>타브리드 마이너 코피의 원시적 우주 힘 일부와 다시 연결되어 그 에너지가 몸의 폴립에 스며듭니다. @UUID[Compendium.sf2e.spells.Item.Et8RSCLx8w7uOLvo]{건강한 육체}와 @UUID[Compendium.sf2e.spells.Item.aqRYNoSvxsVfqglH]{자유 이동}을 7랭크 원시 선천 주문으로 시전할 수 있습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Dwarven Zero-G Familiarity": {
       "name": "드워프 무중력 친숙함(Dwarven Zero-G Familiarity)",
@@ -4998,7 +4998,7 @@
     },
     "Queen's Magic": {
       "name": "여왕의 마법(Queen's Magic)",
-      "description": "<p>여왕을 제외하면 대부분의 포미안은 타고난 마법 능력이 거의 없습니다. 당신은 여왕은 아니지만 궁정의 일원으로 여왕 가까이에 있으며, 여왕은 긴밀한 텔레파시 결속을 통해 자주 마법을 흘려보냅니다.</p><p>@UUID[Compendium.sf2e.spells.Item.gKKqvLohtrSJj3BM]{포스 배러지}과 @UUID[Compendium.sf2e.spells.Item.VlNcjmYyu95vOUe8]{트랜스로케이트}를 각각 4랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다. 두 주문 중 하나를 시전한 뒤 1분 동안 @UUID[Compendium.sf2e.ancestry-features.Item.N9EDgQPjWcSS6rSb]{제한적 텔레파시}의 범위가 네 배가 됩니다.</p>"
+      "description": "<p>여왕을 제외하면 대부분의 포미안은 타고난 마법 능력이 거의 없습니다. 당신은 여왕은 아니지만 궁정의 일원으로 여왕 가까이에 있으며, 여왕은 긴밀한 텔레파시 결속을 통해 자주 마법을 흘려보냅니다.</p><p>@UUID[Compendium.sf2e.spells.Item.gKKqvLohtrSJj3BM]{역장 탄막}과 @UUID[Compendium.sf2e.spells.Item.VlNcjmYyu95vOUe8]{전위}를 각각 4랭크 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다. 두 주문 중 하나를 시전한 뒤 1분 동안 @UUID[Compendium.sf2e.ancestry-features.Item.N9EDgQPjWcSS6rSb]{제한적 텔레파시}의 범위가 네 배가 됩니다.</p>"
     },
     "Bounce Back": {
       "name": "다시 일어서기(Bounce Back)",
@@ -5009,8 +5009,8 @@
       "description": "<p>너무 자연스럽게 거짓말을 해 상대를 속이는 중에도 사람들이 당신의 좋은 면만 보게 합니다. 속임수에 훈련됩니다. 배경이나 클래스 등으로 속임수에 자동으로 훈련될 경우 대신 원하는 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.B6HbYsLBWb1RR6Fx]{매력적인 거짓말쟁이} 피트를 얻습니다.</p>"
     },
     "Electrotether Ball": {
-      "name": "전기 밧줄 구체(Electrotether Ball)",
-      "description": "<p>원시 에너지를 흘려보내며 자성 구체를 빠르게 회전시켜, 자신을 포함한 물체와 크리처를 전장 너머로 끌어당길 전기 밧줄을 만들 수 있습니다.</p><p>@UUID[Compendium.sf2e.spells.Item.Cbj7tDkb2ZTp10Cg]{전기 밧줄}을 3랭크 원시 선천 주문으로 하루에 두 번 시전할 수 있지만, 대상은 ‘크리처 하나, 방치된 물체 하나 또는 금속 구조물 하나’가 됩니다.</p><p>방치된 물체를 대상으로 하면 즉시 자신의 칸으로 끌어오며, 자유로운 손이 있다면 아이템을 잡을 수 있습니다. 우주선이나 건물의 측면 같은 금속 표면을 대상으로 하면 즉시 구조물로 이동하고(이 이동은 이동에 기반한 반응 행동을 유발하지 않습니다) [[/act climb]]합니다.</p>"
+      "name": "전기 사슬 구체(Electrotether Ball)",
+      "description": "<p>원시 에너지를 흘려보내며 자성 구체를 빠르게 회전시켜, 자신을 포함한 물체와 크리처를 전장 너머로 끌어당길 전기 사슬을 만들 수 있습니다.</p><p>@UUID[Compendium.sf2e.spells.Item.Cbj7tDkb2ZTp10Cg]{전기 사슬}을 3랭크 원시 선천 주문으로 하루에 두 번 시전할 수 있지만, 대상은 ‘크리처 하나, 방치된 물체 하나 또는 금속 구조물 하나’가 됩니다.</p><p>방치된 물체를 대상으로 하면 즉시 자신의 칸으로 끌어오며, 자유로운 손이 있다면 아이템을 잡을 수 있습니다. 우주선이나 건물의 측면 같은 금속 표면을 대상으로 하면 즉시 구조물로 이동하고(이 이동은 이동에 기반한 반응 행동을 유발하지 않습니다) [[/act climb]]합니다.</p>"
     },
     "Adaptable Membranes": {
       "name": "적응성 막(Adaptable Membranes)",
@@ -5234,7 +5234,7 @@
     },
     "Tectonic Psychic": {
       "name": "지각 변동 정신능력자(Tectonic Psychic)",
-      "description": "<p>환경과의 정신적 연결이 지면 아래까지 뻗어 용암을 살아 있는 것처럼 조종합니다. @UUID[Compendium.sf2e.spells.Item.IarZrgCeaiUqOuRu]{화염의 벽}과 <em>기묘한 분출</em>을 7랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>환경과의 정신적 연결이 지면 아래까지 뻗어 용암을 살아 있는 것처럼 조종합니다. @UUID[Compendium.sf2e.spells.Item.IarZrgCeaiUqOuRu]{화염 장벽}과 <em>기묘한 분출</em>을 7랭크 원시 선천 주문으로 얻습니다. 이 원시 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Opening Roar": {
       "name": "개전의 포효(Opening Roar)",
@@ -5342,7 +5342,7 @@
     },
     "Far-Reaching Mind": {
       "name": "멀리 뻗는 정신(Far-Reaching Mind)",
-      "description": "<p>엄격한 정신 훈련이나 타고난 재능을 통해 정신 감각이 평균보다 멀리 뻗습니다. 제한된 텔레파시와 사고 감지의 사거리를 각각 10피트 증가시킵니다.</p>"
+      "description": "<p>엄격한 정신 훈련이나 타고난 재능을 통해 정신 감각이 평균보다 멀리 뻗습니다. 제한된 텔레파시와 생각 탐지의 사거리를 각각 10피트 증가시킵니다.</p>"
     },
     "Consume Decay": {
       "name": "부패 섭취(Consume Decay)",
@@ -5378,7 +5378,7 @@
     },
     "Mascot Power!": {
       "name": "마스코트 파워!(Mascot Power!)",
-      "description": "<p>영혼감각이 크리처의 영혼을 끌어당겨 당신에게 결속시켰습니다. 이 피트를 선택할 때 @UUID[Compendium.sf2e.spells.Item.4YnON9JHYqtLzccu]{소환 동물} 또는 @UUID[Compendium.sf2e.spells.Item.hs7h8f4Z1ZNdUt3s]{소환 페이}을 선택합니다. 선택한 주문을 레벨의 절반을 올림한 랭크로 고양되는 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>영혼감각이 크리처의 영혼을 끌어당겨 당신에게 결속시켰습니다. 이 피트를 선택할 때 @UUID[Compendium.sf2e.spells.Item.4YnON9JHYqtLzccu]{동물 소환} 또는 @UUID[Compendium.sf2e.spells.Item.hs7h8f4Z1ZNdUt3s]{요정 소환}을 선택합니다. 선택한 주문을 레벨의 절반을 올림한 랭크로 고양되는 원시 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Expedition Assistant": {
       "name": "원정 조수(Expedition Assistant)",
@@ -5426,7 +5426,7 @@
     },
     "Flashing Fit": {
       "name": "눈부신 차림(Flashing Fit)",
-      "description": "<p>여러 해 동안 외모를 세심하게 가꾸며 색, 질감, 빛의 상호작용을 깊이 이해했고 누구의 시선도 붙잡는 의상을 만드는 법을 압니다. @UUID[Compendium.sf2e.spells.Item.RQjSQVZRG497cJhX]{비브란트 패턴}를 6랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다. 17레벨부터 선명한 무늬 선천 주문의 구역을 @Template[type:burst|distance:20]로 증가시킵니다.</p>"
+      "description": "<p>여러 해 동안 외모를 세심하게 가꾸며 색, 질감, 빛의 상호작용을 깊이 이해했고 누구의 시선도 붙잡는 의상을 만드는 법을 압니다. @UUID[Compendium.sf2e.spells.Item.RQjSQVZRG497cJhX]{현란한 무늬}를 6랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다. 17레벨부터 선명한 무늬 선천 주문의 구역을 @Template[type:burst|distance:20]로 증가시킵니다.</p>"
     },
     "Menacing Snarl": {
       "name": "위협적인 으르렁거림(Menacing Snarl)",
@@ -5434,7 +5434,7 @@
     },
     "Sway the Heart, Stoke the Spirit": {
       "name": "마음을 움직이고 영혼을 북돋우기(Sway the Heart, Stoke the Spirit)",
-      "description": "<p>아군을 결집시키는 고무적인 연설로 몸과 정신에서 해로운 상태를 씻어 내고 계속되는 전투를 위한 투지를 북돋습니다. 말로 연설하면 마음을 움직이고 영혼을 북돋우기는 청각 특성을 얻고, 수어로 연설하면 시각 특성을 얻습니다. 당신과 @Template[type:emanation|distance:60] 안의 모든 아군은 4랭크 @UUID[Compendium.sf2e.spells.Item.EfFMLVbmkBWmzoLF]{맑은 정신}과 4랭크 @UUID[Compendium.sf2e.spells.Item.Et8RSCLx8w7uOLvo]{건강한 신체} 주문의 이점을 받습니다. 또한 아군은 1분 동안 의지 내성에 +1 상황 보너스를 얻습니다.</p><p>@UUID[Compendium.sf2e.feat-effects.Item.XmdJvu33YRjQbLsz]{효과: Sway the Heart, Stoke the Spirit}</p>"
+      "description": "<p>아군을 결집시키는 고무적인 연설로 몸과 정신에서 해로운 상태를 씻어 내고 계속되는 전투를 위한 투지를 북돋습니다. 말로 연설하면 마음을 움직이고 영혼을 북돋우기는 청각 특성을 얻고, 수어로 연설하면 시각 특성을 얻습니다. 당신과 @Template[type:emanation|distance:60] 안의 모든 아군은 4랭크 @UUID[Compendium.sf2e.spells.Item.EfFMLVbmkBWmzoLF]{명경지수}과 4랭크 @UUID[Compendium.sf2e.spells.Item.Et8RSCLx8w7uOLvo]{건강한 육체} 주문의 이점을 받습니다. 또한 아군은 1분 동안 의지 내성에 +1 상황 보너스를 얻습니다.</p><p>@UUID[Compendium.sf2e.feat-effects.Item.XmdJvu33YRjQbLsz]{효과: Sway the Heart, Stoke the Spirit}</p>"
     },
     "Interdimensional Cheek Portal": {
       "name": "차원간 볼주머니 관문(Interdimensional Cheek Portal)",
@@ -5442,7 +5442,7 @@
     },
     "Living Battery": {
       "name": "살아 있는 배터리(Living Battery)",
-      "description": "<p>신체가 과도한 전기 에너지를 생산하며, 이를 번개 폭발로 방출하거나 기술 장치에 동력을 공급하는 데 사용할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.kBhaPuzLUSwS6vVf]{일렉트릭 아크} 소마법을 신성 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 주문 랭크로 고조됩니다.</p><p>전기 호를 시전할 때 배터리 또는 배터리로 동력을 공급받는 테크 아이템도 어떤 조합으로든 대상으로 삼을 수 있습니다. 배터리 또는 배터리로 동력을 공급받는 테크 아이템을 대상으로 하면 그 아이템은 피해를 받지 않습니다. 대신 주문 랭크당 충전 2를 회복합니다. 대상이 배터리가 필요하지만 현재 배터리가 없는 테크 아이템이라면 1분 동안 주문 랭크당 충전 2를 지닌 배터리가 있는 것처럼 취급합니다.</p>"
+      "description": "<p>신체가 과도한 전기 에너지를 생산하며, 이를 번개 폭발로 방출하거나 기술 장치에 동력을 공급하는 데 사용할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.kBhaPuzLUSwS6vVf]{전기 호} 소마법을 신성 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 주문 랭크로 고조됩니다.</p><p>전기 호를 시전할 때 배터리 또는 배터리로 동력을 공급받는 테크 아이템도 어떤 조합으로든 대상으로 삼을 수 있습니다. 배터리 또는 배터리로 동력을 공급받는 테크 아이템을 대상으로 하면 그 아이템은 피해를 받지 않습니다. 대신 주문 랭크당 충전 2를 회복합니다. 대상이 배터리가 필요하지만 현재 배터리가 없는 테크 아이템이라면 1분 동안 주문 랭크당 충전 2를 지닌 배터리가 있는 것처럼 취급합니다.</p>"
     },
     "One with the Newborn": {
       "name": "신생아와 하나 되기(One with the Newborn)",
@@ -5474,7 +5474,7 @@
     },
     "Creature Shape": {
       "name": "크리처 형태(Creature Shape)",
-      "description": "<p>종족은 선호하는 크리처와 함께 성장했으며, 그 유대를 활용해 변신할 수 있습니다. 이 피트를 얻을 때 종족의 크리처 항목과 일치하는 전투 형태를 가진 커먼 변형 주문 하나를 선택합니다. 한번 선택한 형태는 바꿀 수 없습니다. 이 주문을 8랭크 선천 주문으로 하루에 한 번 시전할 수 있지만, 선조 크리처와 일치하는 전투 형태로만 변신해야 합니다. 자신의 일반 AC가 전투 형태가 부여하는 AC보다 높다면 일반 AC를 사용합니다. 선조 크리처가 기재된 형태에 없다면 GM의 재량에 따라 그 크리처와 가장 가까운 전투 형태의 수치와 능력을 사용합니다. 이 주문은 피트 항목에 기재된 것과 같은 전통을 가집니다.</p>\n<p>@UUID[Compendium.sf2e.feats.Item.kMhvj8vAqDW0SVei]{조상의 작은 짐승} 피트가 있다면 4레벨 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{페스트 폼}의 효과를 얻는 것을 선택할 수 있습니다.</p>"
+      "description": "<p>종족은 선호하는 크리처와 함께 성장했으며, 그 유대를 활용해 변신할 수 있습니다. 이 피트를 얻을 때 종족의 크리처 항목과 일치하는 전투 형태를 가진 커먼 변형 주문 하나를 선택합니다. 한번 선택한 형태는 바꿀 수 없습니다. 이 주문을 8랭크 선천 주문으로 하루에 한 번 시전할 수 있지만, 선조 크리처와 일치하는 전투 형태로만 변신해야 합니다. 자신의 일반 AC가 전투 형태가 부여하는 AC보다 높다면 일반 AC를 사용합니다. 선조 크리처가 기재된 형태에 없다면 GM의 재량에 따라 그 크리처와 가장 가까운 전투 형태의 수치와 능력을 사용합니다. 이 주문은 피트 항목에 기재된 것과 같은 전통을 가집니다.</p>\n<p>@UUID[Compendium.sf2e.feats.Item.kMhvj8vAqDW0SVei]{조상의 작은 짐승} 피트가 있다면 4레벨 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{해충 형상}의 효과를 얻는 것을 선택할 수 있습니다.</p>"
     },
     "All In": {
       "name": "전부 걸기(All In)",
@@ -5482,7 +5482,7 @@
     },
     "Psychic Investigator": {
       "name": "정신 수사관(Psychic Investigator)",
-      "description": "<p>텔레파시 능력으로 상황을 빠르게 평가하거나 다른 이들의 정신에서 정보를 은밀히 얻습니다. @UUID[Compendium.sf2e.spells.Item.ZYoC630tNGutgbE0]{하이퍼코그니션}와 @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{마음 읽기}를 3랭크 오컬트 선천 주문으로 얻습니다. 이 오컬트 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
+      "description": "<p>텔레파시 능력으로 상황을 빠르게 평가하거나 다른 이들의 정신에서 정보를 은밀히 얻습니다. @UUID[Compendium.sf2e.spells.Item.ZYoC630tNGutgbE0]{초고속 인지}와 @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{생각 읽기}를 3랭크 오컬트 선천 주문으로 얻습니다. 이 오컬트 선천 주문을 각각 하루에 한 번 시전할 수 있습니다.</p>"
     },
     "Supreme Scion": {
       "name": "최고의 후예(Supreme Scion)",
@@ -5550,7 +5550,7 @@
     },
     "Crystal Ball": {
       "name": "수정 구체(Crystal Ball)",
-      "description": "<p>발 구체가 모든 창조의 반영이 되어, 우주 곳곳의 장면을 확대해 수정 표면에 투사할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.r784cIz17eWujtQj]{스크라이잉}을 보석 구체 반트리드 유산에서 선택한 소마법과 같은 전통의 6랭크 선천 주문으로 하루에 두 번 시전할 수 있습니다. 이 방식으로 <em>점술</em>을 통해 받는 모든 시각 정보는 발 구체 안에 나타나고, 모든 청각 정보는 발 구체 표면에서 소리로 방출됩니다.</p>"
+      "description": "<p>발 구체가 모든 창조의 반영이 되어, 우주 곳곳의 장면을 확대해 수정 표면에 투사할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.r784cIz17eWujtQj]{원격 관찰}을 보석 구체 반트리드 유산에서 선택한 소마법과 같은 전통의 6랭크 선천 주문으로 하루에 두 번 시전할 수 있습니다. 이 방식으로 <em>점술</em>을 통해 받는 모든 시각 정보는 발 구체 안에 나타나고, 모든 청각 정보는 발 구체 표면에서 소리로 방출됩니다.</p>"
     },
     "Deathly Constitution": {
       "name": "죽음의 체질(Deathly Constitution)",
@@ -5562,7 +5562,7 @@
     },
     "Teachings of the Forgefather": {
       "name": "대장간 아버지의 가르침(Teachings of the Forgefather)",
-      "description": "<p>토라그의 가르침과 하늘을 향한 새로운 탐구에 집중하는 탐구 결속 드워프 사이에서 흔한 마법을 익혔습니다. @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(신성; @UUID[Compendium.sf2e.spells.Item.3VucgRc8FRPGy9NI]{별 찾기})과 @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(신성; @UUID[Compendium.sf2e.spells.Item.TVKNbcgTee19PXZR]{쉴드}) 종족 피트를 얻습니다.</p>"
+      "description": "<p>토라그의 가르침과 하늘을 향한 새로운 탐구에 집중하는 탐구 결속 드워프 사이에서 흔한 마법을 익혔습니다. @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(신성; @UUID[Compendium.sf2e.spells.Item.3VucgRc8FRPGy9NI]{별 찾기})과 @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(신성; @UUID[Compendium.sf2e.spells.Item.TVKNbcgTee19PXZR]{방패}) 종족 피트를 얻습니다.</p>"
     },
     "Call the Hive": {
       "name": "군체 부르기(Call the Hive)",
@@ -5738,7 +5738,7 @@
     },
     "Planetary Bond": {
       "name": "행성 유대(Planetary Bond)",
-      "description": "<p>유대가 자신의 행성에 사는 모든 생명과의 친족 관계로 성장했습니다. 자신의 행성에 있는 동안 항상 @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화하기} 및 @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화하기} 효과를 받습니다. 유대를 맺은 모든 행성의 토착민으로 간주됩니다. 행성 토착 크리처는 자신과 본능적인 연결을 느껴, 그들에게 @UUID[Compendium.sf2e.actions.Item.DCb62iCBrJXy0Ik6]{부탁}할 때 외교 판정에 +2 상황 보너스를 부여합니다. 특히 협조적인 크리처는 메시지 전달이나 지역 감시 같은 사소한 일을 받아들일 수 있지만, 위험한 일이나 전투는 하지 않습니다.</p>\n<p>유대를 맺은 세계를 보호하겠다고 맹세합니다. 다음 칙령과 금기를 얻습니다.</p>\n<p><strong>칙령</strong> 외계 위협으로부터 세계를 방어하고, 착취로부터 천연자원을 보호하며, 행성 크리처와 유대를 맺을 것</p>\n<p><strong>금기</strong> 행성 생태계를 교란하거나 해치고, 행성 천연자원을 약탈하며, 행성 크리처를 착취할 것</p>\n<p>금기로 인해 능력을 잃었다면 @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{애톤} 의식을 수행해 속죄해야 이 피트의 효과를 되찾고 다른 행성과 유대를 맺을 수 있습니다.</p>"
+      "description": "<p>유대가 자신의 행성에 사는 모든 생명과의 친족 관계로 성장했습니다. 자신의 행성에 있는 동안 항상 @UUID[Compendium.sf2e.spells.Item.BBvV7qoXGdw09q1C]{동물과 대화} 및 @UUID[Compendium.sf2e.spells.Item.qvwIwJ9QBihy8R0t]{식물과 대화} 효과를 받습니다. 유대를 맺은 모든 행성의 토착민으로 간주됩니다. 행성 토착 크리처는 자신과 본능적인 연결을 느껴, 그들에게 @UUID[Compendium.sf2e.actions.Item.DCb62iCBrJXy0Ik6]{부탁}할 때 외교 판정에 +2 상황 보너스를 부여합니다. 특히 협조적인 크리처는 메시지 전달이나 지역 감시 같은 사소한 일을 받아들일 수 있지만, 위험한 일이나 전투는 하지 않습니다.</p>\n<p>유대를 맺은 세계를 보호하겠다고 맹세합니다. 다음 칙령과 금기를 얻습니다.</p>\n<p><strong>칙령</strong> 외계 위협으로부터 세계를 방어하고, 착취로부터 천연자원을 보호하며, 행성 크리처와 유대를 맺을 것</p>\n<p><strong>금기</strong> 행성 생태계를 교란하거나 해치고, 행성 천연자원을 약탈하며, 행성 크리처를 착취할 것</p>\n<p>금기로 인해 능력을 잃었다면 @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{속죄} 의식을 수행해 속죄해야 이 피트의 효과를 되찾고 다른 행성과 유대를 맺을 수 있습니다.</p>"
     },
     "Solar Flare": {
       "name": "태양 섬광(Solar Flare)",
@@ -5782,7 +5782,7 @@
     },
     "Read Mental Dossier": {
       "name": "정신 기록 읽기(Read Mental Dossier)",
-      "description": "<p>자신에게 정신은 펼쳐진 책과 같습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{마음 읽기}를 선천 오컬트 주문으로 시전할 수 있습니다. 지능 수정치가 매력 수정치보다 높다면 이 선천 주문의 주문시전 능력치로 지능을 사용합니다.</p>"
+      "description": "<p>자신에게 정신은 펼쳐진 책과 같습니다. 하루에 한 번 @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{생각 읽기}를 선천 오컬트 주문으로 시전할 수 있습니다. 지능 수정치가 매력 수정치보다 높다면 이 선천 주문의 주문시전 능력치로 지능을 사용합니다.</p>"
     },
     "Really Get Em!": {
       "name": "제대로 잡아!(Really Get Em!)",
@@ -5842,7 +5842,7 @@
     },
     "Galactic Bond": {
       "name": "은하적 유대(Galactic Bond)",
-      "description": "<p>지혜 수정치(최소 1)와 같은 수의 추가 고향 세계와 유대를 맺을 수 있으며, 이는 유대 한도에 포함됩니다. 행성 유대의 칙령, 금기, 효과는 이제 유대를 맺은 모든 행성에 적용됩니다.</p>\n<p>14레벨에 순간이동을 원시 주문 목록에 추가합니다. @UUID[Compendium.sf2e.spells.Item.7DN13ILADW2N9Z1t]{코뮨} 의식을 배우지만, 자연으로만 이 의식을 시전할 수 있습니다.</p>\n<p>18레벨에 순간이동 특성이 있는 주문을 시전할 때 유대를 맺은 모든 행성을 자신과 같은 항성계에 있는 것으로 취급합니다. 현재 위치와 관계없이 하루에 한 번 자신의 주문 DC를 사용해 격노의 폭풍을 원초 선천 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>지혜 수정치(최소 1)와 같은 수의 추가 고향 세계와 유대를 맺을 수 있으며, 이는 유대 한도에 포함됩니다. 행성 유대의 칙령, 금기, 효과는 이제 유대를 맺은 모든 행성에 적용됩니다.</p>\n<p>14레벨에 순간이동을 원시 주문 목록에 추가합니다. @UUID[Compendium.sf2e.spells.Item.7DN13ILADW2N9Z1t]{교감} 의식을 배우지만, 자연으로만 이 의식을 시전할 수 있습니다.</p>\n<p>18레벨에 순간이동 특성이 있는 주문을 시전할 때 유대를 맺은 모든 행성을 자신과 같은 항성계에 있는 것으로 취급합니다. 현재 위치와 관계없이 하루에 한 번 자신의 주문 DC를 사용해 격노의 폭풍을 원초 선천 주문으로 시전할 수 있습니다.</p>"
     },
     "Gun Expert": {
       "name": "총기 전문가(Gun Expert)",
@@ -5998,7 +5998,7 @@
     },
     "Press-Gang the Soul": {
       "name": "영혼 강제 징집(Press-Gang the Soul)",
-      "description": "<p><strong>조건</strong> 페이즈 커틀러스로 적을 HP 0으로 감소시킵니다.</p><hr /><p>페이즈 커틀러스가 적의 활력 일부를 훔쳐 영원한 복무에 강제 징집합니다. 훔친 활력이 든 @UUID[Compendium.sf2e.equipment.Item.eBWGwv3rryQkHfh4]{위상 커틀러스}를 들고 있는 동안 @UUID[Compendium.sf2e.spells.Item.Sqo1uzSmebVWpqoT]{도깨비불 아군}을 자신의 레벨 절반과 같은 주문 랭크로 고양된 신성 선천 주문으로 마음대로 시전할 수 있습니다. 이런 방식으로 <em>위습 아군</em>을 사용하려면 페이즈 커틀러스에 강제 징집된 영혼 하나가 필요하며 영구적으로 해방됩니다. 라운드마다 처음으로 페이즈 커틀러스로 타격할 때 즉시 주문 유지 행동의 효과를 얻으며, 해당 페이즈 커틀러스로 시전한 <em>위습 아군</em> 주문의 지속시간 연장과 조종에만 사용할 수 있습니다.</p>"
+      "description": "<p><strong>조건</strong> 페이즈 커틀러스로 적을 HP 0으로 감소시킵니다.</p><hr /><p>페이즈 커틀러스가 적의 활력 일부를 훔쳐 영원한 복무에 강제 징집합니다. 훔친 활력이 든 @UUID[Compendium.sf2e.equipment.Item.eBWGwv3rryQkHfh4]{위상 커틀러스}를 들고 있는 동안 @UUID[Compendium.sf2e.spells.Item.Sqo1uzSmebVWpqoT]{도깨비불 동료}을 자신의 레벨 절반과 같은 주문 랭크로 고양된 신성 선천 주문으로 마음대로 시전할 수 있습니다. 이런 방식으로 <em>위습 아군</em>을 사용하려면 페이즈 커틀러스에 강제 징집된 영혼 하나가 필요하며 영구적으로 해방됩니다. 라운드마다 처음으로 페이즈 커틀러스로 타격할 때 즉시 주문 유지 행동의 효과를 얻으며, 해당 페이즈 커틀러스로 시전한 <em>위습 아군</em> 주문의 지속시간 연장과 조종에만 사용할 수 있습니다.</p>"
     },
     "Nonlethal Spell (Peacekeeper)": {
       "name": "비살상 주문(평화수호자)(Nonlethal Spell (Peacekeeper))",
@@ -6234,7 +6234,7 @@
     },
     "Xenodruid Bond": {
       "name": "제노드루이드 유대(Xenodruid Bond)",
-      "description": "<p>제노워든처럼 자연과 우주의 생물다양성에 연결된 제노드루이드 원초 결사에 합류합니다. 다음 제노드루이드 결사 중 하나를 선택합니다.</p>\n<p><strong>결사</strong> 동물; <strong>기술</strong> 동물 전승; <strong>주문</strong> 1랭크: @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{페스트 폼}; 2랭크: @UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}; 5랭크: @UUID[Compendium.sf2e.spells.Item.n5a3t5Qnx5AU8auy]{게화}</p>\n<p><strong>결사</strong> 식물; <strong>기술</strong> 식물 전승; <strong>주문</strong> 1랭크: @UUID[Compendium.sf2e.spells.Item.jSRAyd57kd4WZ4yE]{식물 또는 균류 소환}; 2랭크: @UUID[Compendium.sf2e.spells.Item.hk2mTLH9DIvNqDuS]{푸르른 코드}; 5랭크: @UUID[Compendium.sf2e.spells.Item.zCcfPS4y5SrZzU2x]{식물 형태}</p>\n<p><strong>결사</strong> 바이러스; <strong>기술</strong> 계보 전승; <strong>주문</strong> 1랭크: @UUID[Compendium.sf2e.spells.Item.QqxwHeYEVylkYjsO]{독 감지}; 2랭크: @UUID[Compendium.sf2e.spells.Item.mnoTqz0gjRmuc4oR]{즉석 바이러스}; 5랭크: @UUID[Compendium.sf2e.spells.Item.MlpbeZ61Euhl0d60]{톡식 클라우드}</p>\n<p>결사와 연관된 기재된 기술에 훈련되고, 기재된 주문을 대표 주문으로 자신의 주문 목록과 주문 레퍼토리에 추가합니다. 이미 기재된 기술에 훈련되어 있다면 대신 원하는 다른 기술 하나에 훈련됩니다.</p>"
+      "description": "<p>제노워든처럼 자연과 우주의 생물다양성에 연결된 제노드루이드 원초 결사에 합류합니다. 다음 제노드루이드 결사 중 하나를 선택합니다.</p>\n<p><strong>결사</strong> 동물; <strong>기술</strong> 동물 전승; <strong>주문</strong> 1랭크: @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{해충 형상}; 2랭크: @UUID[Compendium.sf2e.spells.Item.wp09USMB3GIW1qbp]{동물 형상}; 5랭크: @UUID[Compendium.sf2e.spells.Item.n5a3t5Qnx5AU8auy]{게화}</p>\n<p><strong>결사</strong> 식물; <strong>기술</strong> 식물 전승; <strong>주문</strong> 1랭크: @UUID[Compendium.sf2e.spells.Item.jSRAyd57kd4WZ4yE]{식물 또는 균류 소환}; 2랭크: @UUID[Compendium.sf2e.spells.Item.hk2mTLH9DIvNqDuS]{푸르른 코드}; 5랭크: @UUID[Compendium.sf2e.spells.Item.zCcfPS4y5SrZzU2x]{식물 형상}</p>\n<p><strong>결사</strong> 바이러스; <strong>기술</strong> 계보 전승; <strong>주문</strong> 1랭크: @UUID[Compendium.sf2e.spells.Item.QqxwHeYEVylkYjsO]{독 탐지}; 2랭크: @UUID[Compendium.sf2e.spells.Item.mnoTqz0gjRmuc4oR]{즉발 바이러스}; 5랭크: @UUID[Compendium.sf2e.spells.Item.MlpbeZ61Euhl0d60]{독성 구름}</p>\n<p>결사와 연관된 기재된 기술에 훈련되고, 기재된 주문을 대표 주문으로 자신의 주문 목록과 주문 레퍼토리에 추가합니다. 이미 기재된 기술에 훈련되어 있다면 대신 원하는 다른 기술 하나에 훈련됩니다.</p>"
     },
     "Bond Boost": {
       "name": "유대 증폭(Bond Boost)",
@@ -6270,7 +6270,7 @@
     },
     "Data Bond": {
       "name": "데이터 유대(Data Bond)",
-      "description": "<p>컴퓨터와 대화할 수 있습니다. 자신이 소환한 모든 구조체 크리처는 유대의 일부로 간주되며 유대에 포함할 수 있는 최대 크리처 수에 포함되지 않습니다. 일일 준비 중 다음 주문 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.mnoTqz0gjRmuc4oR]{즉석 바이러스}, @UUID[Compendium.sf2e.spells.Item.dINQzhqGmIsqGMUY]{멘딩}, @UUID[Compendium.sf2e.spells.Item.lKcsmeOrgHtK4xQa]{서먼 컨스트럭트} 또는 @UUID[Compendium.sf2e.spells.Item.KlJEDmAOk1ztdNFf]{로봇 소환}. 다음 일일 준비까지 선택한 주문을 자신의 주문 레퍼토리와 대표 주문에 추가합니다.</p>"
+      "description": "<p>컴퓨터와 대화할 수 있습니다. 자신이 소환한 모든 구조체 크리처는 유대의 일부로 간주되며 유대에 포함할 수 있는 최대 크리처 수에 포함되지 않습니다. 일일 준비 중 다음 주문 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.mnoTqz0gjRmuc4oR]{즉발 바이러스}, @UUID[Compendium.sf2e.spells.Item.dINQzhqGmIsqGMUY]{수선}, @UUID[Compendium.sf2e.spells.Item.lKcsmeOrgHtK4xQa]{구조물 소환} 또는 @UUID[Compendium.sf2e.spells.Item.KlJEDmAOk1ztdNFf]{로봇 소환}. 다음 일일 준비까지 선택한 주문을 자신의 주문 레퍼토리와 대표 주문에 추가합니다.</p>"
     },
     "Greater Epiphany": {
       "name": "고등 깨달음(Greater Epiphany)",
@@ -6278,7 +6278,7 @@
     },
     "Life Bond": {
       "name": "생명의 유대(Life Bond)",
-      "description": "<p>동물과 식물과 대화할 수 있습니다. 자신이 소환한 모든 살아 있는 크리처는 유대의 일부로 간주되며 유대에 포함할 수 있는 최대 크리처 수에 포함되지 않습니다. 일일 준비 중 다음 주문 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.4YnON9JHYqtLzccu]{소환 동물}, @UUID[Compendium.sf2e.spells.Item.lpT6LotUaQPfinjj]{소환:엘리멘탈}, @UUID[Compendium.sf2e.spells.Item.hs7h8f4Z1ZNdUt3s]{소환 페이} 또는 @UUID[Compendium.sf2e.spells.Item.jSRAyd57kd4WZ4yE]{식물 또는 균류 소환}. 다음 일일 준비까지 선택한 주문을 자신의 주문 레퍼토리와 대표 주문에 추가합니다.</p>"
+      "description": "<p>동물과 식물과 대화할 수 있습니다. 자신이 소환한 모든 살아 있는 크리처는 유대의 일부로 간주되며 유대에 포함할 수 있는 최대 크리처 수에 포함되지 않습니다. 일일 준비 중 다음 주문 하나를 선택합니다. @UUID[Compendium.sf2e.spells.Item.4YnON9JHYqtLzccu]{동물 소환}, @UUID[Compendium.sf2e.spells.Item.lpT6LotUaQPfinjj]{원소 소환}, @UUID[Compendium.sf2e.spells.Item.hs7h8f4Z1ZNdUt3s]{요정 소환} 또는 @UUID[Compendium.sf2e.spells.Item.jSRAyd57kd4WZ4yE]{식물 또는 균류 소환}. 다음 일일 준비까지 선택한 주문을 자신의 주문 레퍼토리와 대표 주문에 추가합니다.</p>"
     },
     "Convert Elemental Essence": {
       "name": "원소 정수 전환(Convert Elemental Essence)",
@@ -6301,7 +6301,7 @@
       "description": "<p>자신의 연결 깊숙이 파고들어 자신의 현실 조각이 다른 연결과 어떻게 이어지는지 이해합니다. 조건으로 요구되는 연결 기술에 훈련을 부여하는 연결 하나의 상급 깨달음 주문을 배웁니다.</p>"
     },
     "Vitality Web": {
-      "name": "생명력 거미줄(Vitality Web)",
+      "name": "활력 그물(Vitality Web)",
       "description": "<p>아군 사이에 흐르는 생명 에너지의 거미줄로 유대를 구현할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.6HMiN0oQzeoYR3it]{활력 그물} 깨달음 주문을 배웁니다.</p>"
     },
     "Enlightenment": {
@@ -6845,7 +6845,7 @@
       "description": "<p><strong>조건</strong> 자신과 인접한 아군 한 명이 같은 효과에 대해 반사 또는 인내 내성 굴림을 시도합니다.</p><hr /><p>무너지는 천장을 떠받치거나 화염구에 뛰어드는 등 아군과 다가오는 위험 사이에 몸을 던집니다. 자신의 내성 굴림 결과는 한 단계 나빠지지만 아군의 내성 굴림 결과는 한 단계 좋아집니다.</p>"
     },
     "Rocket Jump": {
-      "name": "로켓 점프(Rocket Jump)",
+      "name": "로켓 도약(Rocket Jump)",
       "description": "<p><strong>요구 사항</strong> 범위(폭발) 무기를 사용하고 있습니다.</p><hr /><p>도약하면서 무기를 발사해 폭발력으로 더 높이 솟거나 폭발보다 위험한 상황에서 빠져나옵니다. 범위 사격한 뒤 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약}하며, 무기를 사용해 이동 거리에 무기 폭발 반지름의 두 배와 같은 상태 보너스를 더합니다. 무기 범위 공격의 구역 안 어딘가에 있어야 하지만 자신의 공격 효과에 대한 내성 굴림은 하지 않습니다.</p>\n<p>이 행동의 일부로 한 이동은 반응 행동을 유발하지 않지만, 범위 사격은 여전히 정상적으로 반응 행동을 유발합니다.</p>"
     },
     "Fan the Hammer": {
@@ -6913,7 +6913,7 @@
       "description": "<p><strong>빈도</strong> 10분에 한 번</p><hr /><p>일시적으로 아군과 자신의 양자장을 공유합니다. 자신의 양자장이 자신 대신 자신이 볼 수 있는 아군 한 명에게서 방출되게 합니다. 그 아군은 양자장의 모든 혜택을 얻고, 양자장이 비활성화될 때까지 자신의 워프 주문은 자신이 아니라 아군에게서 발원합니다. 다른 대상을 향해 워프 주문을 시전할 때에도 자신은 여전히 대상에 대한 시선을 확보해야 하지만, 사거리와 효과선을 결정할 때 주문은 아군에게서 발원합니다.</p>"
     },
     "Enlarge Quantum Field": {
-      "name": "양자장 확대(Enlarge Quantum Field)",
+      "name": "양자장 거대화(Enlarge Quantum Field)",
       "description": "<p>양자장이 서서히 현실을 잠식합니다. 양자장 반지름을 10피트 증가시킵니다. 양자장이 비활성화될 때까지, 턴마다 한 번 양자장을 유지할 때 반지름을 추가로 5피트 증가시킵니다(최대 추가 50피트).</p>"
     },
     "Quantum Entanglement": {
@@ -7018,7 +7018,7 @@
     },
     "Predict Outcome": {
       "name": "결과 예측(Predict Outcome)",
-      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p><hr /><p>10분 동안 서로 다른 시간선을 들여다보거나 확률 시뮬레이션을 분석하며 다중우주의 신비에 자신을 엽니다. @UUID[Compendium.sf2e.spells.Item.41TZEjhO6D1nWw2X]{오거리}의 효과를 얻지만, 앞에 놓인 위험에 대해서만 알 수 있습니다. ‘좋음’ 결과는 대신 ‘아무것도 없음’이 되고, ‘혼합’ 결과는 대신 ‘나쁨’이 됩니다.</p>\n<p>비전학 또는 신비학에 전설이라면 결과 예측에 1분만 사용합니다.</p>"
+      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p><hr /><p>10분 동안 서로 다른 시간선을 들여다보거나 확률 시뮬레이션을 분석하며 다중우주의 신비에 자신을 엽니다. @UUID[Compendium.sf2e.spells.Item.41TZEjhO6D1nWw2X]{점복}의 효과를 얻지만, 앞에 놓인 위험에 대해서만 알 수 있습니다. ‘좋음’ 결과는 대신 ‘아무것도 없음’이 되고, ‘혼합’ 결과는 대신 ‘나쁨’이 됩니다.</p>\n<p>비전학 또는 신비학에 전설이라면 결과 예측에 1분만 사용합니다.</p>"
     },
     "Quantum Aura": {
       "name": "양자 오라(Quantum Aura)",
@@ -7053,8 +7053,8 @@
       "description": "<p>다른 현실에서 주문을 빌립니다. 하루에 두 번, 해당 주문 랭크의 주문 슬롯을 모두 사용한 뒤에도 9랭크 이하의 주문 하나를 시전할 수 있습니다. 이 피트로 시전하는 두 주문은 서로 다른 주문 랭크여야 합니다.</p>"
     },
     "Quantum Negation": {
-      "name": "양자 부정(Quantum Negation)",
-      "description": "<p>대상을 그 존재가 존재하지 않는 현실에 노출합니다. @UUID[Compendium.sf2e.spells.Item.d1weVZHIiCXhTlqg]{양자 부정} 워프 주문을 배웁니다.</p>"
+      "name": "양자 무효화(Quantum Negation)",
+      "description": "<p>대상을 그 존재가 존재하지 않는 현실에 노출합니다. @UUID[Compendium.sf2e.spells.Item.d1weVZHIiCXhTlqg]{양자 무효화} 워프 주문을 배웁니다.</p>"
     },
     "Quantum Research": {
       "name": "양자 연구(Quantum Research)",
@@ -7549,11 +7549,11 @@
       "description": "<p>당신이 @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하} 행동에서 대성공을 거두면, 목표의 레벨이 당신보다 낮을 경우, 목표는 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.sDPxOjQ9kx2RZE8D]{도주}됩니다.</p>"
     },
     "Wall Jump": {
-      "name": "월 점프(Wall Jump)",
+      "name": "월 도약(Wall Jump)",
       "description": "<p>당신은 점프의 운동량을 이용하여 벽에서 자신을 밀어낼 수 있습니다. 점프가 끝날 때 벽에 인접해 있다면 (@UUID[Compendium.sf2e.actions.Item.2HJ4yuEFY1Cast4h]{높이뛰기}, @UUID[Compendium.sf2e.actions.Item.JUvAvruz7yRQXfz2]{멀리뛰기} 또는 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약}을 수행하는지 여부와 관계없이), 다음 행동이 또 다른 점프라면 넘어지지 않습니다. 이전 점프는 당신에게 운동량을 제공하여 하이 점프 또는 롱 점프를 단일 행동으로 사용할 수 있지만, 보행는 활동의 일부로 사용할 수 없습니다.</p>\n<p>운동 능력이 전설이 아니라면 턴에 월 점프를 한 번만 사용할 수 있습니다. 운동 능력이 전설이라면 해당 턴에 연속적인 점프 행동을 사용할 수 있는 만큼 많이 사용할 수 있습니다.</p>"
     },
     "Cloud Jump": {
-      "name": "클라우드 점프(Cloud Jump)",
+      "name": "클라우드 도약(Cloud Jump)",
       "description": "<p>당신의 비할 데 없는 운동 능력으로 인해 불가능한 거리를 점프할 수 있습니다. 성공적인 @UUID[Compendium.sf2e.actions.Item.JUvAvruz7yRQXfz2]{멀리뛰기} (예를 들어 30의 능력치 결과로 90피트를 점프할 수 있습니다) 시 점프 거리가 3배가 됩니다. 성공적인 @UUID[Compendium.sf2e.actions.Item.2HJ4yuEFY1Cast4h]{높이뛰기} 시에는 먼 점프의 점프 거리와 거리 제한을 사용하지만 거리는 3배로 늘리지 않습니다.</p>\n<p>먼 점프나 높이뛰기를 할 때 추가 행동을 사용하여 당신의 속도보다 더 먼 거리를 점프할 수 있습니다. 추가 행동을 사용할 때마다 거리 제한에 당신의 속도를 더합니다.</p>"
     },
     "Craft Anything": {
@@ -7666,7 +7666,7 @@
     },
     "Religious Talisman": {
       "name": "종교 부적(Religious Talisman)",
-      "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{애톤} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
+      "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{속죄} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
     },
     "Serum Crafting": {
       "name": "세럼 제작(Serum Crafting)",

@@ -89,8 +89,8 @@
       "description": "<p>당신은 중력의 힘에 조율되어 있습니다. 무중력 상태에서 @UUID[Compendium.sf2e.conditions.Item.z1ucw4CLwLqHoAp3]{부유} 상태일 때 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름}과 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비}로 인한 페널티를 무시합니다.</p>"
     },
     "Thoughtsense": {
-      "name": "사고 감지(Thoughtsense)",
-      "description": "<p>20피트 범위의 모호한 감각으로 사고 감지를 얻습니다. 이를 통해 크리처가 범위 안에 있는지 알아낼 수 있지만, 이 감각은 생각하는 크리처만 감지합니다. 생각하지 않거나 정신 효과에 면역인 크리처는 사고 감지로 인식할 수 없습니다. 이 능력으로 상대의 생각을 읽거나 이해할 수 있는 것은 아닙니다.</p>"
+      "name": "생각 탐지(Thoughtsense)",
+      "description": "<p>20피트 범위의 모호한 감각으로 생각 탐지를 얻습니다. 이를 통해 크리처가 범위 안에 있는지 알아낼 수 있지만, 이 감각은 생각하는 크리처만 감지합니다. 생각하지 않거나 정신 효과에 면역인 크리처는 생각 탐지로 인식할 수 없습니다. 이 능력으로 상대의 생각을 읽거나 이해할 수 있는 것은 아닙니다.</p>"
     },
     "Gravitational Adept": {
       "name": "중력 달인(Gravitational Adept)",
@@ -174,7 +174,7 @@
     },
     "Mutant Goblin Mutation": {
       "name": "돌연변이 고블린 변이(Mutant Goblin Mutation)",
-      "description": "<p>아래 목록에서 변이 하나를 선택합니다.</p><ul><li><strong>생체 전기</strong> 1d4 전기 피해를 주는 생체 충격 비무장 공격을 얻습니다. 생체 충격 공격은 충격 무기군에 속하며 기교, 비살상, 비무장 특성을 지닙니다.</li><li><strong>색소포</strong> 은신에 훈련됩니다. 배경이나 클래스 등으로 은신에 자동으로 훈련될 예정이었다면, 대신 원하는 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.beyw5bdA5hkQbmaG]{지형 추적자} 기술 피트를 얻습니다. 단, 선택한 어려운 지형 대신 대형 네온사인이나 나이트클럽처럼 밝은 인공 조명이 있는 구역에 인접하거나 그 안에 있을 때 이 피트를 사용할 수 있습니다.</li><li><strong>추가 사지</strong> 두 번째 팔 한 쌍이 자랍니다. @UUID[Compendium.sf2e.feats.Item.EPeo604ByeeAx3AL]{전원 갑판으로} 및 @UUID[Compendium.sf2e.feats.Item.61txGmMLr22B93cU]{이중 뽑기} 표준 종족 피트를 선택할 수 있습니다.</li><li><strong>비행</strong> 비행 속도 20피트를 얻습니다.</li><li><strong>아가미</strong> 수영 속도 25피트를 얻고 한 번에 1분 동안 물속에서 숨을 쉴 수 있습니다.</li><li><strong>제한적 텔레파시</strong> 15피트 이내의 크리처와 정신적으로 의사소통할 수 있습니다. 당신과 언어를 공유하는 크리처와만 의사소통할 수 있습니다. 이 능력으로 상대의 생각에 접근할 수 있는 것은 아니며, 일반적인 대화보다 더 많은 정보를 전달하지도 못합니다.</li><li><strong>돌연변이 마법</strong> @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(원시; @UUID[Compendium.sf2e.spells.Item.thAHF1zxNplLCJPO]{카우스틱 블래스트}) 표준 종족 피트를 얻습니다. 단, 입에서 산성 덩어리를 뱉어 주문을 사용하므로 해당 주문에서 조작 특성을 제거합니다.</li><li><p><strong>흡반</strong> 등반 속도 20피트를 얻습니다.</p></li></ul>"
+      "description": "<p>아래 목록에서 변이 하나를 선택합니다.</p><ul><li><strong>생체 전기</strong> 1d4 전기 피해를 주는 생체 충격 비무장 공격을 얻습니다. 생체 충격 공격은 충격 무기군에 속하며 기교, 비살상, 비무장 특성을 지닙니다.</li><li><strong>색소포</strong> 은신에 훈련됩니다. 배경이나 클래스 등으로 은신에 자동으로 훈련될 예정이었다면, 대신 원하는 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.beyw5bdA5hkQbmaG]{지형 추적자} 기술 피트를 얻습니다. 단, 선택한 어려운 지형 대신 대형 네온사인이나 나이트클럽처럼 밝은 인공 조명이 있는 구역에 인접하거나 그 안에 있을 때 이 피트를 사용할 수 있습니다.</li><li><strong>추가 사지</strong> 두 번째 팔 한 쌍이 자랍니다. @UUID[Compendium.sf2e.feats.Item.EPeo604ByeeAx3AL]{전원 갑판으로} 및 @UUID[Compendium.sf2e.feats.Item.61txGmMLr22B93cU]{이중 뽑기} 표준 종족 피트를 선택할 수 있습니다.</li><li><strong>비행</strong> 비행 속도 20피트를 얻습니다.</li><li><strong>아가미</strong> 수영 속도 25피트를 얻고 한 번에 1분 동안 물속에서 숨을 쉴 수 있습니다.</li><li><strong>제한적 텔레파시</strong> 15피트 이내의 크리처와 정신적으로 의사소통할 수 있습니다. 당신과 언어를 공유하는 크리처와만 의사소통할 수 있습니다. 이 능력으로 상대의 생각에 접근할 수 있는 것은 아니며, 일반적인 대화보다 더 많은 정보를 전달하지도 못합니다.</li><li><strong>돌연변이 마법</strong> @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(원시; @UUID[Compendium.sf2e.spells.Item.thAHF1zxNplLCJPO]{부식성 폭발}) 표준 종족 피트를 얻습니다. 단, 입에서 산성 덩어리를 뱉어 주문을 사용하므로 해당 주문에서 조작 특성을 제거합니다.</li><li><p><strong>흡반</strong> 등반 속도 20피트를 얻습니다.</p></li></ul>"
     },
     "Fire Breath": {
       "name": "화염 숨결(Fire Breath)",

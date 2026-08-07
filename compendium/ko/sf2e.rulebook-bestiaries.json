@@ -628,7 +628,7 @@
       "tokenName": "유령 통신(Phantom Communication)",
       "items": {
         "Threatening Message": {
-          "name": "협박 메시지(Threatening Message)",
+          "name": "협박 전언(Threatening Message)",
           "description": "<p><strong>조건</strong> 통신 장치를 지닌 크리처가 출몰의 범위에 들어옵니다.</p><hr /><p><strong>효과</strong> 출몰은 발동한 통신 장치를 통해 위협을 내뱉으며 통신 장치 20피트 이내의 크리처에게 @Damage[(1d6+4)[mental]] 피해를 줍니다(@Check[will|dc:19|basic] 내성 굴림). 실패하면 크리처는 추가로 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}.</p>"
         }
       }
@@ -709,8 +709,8 @@
           "description": "<p>당신은 허락 없이 크리처가 들어왔을 때 당신에게 알려주는 지역에 경계 마법을 겁니다. 알람 마법을 시전할 때, 비밀번호를 선택하십시오. 작거나 그보다 큰 물질적인 크리처가 비밀번호를 말하지 않고 마법의 영역에 들어올 때마다, 알람은 당신이 선택한 정신적인 경고(이 경우 마법은 정신 특성을 얻습니다) 또는 손 방울 소리와 음량의 청각 경고(이 경우 마법은 청각 특성을 얻습니다)를 보냅니다. 어느 옵션이든 당신을 자동으로 깨우고, 방울은 영역 안에 있는 각 크리처에게 @Check[perception|dc:15] 확인을 시도하여 깨어나게 합니다. 알람을 인지하고 있는 크리처는 마법의 DC에 대한 은밀 행동 굴림에 성공해야 하거나, 영역으로 이동할 때 마법을 발동합니다.</p>\n<hr />\n<p><strong>고조(3랭크)</strong> 당신은 어떤 종류의 크리처가 알람 마법을 발동하는지에 대한 조건을 지정할 수 있습니다.</p>"
         },
         "Analyze Target": {
-          "name": "표적 분석(Analyze Target)",
-          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+          "name": "대상 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 대상 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 대상 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
         },
         "Arcane Innate Spells": {
           "name": "비전 선천 주문(Arcane Innate Spells)"
@@ -750,11 +750,11 @@
           "description": "<p>당신은 영역 안에서 관찰할 수 있는 크리처와 물체의 대략적인 치수(길이, 너비, 깊이, 높이, 무게)를 알게 됩니다. 물체나 크리처가 영역 밖으로 이어진다면 영역 안의 치수만 알 수 있고, 관찰할 수 없는 부분에 대해서는 아무것도 알 수 없습니다. 예를 들어 한쪽 면만 관찰할 수 있는 벽의 두께나 무게, 또는 주문 사거리 밖까지 이어진 물의 깊이는 알아낼 수 없습니다. 주문을 유지할 때마다 영역 안의 크리처 또는 물체 하나의 정확한 치수를 알게 되며, 구조적 약점을 나타낼 수 있는 부정확함이나 이상도 포함합니다. 마법으로 변경된 대상은 정확한 치수가 아니라 당신이 관찰하는 모습에 따른 정보를 제공합니다.</p><hr /><p><strong>고조(+1)</strong> 측정의 사거리가 100피트 증가합니다.</p>"
         },
         "Message": {
-          "name": "메시지(Message)",
-          "description": "<p>당신은 조용히 말을 중얼거립니다. 하지만 말이 당신의 입에서 나오는 대신, 목표 대상의 귀로 직접 전달됩니다. 다른 사람들은 당신이 평소처럼 입 모양만으로 말하는 것보다 더 잘 들을 수는 없지만, 목표 대상은 마치 당신 옆에 서 있는 것처럼 당신의 말을 들을 수 있습니다. 목표 대상은 반응으로 간략하게 답하거나, 원한다면 다음 턴에 자유 행동으로 답할 수 있지만, 그렇게 하려면 당신을 볼 수 있고 사거리 내에 있어야 합니다. 만약 그들이 답변한다면, 그들의 답변은 원래 메시지처럼 당신의 귀에 직접 전달됩니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong> 주문의 사거리가 500피트로 증가합니다.</p>"
+          "name": "전언(Message)",
+          "description": "<p>당신은 조용히 말을 중얼거립니다. 하지만 말이 당신의 입에서 나오는 대신, 목표 대상의 귀로 직접 전달됩니다. 다른 사람들은 당신이 평소처럼 입 모양만으로 말하는 것보다 더 잘 들을 수는 없지만, 목표 대상은 마치 당신 옆에 서 있는 것처럼 당신의 말을 들을 수 있습니다. 목표 대상은 반응으로 간략하게 답하거나, 원한다면 다음 턴에 자유 행동으로 답할 수 있지만, 그렇게 하려면 당신을 볼 수 있고 사거리 내에 있어야 합니다. 만약 그들이 답변한다면, 그들의 답변은 원래 전언처럼 당신의 귀에 직접 전달됩니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong> 주문의 사거리가 500피트로 증가합니다.</p>"
         },
         "Paralyze": {
-          "name": "패럴라이즈(Paralyze)",
+          "name": "마비(Paralyze)",
           "description": "<p>당신은 대상의 운동 충동이 대상의 마음을 떠나기 전에 차단하여 대상을 제자리에 얼어붙게 위협합니다. 대상은 의지 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}입니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.6uEgoh53GbXuHpTF]{마비}이 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 대상은 4라운드 동안 마비됩니다. 각 턴이 끝날 때마다 새로운 의지 내성 굴림을 시도하여 남은 지속시간을 1라운드 단축하거나, 대성공 시 완전히 종료할 수 있습니다.</p>\n<hr />\n<p><strong>고조(7랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Reactive Strike": {
@@ -762,7 +762,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
         },
         "Sending": {
-          "name": "전송합니다.(Sending)",
+          "name": "전언 송신(Sending)",
           "description": "<p>당신은 그 크리처에게 25단어 이하의 정신적 메시지를 보내며, 그 크리처는 25단어 이하의 메시지로 즉시 응답할 수 있습니다.</p>"
         },
         "Shock Truncheon": {
@@ -774,15 +774,15 @@
           "description": "<p>당신은 컴퓨터에 깃든 영혼에게 질문하고 답을 받을 수 있습니다. 이러한 합성 영혼은 컴퓨터 코드 안에 나타나며, 장치의 성질·상태·응용 프로그램·개인화 설정에 따라 성격이 형성되는 경우가 많습니다. 컴퓨터의 관점, 지각, 지식은 인간과 충분히 다른 세계관을 이루므로 같은 세부 사항을 중요하게 여기지 않습니다. 컴퓨터는 주로 과거에 자신과 상호작용한 크리처와 파일 안에 숨겨진 정보에 관한 질문에 답할 수 있습니다.</p><hr /><p><strong>고조(6랭크)</strong> 지속시간은 8시간입니다.</p>"
         },
         "Telekinetic Hand": {
-          "name": "텔레키네틱 핸드(Telekinetic Hand)",
+          "name": "염동력 손(Telekinetic Hand)",
           "description": "<p>당신은 보이지 않거나 유령 같은 떠다니는 마법 손을 만들어, 목표 물체를 잡고 어떤 방향으로든 최대 20피트까지 천천히 들어 올립니다. 주문을 유지하는 동안, 물체를 추가로 20피트 이동시킬 수 있습니다. 주문이 끝날 때 물체가 공중에 있다면, 물체는 떨어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong> 당신은 벌크가 1 이하인 무인 물체를 목표로 삼을 수 있습니다.</p>\n<p><strong>고조 (5th)</strong> 사거리가 60피트로 증가하고, 당신은 벌크가 1 이하인 무인 물체를 목표로 삼을 수 있습니다.</p>\n<p><strong>고조 (7th)</strong> 사거리가 60피트로 증가하고, 당신은 벌크가 2 이하인 무인 물체를 목표로 삼을 수 있습니다.</p>"
         },
         "Telekinetic Haul": {
-          "name": "텔레키네틱 홀(Telekinetic Haul)",
+          "name": "염동력 운반(Telekinetic Haul)",
           "description": "<p>당신은 대상을 최대 20피트 이동시키며, 공중에 띄울 수도 있습니다. 당신이 주문을 유지할 때, 다시 그렇게 할 수도 있고, 범위 내에 있는 다른 적격 대상으로 당신의 텔레키네틱 초점을 이동시켜 대신 그것을 움직일 수도 있습니다.</p>"
         },
         "Telekinetic Maneuver": {
-          "name": "텔레키네틱 매뉴버(Telekinetic Maneuver)",
+          "name": "염동력 기동(Telekinetic Maneuver)",
           "description": "<p>텔레키네시스 힘이 몰아치는 가운데, 당신은 적이나 적이 가지고 있는 것을 움직입니다. 당신은 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{밀치기}, @UUID[Compendium.sf2e.actions.Item.lOE4yjUnETTdaf2T]{위치 바꾸기} 또는 @UUID[Compendium.sf2e.actions.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}을 힘겨루기 판정 대신 주문 공격 굴림을 사용하여 시도할 수 있습니다.</p>"
         },
         "Thinplate": {
@@ -790,7 +790,7 @@
           "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>매끈하지만 단단한 이 판금 방어구는 착용자의 피부 회로를 드러낼 수 있도록 반투명 소재로 제작하는 경우가 많으며, 헐렁한 옷 아래에 착용합니다.</p>"
         },
         "Translocate": {
-          "name": "트랜스로케이트(Translocate)",
+          "name": "전위(Translocate)",
           "description": "<p>당신은 현재 위치에서 당신이 착용하고 들고 있는 모든 물건과 함께 당신이 볼 수 있는 사거리 내의 비어 있는 공간으로 순간이동합니다. 만약 이것이 다른 크리처를 당신과 함께 이동시키는 결과를 초래한다면 — 심지어 당신이 그것을 초차원 용기에 담고 있더라도 — 주문은 실패합니다.</p>\n<hr />\n<p><strong>고조 (5th)</strong> 사거리가 1마일로 증가합니다. 과거에 그곳에 있었고 당신으로부터의 상대적인 위치와 거리를 알고 있다면, 목적지를 볼 필요가 없습니다. 그런 다음 1시간 동안 일시적으로 면역됩니다.</p>"
         },
         "White Helmet Protocol": {
@@ -926,8 +926,8 @@
       "tokenName": "우주 고블린 그리프캐스터(Space Goblin Griefcaster)",
       "items": {
         "Analyze Target": {
-          "name": "표적 분석(Analyze Target)",
-          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+          "name": "대상 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 대상 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 대상 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
         },
         "Arcane Prepared Spells": {
           "name": "비전 준비 주문(Arcane Prepared Spells)"
@@ -952,7 +952,7 @@
           "description": "<p>당신은 기술 크리처 또는 물체 안으로 쇄도하는 갑작스러운 전기 불꽃을 일으킵니다. 기술 특성을 지닌 아이템의 에너지를 제거하거나 기술 특성을 지닌 크리처를 교란하며, 효과는 대상이 크리처인지 물체인지에 따라 달라집니다.</p><ul><li><strong>크리처</strong> 대상이 기술 특성을 지닌 크리처라면 의지 내성 굴림을 시도합니다. 실패하면 크리처는 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동}이 되고, 대실패하면 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동}가 됩니다.</li><li><strong>물체</strong> 소지 중인 물체를 대상으로 삼으면 그 물체를 지닌 크리처가 의지 내성 굴림을 시도합니다. 성공하면 물체는 최대 충전의 절반을 잃습니다. 실패하거나 방치된 물체를 대상으로 삼았다면, 물체는 남아 있는 충전을 모두 잃습니다.</li></ul>"
         },
         "Electrotether": {
-          "name": "전기 밧줄(Electrotether)",
+          "name": "전기 사슬(Electrotether)",
           "description": "<p>당신은 대상의 전자기력을 과충전하고 번개의 밧줄로 끌어당깁니다. 각 대상에 대해 원거리 주문 공격을 하십시오. 두 대상을 공격한다면 두 공격 모두 다중 공격 페널티에 포함되지만, 두 공격이 모두 끝날 때까지 페널티가 증가하지 않습니다. 각 대상은 4d8 전기 피해를 받고 당신 쪽으로 5피트 끌려오며, 대성공하면 10피트 끌려옵니다. 두 공격이 모두 명중하면 크리처들을 당신 쪽이 아니라 서로에게 더 가까워지도록 이동시킬 수 있습니다. 대상을 장벽, 크리처 또는 장애물 안으로 이동시키려 하면 대상은 그 공간에 들어가기 직전에 멈춥니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 1d8 증가합니다.</p>"
         },
         "Epic Haxx": {
@@ -964,22 +964,22 @@
           "description": "<p>당신은 대상에게 두려움을 심습니다. 대상은 의지 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}입니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}입니다.</p>\n<p><strong>대실패</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}이고 @UUID[Compendium.sf2e.conditions.Item.sDPxOjQ9kx2RZE8D]{도주} 1 라운드 동안입니다.</p>\n<hr />\n<p><strong>고조(3랭크)</strong> 당신은 최대 다섯 개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Fireball": {
-          "name": "파이어볼(Fireball)",
+          "name": "화염구(Fireball)",
           "description": "<p>당신이 지정한 지점에서 굉음과 함께 불꽃이 폭발하여 6d6 화염 피해를 줍니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해량이 2d6 증가합니다.</p>"
         },
         "Fleet Step": {
-          "name": "플릿 스텝(Fleet Step)",
-          "description": "<p>당신의 속도에 30피트의 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.ThFug45WHkQQXcoF]{주문 효과: 플릿 스텝}</p>"
+          "name": "쾌속 걸음(Fleet Step)",
+          "description": "<p>당신의 속도에 30피트의 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.ThFug45WHkQQXcoF]{주문 효과: 쾌속 걸음}</p>"
         },
         "Implant Data": {
-          "name": "데이터 심기(Implant Data)",
+          "name": "데이터 이식(Implant Data)",
           "description": "<p>당신은 컴퓨터 또는 장치를 재프로그래밍하여 접근했을 때 선택한 데이터가 표시되도록 합니다. 주문 랭크당 데이터 한 항목까지 심을 수 있습니다. 데이터 한 항목은 크리처나 물체의 위치 또는 신체적 묘사 같은 간단한 사실, 크리처나 물체의 이미지, 또는 300자 이하의 간단한 문장일 수 있습니다. 대상 컴퓨터나 장치에 접근하면, 접근한 크리처가 어떤 데이터를 찾고 있든 이식된 데이터가 가장 먼저 나타납니다. 이식된 데이터는 크리처가 장치에 저장된 다른 정보에 접근하는 것을 막거나, 장치의 작동 방식을 바꾸거나, 그 밖의 방식으로 장치 작동을 방해하지 않습니다. 크리처가 이식된 데이터에 접근하기 전에 주문의 지속시간이 끝나면 정보는 사라집니다.</p><hr /><p><strong>고조(3랭크)</strong> 지속시간은 1년입니다.</p>\n<p><strong>고조(6랭크)</strong> 지속시간은 무제한입니다.</p>"
         },
         "Infosphere Lore": {
           "name": "인포스피어 지식(Infosphere Lore)"
         },
         "Instant Virus": {
-          "name": "즉석 바이러스(Instant Virus)",
+          "name": "즉발 바이러스(Instant Virus)",
           "description": "<p>당신의 접촉은 기술 크리처의 프로그래밍을 교란하는 위험한 자기 복제 바이러스를 설치합니다. 대상은 인내 내성 굴림을 시도해야 합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동}이 됩니다.</p>\n<p><strong>실패</strong> 대상은 오작동 1과 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}이 됩니다.</p>\n<p><strong>대실패</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동}와 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}가 됩니다.</p>"
         },
         "Invisibility": {
@@ -987,14 +987,14 @@
           "description": "<p>환영이 대상 주변의 빛을 굴절시켜 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명}하게 만듭니다. 이로 인해 모든 크리처에게 @UUID[Compendium.sf2e.conditions.Item.VRSef5y1LmL2Hkjf]{미탐지} 보이지만, 크리처들은 대상을 찾으려고 시도할 수 있으며, 그렇게 되면 대상이 그들에게 @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{숨겨짐} 보입니다. 만약 대상이 적대적인 행동을 사용하면, 그 적대적인 행동이 완료된 후 주문이 종료됩니다.</p>\n<hr />\n<p><strong>고조(4랭크)</strong> 주문은 1분 동안 지속되지만, 대상이 적대적인 행동을 사용하더라도 종료되지 않습니다.</p>"
         },
         "Lightning Bolt": {
-          "name": "라이트닝 볼트(Lightning Bolt)",
+          "name": "번개 화살(Lightning Bolt)",
           "description": "<p>당신의 손에서 번개가 튀어나와 4d12의 전기 피해를 줍니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해량이 1d12 증가합니다.</p>"
         },
         "Media Lore": {
           "name": "미디어 지식(Media Lore)"
         },
         "Mending": {
-          "name": "멘딩(Mending)",
+          "name": "수선(Mending)",
           "description": "<p>당신은 대상 아이템을 수리합니다. 당신은 주문 랭크당 5 HP를 대상에 회복시키며, 이것이 아이템의 파손 임계치를 넘어 수리될 경우 @UUID[Compendium.sf2e.conditions.Item.6dNUvdb1dhToNDj3]{파손} 상태를 제거할 수도 있습니다. 당신은 분실된 부품을 교체하거나 완전히 파괴된 물체를 수리할 수 없습니다.</p>\n<hr />\n<p><strong>고조(2랭크)</strong> 당신은 벌크 1 이하의 비마법 아이템을 대상으로 삼을 수 있습니다.</p>\n<p><strong>고조(3랭크)</strong> 당신은 벌크 2 이하의 비마법 아이템 또는 벌크 1 이하의 마법 아이템을 대상으로 삼을 수 있습니다.</p>"
         },
         "Online Infamy": {
@@ -1014,19 +1014,19 @@
           "description": "<p>당신은 물체 하나를 만지고 그 안에 담긴 이야기, 메시지, 파일, 정보권 사이트, 음성 기록 또는 영상 같은 데이터세트에 집중합니다. 데이터세트의 요지를 이해하고, 검색에 가장 관련 있는 페이지나 구역을 빠르게 찾을 수 있습니다. 데이터세트가 당신이 모르는 언어로 쓰였거나 전달되었거나, 접근 권한이 없는 컴퓨터(예: 모르는 암호로 보호된 컴퓨터)에서 정보를 얻으려 하면 주문은 실패합니다.</p>\n<p>@UUID[Compendium.sf2e.actions.Item.t5nBkpjroaq7QBGK]{연구} 활동의 일부로 이 주문을 시전했다면 대실패를 실패로 취급합니다.</p>"
         },
         "Slow": {
-          "name": "느리게(Slow)",
-          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 느리게 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
+          "name": "둔화(Slow)",
+          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 둔화 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Speak with Computers": {
           "name": "컴퓨터와 대화(Speak with Computers)",
           "description": "<p>당신은 컴퓨터에 깃든 영혼에게 질문하고 답을 받을 수 있습니다. 이러한 합성 영혼은 컴퓨터 코드 안에 나타나며, 장치의 성질·상태·응용 프로그램·개인화 설정에 따라 성격이 형성되는 경우가 많습니다. 컴퓨터의 관점, 지각, 지식은 인간과 충분히 다른 세계관을 이루므로 같은 세부 사항을 중요하게 여기지 않습니다. 컴퓨터는 주로 과거에 자신과 상호작용한 크리처와 파일 안에 숨겨진 정보에 관한 질문에 답할 수 있습니다.</p><hr /><p><strong>고조(6랭크)</strong> 지속시간은 8시간입니다.</p>"
         },
         "Telekinetic Hand": {
-          "name": "텔레키네틱 핸드(Telekinetic Hand)",
+          "name": "염동력 손(Telekinetic Hand)",
           "description": "<p>당신은 보이지 않거나 유령 같은 떠다니는 마법 손을 만들어, 목표 물체를 잡고 어떤 방향으로든 최대 20피트까지 천천히 들어 올립니다. 주문을 유지하는 동안, 물체를 추가로 20피트 이동시킬 수 있습니다. 주문이 끝날 때 물체가 공중에 있다면, 물체는 떨어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong> 당신은 벌크가 1 이하인 무인 물체를 목표로 삼을 수 있습니다.</p>\n<p><strong>고조 (5th)</strong> 사거리가 60피트로 증가하고, 당신은 벌크가 1 이하인 무인 물체를 목표로 삼을 수 있습니다.</p>\n<p><strong>고조 (7th)</strong> 사거리가 60피트로 증가하고, 당신은 벌크가 2 이하인 무인 물체를 목표로 삼을 수 있습니다.</p>"
         },
         "Telekinetic Projectile": {
-          "name": "텔레키네틱 프로젝타일(Telekinetic Projectile)",
+          "name": "염동력 투사체(Telekinetic Projectile)",
           "description": "<p>당신은 사거리 안에 있으며 무게가 1벌크 이하인, 방치되어 있는 물체를 목표물에게 던집니다. 목표물에 대한 주문 공격 굴림을 합니다. 적중하면, 던진 물체에 적절한 2d6 둔기, 관통, 또는 참격 피해를 줍니다. 던진 물체의 특정 특성이나 마법적 속성은 공격이나 피해에 영향을 미치지 않습니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신은 두 배의 피해를 줍니다.</p>\n<p><strong>성공</strong> 당신은 전체 피해를 줍니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해가 1d6 증가합니다.</p>"
         },
         "You Mad?": {
@@ -1115,8 +1115,8 @@
           "name": "압살롬 스테이션 지식(Absalom Station Lore)"
         },
         "Analyze Target": {
-          "name": "표적 분석(Analyze Target)",
-          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+          "name": "대상 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 대상 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 대상 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
         },
         "Aura of Stability": {
           "name": "안정의 오라(Aura of Stability)",
@@ -1145,12 +1145,12 @@
           "description": "<p>진압 방패는 폴리머 또는 수지 위에 나노카본 패널을 겹쳐 보강한 투명 알루미늄 판으로 만듭니다. 날렵하면서도 튼튼한 이 방패는 들어 올렸을 때 사용자의 몸 대부분을 보호하면서 촘촘한 전술 대형으로 행군할 수 있도록 설계됐습니다. 경험이 적은 사용자가 방패를 든 채 반대편을 볼 수 있도록 투명하게 만드는 경우도 있지만, 숙련된 전사는 방패 주변을 보는 데 어려움이 없고 투명 소재도 몇 차례 타격을 받으면 곧 흠집투성이가 되어 들여다볼 수 없게 됩니다.</p>"
         },
         "Mending": {
-          "name": "멘딩(Mending)",
+          "name": "수선(Mending)",
           "description": "<p>당신은 대상 아이템을 수리합니다. 당신은 주문 랭크당 5 HP를 대상에 회복시키며, 이것이 아이템의 파손 임계치를 넘어 수리될 경우 @UUID[Compendium.sf2e.conditions.Item.6dNUvdb1dhToNDj3]{파손} 상태를 제거할 수도 있습니다. 당신은 분실된 부품을 교체하거나 완전히 파괴된 물체를 수리할 수 없습니다.</p>\n<hr />\n<p><strong>고조(2랭크)</strong> 당신은 벌크 1 이하의 비마법 아이템을 대상으로 삼을 수 있습니다.</p>\n<p><strong>고조(3랭크)</strong> 당신은 벌크 2 이하의 비마법 아이템 또는 벌크 1 이하의 마법 아이템을 대상으로 삼을 수 있습니다.</p>"
         },
         "Prestidigitation": {
-          "name": "프레스티디지테이션(Prestidigitation)",
-          "description": "<p>가장 간단한 마법이 당신의 명령을 따릅니다. 당신은 주문을 유지하는 동안 단순한 마법 효과를 발휘할 수 있습니다. 주문을 유지할 때마다 네 가지 옵션 중 하나를 선택할 수 있습니다.</p><ul><li><strong>쿡(Cook)</strong> 무생물 1파운드를 차갑게, 따뜻하게, 또는 맛을 내십시오.</li><li><strong>리프트(Lift)</strong> 무인 상태의 경량 벌크 또는 그 이하의 물체를 지면에서 1피트 천천히 들어 올리십시오.</li><li><strong>메이크(Make)</strong> 응고된 마법 물질로 만들어진 무시 가능한 벌크의 임시 물체를 만듭니다. 그 물체는 조잡하고 인공적으로 보이며 매우 취약하여 도구, 무기 또는 주문의 장소나 비용으로 사용할 수 없습니다.</li><li><strong>타이디(Tidy)</strong> 경량 벌크 또는 그 이하의 물체의 색깔을 바꾸거나, 청소하거나, 흙을 묻히십시오. 10라운드의 집중으로 벌크 1의 물체에 영향을 줄 수 있으며, 더 큰 물체는 벌크당 1분이 걸립니다.</li></ul><p><em>프레스티디지테이션(Prestidigitation)</em>은 피해를 입히거나 불리한 조건을 야기할 수 없습니다. (위에 명시된 내용을 넘어서는) 물체의 실제 변화는 당신이 주문을 유지하는 동안에만 지속됩니다.</p>"
+          "name": "요술(Prestidigitation)",
+          "description": "<p>가장 간단한 마법이 당신의 명령을 따릅니다. 당신은 주문을 유지하는 동안 단순한 마법 효과를 발휘할 수 있습니다. 주문을 유지할 때마다 네 가지 옵션 중 하나를 선택할 수 있습니다.</p><ul><li><strong>쿡(Cook)</strong> 무생물 1파운드를 차갑게, 따뜻하게, 또는 맛을 내십시오.</li><li><strong>리프트(Lift)</strong> 무인 상태의 경량 벌크 또는 그 이하의 물체를 지면에서 1피트 천천히 들어 올리십시오.</li><li><strong>메이크(Make)</strong> 응고된 마법 물질로 만들어진 무시 가능한 벌크의 임시 물체를 만듭니다. 그 물체는 조잡하고 인공적으로 보이며 매우 취약하여 도구, 무기 또는 주문의 장소나 비용으로 사용할 수 없습니다.</li><li><strong>타이디(Tidy)</strong> 경량 벌크 또는 그 이하의 물체의 색깔을 바꾸거나, 청소하거나, 흙을 묻히십시오. 10라운드의 집중으로 벌크 1의 물체에 영향을 줄 수 있으며, 더 큰 물체는 벌크당 1분이 걸립니다.</li></ul><p><em>요술(Prestidigitation)</em>은 피해를 입히거나 불리한 조건을 야기할 수 없습니다. (위에 명시된 내용을 넘어서는) 물체의 실제 변화는 당신이 주문을 유지하는 동안에만 지속됩니다.</p>"
         },
         "Projected Blade": {
           "name": "투사 칼날(Projected Blade)"
@@ -1163,7 +1163,7 @@
           "description": "<p>특수 통신 장치를 통해 스타스톤 보초는 자신과 대상이 모두 압살롬 기지에 있는 한, 거리에 상관없이 다른 스타스톤 구조체와 대화할 수 있습니다.</p>"
         },
         "Sending": {
-          "name": "전송합니다.(Sending)",
+          "name": "전언 송신(Sending)",
           "description": "<p>당신은 그 크리처에게 25단어 이하의 정신적 메시지를 보내며, 그 크리처는 25단어 이하의 메시지로 즉시 응답할 수 있습니다.</p>"
         },
         "Shield Block": {
@@ -1187,8 +1187,8 @@
           "name": "압살롬 스테이션 지식(Absalom Station Lore)"
         },
         "Analyze Target": {
-          "name": "표적 분석(Analyze Target)",
-          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+          "name": "대상 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 대상 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 대상 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
         },
         "Aura of Stability": {
           "name": "안정의 오라(Aura of Stability)",
@@ -1217,12 +1217,12 @@
           "description": "<p>스타스톤 보초는 수정 팔로 해킹 도구, 제작자 도구 또는 수리 도구 중 하나를 통합 도구로 형성합니다. 이 아이템은 24시간 동안, 스타스톤 보초가 자유 행동으로 끝내기로 할 때까지, 또는 유지보수 교리를 다시 사용할 때까지 지속됩니다.</p>"
         },
         "Mending": {
-          "name": "멘딩(Mending)",
+          "name": "수선(Mending)",
           "description": "<p>당신은 대상 아이템을 수리합니다. 당신은 주문 랭크당 5 HP를 대상에 회복시키며, 이것이 아이템의 파손 임계치를 넘어 수리될 경우 @UUID[Compendium.sf2e.conditions.Item.6dNUvdb1dhToNDj3]{파손} 상태를 제거할 수도 있습니다. 당신은 분실된 부품을 교체하거나 완전히 파괴된 물체를 수리할 수 없습니다.</p>\n<hr />\n<p><strong>고조(2랭크)</strong> 당신은 벌크 1 이하의 비마법 아이템을 대상으로 삼을 수 있습니다.</p>\n<p><strong>고조(3랭크)</strong> 당신은 벌크 2 이하의 비마법 아이템 또는 벌크 1 이하의 마법 아이템을 대상으로 삼을 수 있습니다.</p>"
         },
         "Prestidigitation": {
-          "name": "프레스티디지테이션(Prestidigitation)",
-          "description": "<p>가장 간단한 마법이 당신의 명령을 따릅니다. 당신은 주문을 유지하는 동안 단순한 마법 효과를 발휘할 수 있습니다. 주문을 유지할 때마다 네 가지 옵션 중 하나를 선택할 수 있습니다.</p><ul><li><strong>쿡(Cook)</strong> 무생물 1파운드를 차갑게, 따뜻하게, 또는 맛을 내십시오.</li><li><strong>리프트(Lift)</strong> 무인 상태의 경량 벌크 또는 그 이하의 물체를 지면에서 1피트 천천히 들어 올리십시오.</li><li><strong>메이크(Make)</strong> 응고된 마법 물질로 만들어진 무시 가능한 벌크의 임시 물체를 만듭니다. 그 물체는 조잡하고 인공적으로 보이며 매우 취약하여 도구, 무기 또는 주문의 장소나 비용으로 사용할 수 없습니다.</li><li><strong>타이디(Tidy)</strong> 경량 벌크 또는 그 이하의 물체의 색깔을 바꾸거나, 청소하거나, 흙을 묻히십시오. 10라운드의 집중으로 벌크 1의 물체에 영향을 줄 수 있으며, 더 큰 물체는 벌크당 1분이 걸립니다.</li></ul><p><em>프레스티디지테이션(Prestidigitation)</em>은 피해를 입히거나 불리한 조건을 야기할 수 없습니다. (위에 명시된 내용을 넘어서는) 물체의 실제 변화는 당신이 주문을 유지하는 동안에만 지속됩니다.</p>"
+          "name": "요술(Prestidigitation)",
+          "description": "<p>가장 간단한 마법이 당신의 명령을 따릅니다. 당신은 주문을 유지하는 동안 단순한 마법 효과를 발휘할 수 있습니다. 주문을 유지할 때마다 네 가지 옵션 중 하나를 선택할 수 있습니다.</p><ul><li><strong>쿡(Cook)</strong> 무생물 1파운드를 차갑게, 따뜻하게, 또는 맛을 내십시오.</li><li><strong>리프트(Lift)</strong> 무인 상태의 경량 벌크 또는 그 이하의 물체를 지면에서 1피트 천천히 들어 올리십시오.</li><li><strong>메이크(Make)</strong> 응고된 마법 물질로 만들어진 무시 가능한 벌크의 임시 물체를 만듭니다. 그 물체는 조잡하고 인공적으로 보이며 매우 취약하여 도구, 무기 또는 주문의 장소나 비용으로 사용할 수 없습니다.</li><li><strong>타이디(Tidy)</strong> 경량 벌크 또는 그 이하의 물체의 색깔을 바꾸거나, 청소하거나, 흙을 묻히십시오. 10라운드의 집중으로 벌크 1의 물체에 영향을 줄 수 있으며, 더 큰 물체는 벌크당 1분이 걸립니다.</li></ul><p><em>요술(Prestidigitation)</em>은 피해를 입히거나 불리한 조건을 야기할 수 없습니다. (위에 명시된 내용을 넘어서는) 물체의 실제 변화는 당신이 주문을 유지하는 동안에만 지속됩니다.</p>"
         },
         "Projected Blade": {
           "name": "투사 칼날(Projected Blade)"
@@ -1277,8 +1277,8 @@
           "description": "<p>당신은 허락 없이 크리처가 들어왔을 때 당신에게 알려주는 지역에 경계 마법을 겁니다. 알람 마법을 시전할 때, 비밀번호를 선택하십시오. 작거나 그보다 큰 물질적인 크리처가 비밀번호를 말하지 않고 마법의 영역에 들어올 때마다, 알람은 당신이 선택한 정신적인 경고(이 경우 마법은 정신 특성을 얻습니다) 또는 손 방울 소리와 음량의 청각 경고(이 경우 마법은 청각 특성을 얻습니다)를 보냅니다. 어느 옵션이든 당신을 자동으로 깨우고, 방울은 영역 안에 있는 각 크리처에게 @Check[perception|dc:15] 확인을 시도하여 깨어나게 합니다. 알람을 인지하고 있는 크리처는 마법의 DC에 대한 은밀 행동 굴림에 성공해야 하거나, 영역으로 이동할 때 마법을 발동합니다.</p>\n<hr />\n<p><strong>고조(3랭크)</strong> 당신은 어떤 종류의 크리처가 알람 마법을 발동하는지에 대한 조건을 지정할 수 있습니다.</p>"
         },
         "Analyze Target": {
-          "name": "표적 분석(Analyze Target)",
-          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+          "name": "대상 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 대상 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 대상 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
         },
         "Arcane Innate Spells": {
           "name": "비전 선천 주문(Arcane Innate Spells)"
@@ -1291,15 +1291,15 @@
           "description": "<p>당신은 대상을 실명시킵니다. 효과는 대상의 인내 내성 굴림에 따라 결정됩니다. 그 후 대상은 1분 동안 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상에게는 아무런 영향이 없습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.XgEqL1kFApUbl5Z2]{실명} 다음 턴이 시작될 때까지 입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 실명 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 영구적으로 실명 상태가 됩니다.</p>"
         },
         "Blur": {
-          "name": "블러(Blur)",
+          "name": "흐릿해짐(Blur)",
           "description": "<p>목표의 형체가 흐릿하게 보입니다.  @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐}가 됩니다. 이 효과의 성질상 목표의 위치는 여전히 명확하기 때문에, 목표는 이 은폐를 이용하여 숨거나 잠입할 수 없습니다.</p>"
         },
         "Clairaudience": {
-          "name": "클레어오디언스(Clairaudience)",
+          "name": "천리청(Clairaudience)",
           "description": "<p>당신은 사거리 내의 위치(당신의 시야 또는 영향 범위 밖이더라도)에 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명} 떠다니는 귀를 만듭니다.  그것은 움직일 수 없지만, 당신은 마치 자신의 정상적인 청각 감각을 사용하는 것처럼 그 귀를 통해 들을 수 있습니다.</p>"
         },
         "Clairvoyance": {
-          "name": "클레어보얀스(Clairvoyance)",
+          "name": "천리안(Clairvoyance)",
           "description": "<p>당신은 사거리 내의 위치에 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명} 떠다니는 눈을 만듭니다 (당신의 시야나 효과 범위 밖이라도 가능합니다). 눈은 움직일 수 없지만, 당신은 마치 자신의 일반적인 시각 감각을 사용하는 것처럼 그 지점에서 모든 방향을 볼 수 있습니다.</p>"
         },
         "Control Machine": {
@@ -1319,7 +1319,7 @@
           "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
         },
         "Electric Arc": {
-          "name": "일렉트릭 아크(Electric Arc)",
+          "name": "전기 호(Electric Arc)",
           "description": "<p>번개의 아크가 한 대상에서 다른 대상으로 옮겨갑니다. 각 대상은 기본 반사 내성 굴림으로 2d4 전기 피해를 입습니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해가 1d4만큼 증가합니다.</p>"
         },
         "Elusive Shot": {
@@ -1331,31 +1331,31 @@
           "description": "<p>감시 마법사는 듣거나 볼 수 있는 크리처 한두 명의 움직임과 약점에 집중합니다. 마법사의 타격은 해당 대상에게 추가 4d6 정밀 피해를 주고, 대상을 [[/act seek]]{탐색}하는 지각 판정과 대상에게 [[/act sense-motive]]{동기 유추}을 하는 지각 판정에 +2 상황 보너스를 얻습니다. 이 혜택은 마법사가 너를 주시한다를 다시 사용하거나 @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{무의식}, 죽어감 또는 사망 상태가 될 때까지 지속됩니다.</p>\n<p>@UUID[Compendium.sf2e.bestiary-effects.Item.i9yUijmTVWGddAN3]{효과: 널 지켜보고 있다}</p>"
         },
         "False Vision": {
-          "name": "가짜 환영(False Vision)",
+          "name": "거짓 환영(False Vision)",
           "description": "<p>당신은 특정 지역에 대한 관찰을 방해하는 허상을 만듭니다. 모든 관찰 주문은 그 지역에 실제로 있는 것이 아니라 당신이 원하는 것을 보고, 듣고, 냄새맡고, 감지하게 됩니다. 당신은 매 라운드마다 주문을 유지하여 복잡한 장면을 연출하는 것을 포함하여 원하는 대로 환영을 바꿀 수 있습니다. 만약 관찰 주문의 등급이 환영보다 높다면, 관찰자는 환영을 믿지 않으려는 지각 판정을 시도할 수 있지만, 성공하더라도 그 지역에서 실제로 일어나고 있는 일을 알 수는 없습니다.</p>"
         },
         "Fleet Step": {
-          "name": "플릿 스텝(Fleet Step)",
-          "description": "<p>당신의 속도에 30피트의 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.ThFug45WHkQQXcoF]{주문 효과: 플릿 스텝}</p>"
+          "name": "쾌속 걸음(Fleet Step)",
+          "description": "<p>당신의 속도에 30피트의 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.ThFug45WHkQQXcoF]{주문 효과: 쾌속 걸음}</p>"
         },
         "Hacking Toolkit (Advanced)": {
           "name": "고급 해킹 도구(Hacking Toolkit (Advanced))",
           "description": "<p>컴퓨터를 해킹하는 컴퓨터 판정에 필요한 도구입니다. 사용자 인터페이스 없이 접근할 수 있지만 컴퓨터와 물리적으로 접촉하거나 인포스피어 또는 유사 네트워크로 연결되어야 합니다. 고급 해킹 도구는 판정에 +1 아이템 보너스를 더하고, 방사능 환경이 아니라면 30피트 거리에서 컴퓨터에 접근할 수 있게 합니다.</p>"
         },
         "Illusory Disguise": {
-          "name": "환상 변장(Illusory Disguise)",
+          "name": "환영 변장(Illusory Disguise)",
           "description": "<p>당신은 대상이 같은 체형을 가진 다른 크리처로, 키는 약 6인치 이내, 무게는 약 50파운드 이내로 비슷하게 보이도록 하는 환영을 만듭니다. 변장은 일반적으로 신원을 숨기기에 충분하지만 특정 개인을 사칭하기에는 부족합니다. 주문은 외모와 목소리를 바꾸지만, 몸가짐은 바꾸지 않습니다. 당신은 갑옷을 드레스처럼 보이게 하는 등 착용하고 있는 물건의 외관을 바꿀 수 있습니다. 소지품은 영향을 받지 않으며, 크리처에서 제거된 착용 아이템은 본래 모습으로 돌아옵니다.</p>\n<p><em>일루셔리 디스가이즈</em> 주문을 사용하는 것은 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기} 속임수 사용을 위한 변장 설정으로 간주됩니다. 이는 대상이 서로 다른 크리처로 변장할 때 받을 수 있는 모든 상황 페널티를 무시하고, 속임수 판정에 +4 상태 보너스를 부여하여 다른 사람들이 변장을 간파하는 것을 방지하며, 훈련받지 않았더라도 대상이 해당 속임수 판정에 자신의 레벨을 더할 수 있도록 합니다. 당신은 이 주문을 해제할 수 있습니다.</p>\n<hr />\n<p><strong>고조(3랭크)</strong> 대상은 특정 개인조차도 같은 크기의 모든 크리처로 보일 수 있습니다. 당신은 개인의 외모를 복제하려면 그 개인을 본 적이 있어야 하며, 목소리를 복제하려면 그 개인의 목소리를 들은 적이 있어야 합니다.</p>\n<p><strong>고조(4랭크)</strong> 당신은 최대 10명의 원하는 크리처를 대상으로 삼을 수 있습니다. 여러 크리처를 대상으로 삼는 경우, 각 대상에 대해 다른 변장을 선택할 수 있지만, 어느 누구도 특정 개인을 사칭할 수 없습니다. 당신은 각 변장을 개별적으로 또는 모두 함께 해제할 수 있습니다.</p>\n<p><strong>고조(7랭크)</strong> 4레벨과 같지만, 특정 개인을 사칭하는 변장을 선택할 수 있습니다. 당신은 개인의 외모를 복제하려면 그 개인을 본 적이 있어야 하며, 목소리를 복제하려면 그 개인의 목소리를 들은 적이 있어야 합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3Ktyd5F9lOPo4myk]{주문 효과: 환영 변장}</p>"
         },
         "Illusory Scene": {
           "name": "환영 장면(Illusory Scene)",
-          "description": "<p>당신은 다양한 크기의 개별 크리처 또는 물체를 최대 10개까지 포함하는 가상의 장면을 만들며, 모두 주문 영역 안에 있어야 합니다. 이 요소들은 적절한 소리와 냄새를 내고 만졌을 때도 올바른 감촉을 냅니다. 환영 장면의 요소는 말을 할 수 없습니다. @UUID[Compendium.sf2e.spells.Item.f8SBoXiXQjlCKqly]{환영 생물} 주문과 달리, 장면 속 크리처는 전투 능력과 통계가 없습니다. 장면은 주변 환경의 변화를 포함하지 않지만, 다른 환영 주문으로 만든 환영 환경 안에 장면을 배치할 수 있습니다.</p>\n<p>장면을 만들 때 정지 상태로 둘지, 프로그램을 따르게 할지 선택할 수 있습니다. 정지 장면은 위치가 고정되어 있지만 기본적인 자연스러운 움직임은 포함합니다. 예를 들어 환영 종이에 바람이 불면 종이가 바스락거립니다. 프로그램은 최대 1분 길이일 수 있으며 끝나면 반복됩니다. 예를 들어 두 오크가 싸우는 장면을 만들면, 반복할 때마다 싸움은 같은 방식으로 진행됩니다. 반복 장면을 만들었다면 두 전사는 장면 시작과 끝에 같은 위치에 있어야 하지만, 반복의 끝과 시작을 알아보기 어렵도록 프로그램을 매끄럽게 만들 수 있습니다. 몇 분 이상 장면을 관찰한 자는 거의 언제나 반복을 눈치챕니다. 환영을 만든 뒤에는 프로그램을 변경할 수 없습니다.</p>\n<p>이미지의 어느 부분이든 만지거나 @UUID[Compendium.sf2e.actions.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 조사한 크리처는 환영을 불신하려 시도할 수 있습니다. 환영의 일부와 상호작용했다면 그 부분만 불신합니다. 대성공해야 장면 전체를 불신합니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 장면 속 크리처나 물체가 말할 수 있습니다. 프로그램을 만들 때 각 등장인물이 말할 정확한 대사를 직접 말해야 합니다. 주문은 각 등장인물에 맞게 당신의 목소리를 위장합니다.</p>\n<p><strong>고조(8랭크)</strong> 6랭크 형태와 같고, 지속시간이 무제한입니다.</p>"
+          "description": "<p>당신은 다양한 크기의 개별 크리처 또는 물체를 최대 10개까지 포함하는 가상의 장면을 만들며, 모두 주문 영역 안에 있어야 합니다. 이 요소들은 적절한 소리와 냄새를 내고 만졌을 때도 올바른 감촉을 냅니다. 환영 장면의 요소는 말을 할 수 없습니다. @UUID[Compendium.sf2e.spells.Item.f8SBoXiXQjlCKqly]{환영 크리처} 주문과 달리, 장면 속 크리처는 전투 능력과 통계가 없습니다. 장면은 주변 환경의 변화를 포함하지 않지만, 다른 환영 주문으로 만든 환영 환경 안에 장면을 배치할 수 있습니다.</p>\n<p>장면을 만들 때 정지 상태로 둘지, 프로그램을 따르게 할지 선택할 수 있습니다. 정지 장면은 위치가 고정되어 있지만 기본적인 자연스러운 움직임은 포함합니다. 예를 들어 환영 종이에 바람이 불면 종이가 바스락거립니다. 프로그램은 최대 1분 길이일 수 있으며 끝나면 반복됩니다. 예를 들어 두 오크가 싸우는 장면을 만들면, 반복할 때마다 싸움은 같은 방식으로 진행됩니다. 반복 장면을 만들었다면 두 전사는 장면 시작과 끝에 같은 위치에 있어야 하지만, 반복의 끝과 시작을 알아보기 어렵도록 프로그램을 매끄럽게 만들 수 있습니다. 몇 분 이상 장면을 관찰한 자는 거의 언제나 반복을 눈치챕니다. 환영을 만든 뒤에는 프로그램을 변경할 수 없습니다.</p>\n<p>이미지의 어느 부분이든 만지거나 @UUID[Compendium.sf2e.actions.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 조사한 크리처는 환영을 불신하려 시도할 수 있습니다. 환영의 일부와 상호작용했다면 그 부분만 불신합니다. 대성공해야 장면 전체를 불신합니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 장면 속 크리처나 물체가 말할 수 있습니다. 프로그램을 만들 때 각 등장인물이 말할 정확한 대사를 직접 말해야 합니다. 주문은 각 등장인물에 맞게 당신의 목소리를 위장합니다.</p>\n<p><strong>고조(8랭크)</strong> 6랭크 형태와 같고, 지속시간이 무제한입니다.</p>"
         },
         "Implant Data": {
-          "name": "데이터 심기(Implant Data)",
+          "name": "데이터 이식(Implant Data)",
           "description": "<p>당신은 컴퓨터 또는 장치를 재프로그래밍하여 접근했을 때 선택한 데이터가 표시되도록 합니다. 주문 랭크당 데이터 한 항목까지 심을 수 있습니다. 데이터 한 항목은 크리처나 물체의 위치 또는 신체적 묘사 같은 간단한 사실, 크리처나 물체의 이미지, 또는 300자 이하의 간단한 문장일 수 있습니다. 대상 컴퓨터나 장치에 접근하면, 접근한 크리처가 어떤 데이터를 찾고 있든 이식된 데이터가 가장 먼저 나타납니다. 이식된 데이터는 크리처가 장치에 저장된 다른 정보에 접근하는 것을 막거나, 장치의 작동 방식을 바꾸거나, 그 밖의 방식으로 장치 작동을 방해하지 않습니다. 크리처가 이식된 데이터에 접근하기 전에 주문의 지속시간이 끝나면 정보는 사라집니다.</p><hr /><p><strong>고조(3랭크)</strong> 지속시간은 1년입니다.</p>\n<p><strong>고조(6랭크)</strong> 지속시간은 무제한입니다.</p>"
         },
         "Knock": {
-          "name": "똑똑(Knock)",
+          "name": "잠금 해제(Knock)",
           "description": "<p>당신은 목표물을 더 쉽게 열 수 있도록 만듭니다. 노크는 운동 또는 도둑질 기술 판정으로 목표물인 문, 자물쇠 또는 용기를 열려고 하는 모든 크리처에게 +4 상태 보너스를 부여합니다. 당신은 노크 시전의 일부로 목표물을 열기 위해 도둑질 기술 판정을 시도할 수 있으며, 숙련되지 않았더라도 당신의 레벨을 더합니다.</p>\n<p><em>노크</em>는 @UUID[Compendium.sf2e.spells.Item.Azoh0BSoCASrA1lr]{잠금}을 상쇄합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.OSapCU8heNHst21y]{주문 효과: 노크}</p>"
         },
         "Laser Pistol": {
@@ -1363,7 +1363,7 @@
           "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>이 소형 권총은 신뢰성, 내구성과 저렴한 가격 덕분에 팩트 월드에서 가장 인기 있는 보조무기입니다. 흔한 레이저 권총은 대부분 가벼운 폴리카본 몸체 끝에 길고 가느다란 총열이 달려 있습니다.</p>"
         },
         "Mindlink": {
-          "name": "마인드링크(Mindlink)",
+          "name": "정신 연결(Mindlink)",
           "description": "<p>당신은 자신의 정신을 목표의 정신에 연결하여, 10분에 걸쳐 전달할 수 있는 정보량을 순식간에 목표에게 정신적으로 전달합니다.</p>"
         },
         "Nano-edge Rapier": {
@@ -1375,11 +1375,11 @@
           "description": "<p>후두엽에 이식된 결정질 나노탄소 노드가 미세 섬유를 통해 시신경과 연결됩니다. 노드를 활성화하면 정상적인 시야 위에 X선 데이터를 겹쳐 표시할 수 있습니다. 집중 특성이 있는 단일 행동으로 이 중첩 표시를 비활성화할 수 있습니다.</p>\n<p><strong>활성화—X선 중첩 표시</strong> <span class=\"action-glyph\">1</span> (집중)</p><hr /><p><strong>효과</strong> 나노 광학 노드가 수집한 X선 데이터를 눈으로 직접 전달해 정상적인 시야 위에 겹쳐 표시합니다. 60피트 이내에 있는 대부분의 재료와 벽 너머를 볼 수 있습니다. 나무나 플라스틱 2피트, 돌 1피트, 일반 금속 2인치, 납이나 스타메탈은 양에 관계없이 시야를 차단하며, 흑백으로만 볼 수 있습니다. 시각 정보의 양이 산만할 정도로 많기 때문에 중첩 표시가 활성화된 동안 지각 판정에 –2 상황 페널티를 받습니다.</p>"
         },
         "Planar Seal": {
-          "name": "플래너 실(Planar Seal)",
+          "name": "차원 봉인(Planar Seal)",
           "description": "<p>당신은 텔레포테이션 효과와 영역 안팎으로의 플래너 여행을 무효화하려는 시도를 하는, 눈에 보이는 마법 장벽을 만듭니다. 여기에는 추가 차원 공간에 접근할 수 있게 해주는 아이템도 포함됩니다.  <em>플래너 씰</em>은 크리처를 영역 안으로 소환하려는 시도를 무효화하려고 하지만, 소환이 끝났을 때 크리처가 떠나는 것을 막지는 않습니다.</p>"
         },
         "Planar Tether": {
-          "name": "플래너 테더(Planar Tether)",
+          "name": "차원 사슬(Planar Tether)",
           "description": "<p>당신은 대상을 현재 차원에 고정시킵니다. 대상이 <em>플래너 티터</em>의 영향을 받는 동안, 주문은 대상을 이동시키거나 다른 차원으로 이동시키려는 모든 순간이동 효과 또는 그러한 효과를 상쇄하려고 시도합니다. <em>플래너 티터</em>의 지속시간은 대상의 의지 내성 굴림에 따라 결정됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 효과의 지속시간은 1분입니다.</p>\n<p><strong>실패</strong> 효과의 지속시간은 10분입니다.</p>\n<p><strong>대실패</strong> 효과의 지속시간은 1시간입니다.</p>"
         },
         "Read Aura": {
@@ -1387,28 +1387,28 @@
           "description": "<p>당신은 목표 물체에 집중하여 마법적인 기운을 감지하도록 마음을 엽니다. 시전이 완료되면 그 물체가 마법적인지 여부를 알게 됩니다. 당신이나 당신이 기운에 대해 조언한 사람은 그 물체에 대한 @UUID[Compendium.sf2e.actions.Item.eReSHVEPCsdkSL4G]{마법 식별}에 +2 상황 보너스를 얻습니다. 만약 물체가 환영이라면, 그 효과의 등급이 당신의 <em>read aura</em> 주문의 등급보다 낮을 때에만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.J6OhRNSN23KzOPRL]{주문 효과: 오라 읽기}</p><hr /><p><strong>고조(3랭크)</strong> 최대 10개의 물체를 목표로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 어떤 수의 물체라도 목표로 삼을 수 있습니다.</p>"
         },
         "Retrocognition": {
-          "name": "레트로코그니션(Retrocognition)",
-          "description": "<p>당신의 마음을 정신적인 메아리에 열면, 현재 위치에서 과거에 발생했던 사건들로부터 인상을 얻게 됩니다.  <em>레트로코그니션</em>은 지속시간의 첫 번째 분 동안 지난 하루 동안 발생한 사건들의 초능력적 인상을 보여주고, 그 다음으로 다음 날의 이전 분, 그리고 그 이후로 이어집니다. 이러한 메아리는 환영처럼 재현되지 않고, 대신 과거의 수수께끼 같은 단서와 세부 사항을 제공하는 감정과 은유의 인상을 보여줍니다. 인상을 통해 외상적이거나 격변적인 사건을 목격하면, 사건의 심각성에 따라 최소 30, 최대 50의 DC로 의지 내성 굴림에 성공하지 못하면 주문이 종료됩니다. GM은 사건이 외상적인지 여부를 결정하고 DC를 선택합니다.</p>\n<hr />\n<p><strong>고조(8랭크)</strong> 이전 하루 대신 집중하는 각 분 동안 이전 1년 동안 발생한 사건들의 인상을 얻게 되지만, 세부 사항이 줄어들어 가장 중요한 사건이 아닌 경우 인상을 구분하기 어렵게 됩니다.</p>\n<p><strong>고조(9랭크)</strong> 이전 하루 대신 집중하는 각 분 동안 이전 1세기 동안 발생한 사건들의 인상을 얻게 되지만, 세부 사항이 줄어들어 가장 중요한 사건이 아닌 경우 인상을 구분하는 것이 거의 불가능해집니다.</p>"
+          "name": "과거 인지(Retrocognition)",
+          "description": "<p>당신의 마음을 정신적인 메아리에 열면, 현재 위치에서 과거에 발생했던 사건들로부터 인상을 얻게 됩니다.  <em>과거 인지</em>은 지속시간의 첫 번째 분 동안 지난 하루 동안 발생한 사건들의 초능력적 인상을 보여주고, 그 다음으로 다음 날의 이전 분, 그리고 그 이후로 이어집니다. 이러한 메아리는 환영처럼 재현되지 않고, 대신 과거의 수수께끼 같은 단서와 세부 사항을 제공하는 감정과 은유의 인상을 보여줍니다. 인상을 통해 외상적이거나 격변적인 사건을 목격하면, 사건의 심각성에 따라 최소 30, 최대 50의 DC로 의지 내성 굴림에 성공하지 못하면 주문이 종료됩니다. GM은 사건이 외상적인지 여부를 결정하고 DC를 선택합니다.</p>\n<hr />\n<p><strong>고조(8랭크)</strong> 이전 하루 대신 집중하는 각 분 동안 이전 1년 동안 발생한 사건들의 인상을 얻게 되지만, 세부 사항이 줄어들어 가장 중요한 사건이 아닌 경우 인상을 구분하기 어렵게 됩니다.</p>\n<p><strong>고조(9랭크)</strong> 이전 하루 대신 집중하는 각 분 동안 이전 1세기 동안 발생한 사건들의 인상을 얻게 되지만, 세부 사항이 줄어들어 가장 중요한 사건이 아닌 경우 인상을 구분하는 것이 거의 불가능해집니다.</p>"
         },
         "Revealing Light": {
-          "name": "리빌링 라이트(Revealing Light)",
-          "description": "<p>마법적인 빛의 물결이 그 지역을 휩쓸어 갑니다. 당신은 다채로운, 열이 없는 불꽃이나 반짝이는 티끌과 같이 빛의 모습을 선택합니다.  <em>리빌링 라이트</em>의 영향을 받은 크리처는 @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{눈부심}입니다. 만약 그 크리처가 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명}였다면, @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐}이 됩니다. 만약 그 크리처가 다른 어떤 이유로 이미 은폐되어 있었다면, 더 이상 은폐되어 있지 않습니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 빛은 2 라운드 동안 크리처에게 영향을 미칩니다.</p>\n<p><strong>실패</strong> 빛은 1분 동안 크리처에게 영향을 미칩니다.</p>\n<p><strong>대실패</strong> 빛은 10분 동안 크리처에게 영향을 미칩니다.</p>"
+          "name": "드러내는 빛(Revealing Light)",
+          "description": "<p>마법적인 빛의 물결이 그 지역을 휩쓸어 갑니다. 당신은 다채로운, 열이 없는 불꽃이나 반짝이는 티끌과 같이 빛의 모습을 선택합니다.  <em>드러내는 빛</em>의 영향을 받은 크리처는 @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{눈부심}입니다. 만약 그 크리처가 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명}였다면, @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐}이 됩니다. 만약 그 크리처가 다른 어떤 이유로 이미 은폐되어 있었다면, 더 이상 은폐되어 있지 않습니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 빛은 2 라운드 동안 크리처에게 영향을 미칩니다.</p>\n<p><strong>실패</strong> 빛은 1분 동안 크리처에게 영향을 미칩니다.</p>\n<p><strong>대실패</strong> 빛은 10분 동안 크리처에게 영향을 미칩니다.</p>"
         },
         "Scouting Eye": {
-          "name": "스카우팅 아이(Scouting Eye)",
+          "name": "정찰의 눈(Scouting Eye)",
           "description": "<p>당신은 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명}, 떠다니는 눈을 만듭니다. 지름 1인치이며, 당신이 500피트 이내에서 볼 수 있는 위치에 생성됩니다. 이 눈은 당신의 일반적인 시각 감각으로 모든 방향을 보고, 보고 있는 것을 지속적으로 당신에게 전달합니다.</p>\n<p>매 라운드 마법을 유지할 때 처음으로, 눈을 최대 30피트 이동시켜 눈 앞의 것만 볼 수 있거나, 눈을 최대 10피트 이동시켜 주변의 모든 것을 볼 수 있습니다. 눈이 당신으로부터 얼마나 멀리 떨어져 있어도 제한은 없지만, 당신과 눈이 같은 존재 평면에 있지 않게 되면 마법은 즉시 종료됩니다. 당신은 눈을 통해 탐색 행동을 시도하여 그것으로 지각 판정을 시도할 수 있습니다. 눈에 가해진 어떤 피해도 눈을 파괴하고 마법을 종료시킵니다.</p>"
         },
         "Scrying": {
-          "name": "스크라이잉(Scrying)",
-          "description": "<p>당신은 당신이 선택한 크리처를 마법으로 염탐합니다.  <em>스크라이잉</em>은 @UUID[Compendium.sf2e.spells.Item.zvKWclOZ7A53DObE]{클레어보얀스}과 같이 작동하지만, 당신이 받는 영상은 덜 정확하며 <em>텔레포트</em>나 그와 유사한 주문에는 부적합합니다. 500피트 이내의 설정된 위치에 눈을 생성하는 대신, 대상의 바로 위에 나타나는 눈을 생성합니다. 당신은 이름으로 또는 대상의 소지품이나 신체의 일부를 만짐으로써 대상을 선택할 수 있습니다. 만약 당신이 대상을 직접 만난 적이 없다면, <em>스크라이잉</em>의 DC는 2 낮아지고, 만약 당신이 대상의 신원을 알지 못한다면 (예를 들어 범죄 현장에서 알 수 없는 크리처의 송곳니를 발견했을 경우), DC는 10 낮아집니다.</p>\n<p><em>스크라이잉</em>의 효과는 대상의 의지 내성 굴림에 따라 달라집니다.</p>\n<hr />\n<p><strong>대성공</strong> 주문이 실패하고 대상은 1주일 동안 일시적으로 면역됩니다. 대상은 또한 당신을 흘끗 보고 당신으로부터의 대략적인 거리와 방향을 알게 됩니다.</p>\n<p><strong>성공</strong> 주문이 실패하고 대상은 1일 동안 일시적으로 면역됩니다.</p>\n<p><strong>실패</strong> 주문이 성공합니다.</p>\n<p><strong>대실패</strong> 주문이 성공하고, 눈은 대상이 이동하면 대상을 따라 이동하며, 라운드당 최대 60피트 이동합니다.</p>"
+          "name": "원격 관찰(Scrying)",
+          "description": "<p>당신은 당신이 선택한 크리처를 마법으로 염탐합니다.  <em>원격 관찰</em>은 @UUID[Compendium.sf2e.spells.Item.zvKWclOZ7A53DObE]{천리안}과 같이 작동하지만, 당신이 받는 영상은 덜 정확하며 <em>순간이동</em>나 그와 유사한 주문에는 부적합합니다. 500피트 이내의 설정된 위치에 눈을 생성하는 대신, 대상의 바로 위에 나타나는 눈을 생성합니다. 당신은 이름으로 또는 대상의 소지품이나 신체의 일부를 만짐으로써 대상을 선택할 수 있습니다. 만약 당신이 대상을 직접 만난 적이 없다면, <em>원격 관찰</em>의 DC는 2 낮아지고, 만약 당신이 대상의 신원을 알지 못한다면 (예를 들어 범죄 현장에서 알 수 없는 크리처의 송곳니를 발견했을 경우), DC는 10 낮아집니다.</p>\n<p><em>원격 관찰</em>의 효과는 대상의 의지 내성 굴림에 따라 달라집니다.</p>\n<hr />\n<p><strong>대성공</strong> 주문이 실패하고 대상은 1주일 동안 일시적으로 면역됩니다. 대상은 또한 당신을 흘끗 보고 당신으로부터의 대략적인 거리와 방향을 알게 됩니다.</p>\n<p><strong>성공</strong> 주문이 실패하고 대상은 1일 동안 일시적으로 면역됩니다.</p>\n<p><strong>실패</strong> 주문이 성공합니다.</p>\n<p><strong>대실패</strong> 주문이 성공하고, 눈은 대상이 이동하면 대상을 따라 이동하며, 라운드당 최대 60피트 이동합니다.</p>"
         },
         "Selective Invisibility": {
           "name": "선택적 투명화(Selective Invisibility)",
           "description": "<p>당신이 접촉한 자발적인 크리처는 주문 사거리 안의 두 번째 대상 한 명을 제외한 모두에게 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명} 상태가 됩니다. 투명 크리처가 자신을 볼 수 있는 그 대상이 아닌 누군가에게 적대적 행동을 사용하면, 그 적대적 행동을 완료한 뒤 주문이 끝납니다.</p><hr /><p><strong>고조(5랭크)</strong> 30피트 안의 자발적인 크리처 최대 6명을 투명하게 만들 수 있지만, 모두 같은 두 번째 대상을 가져야 합니다.</p>"
         },
         "Slow": {
-          "name": "느리게(Slow)",
-          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 느리게 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
+          "name": "둔화(Slow)",
+          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 둔화 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Speak with Computers": {
           "name": "컴퓨터와 대화(Speak with Computers)",
@@ -1419,8 +1419,8 @@
           "description": "<p>섬세한 관찰력, 바람의 방향을 감지하는 능력, 그리고 강한 직감. 이러한 자질 덕분에 당신은 저격수가 표적을 향해 완벽한 사격을 준비하는 것을 돕는 데 있어 다른 사람들과 차별화되었습니다. 고저차, 속도, 은폐는 진정한 사격 명중이라는 업적을 달성하기 위해 고려해야 할 중요한 요소이며, 경험 많은 관측수 없이는 어떤 저격수도 제 기능을 발휘할 수 없습니다. 어린 시절부터 당신은 모험가로서 관측수로서의 기술을 활용해 왔습니다. 이제 스스로 사격을 하든 다른 사람을 위해 관측을 하든, 당신의 재능은 모험가로서의 경력에 유리하게 작용합니다.</p>\n<p>두 가지 능력치 향상을 선택하십시오. 하나는 <strong>민첩</strong> 또는 <strong>지혜</strong>에 할당해야 하며, 다른 하나는 자유롭게 능력치를 향상시킬 수 있습니다.</p>\n<p>당신은 은신 기술과 스카우팅 지식 기술을 숙련했습니다. 당신은 @UUID[Compendium.sf2e.feats.Item.beyw5bdA5hkQbmaG]{지형 추적자} 기술 특성을 얻습니다.</p>"
         },
         "Sure Strike": {
-          "name": "슈어 스트라이크(Sure Strike)",
-          "description": "<p>다음으로 당신의 턴이 끝나기 전에 공격 굴림을 할 때, 두 번 굴리고 더 좋은 결과를 사용하십시오. 그 공격은 상황에 따른 공격 굴림 페널티와 목표가 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 또는 @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{숨겨짐}인 것으로 인한 모든 순수 판정을 무시합니다. 그 후 당신은 10분 동안 <em>슈어 스트라이크</em>에 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{주문 효과: 슈어 스트라이크}</p>"
+          "name": "확실한 타격(Sure Strike)",
+          "description": "<p>다음으로 당신의 턴이 끝나기 전에 공격 굴림을 할 때, 두 번 굴리고 더 좋은 결과를 사용하십시오. 그 공격은 상황에 따른 공격 굴림 페널티와 목표가 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 또는 @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{숨겨짐}인 것으로 인한 모든 순수 판정을 무시합니다. 그 후 당신은 10분 동안 <em>확실한 타격</em>에 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{주문 효과: 확실한 타격}</p>"
         },
         "Telepathy": {
           "name": "텔레파시(Telepathy)",
@@ -1435,7 +1435,7 @@
           "description": "<p><strong>조건</strong> 감시 마법사가 자신에게 미탐지 또는 숨은 상태였던 크리처를 관찰합니다.</p><hr /><p><strong>효과</strong> 마법사는 발동한 크리처에게 너를 주시한다를 사용합니다.</p>"
         },
         "Translocate": {
-          "name": "트랜스로케이트(Translocate)",
+          "name": "전위(Translocate)",
           "description": "<p>당신은 현재 위치에서 당신이 착용하고 들고 있는 모든 물건과 함께 당신이 볼 수 있는 사거리 내의 비어 있는 공간으로 순간이동합니다. 만약 이것이 다른 크리처를 당신과 함께 이동시키는 결과를 초래한다면 — 심지어 당신이 그것을 초차원 용기에 담고 있더라도 — 주문은 실패합니다.</p>\n<hr />\n<p><strong>고조 (5th)</strong> 사거리가 1마일로 증가합니다. 과거에 그곳에 있었고 당신으로부터의 상대적인 위치와 거리를 알고 있다면, 목적지를 볼 필요가 없습니다. 그런 다음 1시간 동안 일시적으로 면역됩니다.</p>"
         },
         "True Target": {
@@ -1443,11 +1443,11 @@
           "description": "<p>당신은 앞으로 몇 초 동안의 가능한 미래를 탐구하여 적이 피해를 입지 않는 모든 방법을 이해한 다음, 그 미래의 비전을 주변 사람들에게 보여줍니다.  크리처 하나를 지정하십시오.  <em>트루 대상</em> 지속시간 동안 각 목표가 그 크리처에 대한 공격 굴림을 할 때마다, 공격자는 두 번 굴림을 하고 더 좋은 결과를 사용합니다. 공격자는 또한 지정된 크리처가 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 또는 @UUID[Compendium.sf2e.conditions.Item.iU0fEDdBp3rXpTMC]{숨겨짐}인 것으로 인한 공격 굴림에 대한 상황 페널티와 필요한 모든 순수 판정을 무시합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.HuvucQ5nfpuVWNrw]{주문 효과: 트루 대상}</p>"
         },
         "Truesight": {
-          "name": "트루사이트(Truesight)",
+          "name": "진시야(Truesight)",
           "description": "<p>당신은 60피트 이내의 사물을 실제 모습 그대로 보십니다. GM은 해당 지역의 환영, 변신 또는 다형성 마법 효과에 대해 비밀 상쇄 판정 굴림을 하지만, 당신이 그것을 간파하는지 여부를 결정하기 위한 목적으로만 합니다 (예를 들어, 다형성 마법에 대한 확인 굴림이 성공하면 당신은 괴물의 진짜 모습을 볼 수 있지만, 다형성 마법을 종료시키지는 않습니다).</p>"
         },
         "Veil of Privacy": {
-          "name": "프라이버시 베일(Veil of Privacy)",
+          "name": "비밀의 장막(Veil of Privacy)",
           "description": "<p>당신은 마법을 통한 탐지가 어렵게 만드는 보호의 수호물을 세웁니다.  <em>베일 오브 프라이버시</em>는 지속시간 동안 대상 또는 대상의 장비에 사용되는 모든 탐지, 폭로, 점술 효과를 무효화하려고 시도하며, 이 목적을 위해서는 소마법을 1랭크 주문으로 계산합니다. 범위 또는 여러 대상을 목표로 하는 주문을 성공적으로 무효화하면 <em>베일 오브 프라이버시</em>의 대상에 대해서만 효과가 무효화됩니다.</p>"
         }
       },
@@ -1490,7 +1490,7 @@
           "description": "<p>당신은 무시하기 어려운 명령을 외칩니다. 당신은 대상에게 당신에게 접근하거나, 도망치거나 (마치 @UUID[Compendium.sf2e.conditions.Item.sDPxOjQ9kx2RZE8D]{도주} 상태인 것처럼), 쥐고 있는 것을 놓거나, @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{엎드림}을 떨어뜨리거나, 제자리에 서 있도록 명령할 수 있습니다. 대상은 당신의 명령에 복종할 때까지 @UUID[Compendium.sf2e.actions.Item.A72nHGUtNXgY5Ey9]{지연}하거나 어떤 반응도 할 수 없습니다. 효과는 대상의 의지 내성 굴림에 따라 달라집니다.</p>\n<hr />\n<p><strong>성공</strong>  크리처는 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 다음 턴의 첫 번째 행동으로 당신의 명령대로 하는 데 단일 행동을 사용해야 합니다.</p>\n<p><strong>대실패</strong> 대상은 다음 턴의 모든 행동을 당신의 명령에 복종하는 데 사용해야 합니다.</p>\n<hr />\n<p><strong>고조(5랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Daze": {
-          "name": "데이즈(Daze)",
+          "name": "멍함(Daze)",
           "description": "<p>당신은 대상의 정신에 밀고 들어가 정신적인 충격으로 멍하게 만듭니다. 이 충격은 기본 의지 내성 굴림으로 1d6 정신 피해를 줍니다. 대상이 내성 굴림에 대실패하면 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}입니다.</p>\n<hr />\n<p><strong>고조(+2)</strong> 피해가 1d6 증가합니다.</p>"
         },
         "Detect Magic": {
@@ -1498,30 +1498,30 @@
           "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
         },
         "Dominate": {
-          "name": "도미네이트(Dominate)",
+          "name": "지배(Dominate)",
           "description": "<p>당신은 대상을 지배하여 당신의 명령에 따르도록 강제합니다. 자기 파괴적인 명령을 내리면 대상은 새로운 명령을 받을 때까지 행동하지 않습니다. 효과는 대상의 의지 내성 굴림에 따라 달라집니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}하며 당신의 명령을 저항합니다.</p>\n<p><strong>실패</strong> 당신은 대상을 제어합니다. 대상은 @UUID[Compendium.sf2e.conditions.Item.9qGBRpbX9NEwtAAr]{조종됨} 상태가 됩니다. 하지만 매 턴이 끝날 때마다 의지 내성 굴림을 시도할 수 있습니다. 성공하면 마법이 종료됩니다.</p>\n<p><strong>대실패</strong> 실패와 같지만, 동맹을 죽이는 것처럼 대상의 본성에 반하는 새로운 명령을 내릴 때만 대상은 새로운 내성 굴림을 받습니다.</p>\n<hr />\n<p><strong>고조(10랭크)</strong> 지속시간이 무제한이 됩니다.</p>"
         },
         "Enthrall": {
-          "name": "인스네어(Enthrall)",
+          "name": "매료(Enthrall)",
           "description": "<p>당신의 말은 당신의 목표 대상을 매료시킵니다. 당신은 주문 시전과 지속시간 내내 중단 없이 말하거나 노래합니다. 당신의 말이나 노래를 알아차린 목표 대상은 당신에게 온전히 주의를 기울일 수도 있습니다; 각 목표 대상은 의지 내성 굴림을 시도해야 합니다. 만약 목표 대상이 반대되는 종교, 혈통, 또는 정치적 성향을 가지고 있거나, 당신이 말하는 것에 동의하지 않을 가능성이 높다면, GM은 상황 보너스(+4까지)를 부여할 수 있습니다.</p>\n<p>사거리 안에 들어오는 각 크리처는 당신이 주문을 유지할 때 내성 굴림을 시도해야 합니다. 당신이 말하고 있다면, 엔스롤(Enthrall)은 언어적 특성을 얻습니다.</p>\n<hr />\n<p><strong>대성공</strong> 목표 대상은 영향을 받지 않고 당신이 마법을 사용하려 했다는 것을 알아챕니다.</p>\n<p><strong>성공</strong> 목표 대상은 주의를 기울일 필요가 없지만 당신이 마법을 사용하려 했다는 것을 알아채지 못합니다 (다른 대상이 매료되었다는 것을 알아챌 수는 있습니다).</p>\n<p><strong>실패</strong> 목표 대상은 당신에게 @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{매혹} 매료됩니다. 만약 목표 대상이 동의하지 않는 행동이나 말을 목격한다면, 다시 의지 내성 굴림을 시도할 수 있습니다. 성공하면 더 이상 매료되지 않고 1시간 동안 일시적으로 면역됩니다. 만약 목표 대상이 적대적인 행위의 대상이 되거나, 다른 크리처가 외교 또는 협박 굴림에 성공한다면, 매료는 즉시 끝납니다.</p>\n<p><strong>대실패</strong> 실패와 같지만, 목표 대상은 당신에게 동의하지 않는다 해도 매료를 끝내기 위한 내성 굴림을 시도할 수 없습니다.</p>"
         },
         "Entropy Strike": {
-          "name": "엔트로피 일격(Entropy Strike)",
+          "name": "엔트로피 타격(Entropy Strike)",
           "description": "<p>당신은 물질을 빠르고 무차별적으로 붕괴시키는 엔트로피 광선을 방출합니다. 대상의 AC에 대해 원거리 주문 공격을 하십시오. 명중하면 대상은 5d8 공허 피해를 받습니다. 대상이 기술 특성을 지녔다면 대신 2d6 지속 산성 피해를 받고 오작동 1이 됩니다. 대성공하면 피해가 두 배가 되며, 크리처가 기술 특성을 지녔다면 오작동 2와 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}이 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 주사위 1개만큼 증가합니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Illusory Scene": {
           "name": "환영 장면(Illusory Scene)",
-          "description": "<p>당신은 다양한 크기의 개별 크리처 또는 물체를 최대 10개까지 포함하는 가상의 장면을 만들며, 모두 주문 영역 안에 있어야 합니다. 이 요소들은 적절한 소리와 냄새를 내고 만졌을 때도 올바른 감촉을 냅니다. 환영 장면의 요소는 말을 할 수 없습니다. @UUID[Compendium.sf2e.spells.Item.f8SBoXiXQjlCKqly]{환영 생물} 주문과 달리, 장면 속 크리처는 전투 능력과 통계가 없습니다. 장면은 주변 환경의 변화를 포함하지 않지만, 다른 환영 주문으로 만든 환영 환경 안에 장면을 배치할 수 있습니다.</p>\n<p>장면을 만들 때 정지 상태로 둘지, 프로그램을 따르게 할지 선택할 수 있습니다. 정지 장면은 위치가 고정되어 있지만 기본적인 자연스러운 움직임은 포함합니다. 예를 들어 환영 종이에 바람이 불면 종이가 바스락거립니다. 프로그램은 최대 1분 길이일 수 있으며 끝나면 반복됩니다. 예를 들어 두 오크가 싸우는 장면을 만들면, 반복할 때마다 싸움은 같은 방식으로 진행됩니다. 반복 장면을 만들었다면 두 전사는 장면 시작과 끝에 같은 위치에 있어야 하지만, 반복의 끝과 시작을 알아보기 어렵도록 프로그램을 매끄럽게 만들 수 있습니다. 몇 분 이상 장면을 관찰한 자는 거의 언제나 반복을 눈치챕니다. 환영을 만든 뒤에는 프로그램을 변경할 수 없습니다.</p>\n<p>이미지의 어느 부분이든 만지거나 @UUID[Compendium.sf2e.actions.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 조사한 크리처는 환영을 불신하려 시도할 수 있습니다. 환영의 일부와 상호작용했다면 그 부분만 불신합니다. 대성공해야 장면 전체를 불신합니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 장면 속 크리처나 물체가 말할 수 있습니다. 프로그램을 만들 때 각 등장인물이 말할 정확한 대사를 직접 말해야 합니다. 주문은 각 등장인물에 맞게 당신의 목소리를 위장합니다.</p>\n<p><strong>고조(8랭크)</strong> 6랭크 형태와 같고, 지속시간이 무제한입니다.</p>"
+          "description": "<p>당신은 다양한 크기의 개별 크리처 또는 물체를 최대 10개까지 포함하는 가상의 장면을 만들며, 모두 주문 영역 안에 있어야 합니다. 이 요소들은 적절한 소리와 냄새를 내고 만졌을 때도 올바른 감촉을 냅니다. 환영 장면의 요소는 말을 할 수 없습니다. @UUID[Compendium.sf2e.spells.Item.f8SBoXiXQjlCKqly]{환영 크리처} 주문과 달리, 장면 속 크리처는 전투 능력과 통계가 없습니다. 장면은 주변 환경의 변화를 포함하지 않지만, 다른 환영 주문으로 만든 환영 환경 안에 장면을 배치할 수 있습니다.</p>\n<p>장면을 만들 때 정지 상태로 둘지, 프로그램을 따르게 할지 선택할 수 있습니다. 정지 장면은 위치가 고정되어 있지만 기본적인 자연스러운 움직임은 포함합니다. 예를 들어 환영 종이에 바람이 불면 종이가 바스락거립니다. 프로그램은 최대 1분 길이일 수 있으며 끝나면 반복됩니다. 예를 들어 두 오크가 싸우는 장면을 만들면, 반복할 때마다 싸움은 같은 방식으로 진행됩니다. 반복 장면을 만들었다면 두 전사는 장면 시작과 끝에 같은 위치에 있어야 하지만, 반복의 끝과 시작을 알아보기 어렵도록 프로그램을 매끄럽게 만들 수 있습니다. 몇 분 이상 장면을 관찰한 자는 거의 언제나 반복을 눈치챕니다. 환영을 만든 뒤에는 프로그램을 변경할 수 없습니다.</p>\n<p>이미지의 어느 부분이든 만지거나 @UUID[Compendium.sf2e.actions.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 조사한 크리처는 환영을 불신하려 시도할 수 있습니다. 환영의 일부와 상호작용했다면 그 부분만 불신합니다. 대성공해야 장면 전체를 불신합니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 장면 속 크리처나 물체가 말할 수 있습니다. 프로그램을 만들 때 각 등장인물이 말할 정확한 대사를 직접 말해야 합니다. 주문은 각 등장인물에 맞게 당신의 목소리를 위장합니다.</p>\n<p><strong>고조(8랭크)</strong> 6랭크 형태와 같고, 지속시간이 무제한입니다.</p>"
         },
         "Jaws": {
           "name": "턱(Jaws)"
         },
         "Mindlink": {
-          "name": "마인드링크(Mindlink)",
+          "name": "정신 연결(Mindlink)",
           "description": "<p>당신은 자신의 정신을 목표의 정신에 연결하여, 10분에 걸쳐 전달할 수 있는 정보량을 순식간에 목표에게 정신적으로 전달합니다.</p>"
         },
         "Occult Innate Spells": {
@@ -1532,7 +1532,7 @@
           "description": "<p>터미나이트 여왕은 군체에 영양을 공급하기 위해 자신의 육체를 희생합니다. 터미나이트 여왕은 죽고, 30피트 이내의 모든 터미나이트는 빠른 치유 15를 얻으며 @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{가속} 1분 동안 해당 상태가 됩니다. 추가 행동은 공격에만 사용할 수 있습니다.</p>\n<p>@UUID[Compendium.sf2e.bestiary-effects.Item.97keYapBgpIlaoNI]{효과: 여왕의 희생}</p>"
         },
         "Rewrite Memory": {
-          "name": "기억 재구성(Rewrite Memory)",
+          "name": "기억 재작성(Rewrite Memory)",
           "description": "<p>당신은 기억을 지우거나, 기억의 선명도를 높이거나, 기억을 바꾸거나, 거짓 기억을 심어 대상의 기억을 변경합니다. 대상은 의지 내성 굴림을 시도하여 주문에 저항할 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며 당신이 그들의 기억을 변경하려 했다는 것을 깨닫습니다.</p>\n<p><strong>성공</strong> 대상은 영향을 받지 않지만, 주문을 알아차리지 못하는 경우 당신의 주문이 <em>rewrite memory</em>가 아닌 무해한 무언가라고 생각합니다.</p>\n<p><strong>실패</strong> 주문 지속시간의 처음 5분 동안, 당신은 매 라운드마다 한 번씩 주문을 유지하여 기억을 수정할 수 있습니다. 그렇게 할 때, 당신은 수정할 최대 6초의 기억을 상상하며, 최대 5분 연속된 기억을 수정할 수 있습니다.</p>\n<p>당신이 변경한 모든 기억은 주문이 활성화되어 있는 동안 변경된 상태로 유지됩니다. 5분이 지나기 전에 대상이 사거리 밖으로 이동하면 더 이상 기억을 변경할 수 없습니다.</p>\n<hr />\n<p><strong>고조(6레벨)</strong> 당신은 50단어 이하로 자세히 설명된 특정 주제에 대한 모든 기억을 억제하기 위해 자발적인 대상에게 주문을 시전할 수 있습니다. 이 효과는 영구적이며, 이러한 생략된 부분은 희미한 안개로 메워집니다.</p>"
         },
         "Royal Tithe": {
@@ -1544,27 +1544,27 @@
           "description": "<p>당신은 현실을 베어 높이 20피트, 길이 120피트, 두께 2인치의 직선형 생명 흡수 엔트로피 균열을 만듭니다. 균열은 엄폐를 제공합니다. 균열이 생성될 때 그 공간에 있거나, 균열을 통과하려 하거나, 균열 안에서 턴을 마치는 각 크리처는 기본 반사 내성 굴림과 함께 7d8 공허 피해를 받습니다. 균열이 만들어질 때 이 내성 굴림에 성공한 크리처는 자신이 선택한 쪽의 가장 가까운 공간으로 밀려납니다. 균열을 통과하려는 크리처가 내성 굴림에 대실패하면 통과하지 못하고 균열 옆에서 이동을 끝냅니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 1d8 증가합니다.</p>"
         },
         "Status": {
-          "name": "상태(Status)",
+          "name": "상태 분석(Status)",
           "description": "<p>당신과 목표 대상이 같은 존재 평면에 있고 둘 다 살아있는 한, 당신은 그 대상의 현재 상태를 알고 있습니다. 당신은 목표 대상의 당신으로부터의 방향, 당신으로부터의 거리, 그리고 그것에 영향을 미치는 모든 조건을 알고 있습니다.</p>\n<hr />\n<p><strong>고조(4랭크)</strong> 주문의 사거리가 30피트로 증가하고, 당신은 최대 10개의 크리처를 목표로 삼을 수 있습니다.</p>"
         },
         "Telekinetic Haul": {
-          "name": "텔레키네틱 홀(Telekinetic Haul)",
+          "name": "염동력 운반(Telekinetic Haul)",
           "description": "<p>당신은 대상을 최대 20피트 이동시키며, 공중에 띄울 수도 있습니다. 당신이 주문을 유지할 때, 다시 그렇게 할 수도 있고, 범위 내에 있는 다른 적격 대상으로 당신의 텔레키네틱 초점을 이동시켜 대신 그것을 움직일 수도 있습니다.</p>"
         },
         "Telekinetic Maneuver": {
-          "name": "텔레키네틱 매뉴버(Telekinetic Maneuver)",
+          "name": "염동력 기동(Telekinetic Maneuver)",
           "description": "<p>텔레키네시스 힘이 몰아치는 가운데, 당신은 적이나 적이 가지고 있는 것을 움직입니다. 당신은 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{밀치기}, @UUID[Compendium.sf2e.actions.Item.lOE4yjUnETTdaf2T]{위치 바꾸기} 또는 @UUID[Compendium.sf2e.actions.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}을 힘겨루기 판정 대신 주문 공격 굴림을 사용하여 시도할 수 있습니다.</p>"
         },
         "Telekinetic Projectile": {
-          "name": "텔레키네틱 프로젝타일(Telekinetic Projectile)",
+          "name": "염동력 투사체(Telekinetic Projectile)",
           "description": "<p>당신은 사거리 안에 있으며 무게가 1벌크 이하인, 방치되어 있는 물체를 목표물에게 던집니다. 목표물에 대한 주문 공격 굴림을 합니다. 적중하면, 던진 물체에 적절한 2d6 둔기, 관통, 또는 참격 피해를 줍니다. 던진 물체의 특정 특성이나 마법적 속성은 공격이나 피해에 영향을 미치지 않습니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신은 두 배의 피해를 줍니다.</p>\n<p><strong>성공</strong> 당신은 전체 피해를 줍니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해가 1d6 증가합니다.</p>"
         },
         "Teleport": {
-          "name": "텔레포트(Teleport)",
-          "description": "<p>당신과 목표 대상들은 시작 위치를 기준으로 한 위치와 외형(또는 다른 식별 특징)을 정확하게 파악할 수 있는 한, 사거리 내의 어떤 장소로 즉시 이동합니다. 위치의 외형에 대한 지식이 부정확하면 주문이 실패하는 경우가 대부분이지만, 원치 않는 장소로 순간 이동하거나 GM이 결정하는 다른 예상치 못한 사고로 이어질 수도 있습니다. <em>텔레포트</em>는 장거리에서는 정확하지 않습니다. 목표 대상은 여행한 총 거리의 약 1퍼센트에 해당하는 거리만큼 의도한 목적지에서 벗어난 곳에 나타나며, 그 방향은 GM이 결정합니다. 단거리 여행의 경우 이러한 부정확성은 중요하지 않지만, 장거리 여행의 경우 최대 1마일까지 벗어날 수 있습니다.</p>\n<hr />\n<p><strong>고조(7랭크)</strong> 당신과 다른 목표 대상들은 1,000마일 이내의 어떤 장소로 이동할 수 있습니다.</p>\n<p><strong>고조(8랭크)</strong> 당신과 다른 목표 대상들은 같은 행성의 어떤 장소로 이동할 수 있습니다. 1,000마일 이상 이동하는 경우 목표 지점에서 10마일 벗어난 곳에 도착합니다.</p>\n<p><strong>고조(9랭크)</strong> 당신과 다른 목표 대상들은 같은 태양계 내의 다른 행성의 어떤 장소로 이동할 수 있습니다. 위치의 위치와 외형에 대한 정확한 지식이 있다고 가정하면, 새로운 행성에 100마일 벗어난 곳에 도착합니다.</p>\n<p><strong>고조(10랭크)</strong> 9레벨 버전과 같지만, 당신과 다른 목표 대상들은 같은 은하계 내의 어떤 행성으로 이동할 수 있습니다.</p>"
+          "name": "순간이동(Teleport)",
+          "description": "<p>당신과 목표 대상들은 시작 위치를 기준으로 한 위치와 외형(또는 다른 식별 특징)을 정확하게 파악할 수 있는 한, 사거리 내의 어떤 장소로 즉시 이동합니다. 위치의 외형에 대한 지식이 부정확하면 주문이 실패하는 경우가 대부분이지만, 원치 않는 장소로 순간 이동하거나 GM이 결정하는 다른 예상치 못한 사고로 이어질 수도 있습니다. <em>순간이동</em>는 장거리에서는 정확하지 않습니다. 목표 대상은 여행한 총 거리의 약 1퍼센트에 해당하는 거리만큼 의도한 목적지에서 벗어난 곳에 나타나며, 그 방향은 GM이 결정합니다. 단거리 여행의 경우 이러한 부정확성은 중요하지 않지만, 장거리 여행의 경우 최대 1마일까지 벗어날 수 있습니다.</p>\n<hr />\n<p><strong>고조(7랭크)</strong> 당신과 다른 목표 대상들은 1,000마일 이내의 어떤 장소로 이동할 수 있습니다.</p>\n<p><strong>고조(8랭크)</strong> 당신과 다른 목표 대상들은 같은 행성의 어떤 장소로 이동할 수 있습니다. 1,000마일 이상 이동하는 경우 목표 지점에서 10마일 벗어난 곳에 도착합니다.</p>\n<p><strong>고조(9랭크)</strong> 당신과 다른 목표 대상들은 같은 태양계 내의 다른 행성의 어떤 장소로 이동할 수 있습니다. 위치의 위치와 외형에 대한 정확한 지식이 있다고 가정하면, 새로운 행성에 100마일 벗어난 곳에 도착합니다.</p>\n<p><strong>고조(10랭크)</strong> 9레벨 버전과 같지만, 당신과 다른 목표 대상들은 같은 은하계 내의 어떤 행성으로 이동할 수 있습니다.</p>"
         },
         "Translocate (At Will)": {
-          "name": "트랜스로케이트 (즉시)(Translocate (At Will))",
+          "name": "전위 (즉시)(Translocate (At Will))",
           "description": "<p>당신은 현재 위치에서 당신이 착용하고 들고 있는 모든 물건과 함께 당신이 볼 수 있는 사거리 내의 비어 있는 공간으로 순간이동합니다. 만약 이것이 다른 크리처를 당신과 함께 이동시키는 결과를 초래한다면 — 심지어 당신이 그것을 초차원 용기에 담고 있더라도 — 주문은 실패합니다.</p>\n<hr />\n<p><strong>고조 (5th)</strong> 사거리가 1마일로 증가합니다. 과거에 그곳에 있었고 당신으로부터의 상대적인 위치와 거리를 알고 있다면, 목적지를 볼 필요가 없습니다. 그런 다음 1시간 동안 일시적으로 면역됩니다.</p>"
         },
         "Wave of Despair": {
@@ -1698,7 +1698,7 @@
       "tokenName": "충격적인 순간(Traumatic Moment)",
       "items": {
         "Jump Scare": {
-          "name": "점프 스케어(Jump Scare)",
+          "name": "도약 스케어(Jump Scare)",
           "description": "<p><strong>조건</strong> 크리처가 출몰 범위의 10피트 이내로 이동합니다.</p><hr /><p><strong>효과</strong> 출몰은 자신을 만들어 낸 충격적인 순간을 재현해, 마치 그 사건을 직접 겪는 것처럼 크리처의 감각을 생생하게 공격합니다. 그 크리처는 @Check[will|dc:24] 내성을 시도합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @Damage[(2d8+5)[mental]] 피해를 받고 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}.</p>\n<p><strong>실패</strong> 대상은 @Damage[(4d8+10)[mental]] 피해를 받고 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}.</p>\n<p><strong>대실패</strong> 대상은 @Damage[(8d8+20)[mental]] 피해를 받고 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}.</p>"
         }
       }

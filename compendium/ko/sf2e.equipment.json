@@ -265,8 +265,8 @@
       "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p>거품이 이는 이 분홍색 혼합물은 약한 취기를 일으키며, 1시간 동안 공연 판정에 +1 아이템 보너스를 부여합니다.</p>\n<p>@UUID[Compendium.sf2e.equipment-effects.Item.dCDZQr7EBfCALmT2]{효과: 유명인 혈청}</p>"
     },
     "Cellular Stimulant Spell Amp": {
-      "name": "세포 자극제 주문 증폭기(Cellular Stimulant Spell Amp)",
-      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.QiW8VNdBf0SFUq69]{세포 자극제} 주문(DC 15)</p>"
+      "name": "세포 자극 주문 증폭기(Cellular Stimulant Spell Amp)",
+      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.QiW8VNdBf0SFUq69]{세포 자극} 주문(DC 15)</p>"
     },
     "Crystallized Shockshard (Commercial)": {
       "name": "상업용 결정화 충격편(Crystallized Shockshard (Commercial))",
@@ -318,7 +318,7 @@
     },
     "Jump Spell Amp": {
       "name": "도약 주문 증폭기(Jump Spell Amp)",
-      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.Q7QQ91vQtyi1Ux36]{점프} 주문</p>"
+      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.Q7QQ91vQtyi1Ux36]{도약} 주문</p>"
     },
     "Marrow Paste (Commercial)": {
       "name": "상업용 골수 연고(Marrow Paste (Commercial))",
@@ -350,7 +350,7 @@
     },
     "Shrink Spell Amp": {
       "name": "축소 주문 증폭기(Shrink Spell Amp)",
-      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 2랭크 @UUID[Compendium.sf2e.spells.Item.PjhUmyKnq6K5uDby]{수축} 주문</p>"
+      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 2랭크 @UUID[Compendium.sf2e.spells.Item.PjhUmyKnq6K5uDby]{축소} 주문</p>"
     },
     "Spell Gem (2nd-Rank Spell)": {
       "name": "주문 보석(2랭크 주문)(Spell Gem (2nd-Rank Spell))",
@@ -422,11 +422,11 @@
     },
     "Cairn Form Spell Amp (Commercial)": {
       "name": "상업용 묘표 형상 주문 증폭기(Cairn Form Spell Amp (Commercial))",
-      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p>유형 상업용 묘표 형상 주문 증폭기; 레벨 7; 가격 720 크레딧</p>\n<p><strong>효과</strong> 4랭크 @UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{석총 형상} 주문</p>"
+      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p>유형 상업용 묘표 형상 주문 증폭기; 레벨 7; 가격 720 크레딧</p>\n<p><strong>효과</strong> 4랭크 @UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{돌무덤 형상} 주문</p>"
     },
     "Feline Senses Spell Amp": {
-      "name": "고양이 감각 주문 증폭기(Feline Senses Spell Amp)",
-      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>유형</strong> 고양이 감각 주문 증폭기; <strong>레벨</strong> 7; <strong>가격</strong> 530 크레딧</p>\n<p><strong>효과</strong> 3랭크 @UUID[Compendium.sf2e.spells.Item.1lv6Zmp2eWRIPn1n]{고양이 감각} 주문</p>"
+      "name": "고양잇과 감각 주문 증폭기(Feline Senses Spell Amp)",
+      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>유형</strong> 고양잇과 감각 주문 증폭기; <strong>레벨</strong> 7; <strong>가격</strong> 530 크레딧</p>\n<p><strong>효과</strong> 3랭크 @UUID[Compendium.sf2e.spells.Item.1lv6Zmp2eWRIPn1n]{고양잇과 감각} 주문</p>"
     },
     "Spell Gem (4th-Rank Spell)": {
       "name": "주문 보석(4랭크 주문)(Spell Gem (4th-Rank Spell))",
@@ -434,7 +434,7 @@
     },
     "Haste Spell Amp": {
       "name": "가속 주문 증폭기(Haste Spell Amp)",
-      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 3랭크 @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{헤이스티} 주문</p>"
+      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 3랭크 @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{가속} 주문</p>"
     },
     "Vidwipe Datamine (Tactical)": {
       "name": "전술용 비드와이프 데이터마인(Vidwipe Datamine (Tactical))",
@@ -486,7 +486,7 @@
     },
     "Cairn Form Spell Amp (Tactical)": {
       "name": "전술용 묘표 형상 주문 증폭기(Cairn Form Spell Amp (Tactical))",
-      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 6랭크 @UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{석총 형상} 주문</p>"
+      "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 6랭크 @UUID[Compendium.sf2e.spells.Item.HAaRcHfN4g83eSEC]{돌무덤 형상} 주문</p>"
     },
     "Spell Gem (6th-Rank Spell)": {
       "name": "주문 보석(6랭크 주문)(Spell Gem (6th-Rank Spell))",
@@ -682,7 +682,7 @@
     },
     "Microphone": {
       "name": "마이크(Microphone)",
-      "description": "<p>이 무선 휴대 장치는 소리를 녹음하고 보통 스피커나 컴퓨터로 전송합니다.</p>"
+      "description": "<p>이 무선 휴대 장치는 소리를 녹음하고 보통 스피커나 컴퓨터로 전언 송신</p>"
     },
     "Moodskin": {
       "name": "무드스킨(Moodskin)",
@@ -742,7 +742,7 @@
     },
     "Consecrated Keycaps": {
       "name": "축성된 키캡(Consecrated Keycaps)",
-      "description": "<p>이 기묘한 키캡은 사망한 아나사이트 티어-99-프로페서의 추모비에 선물로 남겨졌습니다.</p>\n<p><strong>활성화—무의식적 타자</strong> <span class=\"action-glyph\">2</span> (집중)</p>\n<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.ZBeKxBcUOsXrfMRo]{데이터 심기} 주문을 시전합니다.</p>"
+      "description": "<p>이 기묘한 키캡은 사망한 아나사이트 티어-99-프로페서의 추모비에 선물로 남겨졌습니다.</p>\n<p><strong>활성화—무의식적 타자</strong> <span class=\"action-glyph\">2</span> (집중)</p>\n<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.ZBeKxBcUOsXrfMRo]{데이터 이식} 주문을 시전합니다.</p>"
     },
     "Darkvision Visor": {
       "name": "암시야 바이저(Darkvision Visor)",
@@ -1001,7 +1001,7 @@
       "description": "<p>고막에 삽입된 미세한 정신 활성 수정이 텔레파시 메시지와 비슷한 주파수로 공명합니다. 30피트 이내의 크리처가 제한적 텔레파시로 메시지를 보내거나 받을 때마다 미세하게 진동합니다.</p>\n<p><strong>활성화—정신 감청</strong><span class=\"action-glyph\">R</span> (집중, 언어, 정신)</p>\n<p><strong>조건</strong> 감청 귀가 텔레파시 메시지가 송수신되고 있음을 알림</p>\n<p><strong>요구 사항</strong> 메시지에 사용된 언어를 이해함</p><hr /><p><strong>효과</strong> 수정의 주파수를 조정하는 데 집중해 메시지를 엿듣습니다. 조건이 된 크리처는 @Check[will|dc:18] 내성을 시도합니다. 실패하면 당신도 메시지를 듣습니다.</p>"
     },
     "Jump Jets": {
-      "name": "점프 제트(Jump Jets)",
+      "name": "도약 제트(Jump Jets)",
       "description": "<p>방어구에 부착한 추진기가 도약을 크게 강화합니다.</p><hr /><p><strong>활성화—도약</strong> <span class=\"action-glyph\">1</span> (조작)</p>\n<p><strong>빈도</strong> 라운드마다 한 번</p>\n<p><strong>효과</strong> 점프 제트를 작동해 순간 추진력을 얻습니다. 최대 높이 10피트로 20피트까지 비행하거나, 수직 위로 20피트까지 비행합니다. 이동이 끝날 때 착지하지 않으면 추락합니다. 하중 초과 상태라면 들어 올릴 수 없습니다.</p>"
     },
     "Lock (Advanced)": {
@@ -1077,7 +1077,7 @@
       "description": "<p><strong>사용법</strong> 컴퓨터 또는 통신 장치에 설치;</p><hr /><p>이 칩은 통신 장치와 다른 컴퓨터에 설치해 장치가 주문을 시전하게 합니다. 장치 하나에는 주문 칩 하나만 설치할 수 있습니다. 주문 칩으로 주문을 시전하려면 컴퓨터 또는 통신 장치를 한손에 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문에 로커스가 있다면 주문 칩으로 시전할 때도 해당 로커스를 갖고 있어야 합니다. 주문 칩에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p>주문 시전에 소비되는 충전량 외에도, 주문 칩 핵심 격자의 섬세한 부품은 짧은 시간에 연속 사용하면 파괴될 수 있습니다. 하루에 한 번 넘게 사용하려면 오버클럭해야 합니다. 주문을 다시 시전한 뒤 @Check[flat|dc:10]을 굴립니다. 성공하면 주문 칩이 파손되고, 실패하면 파괴됩니다. 그날 이미 오버클럭한 주문 칩을 다시 오버클럭하려 하면 수리했더라도 자동으로 파괴되며 주문도 시전되지 않습니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>빈도</strong> 하루에 한 번, 추가로 오버클럭</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
     },
     "Sunburst Garland": {
-      "name": "선버스트 화환(Sunburst Garland)",
+      "name": "태양 폭발 화환(Sunburst Garland)",
       "description": "<p>계피 향이 나는 화려한 코르사주로, 둥근 꽃 장식 중앙에서 주황색과 금색 꽃이 불꽃처럼 뻗어 나옵니다. 라조크의 재점화 축제에서 환영 선물로 줍니다.</p>\n<p><strong>활성화—태양이 빛나게</strong> <span class=\"action-glyph\">2</span> (집중, 치유, 빛)</p>\n<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 화환에 저장된 태양 에너지로 주변 이들의 희망과 정신을 다시 불붙입니다. 1분 동안 20피트 방출 범위에 밝은 빛을 내고, 그다음 20피트에는 희미한 빛을 냅니다. ‘태양이 빛나게’를 사용할 때와 이후 1분 동안 각 턴이 끝날 때, 당신과 20피트 이내의 동료는 HP @Damage[1[healing]]을 회복합니다.</p>\n<p>@UUID[Compendium.sf2e.equipment-effects.Item.9e4U9NUgOytOimaj]{효과: 햇빛을 비추자}</p>"
     },
     "Sunshades (Tactical)": {
@@ -1126,7 +1126,7 @@
     },
     "Ghost Killer": {
       "name": "유령 살해자(Ghost Killer)",
-      "description": "<p>이 업그레이드는 물리적 형체가 없는 크리처에게 피해를 줄 수 있게 합니다. 유령 살해자 무기는 비실체 크리처에게 특히 효과적이며, 이들은 거의 항상 유령 살해자 무기에 특정한 취약성을 지닙니다. 비실체 크리처는 대부분의 물리 물체와 달리 유령 살해자 무기를 만지고, 들고, 사용할 수 있습니다.</p>"
+      "description": "<p>이 업그레이드는 물리적 형체가 없는 크리처에게 피해를 줄 수 있게 합니다. 유령 살해 무기는 비실체 크리처에게 특히 효과적이며, 이들은 거의 항상 유령 살해 무기에 특정한 취약성을 지닙니다. 비실체 크리처는 대부분의 물리 물체와 달리 유령 살해 무기를 만지고, 들고, 사용할 수 있습니다.</p>"
     },
     "Laser Eye": {
       "name": "레이저 눈(Laser Eye)",
@@ -1638,7 +1638,7 @@
     },
     "Aeon Stone (Projecting)": {
       "name": "아이온 스톤(투영)(Aeon Stone (Projecting))",
-      "description": "<p>아즐란트 성간 제국에서 널리 쓰이는 이 보석은 모험가와 부유한 수집가의 인기 있는 지위 상징입니다. 형태와 기능은 다양하지만, 고대에 이세계 존재들이 우주를 건설할 때 사용한 수정 도구의 파편이라고 전해집니다.</p>\n<p>정밀하게 깎인 수정에 투자하면 몸에 착용하는 대신 머리(머리가 없다면 눈에 보이는 다른 신체 부위) 주위를 돕니다. 상호작용 행동으로 <em>아이온 스톤</em>을 보관할 수 있고, 공전 중인 돌은 당신을 상대로 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}에 성공하면 공중에서 낚아챌 수 있습니다. 보관하거나 제거해도 투자 상태는 유지되지만, 다시 머리 주위로 돌게 할 때까지 효과가 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압}됩니다.</p>\n<p>각기 다른 외형과 마법 효과를 지닌 여러 종류의 <em>아이온 스톤</em>이 있습니다. 각 <em>아이온 스톤</em>은 아이온 특성 무기나 <em>웨이파인더</em>라는 고대 마법 장치 같은 특정 아이템에 끼우면 공명 능력도 얻습니다.</p><hr /><p>이 유백색 사파이어 원뿔은 100피트 범위의 제한적인 투영 공감을 부여합니다. 언어와 관계없이 크리처가 대략 이해할 수 있으며, “가벼운 분노”, “강렬한 기쁨”, “깊은 슬픔”처럼 감정의 종류와 강도를 포함합니다. 30피트 이내 크리처의 동기 파악을 시도할 때, @UUID[Compendium.sf2e.spells.Item.qOLMHvkAGsVYLhtn]{사고 감지}의 1행동 버전을 시전한 것처럼 그 크리처에게 생각이 있는지 없는지를 감지합니다. 공명 능력으로 하루에 한 번 1랭크 오컬트 선천 주문으로 @UUID[Compendium.sf2e.spells.Item.uBo6g5aW087cLSJR]{정신 꼬챙이}를 시전할 수 있습니다.</p>"
+      "description": "<p>아즐란트 성간 제국에서 널리 쓰이는 이 보석은 모험가와 부유한 수집가의 인기 있는 지위 상징입니다. 형태와 기능은 다양하지만, 고대에 이세계 존재들이 우주를 건설할 때 사용한 수정 도구의 파편이라고 전해집니다.</p>\n<p>정밀하게 깎인 수정에 투자하면 몸에 착용하는 대신 머리(머리가 없다면 눈에 보이는 다른 신체 부위) 주위를 돕니다. 상호작용 행동으로 <em>아이온 스톤</em>을 보관할 수 있고, 공전 중인 돌은 당신을 상대로 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}에 성공하면 공중에서 낚아챌 수 있습니다. 보관하거나 제거해도 투자 상태는 유지되지만, 다시 머리 주위로 돌게 할 때까지 효과가 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압}됩니다.</p>\n<p>각기 다른 외형과 마법 효과를 지닌 여러 종류의 <em>아이온 스톤</em>이 있습니다. 각 <em>아이온 스톤</em>은 아이온 특성 무기나 <em>웨이파인더</em>라는 고대 마법 장치 같은 특정 아이템에 끼우면 공명 능력도 얻습니다.</p><hr /><p>이 유백색 사파이어 원뿔은 100피트 범위의 제한적인 투영 공감을 부여합니다. 언어와 관계없이 크리처가 대략 이해할 수 있으며, “가벼운 분노”, “강렬한 기쁨”, “깊은 슬픔”처럼 감정의 종류와 강도를 포함합니다. 30피트 이내 크리처의 동기 파악을 시도할 때, @UUID[Compendium.sf2e.spells.Item.qOLMHvkAGsVYLhtn]{생각 탐지}의 1행동 버전을 시전한 것처럼 그 크리처에게 생각이 있는지 없는지를 감지합니다. 공명 능력으로 하루에 한 번 1랭크 오컬트 선천 주문으로 @UUID[Compendium.sf2e.spells.Item.uBo6g5aW087cLSJR]{정신 꿰기}를 시전할 수 있습니다.</p>"
     },
     "Dermal Plating (Elite)": {
       "name": "정예 피부 장갑판(Dermal Plating (Elite))",
@@ -1702,7 +1702,7 @@
     },
     "Aeon Stone (Guiding)": {
       "name": "아이온 스톤(인도)(Aeon Stone (Guiding))",
-      "description": "<p>아즐란트 성간 제국에서 널리 쓰이는 이 보석은 모험가와 부유한 수집가의 인기 있는 지위 상징입니다. 형태와 기능은 다양하지만, 고대에 이세계 존재들이 우주를 건설할 때 사용한 수정 도구의 파편이라고 전해집니다.</p>\n<p>정밀하게 깎인 수정에 투자하면 몸에 착용하는 대신 머리(머리가 없다면 눈에 보이는 다른 신체 부위) 주위를 돕니다. 상호작용 행동으로 <em>아이온 스톤</em>을 보관할 수 있고, 공전 중인 돌은 당신을 상대로 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}에 성공하면 공중에서 낚아챌 수 있습니다. 보관하거나 제거해도 투자 상태는 유지되지만, 다시 머리 주위로 돌게 할 때까지 효과가 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압}됩니다.</p>\n<p>각기 다른 외형과 마법 효과를 지닌 여러 종류의 <em>아이온 스톤</em>이 있습니다. 각 <em>아이온 스톤</em>은 아이온 특성 무기나 <em>웨이파인더</em>라는 고대 마법 장치 같은 특정 아이템에 끼우면 공명 능력도 얻습니다.</p><hr /><p>이 금빛 별은 기쁨에 찬 에너지로 반짝입니다. 공명 능력으로 @UUID[Compendium.sf2e.spells.Item.izcxFQFwf3woCnFs]{지침}를 오컬트 선천 소마법으로 시전할 수 있습니다.</p>\n<p><strong>활성화—우주의 행운</strong> <span class=\"action-glyph\">1</span> (집중, 행운)</p>\n<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>조건</strong> 공격 굴림, 내성 굴림 또는 기술 판정에 대실패함</p><hr /><p><strong>효과</strong> 대실패를 실패로 바꿉니다.</p>"
+      "description": "<p>아즐란트 성간 제국에서 널리 쓰이는 이 보석은 모험가와 부유한 수집가의 인기 있는 지위 상징입니다. 형태와 기능은 다양하지만, 고대에 이세계 존재들이 우주를 건설할 때 사용한 수정 도구의 파편이라고 전해집니다.</p>\n<p>정밀하게 깎인 수정에 투자하면 몸에 착용하는 대신 머리(머리가 없다면 눈에 보이는 다른 신체 부위) 주위를 돕니다. 상호작용 행동으로 <em>아이온 스톤</em>을 보관할 수 있고, 공전 중인 돌은 당신을 상대로 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}에 성공하면 공중에서 낚아챌 수 있습니다. 보관하거나 제거해도 투자 상태는 유지되지만, 다시 머리 주위로 돌게 할 때까지 효과가 @UUID[Compendium.sf2e.conditions.Item.enA7BxAjBb7ns1iF]{제압}됩니다.</p>\n<p>각기 다른 외형과 마법 효과를 지닌 여러 종류의 <em>아이온 스톤</em>이 있습니다. 각 <em>아이온 스톤</em>은 아이온 특성 무기나 <em>웨이파인더</em>라는 고대 마법 장치 같은 특정 아이템에 끼우면 공명 능력도 얻습니다.</p><hr /><p>이 금빛 별은 기쁨에 찬 에너지로 반짝입니다. 공명 능력으로 @UUID[Compendium.sf2e.spells.Item.izcxFQFwf3woCnFs]{안내}를 오컬트 선천 소마법으로 시전할 수 있습니다.</p>\n<p><strong>활성화—우주의 행운</strong> <span class=\"action-glyph\">1</span> (집중, 행운)</p>\n<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>조건</strong> 공격 굴림, 내성 굴림 또는 기술 판정에 대실패함</p><hr /><p><strong>효과</strong> 대실패를 실패로 바꿉니다.</p>"
     },
     "Akashic Lens (Advanced)": {
       "name": "고급 아카식 렌즈(Akashic Lens (Advanced))",
@@ -1826,7 +1826,7 @@
     },
     "Presence Intensifier": {
       "name": "존재감 증폭기(Presence Intensifier)",
-      "description": "<p>이 증강 장치는 성격을 강화해 정체성의 핵심을 이루는 면모를 더욱 강렬하게 만듭니다. 외교와 협박 판정에 +2 아이템 보너스를 얻습니다. 이 증강 장치를 설치할 때 매력 수정치를 1 높이거나 +4로 올립니다. 둘 중 더 높은 값을 주는 쪽을 적용합니다.</p>\n<p><strong>활성화—거부할 수 없는 발상</strong> <span class=\"action-glyph\">2</span> (집중)</p>\n<p><strong>빈도</strong> 한 시간에 한 번</p><hr /><p><strong>효과</strong> 외형을 조절해 4랭크 @UUID[Compendium.sf2e.spells.Item.qwlh6aDgi86U3Q7H]{제안} 주문(DC 38)처럼 크리처 하나에게 영향을 줍니다.</p>"
+      "description": "<p>이 증강 장치는 성격을 강화해 정체성의 핵심을 이루는 면모를 더욱 강렬하게 만듭니다. 외교와 협박 판정에 +2 아이템 보너스를 얻습니다. 이 증강 장치를 설치할 때 매력 수정치를 1 높이거나 +4로 올립니다. 둘 중 더 높은 값을 주는 쪽을 적용합니다.</p>\n<p><strong>활성화—거부할 수 없는 발상</strong> <span class=\"action-glyph\">2</span> (집중)</p>\n<p><strong>빈도</strong> 한 시간에 한 번</p><hr /><p><strong>효과</strong> 외형을 조절해 4랭크 @UUID[Compendium.sf2e.spells.Item.qwlh6aDgi86U3Q7H]{암시} 주문(DC 38)처럼 크리처 하나에게 영향을 줍니다.</p>"
     },
     "Sniper's Scope (Superior)": {
       "name": "상급 저격 조준경(Sniper's Scope (Superior))",

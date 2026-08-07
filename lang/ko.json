@@ -343,128 +343,128 @@
         },
         "CriticalSpecialization": "크리티컬 스페셜라이제이션",
         "Language": {
-          "CommonLanguage": "보통 ({language})",
-          "DetailsPlaceholder": "주의사항, 기타 특이사항",
+          "CommonLanguage": "{language}",
+          "DetailsPlaceholder": "주의사항 또는 기타 특이사항",
           "Plural": "언어",
-          "adlet": "애들렛",
-          "akitonian": "아키톤어",
-          "aklo": "악로",
-          "alghollthu": "알골투",
-          "amurrun": "아무룬",
-          "anadi": "아나디",
-          "ancient-osiriani": "고대 오시리온어",
-          "androffan": "안드로판",
-          "anugobu": "아누고부",
-          "arboreal": "아보리얼",
-          "arcadian": "아르카디아어",
-          "azlanti": "아즐란티",
-          "boggard": "보가드",
-          "calda": "칼다",
-          "caligni": "칼리그니",
-          "chthonian": "크토니안",
-          "common": "공용어",
-          "cyclops": "사이클롭스",
-          "daemonic": "데모닉",
-          "destrachan": "데스트라찬",
-          "diabolic": "디아볼릭",
-          "draconic": "드라코닉",
-          "drooni": "드로니",
-          "dwarven": "드워븐",
-          "dziriak": "드지리아크",
-          "ekujae": "에쿠자에 셰이프스크립트",
-          "elder-thing": "엘더 띵",
-          "elven": "엘븐",
-          "empyrean": "엠피리언",
-          "erutaki": "에루타키",
-          "fey": "페이",
-          "formian": "포미안",
-          "garundi": "가룬드어",
-          "girtablilu": "기르타빌루",
-          "gnomish": "놈미쉬",
-          "goblin": "고블린",
-          "goloma": "골로마",
-          "grioth": "그리오스",
+          "adlet": "애들렛(Adlet)",
+          "akitonian": "아키톤어(Akitonian)",
+          "aklo": "악로(Aklo)",
+          "alghollthu": "알골투(Alghollthu)",
+          "amurrun": "아무룬(Amurrun)",
+          "anadi": "아나디(Anadi)",
+          "ancient-osiriani": "고대 오시리온어(Ancient Osiriani)",
+          "androffan": "안드로판(Androffan)",
+          "anugobu": "아누고부(Anugobu)",
+          "arboreal": "아보리얼(Arboreal)",
+          "arcadian": "아르카디아어(Arcadian)",
+          "azlanti": "아즐란티(Azlanti)",
+          "boggard": "보가드(Boggard)",
+          "calda": "칼다(Calda)",
+          "caligni": "칼리그니(Caligni)",
+          "chthonian": "크토니안(Chthonian)",
+          "common": "공용어(Common)",
+          "cyclops": "사이클롭스(Cyclops)",
+          "daemonic": "데모닉(Daemonic)",
+          "destrachan": "데스트라찬(Destrachan)",
+          "diabolic": "디아볼릭(Diabolic)",
+          "draconic": "드라코닉(Draconic)",
+          "drooni": "드로니(Drooni)",
+          "dwarven": "드워븐(Dwarven)",
+          "dziriak": "드지리아크(D'ziriak)",
+          "ekujae": "에쿠자에 셰이프스크립트(Ekujae shape-script)",
+          "elder-thing": "엘더 띵(Elder Thing)",
+          "elven": "엘븐(Elven)",
+          "empyrean": "엠피리언(Empyrean)",
+          "erutaki": "에루타키(Erutaki)",
+          "fey": "페이(Fey)",
+          "formian": "포미안(Formian)",
+          "garundi": "가룬드어(Garundi)",
+          "girtablilu": "기르타빌루(Girtablilu)",
+          "gnomish": "놈미쉬(Gnomish)",
+          "goblin": "고블린(Goblin)",
+          "goloma": "골로마(Goloma)",
+          "grioth": "그리오스(Grioth)",
           "grippli": "트립키",
-          "halfling": "하플링",
-          "hallit": "할릿",
-          "hwan": "환",
-          "iblydan": "이블리단",
-          "ikeshti": "이케시티",
-          "immolis": "이몰리스",
-          "iruxi": "이룩시",
-          "jistkan": "지스트칸",
-          "jotun": "요툰",
-          "jyoti": "죠티",
-          "kaava": "카아바",
-          "kashrishi": "카쉬리쉬",
-          "kelish": "켈리쉬",
-          "kholo": "콜로",
-          "kibwani": "키브와니",
-          "kitsune": "키츠네",
-          "kovintal": "코빈탈",
-          "lashunta": "라슌타",
-          "lirgeni": "리르게니",
-          "mahwek": "마웨크",
-          "migo": "미고",
-          "minaten": "미나탄",
-          "minkaian": "민카이안",
-          "muan": "무안",
-          "munavri": "무나브리",
-          "mwangi": "므왕기",
-          "mzunu": "므주누",
-          "nagaji": "나가지",
-          "necril": "네크릴",
-          "ocotan": "오코탄",
-          "okaiyan": "오카이얀",
-          "orcish": "오크어",
-          "orvian": "오르비안",
-          "osiriani": "오시리온어",
-          "petran": "페트란",
-          "protean": "프로테안",
-          "pyric": "파이릭",
-          "rasu": "라수",
-          "ratajin": "라타진",
-          "razatlani": "라자틀라니",
-          "requian": "레퀴안",
-          "russian": "러시아",
-          "sakvroth": "삭브로스",
-          "samsaran": "삼사란",
-          "sasquatch": "사스콰치",
-          "senzar": "센자르",
-          "shadowtongue": "섀도우텅",
-          "shae": "셰이",
-          "shisk": "시스크",
-          "shoanti": "쇼안티",
-          "shobhad": "쇼바드",
-          "shoony": "슈니",
-          "shory": "쇼리",
-          "skald": "스칼드",
-          "sphinx": "스핑크스",
-          "strix": "스트릭스",
-          "surki": "서키",
-          "sussuran": "수수란",
-          "taldane": "탈데인",
-          "talican": "탈리칸",
-          "tang": "탕",
-          "tanuki": "타누키",
-          "tekritanin": "테크리타닌",
-          "tengu": "텐구",
-          "thalassic": "탈라식",
-          "thassilonian": "타실론어",
-          "tien": "티엔",
-          "utopian": "유토피언",
-          "vanara": "바나라",
-          "varisian": "바리시아어",
-          "varki": "바르키",
-          "vishkanyan": "비슈카냐",
-          "vudrani": "부드라니",
-          "wildsong": "와일드송",
-          "wyrwood": "와이어우드",
-          "xanmba": "잔바",
-          "wayang": "와양",
-          "yaksha": "약샤",
-          "yithian": "이시티안",
-          "ysoki": "요소키",
+          "halfling": "하플링(Halfling)",
+          "hallit": "할릿(Hallit)",
+          "hwan": "환(Hwan)",
+          "iblydan": "이블리단(Iblydosi)",
+          "ikeshti": "이케시티(Ikeshti)",
+          "immolis": "이몰리스(Immolis)",
+          "iruxi": "이룩시(Iruxi)",
+          "jistkan": "지스트칸(Jistkan)",
+          "jotun": "요툰(Jotun)",
+          "jyoti": "죠티(Jyoti)",
+          "kaava": "카아바(Kaava)",
+          "kashrishi": "카쉬리쉬(Kashrishi)",
+          "kelish": "켈리쉬(Kelish)",
+          "kholo": "콜로(Kholo)",
+          "kibwani": "키브와니(Kibwani)",
+          "kitsune": "키츠네(Kitsune)",
+          "kovintal": "코빈탈(Kovintal)",
+          "lashunta": "라슌타어(Lashunta)",
+          "lirgeni": "리르게니(Lirgeni)",
+          "mahwek": "마웨크(Mahwek)",
+          "migo": "미고(Mi-Go)",
+          "minaten": "미나탄(Minatan)",
+          "minkaian": "민카이안(Minkaian)",
+          "muan": "무안(Muan)",
+          "munavri": "무나브리(Munavri)",
+          "mwangi": "므왕기(Mwangi)",
+          "mzunu": "므주누(Mzunu)",
+          "nagaji": "나가지(Nagaji)",
+          "necril": "네크릴(Necril)",
+          "ocotan": "오코탄(Ocotan)",
+          "okaiyan": "오카이얀(Okaiyan)",
+          "orcish": "오크어(Orcish)",
+          "orvian": "오르비안(Orvian)",
+          "osiriani": "오시리온어(Osiriani)",
+          "petran": "페트란(Petran)",
+          "protean": "프로테안(Protean)",
+          "pyric": "파이릭(Pyric)",
+          "rasu": "라수(Rasu)",
+          "ratajin": "라타진(Ratajin)",
+          "razatlani": "라자틀라니(Razatlani)",
+          "requian": "레퀴안(Requian)",
+          "russian": "러시아(Russian)",
+          "sakvroth": "삭브로스(Sakvroth)",
+          "samsaran": "삼사란(Samsaran)",
+          "sasquatch": "사스콰치(Sasquatch)",
+          "senzar": "센자르(Senzar)",
+          "shadowtongue": "섀도우텅(Shadowtongue)",
+          "shae": "셰이(Shae)",
+          "shisk": "시스크(Shisk)",
+          "shoanti": "쇼안티(Shoanti)",
+          "shobhad": "쇼바드(Shobhad)",
+          "shoony": "슈니(Shoony)",
+          "shory": "쇼리(Shory)",
+          "skald": "스칼드(Skald)",
+          "sphinx": "스핑크스(Sphinx)",
+          "strix": "스트릭스(Strix)",
+          "surki": "서키(Surki)",
+          "sussuran": "수수란(Sussuran)",
+          "taldane": "탈데인(Taldane)",
+          "talican": "탈리칸(Talican)",
+          "tang": "탕(Tang)",
+          "tanuki": "타누키(Tanuki)",
+          "tekritanin": "테크리타닌(Tekritanin)",
+          "tengu": "텐구(Tengu)",
+          "thalassic": "탈라식(Thalassic)",
+          "thassilonian": "타실론어(Thassilonian)",
+          "tien": "티엔(Tien)",
+          "utopian": "유토피언(Utopian)",
+          "vanara": "바나라(Vanara)",
+          "varisian": "바리시아어(Varisian)",
+          "varki": "바르키(Varki)",
+          "vishkanyan": "비슈카냐(Vishkanya)",
+          "vudrani": "부드라니(Vudrani)",
+          "wildsong": "와일드송(Wildsong)",
+          "wyrwood": "와이어우드(Wyrwood)",
+          "xanmba": "잔바(Xanmba)",
+          "wayang": "와양(Wayang)",
+          "yaksha": "약샤(Yaksha)",
+          "yithian": "이시티안(Yithian)",
+          "ysoki": "요소키어(Ysoki)",
           "brenneri": "브레네리어(Brenneri)",
           "copaxi": "코팍시어(Copaxi)",
           "gfolian": "그폴리안어(G'folian)",
@@ -511,13 +511,13 @@
           "primacy": "프라이머시어(Primacy)",
           "raxi": "락시어(Raxi)",
           "rodnarthian": "로드나르시아어(Rodnarthian)",
-          "sarcesian-signed": "사르세시안 수어(Sarcesian Signed)",
+          "sarcesian-signed": "사르세시안 수어(Sarcesian (signed))",
           "starsong": "스타송어(Starsong)",
           "szandite": "잔다이트어(Szandite)",
           "talphirian": "탈피리아어(Talphirian)",
           "thokol": "토콜어(Thokol)",
           "tidespeech": "타이드스피치(Tidespeech)",
-          "triaxian": "트라이액스어(Triaxian)",
+          "triaxian": "트라이액서스어(Triaxian)",
           "trinary": "트라이너리어(Trinary)",
           "vercite": "베르세스어(Vercite)"
         },
@@ -549,7 +549,7 @@
             "Spiritsense": "스피릿센스",
             "Thoughtsense": "토츠센스",
             "Tremorsense": "진동 감지",
-            "Truesight": "트루사이트",
+            "Truesight": "진시야",
             "Vision": "비전",
             "Wavesense": "웨이브센스",
             "ElectromagneticSense": "전자기 감각"
@@ -1022,8 +1022,8 @@
     "CarryType": {
       "attached": "부착",
       "dropped": "내려놓음",
-      "held1": "한 손에 들기",
-      "held2": "양손에 들기",
+      "held1": "한 손에 듦",
+      "held2": "양손에 듦",
       "stowed": "수납",
       "worn": "착용",
       "worn-in-slot": "착용(장착 슬롯)",
@@ -2734,38 +2734,38 @@
         },
         "PriceLabel": "가격: {price}",
         "Usage": {
-          "WornParenthetical": "닳은 ({where})",
+          "WornParenthetical": "착용({where})",
           "WornSlot": {
             "amulet": "아뮬렛",
             "anklets": "발찌",
-            "armbands": "팔찌",
+            "armbands": "완장",
             "armor": "방어구",
             "backpack": "배낭",
-            "barding": "바딩",
+            "barding": "마갑",
             "belt": "벨트",
             "beltpouch": "벨트 파우치",
             "bracelet": "팔찌",
-            "bracers": "브레이서스",
+            "bracers": "완갑",
             "circlet": "서클릿",
-            "cloak": "클록",
+            "cloak": "망토",
             "clothing": "의복",
-            "collar": "칼라",
-            "crown": "크라운",
-            "epaulet": "에폴렛",
+            "collar": "목고리",
+            "crown": "왕관",
+            "epaulet": "견장",
             "eyeglasses": "안경",
             "eyepiece": "접안렌즈",
             "footwear": "신발",
             "garment": "의복",
             "gloves": "장갑",
-            "headwear": "모자",
+            "headwear": "머리 장비",
             "horseshoes": "말굽",
-            "mask": "마스크",
+            "mask": "가면",
             "necklace": "목걸이",
-            "onbelt": "벨트에",
-            "ring": "링",
+            "onbelt": "벨트",
+            "ring": "반지",
             "saddle": "안장",
             "shoes": "신발",
-            "wrist": "손목에"
+            "wrist": "손목"
           }
         },
         "FIELDS": {
@@ -3306,7 +3306,7 @@
           "Hint": "여기서 당신은 리마이그레이션을 실행할 수 있습니다. 이는 배우와 아이템의 문제를 자동으로 해결하려고 시도합니다.",
           "Title": "시스템 문제 해결"
         },
-        "Status": "상태(Status)",
+        "Status": "상태 분석(Status)",
         "Complete": "완료",
         "Download": "다운로드",
         "Incomplete": "미완료",
@@ -3352,7 +3352,7 @@
           "ChangeShape": "<p>괴물은 형태를 바꾸며, 이 형태는 무기한 지속됩니다. 괴물은 이 행동을 다시 사용하여 원래 형태로 돌아가거나 새로운 형태를 취할 수 있습니다. 달리 명시되지 않는 한, 괴물은 형태 변환으로 특정 개인의 모습을 취할 수 없습니다. 형태 변환은 속임수의 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기} 용도로 변장을 만드는 것으로 간주됩니다. 괴물이 변신한 종족이나 크리처 유형의 일원인지 판별하기 위한 지각 DC에는 자동으로 성공하며, 다른 이가 변장을 간파하지 못하게 하는 괴물의 속임수 DC에는 +4 상태 보너스가 적용됩니다. 형태 변환 능력에는 괴물이 취할 수 있는 형태가 명시됩니다. 괴물은 새로운 형태의 특수 능력을 얻지 않고 육체적 형태만 바뀝니다. 예를 들어, 각 형태에서 원래 속도와 타격을 대체하고 감각이나 크기가 달라질 수 있습니다. 모든 변경 사항은 능력치 블록에 기재됩니다.</p>",
           "ConstantSpells": "<p>지속적인 주문은 몬스터가 주문을 시전할 필요 없이 몬스터에게 영향을 미치며, 지속시간은 무제한입니다. 지속적인 주문이 무효화되면, 몬스터는 주문에 필요한 일반적인 주문 시전 행동을 소모하여 재활성화할 수 있습니다.</p>",
           "Constrict": "<p>괴물은 나열된 활력 피해를 @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘} 또는 @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{구속}에 있는 어떤 수의 크리처에게도 입힙니다. 그 크리처들은 각각 나열된 DC로 기본 인내 내성 굴림을 시도할 수 있습니다.</p>",
-          "Coven": "<p>이 몬스터는 코번 능력을 가진 다른 두 마리 이상의 크리처와 코번을 형성할 수 있습니다. 이는 모든 예비 코번 구성원과 함께 8시간의 의식을 치르는 것을 포함합니다. 코번이 형성된 후, 각 구성원은 엘리트 조정을 얻고, 그에 따라 레벨이 조정됩니다. 코번 구성원은 집중 특성을 가진 단일 행동을 소비하여 다른 구성원의 위치와 상태를 감지할 수 있으며, 마찬가지로 집중 특성을 가진 2행동 활동으로 다른 코번 구성원이 감지하는 것을 감지할 수 있습니다.</p>\n<p>코번은 구성원에게 주문과 의식을 부여하지만, 이는 서로 30피트 이내에 있는 세 명의 코번 구성원 간의 협력으로만 시전할 수 있습니다. 코번 구성원은 집중 특성을 가진 단일 행동으로 코번 주문에 기여할 수 있습니다. 지난 라운드 내에 두 명의 코번 구성원이 이러한 행동에 기여했다면, 세 번째 구성원은 일반적인 주문 시전 행동을 소비하여 자신의 턴에 코번 주문을 시전할 수 있습니다. 코번은 코번 주문을 무제한으로 시전할 수 있지만, 매 라운드 하나의 코번 주문만 시전할 수 있습니다. 모든 코번은 8랭크 @UUID[Compendium.sf2e.spells.Item.dN8QBNuTiaBHCKUe]{저주받은 메타모포시스} 주문과 코번이 5랭크까지 어떤 랭크에서든 시전할 수 있는 다음 주문들을 모두 부여합니다: @UUID[Compendium.sf2e.spells.Item.41TZEjhO6D1nWw2X]{오거리}, @UUID[Compendium.sf2e.spells.Item.vLA0q0WOK2YPuJs6]{참}, @UUID[Compendium.sf2e.spells.Item.HXhWYJviWalN5tQ2]{클레어오디언스}, @UUID[Compendium.sf2e.spells.Item.zvKWclOZ7A53DObE]{클레어보얀스}, @UUID[Compendium.sf2e.spells.Item.yM3KTTSAIHhyuP14]{꿈의 전언}, @UUID[Compendium.sf2e.spells.Item.i35dpZFI7jZcRoBo]{환상 변장}, @UUID[Compendium.sf2e.spells.Item.Ucf8eynbZMfUucjE]{환영 장면}, @UUID[Compendium.sf2e.spells.Item.Ek5XI0aEdZhBgm21]{스카우팅 아이}, 그리고 @UUID[Compendium.sf2e.spells.Item.FM3SmEW8N1FCRjqt]{토킹 코르프스}. 코번 능력을 가진 개별 크리처는 자신이 가입하는 코번에 추가 주문을 부여합니다. 코번은 표준 DC 대신 DC 23으로 @UUID[Compendium.sf2e.spells.Item.XkDCzMIyc0YOjw05]{날씨 조절} 의식을 시전할 수도 있습니다.</p>\n<p>코번 구성원의 이탈이나 사망으로 코번 구성원이 세 명 미만이 되면, 남은 구성원은 24시간 동안 엘리트 조정을 유지하지만, 필요한 행동에 기여할 구성원이 충분하지 않아 코번 주문을 시전할 수 없습니다.</p>",
+          "Coven": "<p>이 몬스터는 코번 능력을 가진 다른 두 마리 이상의 크리처와 코번을 형성할 수 있습니다. 이는 모든 예비 코번 구성원과 함께 8시간의 의식을 치르는 것을 포함합니다. 코번이 형성된 후, 각 구성원은 엘리트 조정을 얻고, 그에 따라 레벨이 조정됩니다. 코번 구성원은 집중 특성을 가진 단일 행동을 소비하여 다른 구성원의 위치와 상태를 감지할 수 있으며, 마찬가지로 집중 특성을 가진 2행동 활동으로 다른 코번 구성원이 감지하는 것을 감지할 수 있습니다.</p>\n<p>코번은 구성원에게 주문과 의식을 부여하지만, 이는 서로 30피트 이내에 있는 세 명의 코번 구성원 간의 협력으로만 시전할 수 있습니다. 코번 구성원은 집중 특성을 가진 단일 행동으로 코번 주문에 기여할 수 있습니다. 지난 라운드 내에 두 명의 코번 구성원이 이러한 행동에 기여했다면, 세 번째 구성원은 일반적인 주문 시전 행동을 소비하여 자신의 턴에 코번 주문을 시전할 수 있습니다. 코번은 코번 주문을 무제한으로 시전할 수 있지만, 매 라운드 하나의 코번 주문만 시전할 수 있습니다. 모든 코번은 8랭크 @UUID[Compendium.sf2e.spells.Item.dN8QBNuTiaBHCKUe]{저주받은 변신} 주문과 코번이 5랭크까지 어떤 랭크에서든 시전할 수 있는 다음 주문들을 모두 부여합니다: @UUID[Compendium.sf2e.spells.Item.41TZEjhO6D1nWw2X]{점복}, @UUID[Compendium.sf2e.spells.Item.vLA0q0WOK2YPuJs6]{매혹}, @UUID[Compendium.sf2e.spells.Item.HXhWYJviWalN5tQ2]{천리청}, @UUID[Compendium.sf2e.spells.Item.zvKWclOZ7A53DObE]{천리안}, @UUID[Compendium.sf2e.spells.Item.yM3KTTSAIHhyuP14]{꿈의 전언}, @UUID[Compendium.sf2e.spells.Item.i35dpZFI7jZcRoBo]{환영 변장}, @UUID[Compendium.sf2e.spells.Item.Ucf8eynbZMfUucjE]{환영 장면}, @UUID[Compendium.sf2e.spells.Item.Ek5XI0aEdZhBgm21]{정찰의 눈}, 그리고 @UUID[Compendium.sf2e.spells.Item.FM3SmEW8N1FCRjqt]{시체와 대화}. 코번 능력을 가진 개별 크리처는 자신이 가입하는 코번에 추가 주문을 부여합니다. 코번은 표준 DC 대신 DC 23으로 @UUID[Compendium.sf2e.spells.Item.XkDCzMIyc0YOjw05]{날씨 조절} 의식을 시전할 수도 있습니다.</p>\n<p>코번 구성원의 이탈이나 사망으로 코번 구성원이 세 명 미만이 되면, 남은 구성원은 24시간 동안 엘리트 조정을 유지하지만, 필요한 행동에 기여할 구성원이 충분하지 않아 코번 주문을 시전할 수 없습니다.</p>",
           "Darkvision": "<p>암시야를 가진 괴물은 어둠과 희미한 빛의 영역에서도 완벽하게 볼 수 있지만, 그러한 시야는 흑백으로만 보입니다. 4랭크 @UUID[Compendium.sf2e.spells.Item.4GE2ZdODgIQtg51c]{어둠} 주문과 같은 일부 마법 어둠은 일반적인 암시야를 차단합니다. 그러나 @UUID[Compendium.sf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{상급 암시야}를 가진 괴물은 이러한 형태의 마법 어둠조차도 볼 수 있습니다.</p>",
           "Disease": "<p>크리처가 몬스터의 질병에 노출되면 인내 내성 굴림을 시도하며, 실패하면 질병에 걸립니다. 질병의 레벨은 질병을 유발하는 몬스터의 레벨과 같습니다. 이 질병은 고통 효과의 규칙을 따릅니다.</p>",
           "Engulf": "<p>괴물은 자신의 속도의 두 배만큼 성큼성큼 나아가며, 경로 상에 있는 어떤 크리처의 공간도 통과할 수 있습니다. 괴물이 통과하는 공간에 있는 괴물과 같은 크기 또는 그보다 작은 크기의 모든 크리처는 명시된 DC로 반사 내성 굴림을 시도하여 삼켜지는 것을 피할 수 있습니다. 행동할 수 없는 크리처는 자동으로 이 내성 굴림에 대실패합니다. 크리처가 내성 굴림에 성공하면, 밀쳐져서 (괴물의 경로에서 벗어나거나) 괴물의 이동 경로 끝까지 괴물 앞으로 밀리는 것을 선택할 수 있습니다. 괴물은 흡수 능력 한 번 사용 시 같은 크리처를 한 번만 흡수하려고 시도할 수 있습니다. 괴물은 자신의 공간에 들어갈 수 있는 만큼 많은 크리처를 포함할 수 있습니다.</p>\n<p>내성 굴림에 실패한 크리처는 괴물의 몸속으로 끌려 들어갑니다. 그 크리처는 @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘}이며, @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}이고, 숨을 참거나 질식하기 시작해야 합니다. 크리처는 처음 삼켜졌을 때와 삼켜진 동안 자신의 턴이 끝날 때마다 명시된 피해량을 받습니다. 삼켜진 크리처는 명시된 탈출 DC에 대해 @UUID[Compendium.sf2e.actions.Item.SkZAQRkLLkmBQNB9]{탈출}하여 자유로워질 수 있습니다. 삼켜진 크리처는 자신을 삼킨 괴물을 공격할 수 있지만, 비무장 공격이나 경량 벌크 이하의 무기로만 공격할 수 있습니다. 삼키는 크리처는 공격에 대해 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비}입니다. 괴물이 단일 공격이나 주문으로부터 명시된 파열 값 이상의 관통 또는 참격 피해를 받으면, 삼켜진 크리처는 스스로 풀려납니다.</p>\n<p>@UUID[Compendium.sf2e.bestiary-effects.Item.1cbIe569UD6paXad]{효과: 휩쓸고 통째로 삼키기}</p>\n<p>어떤 방법으로든 자유로워진 크리처는 즉시 숨을 쉴 수 있으며 삼킨 괴물의 공간에서 나옵니다.</p>\n<p>괴물이 죽으면, 괴물의 형태가 결합력을 잃으면서 삼켜진 모든 크리처는 자동으로 풀려납니다.</p>",
@@ -3391,7 +3391,7 @@
           "ThrowRock": "<p>괴물이 손이 닿는 곳에 있는 돌을 집어 들거나, 보관해 둔 돌을 꺼내 던져 원거리 타격을 합니다.</p>",
           "Trample": "<p>괴물은 자신의 속도의 두 배만큼 성큼성큼 나아가며, 명시된 크기의 크리처의 공간을 통과할 수 있으며, 자신이 들어간 공간의 각 크리처를 짓밟습니다. 괴물은 단일 짓밟기 사용 시 같은 크리처를 한 번만 짓밟으려고 시도할 수 있습니다. 괴물은 명시된 타격의 피해를 입히지만, 짓밟힌 크리처는 명시된 DC로 기본 반사 내성 굴림을 시도할 수 있습니다 (대성공 시 피해 없음, 성공 시 피해 절반, 대실패 시 피해 두 배).</p>",
           "Tremorsense": "<p>트레머센스는 몬스터가 고체 표면을 통한 진동을 느껴 움직임을 감지하게 하는 능력입니다.  이는 정확하지 않은 감각이며, 사거리는 제한적입니다 (능력에 명시되어 있습니다). 트레머센스는 몬스터가 대상과 같은 표면에 있고, 대상이 표면을 따라 움직이거나 (또는 표면을 파고 들어갈 때)  작동합니다.</p>",
-          "TroopDefenses": "<p>부대는 전투격자 상의 네 개의 \"세그먼트\"로 표현되는 여러 개인들로 구성됩니다. 각 세그먼트는 각 변이 10피트이며 부대원들의 키만큼 높습니다. 세그먼트는 인접해 있어야 합니다. 각 세그먼트는 적어도 5피트의 변을 다른 세그먼트와 공유해야 합니다—대각선으로 인접한 것은 충분하지 않습니다! 당신은 어떤 세그먼트의 중심을 사용하여 측면 공격, 은폐 등을 측정할 수 있습니다.</p>\n<p>부대는 HP 항목에 두 개의 HP 임계값을 가지며 임계값을 넘어서면 세그먼트를 잃습니다. 일반적으로 더 높은 임계값은 부대의 최대 HP의 2/3이고 더 낮은 임계값은 1/3입니다. 부대가 더 높은 임계값 아래로 떨어지면 세그먼트 하나를 잃고 세 개의 세그먼트(12칸)가 남으며 첫 번째 임계값이 부대의 새로운 최대 HP로 설정됩니다. 부대가 더 낮은 임계값 아래로 떨어지면 세그먼트 두 개(8칸)가 남고 이 과정이 반복됩니다. HP가 0이 되면 부대는 완전히 해산되고, 남은 소수의 대원들은 항복하거나, @UUID[Compendium.sf2e.conditions.Item.sDPxOjQ9kx2RZE8D]{도주}, 또는 GM이 결정하는 대로 쉽게 제압됩니다. 일반적으로 부대가 세그먼트를 잃게 한 크리처가 어떤 세그먼트를 제거할지 결정하거나, 특정 크리처가 책임이 없는 경우 GM이 결정합니다. 잃어버린 세그먼트와 최대 HP를 회복하려면 부대는 사상자에 대한 장기 치료를 사용하거나 전사를 대체할 새로운 대원을 모집하기 위해 휴식시간을 보내야 합니다.</p>\n<p>부대는 일반적으로 단일 크리처를 대상으로 하는 비피해 효과(예: @UUID[Compendium.sf2e.spells.Item.vLA0q0WOK2YPuJs6]{참} 주문 또는 @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하} 행동)에 면역입니다. 5마리 이상의 크리처를 대상으로 할 수 있는 능력은 전체 세그먼트를 대상으로 할 수 있으며, 10마리 이상의 크리처를 대상으로 할 수 있는 경우 두 개의 세그먼트로, 20마리 이상의 크리처를 대상으로 할 수 있는 경우 전체 부대로 증가합니다. 특정 범위 내의 모든 크리처에 영향을 미치는 능력은 범위 내의 모든 세그먼트에 영향을 미칩니다(각 세그먼트에 대해 판정 또는 내성 굴림을 별도로 합니다). 예를 들어, 8등급 <em>참</em> 주문(대상 10개)은 두 개의 세그먼트에 영향을 미칠 수 있으며, 당신으로부터 30피트 이내의 모든 크리처를 사기저하시키는 능력은 그 범위 내에 완전히 있는 모든 세그먼트에 영향을 미칩니다. 세그먼트의 행동을 막거나, 도망치게 하거나, 라운드 이상 부대의 일원으로서 기능하지 못하게 하는 비피해 능력은 세그먼트를 완전히 제거합니다. 부대는 다음 임계값에 도달하는 데 필요한 만큼의 HP를 잃습니다. 능력이 피해를 주고 비피해 효과를 가지는 경우, 먼저 피해를 적용한 다음 나머지 효과를 적용합니다.</p>",
+          "TroopDefenses": "<p>부대는 전투격자 상의 네 개의 \"세그먼트\"로 표현되는 여러 개인들로 구성됩니다. 각 세그먼트는 각 변이 10피트이며 부대원들의 키만큼 높습니다. 세그먼트는 인접해 있어야 합니다. 각 세그먼트는 적어도 5피트의 변을 다른 세그먼트와 공유해야 합니다—대각선으로 인접한 것은 충분하지 않습니다! 당신은 어떤 세그먼트의 중심을 사용하여 측면 공격, 은폐 등을 측정할 수 있습니다.</p>\n<p>부대는 HP 항목에 두 개의 HP 임계값을 가지며 임계값을 넘어서면 세그먼트를 잃습니다. 일반적으로 더 높은 임계값은 부대의 최대 HP의 2/3이고 더 낮은 임계값은 1/3입니다. 부대가 더 높은 임계값 아래로 떨어지면 세그먼트 하나를 잃고 세 개의 세그먼트(12칸)가 남으며 첫 번째 임계값이 부대의 새로운 최대 HP로 설정됩니다. 부대가 더 낮은 임계값 아래로 떨어지면 세그먼트 두 개(8칸)가 남고 이 과정이 반복됩니다. HP가 0이 되면 부대는 완전히 해산되고, 남은 소수의 대원들은 항복하거나, @UUID[Compendium.sf2e.conditions.Item.sDPxOjQ9kx2RZE8D]{도주}, 또는 GM이 결정하는 대로 쉽게 제압됩니다. 일반적으로 부대가 세그먼트를 잃게 한 크리처가 어떤 세그먼트를 제거할지 결정하거나, 특정 크리처가 책임이 없는 경우 GM이 결정합니다. 잃어버린 세그먼트와 최대 HP를 회복하려면 부대는 사상자에 대한 장기 치료를 사용하거나 전사를 대체할 새로운 대원을 모집하기 위해 휴식시간을 보내야 합니다.</p>\n<p>부대는 일반적으로 단일 크리처를 대상으로 하는 비피해 효과(예: @UUID[Compendium.sf2e.spells.Item.vLA0q0WOK2YPuJs6]{매혹} 주문 또는 @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하} 행동)에 면역입니다. 5마리 이상의 크리처를 대상으로 할 수 있는 능력은 전체 세그먼트를 대상으로 할 수 있으며, 10마리 이상의 크리처를 대상으로 할 수 있는 경우 두 개의 세그먼트로, 20마리 이상의 크리처를 대상으로 할 수 있는 경우 전체 부대로 증가합니다. 특정 범위 내의 모든 크리처에 영향을 미치는 능력은 범위 내의 모든 세그먼트에 영향을 미칩니다(각 세그먼트에 대해 판정 또는 내성 굴림을 별도로 합니다). 예를 들어, 8등급 <em>매혹</em> 주문(대상 10개)은 두 개의 세그먼트에 영향을 미칠 수 있으며, 당신으로부터 30피트 이내의 모든 크리처를 사기저하시키는 능력은 그 범위 내에 완전히 있는 모든 세그먼트에 영향을 미칩니다. 세그먼트의 행동을 막거나, 도망치게 하거나, 라운드 이상 부대의 일원으로서 기능하지 못하게 하는 비피해 능력은 세그먼트를 완전히 제거합니다. 부대는 다음 임계값에 도달하는 데 필요한 만큼의 HP를 잃습니다. 능력이 피해를 주고 비피해 효과를 가지는 경우, 먼저 피해를 적용한 다음 나머지 효과를 적용합니다.</p>",
           "TroopMovement": "<p>부대가 이동할 때마다, 당신은 부대의 일부분을 이동시키고 다른 부분들은 그 뒤를 따릅니다. 이동이 끝나면, 당신은 움직인 부분에 인접하게 다른 부분들을 당신이 원하는 대로 배치할 수 있습니다. 단, 움직인 부분보다 더 멀리 이동하는 부분은 없어야 합니다. 부대를 어떤 거리라도 이동시키지 않기로 선택한다면, 대신 한 부분은 제자리에 있는 상태로 모든 부분의 위치를 재배치할 수 있습니다.</p>",
           "Wavesense": "<p>이 감각을 통해 괴물은 액체를 통한 이동으로 인한 진동을 느낄 수 있습니다.  정확하지 않은 감각이며, 사거리는 제한적입니다 (능력에 기재되어 있습니다). 웨이브센스는 괴물과 대상이 같은 액체 속에 있고, 대상이 액체를 통해 이동하는 경우에만 기능합니다.</p>",
           "Hover": "괴물의 지상 속도에 부유가 표시되어 있으면, 지상 속도는 단단한 표면에서 5피트 이내로 부유하며 이동할 수 있는 속도를 나타냅니다. 부유하는 크리처는 비행 중으로 취급되지 않지만, GM의 판단에 따라 특정 유형의 험난하거나 위어려운 지형을 피할 수 있습니다.",
@@ -4696,7 +4696,7 @@
     "TraitDescriptionBard": "이는 바드 클래스의 능력을 나타냅니다.",
     "TraitDescriptionBarding": "당신은 바딩이라고 불리는, 동물을 위한 특수 갑옷을 구입할 수 있습니다. 모든 동물은 가벼운 바딩에 숙련 등급을 가지고 있으며, 전투 훈련을 받은 동물은 무거운 바딩에 숙련되어 있습니다. 바딩은 다음을 제외하고는 갑옷과 같은 규칙을 사용합니다. 바딩의 가격과 벌크는 동물의 크기에 따라 다릅니다. 갑옷과 달리, 바딩의 힘 항목은 점수가 아닌 수정치로 표시됩니다. 바딩에는 마법 룬을 새길 수 없지만, 특별한 마법 바딩이 있을 수 있습니다.",
     "TraitDescriptionBeast": "동물과 비슷하지만 지능 수정치가 –3 이상인 크리처는 보통 짐승입니다. 동물과 달리, 짐승은 말하고 추론할 수 있을지도 모릅니다.",
-    "TraitDescriptionBeastkin": "동물 형태로 부분적 또는 완전히 변신할 수 있는 휴마노이드입니다.",
+    "TraitDescriptionBeastkin": "동물 형태로 부분적 또는 완전히 변신할 수 있는 휴머노이드입니다.",
     "TraitDescriptionBlight": "블라이트는 자연의 분노의 부패입니다.",
     "TraitDescriptionBoggard": "보가드는 개구리 같은 휴머노이드입니다. 보통은 암시야을 가지고 있습니다.",
     "TraitDescriptionBomb": "연금술 폭탄은 폭발성 연금술 재료들을 결합하여 폭탄이 크리처나 물체에 부딪히면 폭발하는 것입니다. 대부분의 연금술 폭탄은 피해를 입히지만, 일부는 다른 효과를 발생시키기도 합니다.",
@@ -5214,7 +5214,7 @@
     "TraitHoly": "신성한",
     "TraitHryngar": "흐링가르",
     "TraitHuman": "휴먼",
-    "TraitHumanoid": "휴마노이드",
+    "TraitHumanoid": "휴머노이드",
     "TraitHungerseed": "헝거시드",
     "TraitIfrit": "이프릿",
     "TraitIkeshti": "이크슈티",
@@ -5628,43 +5628,43 @@
     "TraitWitch": "위치",
     "TraitWizard": "위저드",
     "TraitWood": "나무",
-    "TraitWorn": "낡은",
-    "TraitWornAmulet": "낡은 아뮬렛",
-    "TraitWornAndAttachedToTwoWeapons": "두 무기에 장착되어 마모됨",
-    "TraitWornAnklets": "낡은 발찌",
-    "TraitWornArmbands": "낡은 팔찌",
-    "TraitWornBackpack": "낡은 배낭",
-    "TraitWornBarding": "낡은 바딩",
-    "TraitWornBelt": "낡은 벨트",
-    "TraitWornBeltPouch": "낡은 허리춤 주머니",
-    "TraitWornBoots": "낡은 신발",
-    "TraitWornBracelet": "낡은 팔찌",
-    "TraitWornBracers": "낡은 팔보호구",
-    "TraitWornCap": "낡은 모자",
-    "TraitWornCape": "낡은 망토",
-    "TraitWornCirclet": "낡은 머리띠",
-    "TraitWornCloak": "낡은 망토",
-    "TraitWornClothing": "낡은 의복",
-    "TraitWornCollar": "닳은 칼라",
-    "TraitWornCrown": "낡은 왕관",
-    "TraitWornEpaulet": "낡은 견장",
-    "TraitWornEyeglasses": "낡은 안경",
-    "TraitWornEyepiece": "낡은 렌즈",
-    "TraitWornFootwear": "닳은 신발",
-    "TraitWornGarment": "낡은 의복",
-    "TraitWornGloves": "낡은 장갑",
-    "TraitWornHeadwear": "낡은 머리 장식",
-    "TraitWornHorseshoes": "닳은 말편자",
-    "TraitWornMask": "낡은 가면",
-    "TraitWornNecklace": "낡은 목걸이",
+    "TraitWorn": "착용",
+    "TraitWornAmulet": "아뮬렛 착용",
+    "TraitWornAndAttachedToTwoWeapons": "착용 및 두 무기에 부착",
+    "TraitWornAnklets": "발찌 착용",
+    "TraitWornArmbands": "완장 착용",
+    "TraitWornBackpack": "배낭 착용",
+    "TraitWornBarding": "마갑 착용",
+    "TraitWornBelt": "벨트 착용",
+    "TraitWornBeltPouch": "벨트 파우치 착용",
+    "TraitWornBoots": "장화 착용",
+    "TraitWornBracelet": "팔찌 착용",
+    "TraitWornBracers": "완갑 착용",
+    "TraitWornCap": "모자 착용",
+    "TraitWornCape": "망토 착용",
+    "TraitWornCirclet": "서클릿 착용",
+    "TraitWornCloak": "망토 착용",
+    "TraitWornClothing": "의복 착용",
+    "TraitWornCollar": "목걸이형 장비 착용",
+    "TraitWornCrown": "왕관 착용",
+    "TraitWornEpaulet": "견장 착용",
+    "TraitWornEyeglasses": "안경 착용",
+    "TraitWornEyepiece": "접안렌즈 착용",
+    "TraitWornFootwear": "신발 착용",
+    "TraitWornGarment": "의복 착용",
+    "TraitWornGloves": "장갑 착용",
+    "TraitWornHeadwear": "머리 장비 착용",
+    "TraitWornHorseshoes": "말굽 착용",
+    "TraitWornMask": "가면 착용",
+    "TraitWornNecklace": "목걸이 착용",
     "TraitWornOnBelt": "벨트에 착용",
     "TraitWornOnWrists": "손목에 착용",
-    "TraitWornOrOneHand": "한 손에 착용하거나 들고 있음",
-    "TraitWornRing": "낡은 반지",
-    "TraitWornSaddle": "낡은 안장",
-    "TraitWornSandles": "낡은 샌들",
-    "TraitWornShoes": "낡은 신발",
-    "TraitWornUnderArmor": "가벼운 갑옷이나 옷 아래에 착용",
+    "TraitWornOrOneHand": "착용 또는 한 손에 듦",
+    "TraitWornRing": "반지 착용",
+    "TraitWornSaddle": "안장 착용",
+    "TraitWornSandles": "샌들 착용",
+    "TraitWornShoes": "신발 착용",
+    "TraitWornUnderArmor": "경갑 또는 의복 아래에 착용",
     "TraitWraith": "레이스",
     "TraitWraithvine": "레이스바인",
     "TraitWyrwood": "위어우드",
@@ -6210,7 +6210,7 @@
       "anchoring": {
         "Name": "앵커링",
         "Note": {
-          "criticalSuccess": "당신이 앵커링 무기로 적에게 치명타를 입히면, 그 무기는 적에게 @UUID[Compendium.sf2e.spells.Item.ksLCg62cLOojw3gN]{플래너 테더}을(를) 시전합니다 (@Check[will|dc:27|name:Anchoring Rune], 대응 수정치 [[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
+          "criticalSuccess": "당신이 앵커링 무기로 적에게 치명타를 입히면, 그 무기는 적에게 @UUID[Compendium.sf2e.spells.Item.ksLCg62cLOojw3gN]{차원 사슬}을(를) 시전합니다 (@Check[will|dc:27|name:Anchoring Rune], 대응 수정치 [[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
         }
       },
       "ashen": {
@@ -6338,8 +6338,8 @@
       "greaterAnchoring": {
         "Name": "그레이터 앵커링",
         "Note": {
-          "criticalSuccess": "당신이 앵커링 룬이 있는 무기로 적에게 치명타를 입히면, 그 무기는 적에게 8랭크 @UUID[Compendium.sf2e.spells.Item.ksLCg62cLOojw3gN]{플래너 테더}을 시전합니다 (@Check[will|dc:38|name:Greater Anchoring Rune], 반작용 수정치 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}). 단, 적이 의지 내성 굴림에 치명적으로 성공하면, 아무런 효과가 없는 대신에 <em>차원 앵커</em>가 1라운드 동안 지속됩니다.",
-          "success": "당신이 무기로 적중시켰지만 치명타를 입히지 못한 경우, 적은 내성 굴림 없이 1 라운드 동안 4랭크 @UUID[Compendium.sf2e.spells.Item.ksLCg62cLOojw3gN]{플래너 테더} 의 영향을 받습니다 (상쇄 수정치 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
+          "criticalSuccess": "당신이 앵커링 룬이 있는 무기로 적에게 치명타를 입히면, 그 무기는 적에게 8랭크 @UUID[Compendium.sf2e.spells.Item.ksLCg62cLOojw3gN]{차원 사슬}을 시전합니다 (@Check[will|dc:38|name:Greater Anchoring Rune], 반작용 수정치 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}). 단, 적이 의지 내성 굴림에 치명적으로 성공하면, 아무런 효과가 없는 대신에 <em>차원 앵커</em>가 1라운드 동안 지속됩니다.",
+          "success": "당신이 무기로 적중시켰지만 치명타를 입히지 못한 경우, 적은 내성 굴림 없이 1 라운드 동안 4랭크 @UUID[Compendium.sf2e.spells.Item.ksLCg62cLOojw3gN]{차원 사슬} 의 영향을 받습니다 (상쇄 수정치 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
         }
       },
       "greaterAshen": {
@@ -7055,10 +7055,10 @@
       "DistributeEachMessage": "{container}에서 각자 {share}씩 {recipients}에게 분배했습니다."
     },
     "ui": {
-      "armorEquipped": "장비 착용을 전환하십시오.",
+      "armorEquipped": "방어구 착용/해제",
       "equipmentInvested": "투자 전환",
       "sell": "판매",
-      "weaponEquipped": "무기를 쥐는 것을 전환하십시오."
+      "weaponEquipped": "무기 들기/내려놓기"
     },
     "vehicle": {
       "BrokenThresholdShortLabel": "BT",
@@ -8240,13 +8240,13 @@
           "Hag": "해그",
           "Human": "휴먼",
           "Humanoid": {
-            "Humanoid": "인간형",
+            "Humanoid": "휴머노이드",
             "Large": "대형 인간형",
             "Medium": "중형 인간형",
             "Small": "소형 인간형",
             "Winged": "날개 달린 인간형"
           },
-          "HumanoidLarge": "거대한 휴먼노이드",
+          "HumanoidLarge": "거대한 휴머노이드",
           "HumanoidMedium": "중형 휴머노이드",
           "HumanoidSmall": "소형 휴머노이드",
           "Hybrid": "하이브리드",
@@ -8457,7 +8457,7 @@
           "Amphibious": "수륙양용",
           "Animal": "동물",
           "Aquatic": "수생",
-          "Humanoid": "휴마노이드",
+          "Humanoid": "휴머노이드",
           "NoneOrOther": "해당되는 경우, 저항을 수동으로 선택하십시오."
         }
       },
@@ -8785,7 +8785,7 @@
         }
       },
       "TongueOfFlame": {
-        "DescriptionAddendum": "폭군이 <em>참</em>, <em>디아볼릭 에딕트</em>, <em>인스롤</em>, 또는 <em>플로팅 플레임</em>을 시전할 때, 대상은 @Damage[(@item.rank)[fire]] 피해를 입거나, 폭군은 1라운드 동안 속임수 판정에 +2 상태 보너스를 얻습니다."
+        "DescriptionAddendum": "폭군이 <em>매혹</em>, <em>디아볼릭 에딕트</em>, <em>인스롤</em>, 또는 <em>플로팅 플레임</em>을 시전할 때, 대상은 @Damage[(@item.rank)[fire]] 피해를 입거나, 폭군은 1라운드 동안 속임수 판정에 +2 상태 보너스를 얻습니다."
       },
       "ToothFairy": {
         "ToothTug": {
@@ -11763,7 +11763,7 @@
           "Activation": "당신이 @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{매혹} 또는 @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{우둔}라면, 해당 효과가 내성 굴림을 허용했다면 추가적인 내성 굴림을 시도하여 효과를 종료할 수 있습니다.",
           "Description": "당신의 강력한 경외감은 전염성이 있고 주의를 분산시킬 수 있습니다.",
           "Fallout": "당신은 감정을 가라앉힐 때까지 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비}이 됩니다.",
-          "Fervor": "당신이 주문을 시전할 때, 당신의 주문 공격 굴림에 맞았거나 내성 굴림에 실패한 크리처 하나를 선택하십시오. 만약 없다면 선택하지 않아도 됩니다. 그 크리처는 당신의 다음 턴이 끝날 때까지 당신에게 매료됩니다. 그 후 1시간 동안 이 열정 효과에 일시적으로 면역됩니다. 주문: @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{리빌링 라이트}",
+          "Fervor": "당신이 주문을 시전할 때, 당신의 주문 공격 굴림에 맞았거나 내성 굴림에 실패한 크리처 하나를 선택하십시오. 만약 없다면 선택하지 않아도 됩니다. 그 크리처는 당신의 다음 턴이 끝날 때까지 당신에게 매료됩니다. 그 후 1시간 동안 이 열정 효과에 일시적으로 면역됩니다. 주문: @UUID[Compendium.sf2e.spells.Item.0qaqksrGGDj74HXE]{드러내는 빛}",
           "Focus": "@UUID[Compendium.sf2e.spells.Item.zul5cBTfr7NXHBZf]{눈부신 섬광} (종교적인 상징은 필요하지 않습니다)",
           "Label": "경외감",
           "Trigger": "당신 또는 30피트 이내의 아군이 적의 AC에 대한 공격 굴림 또는 적의 DC 중 하나에 대한 기술 판정에서 대성공을 거둡니다."
@@ -11772,7 +11772,7 @@
           "Activation": "당신의 감정적 집중으로 레벨의 절반을 올림하여 얻은 만큼의 임시 HP를 얻습니다. 이 임시 HP는 1분 동안 지속됩니다.",
           "Description": "당신의 헌신은 당신이 헌신하는 사람들을 보호하지만, 의존으로 이어질 수 있습니다. 당신의 감정적 집중은 당신이 얽매인 개체 하나에 있습니다.",
           "Fallout": "당신의 감정을 가라앉힐 때까지, 당신의 감정적 초점에 인접해 있지 않으면 주문을 시전할 수 없습니다.",
-          "Fervor": "당신의 감정적 집중을 목표로 하는 당신의 주문은 리치 스펠의 효과를 얻습니다. 당신의 감정적 집중에 영향을 미치는 치유 주문을 시전할 때, 당신의 감정적 집중은 주문 효과에 더하여 주문의 등급과 같은 양의 임시 HP를 얻습니다. 이 임시 HP는 1분 동안 지속됩니다. 주문: @UUID[Compendium.sf2e.spells.Item.yHujiDQPdtXW797e]{스피릿 링크}",
+          "Fervor": "당신의 감정적 집중을 목표로 하는 당신의 주문은 리치 스펠의 효과를 얻습니다. 당신의 감정적 집중에 영향을 미치는 치유 주문을 시전할 때, 당신의 감정적 집중은 주문 효과에 더하여 주문의 등급과 같은 양의 임시 HP를 얻습니다. 이 임시 HP는 1분 동안 지속됩니다. 주문: @UUID[Compendium.sf2e.spells.Item.yHujiDQPdtXW797e]{영혼 연결}",
           "Focus": "@UUID[Compendium.sf2e.spells.Item.rQYob0QMJ0I1U2sU]{수호자의 희생}",
           "Label": "헌정",
           "Trigger": "당신께서 30피트 내에 있을 때, 적에게 감정 집중이 피해를 입습니다."
@@ -11808,7 +11808,7 @@
           "Activation": "당신 또는 당신의 감정적 집중 대상이 @UUID[Compendium.sf2e.conditions.Item.yblD8fOR1J8rDwEQ]{혼란} 또는 @UUID[Compendium.sf2e.conditions.Item.9qGBRpbX9NEwtAAr]{조종됨}인 경우, 당신 중 한 명은 혼란이나 지배 효과(내성 굴림이 허용된 경우)에 대한 새로운 내성 굴림을 시도할 수 있으며, 새로운 내성 굴림이 성공하면 상태가 종료됩니다. 당신 둘 모두 해당되는 경우에는 당신의 감정적 집중 대상이 새로운 내성 굴림을 합니다.",
           "Description": "당신은 사랑의 유대감으로 맺어져 있으며, 그 어떤 것도 그것을 깨뜨릴 수 없습니다. 하지만 사랑은 당신의 삶의 다른 것들로부터 당신의 주의를 흩뜨릴 수 있습니다. 당신의 감정적 초점은 당신이 사랑하는 사람에게 맞춰져 있습니다; 그들이 당신을 되돌아 사랑할 필요는 없습니다.",
           "Fallout": "당신은 감정 집중으로 1분 동안 @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{매혹}입니다.",
-          "Fervor": "당신은 의지 내성 굴림에 +1 상태 보너스를 얻습니다. 당신의 감정적 집중에 이로운 주문을 시전하면, 이 보너스는 당신의 다음 턴이 시작될 때까지 +3으로 증가합니다. 주문: @UUID[Compendium.sf2e.spells.Item.szIyEsvihc5e1w8n]{수즈}",
+          "Fervor": "당신은 의지 내성 굴림에 +1 상태 보너스를 얻습니다. 당신의 감정적 집중에 이로운 주문을 시전하면, 이 보너스는 당신의 다음 턴이 시작될 때까지 +3으로 증가합니다. 주문: @UUID[Compendium.sf2e.spells.Item.szIyEsvihc5e1w8n]{진정의 노래}",
           "Focus": "@UUID[Compendium.sf2e.spells.Item.YGRpHU5yxw73mls8]{위로의 말}",
           "Toggle": "당신은 감정 집중에 도움이 되는 주문을 시전합니다.",
           "Label": "사랑",
@@ -11818,7 +11818,7 @@
           "Activation": "당신의 레벨과 같은 수의 임시 HP를 얻습니다. 1분 동안 지속됩니다.",
           "Description": "고통을 받는다는 것은 당신이 살아있다는 것을 아는 것입니다. 당신이 받았던 만큼 적들에게 고통을 안겨주는 것은 당신의 고통을 덜어줍니다.",
           "Fallout": "당신은 감정을 가라앉힐 때까지 당신이 시전하는 모든 주문으로 입히는 모든 피해에 무형의 페널티를 받습니다. 페널티는 주문 랭크당 -1입니다.",
-          "Fervor": "당신은 지속 피해를 종료하기 위해 순수 판정을 시도하지 않기로 선택할 수 있습니다. 당신이 피해를 주는 주문을 시전할 때, 내성 굴림에 실패하거나 주문 공격 굴림으로 당신이 명중시킨 크리처 하나를 선택할 수 있습니다. 그 대상은 주문이 입힌 것과 같은 종류의 지속 피해를 받는데, 그 양은 당신이 현재 가지고 있는 가장 높은 지속 피해량과 같습니다. 이미 지속 피해를 받고 있는 크리처를 선택할 수 없습니다. 주문: @UUID[Compendium.sf2e.spells.Item.R8bqnYiThB6MYTxD]{팬텀 페인}",
+          "Fervor": "당신은 지속 피해를 종료하기 위해 순수 판정을 시도하지 않기로 선택할 수 있습니다. 당신이 피해를 주는 주문을 시전할 때, 내성 굴림에 실패하거나 주문 공격 굴림으로 당신이 명중시킨 크리처 하나를 선택할 수 있습니다. 그 대상은 주문이 입힌 것과 같은 종류의 지속 피해를 받는데, 그 양은 당신이 현재 가지고 있는 가장 높은 지속 피해량과 같습니다. 이미 지속 피해를 받고 있는 크리처를 선택할 수 없습니다. 주문: @UUID[Compendium.sf2e.spells.Item.R8bqnYiThB6MYTxD]{환상통}",
           "Focus": "@UUID[Compendium.sf2e.spells.Item.xn0V2HDrmDWNzPEt]{고통 음미}",
           "Label": "고통",
           "Trigger": "당신은 적에게서 지속 피해를 입습니다."
@@ -11827,7 +11827,7 @@
           "Activation": "대실패는 실패가 됩니다.",
           "Description": "당신이 잘 보이는 동안에는 모든 것이 잘 되지만, 순간에 휩쓸려 중요한 것을 놓치게 됩니다.",
           "Fallout": "당신은 잠시 동안 현실감을 잃고 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.yblD8fOR1J8rDwEQ]{혼란}이 됩니다. 주문: @UUID[Compendium.sf2e.spells.Item.j8vIoIEWElvpwkcI]{거울상}",
-          "Fervor": "당신이 환영 마법을 시전할 때마다, 당신의 다음 턴이 시작될 때까지, 공격 굴림이나 내성 굴림에서 발생하는 모든 대실패는 실패로 간주됩니다. 마법: @UUID[Compendium.sf2e.spells.Item.UKsIOWmMx4hSpafl]{현기증 나는 색채}",
+          "Fervor": "당신이 환영 마법을 시전할 때마다, 당신의 다음 턴이 시작될 때까지, 공격 굴림이나 내성 굴림에서 발생하는 모든 대실패는 실패로 간주됩니다. 마법: @UUID[Compendium.sf2e.spells.Item.UKsIOWmMx4hSpafl]{현란한 색채}",
           "Focus": "@UUID[Compendium.sf2e.spells.Item.Q25JQAgnJSGgFDKZ]{자신감의 장막}",
           "Label": "자존심",
           "Trigger": "당신은 공격 굴림 또는 내성 굴림에서 대실패하셨습니다."
@@ -11862,7 +11862,7 @@
           "Label": "신성 스마이트"
         },
         "ExaltedGreatness": {
-          "Grandeur": "당신의 플래시 오브 그랑되르가 만들어낸 어떤 _리빌링 라이트_든지 1분 동안 지속됩니다.",
+          "Grandeur": "당신의 플래시 오브 그랑되르가 만들어낸 어떤 _드러내는 빛_든지 1분 동안 지속됩니다.",
           "Iniquity": "유발한 크리처를 제외한 적에게 가하는 피해는 @Damage[(ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor.level,12),4,ternary(gte(@actor.level,9),3,ternary(gte(@actor.level,5),2,1))))))[spirit]] 피해만큼 증가합니다 (피해를 절반으로 줄인 후 적용).",
           "Justice": "당신의 엑설티드 반응으로 인한 아군에 대한 페널티는 -5 대신 -2입니다.",
           "Label": "숭고한 위대함",
@@ -11872,7 +11872,7 @@
         },
         "ExaltedReaction": {
           "Desecration": "당신의 챔피언의 오라 안에 있는 각 적들은 당신의 다음 턴이 시작될 때까지 당신에 대한 공격 굴림에 –1 상태 페널티를 받습니다. @UUID[Compendium.sf2e.feat-effects.Item.Ef63SlxSKlZmHosM]{Effect: Exalted Reaction (Desecrator)}",
-          "Grandeur": "플래시 오브 그랑디어의 영향을 받은 적 외에도, 당신의 챔피언의 오라 내의 다른 모든 적들은 1 라운드 동안 _리빌링 라이트_ 주문의 영향을 받습니다.",
+          "Grandeur": "플래시 오브 그랑디어의 영향을 받은 적 외에도, 당신의 챔피언의 오라 내의 다른 모든 적들은 1 라운드 동안 _드러내는 빛_ 주문의 영향을 받습니다.",
           "Iniquity": "당신의 챔피언의 오라 안에 있는, 발동 몬스터를 제외한 모든 적들은 당신이 발동 몬스터에게 준 피해의 절반을 받습니다.",
           "Justice": "당신의 챔피언의 오라 안에 있는, 적과 근접 거리에 있는 모든 아군은 반응으로 –5 페널티를 받고 타격을 사용할 수 있습니다.",
           "Liberation": "리베레이팅 스텝의 영향을 받은 아군 외에도, 당신과 챔피언의 오라 안에 있는 다른 모든 아군들은 자유 행동으로 걸음을 사용할 수 있습니다. 리베레이팅 스텝의 혜택을 받은 아군이 이동할 수 없더라도, 당신과 당신의 아군들은 그 효과를 얻습니다.",
@@ -11912,7 +11912,7 @@
           "Description": "응보의 타격을 할 때 근접 타격 대신 원거리 무기로 원거리 타격을 할 수 있습니다. 적은 원거리 무기의 사거리 안이면서 당신의 도달 거리 밖에 있어야 하며, 여전히 챔피언 오라 안에 있어야 합니다. 또한 조금 더 먼 적에게 근접 타격을 할 수 있습니다. 반응을 유발한 적이 도달 거리 밖이지만 도달 거리에서 5피트 이내라면, 반응의 일부로 적을 도달 거리 안에 두도록 걸음한 뒤 근접 응보의 타격을 할 수 있습니다."
         },
         "RelentlessReaction": {
-          "Grandeur": "적도 @Damage[(@actor.abilities.cha.mod)[persistent,spirit]|traits:holy] 피해를 입고, 당신의 플래시 오브 그랑되르의 _리빌링 라이트_의 영향을 받는 동안 이 지속 피해에서 회복할 수 없습니다.",
+          "Grandeur": "적도 @Damage[(@actor.abilities.cha.mod)[persistent,spirit]|traits:holy] 피해를 입고, 당신의 플래시 오브 그랑되르의 _드러내는 빛_의 영향을 받는 동안 이 지속 피해에서 회복할 수 없습니다.",
           "Iniquity": "초기 반응의 피해를 입은 적은 @Damage[(@actor.abilities.cha.mod)[persistent,spirit]|traits:unholy] 피해를 추가로 받습니다.",
           "Liberation": "당신은 당신의 아군을 속박하는 자들을 처벌합니다. 만약 당신이 리버레이팅 걸음을 사용했을 때, 조건이 된 적이 당신의 아군을 붙잡거나, 속박하거나, 기동력을 제한하거나, 마비시키는 효과를 사용하고 있었다면, 그 적은 @Damage[(@actor.abilities.cha.mod)[persistent,spirit]] 피해를 입습니다.",
           "LiberationHoly": "당신은 당신의 아군을 속박하는 자들을 응징합니다. 만약 당신이 리버레이팅 걸음을 사용했을 때, 조건이 된 적이 당신의 아군을 붙잡거나, 속박하거나, 기동력을 제한하거나, 마비시키는 효과를 사용하고 있었다면, 그 적은 @Damage[(@actor.abilities.cha.mod)[persistent,spirit]|traits:holy] 피해를 입습니다.",
@@ -11937,7 +11937,7 @@
         "Anadi": "당신은 자신의 인간 또는 거미 형태로 변신합니다. 각 형태는 특정하고 지속적인 외형을 가지고 있습니다. 인간 형태에서는 당신의 조상으로부터 부여받은 비무장 공격을 사용할 수 없습니다. 거미 형태일 때는 등반 중에 무방비 상태가 아닙니다. 그러나 거미 형태에서는 어떠한 종류의 무기, 방패 또는 기타 휴대 아이템을 사용할 수 없으며, 조작 특성을 가진 행동에 제한을 받습니다. 당신이 취할 수 있는 유일한 조작 행동은 @UUID[Compendium.sf2e.actions.Item.aBQ8ajvEBByv45yz]{주문 시전}을 사용한 체술, 거미줄이나 거미집 짜기, 또는 잠긴 문 열기와 같은 단순한 @UUID[Compendium.sf2e.actions.Item.pvQ5rY2zrtPI614F]{상호작용} 행동입니다. 당신의 거미 다리는 손가락이나 상당한 수동적인 숙련을 필요로 하는 행동, 즉 성공 여부를 판정해야 하는 모든 행동을 수행할 수 없습니다. GM은 다른 조작 행동이 당신의 거미 다리에 적절하다고 판단할 수도 있습니다.",
         "Beastkin": "당신은 당신의 휴머노이드 또는 하이브리드 형태로 변신합니다. 각 형태는 특정하고 지속적인 외모를 가지며, 대부분의 비스트킨은 기본적으로 하이브리드 형태를 유지합니다. 하이브리드 형태에서는 당신의 조상과 당신의 고유한 동물의 혼합된 모습으로 보입니다. 하이브리드 형태일 때, 당신은 당신의 고유한 동물의 특징을 닮은 턱 비무장 타격(박쥐의 경우 송곳니, 독수리의 경우 부리, 말벌의 경우 큰턱 등)를 얻습니다. 당신의 턱은 1d4 관통 피해를 주며, 에자일, 피네스, 비무장 특성을 가지고 있으며 브롤링 무기 그룹에 속합니다. 휴머노이드 형태에서는 당신은 당신의 원래 조상의 외모를 유지합니다.",
         "Kitsune": "당신의 유산에 따라 결정되는 특정한 변신 형태로 변합니다. 당신의 유산에 형태가 나열되어 있지 않다면, 당신의 변신 형태는 꼬리가 없는 형태이며, 이는 당신이 자란 곳에서 흔히 볼 수 있는 중형 휴머노이드의 조상(일반적으로 인간)입니다. 이 형태는 당신의 진짜 형태와 같은 나이와 체형이며, 머리 색깔과 같은 대략 유사한 신체적 특징을 가지고 있습니다.  '형태 변환' 사용은 속임수 사용에 대한 변장을 만드는 것으로 간주됩니다.  @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기} 당신은 이 형태에서 키츠네 유산이나 종족 피트로 얻은 비무장 공격을 잃습니다. 당신은 무기한으로 변신 형태를 유지할 수 있으며, 이 행동을 다시 사용하여 당신의 진짜 키츠네 형태로 돌아갈 수 있습니다.",
-        "Tanuki": "당신은 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{페스트 폼}의 능력치를 사용하여 평범한 너구리로 변신할 수 있습니다. 이것은 당신의 본래 형태와 같은 나이와 체형을 가진 특정한 너구리 형태이며, 털 색깔과 같은 신체적 특징도 거의 유사합니다.  변신 사용은 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}의 속임수 사용으로 간주됩니다. 당신은 이 형태에서는 너구리 유산이나 종족 피트로 얻은 비무장 공격을 잃습니다. 당신은 너구리 형태로 무기한 머물 수 있으며, 이 행동을 다시 사용하여 타누키 형태로 돌아갈 수 있습니다.",
+        "Tanuki": "당신은 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{해충 형상}의 능력치를 사용하여 평범한 너구리로 변신할 수 있습니다. 이것은 당신의 본래 형태와 같은 나이와 체형을 가진 특정한 너구리 형태이며, 털 색깔과 같은 신체적 특징도 거의 유사합니다.  변신 사용은 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}의 속임수 사용으로 간주됩니다. 당신은 이 형태에서는 너구리 유산이나 종족 피트로 얻은 비무장 공격을 잃습니다. 당신은 너구리 형태로 무기한 머물 수 있으며, 이 행동을 다시 사용하여 타누키 형태로 돌아갈 수 있습니다.",
         "Werecreature": "당신은 자신의 하이브리드 또는 동물 형태로 변신합니다. 당신의 장비는 당신과 함께 변신하며 계속해서 보너스를 제공하지만, 당신의 동물 형태는 무기, 방패 또는 기타 휴대 아이템을 사용할 수 없으며 조작 행동을 할 수 없습니다. 당신은 웨어크리처 유형에 따라 이동 속도, 비무장 공격, 그리고 다른 잠재적인 능력을 얻습니다. 이러한 비무장 공격은 난투 그룹에 속합니다. 당신은 효과를 해제하여 인간형 형태로 돌아갈 수 있으며, 0 HP로 줄어들면 자동으로 인간형 형태로 돌아갑니다.",
         "Yaoguai": "당신은 당신의 진정한 야오구아이 형태와 인간형 대체 형태 사이를 변신합니다. 이 형태는 당신이 태어난 곳에서 흔히 볼 수 있는 중형 인간형 조상 (일반적으로 인간)입니다. 이 형태는 당신의 야오구아이 형태와 같은 외견상 나이와 체형이며, 머리 색깔과 같은 거의 유사한 신체적 특징을 가지고 있습니다.  ‘형태 변환’ 사용은 속임수 사용을 위한 변장을 만드는 것으로 간주됩니다. @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기} 당신은 인간형 형태로 무기한 머물 수 있지만, 1시간의 무의식 또는 사망 후 1분 후에 야오구아이 형태로 돌아갑니다."
       },
@@ -12197,7 +12197,7 @@
       },
       "Cleric": {
         "BattleHarbinger": {
-          "DivineFont": "당신의 신성 폰트로 @UUID[Compendium.sf2e.spells.Item.rfZpqmj0AIIdkVIs]{치유} 또는 @UUID[Compendium.sf2e.spells.Item.wdA52JJnsuQWeyqz]{해악} 주문을 준비하는 대신, 전투 폰트를 얻게 됩니다. 이를 통해 전투 오라 주문을 준비할 수 있습니다. 당신은 클레릭 주문 슬롯의 가장 높은 등급에서 매일 4개의 추가 주문 슬롯을 얻습니다. 이 슬롯에는 @UUID[Compendium.sf2e.spells.Item.7ZinJNzxq0XF0oMx]{베인} 또는 @UUID[Compendium.sf2e.spells.Item.XSujb7EsSwKl19Uu]{블레스}만 준비할 수 있습니다. 전투 오라를 언급하는 모든 특성과 효과는 표준 주문 슬롯이나 신성 폰트 주문 슬롯으로 시전했는지 여부에 관계없이 이러한 주문을 가리킵니다. 5레벨에 추가 슬롯 수는 5개로 증가하고, 15레벨에 추가 슬롯의 총 수는 6개로 증가합니다. 당신의 전투 오라는 주문 DC 대신 당신의 클래스 DC를 사용합니다.",
+          "DivineFont": "당신의 신성 폰트로 @UUID[Compendium.sf2e.spells.Item.rfZpqmj0AIIdkVIs]{치유} 또는 @UUID[Compendium.sf2e.spells.Item.wdA52JJnsuQWeyqz]{해악} 주문을 준비하는 대신, 전투 폰트를 얻게 됩니다. 이를 통해 전투 오라 주문을 준비할 수 있습니다. 당신은 클레릭 주문 슬롯의 가장 높은 등급에서 매일 4개의 추가 주문 슬롯을 얻습니다. 이 슬롯에는 @UUID[Compendium.sf2e.spells.Item.7ZinJNzxq0XF0oMx]{저주} 또는 @UUID[Compendium.sf2e.spells.Item.XSujb7EsSwKl19Uu]{축복}만 준비할 수 있습니다. 전투 오라를 언급하는 모든 특성과 효과는 표준 주문 슬롯이나 신성 폰트 주문 슬롯으로 시전했는지 여부에 관계없이 이러한 주문을 가리킵니다. 5레벨에 추가 슬롯 수는 5개로 증가하고, 15레벨에 추가 슬롯의 총 수는 6개로 증가합니다. 당신의 전투 오라는 주문 DC 대신 당신의 클래스 DC를 사용합니다.",
           "BattleFont": {
             "Label": "전투 샘"
           }
@@ -13527,7 +13527,7 @@
           },
           "MutantMagic": {
             "Label": "돌연변이 마법",
-            "Description": "@UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(원시; @UUID[Compendium.sf2e.spells.Item.thAHF1zxNplLCJPO]{카우스틱 블래스트}) 표준화 종족 피트를 얻습니다. 단, 입에서 산성 덩어리를 뱉어내므로 주문은 조작 특성을 지니지 않습니다."
+            "Description": "@UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(원시; @UUID[Compendium.sf2e.spells.Item.thAHF1zxNplLCJPO]{부식성 폭발}) 표준화 종족 피트를 얻습니다. 단, 입에서 산성 덩어리를 뱉어내므로 주문은 조작 특성을 지니지 않습니다."
           },
           "Suckers": {
             "Label": "흡착판",
@@ -14632,7 +14632,7 @@
           "TargetOfPsychicIre": "주문의 대상 하나를 선택합니다. 정신 현상이 대상에게 달려듭니다. 보통 물체가 스스로 대상에게 날아갑니다. 대상의 각 턴 시작마다 대상은 @Damage[(@item.level)d4[bludgeoning]] 피해를 받고 @Check[reflex|against:occult|basic]{기본 반사} 내성 굴림을 시도합니다. 대상은 3라운드 동안 정신적 분노의 표식을 유지합니다. 당신이 @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{무의식} 상태가 되거나 범위를 벗어나도 효과는 지속됩니다.",
           "TelekineticHand": {
             "Base": "당신은 수많은 텔레키네틱 핸즈를 만들어 크리처를 붙잡고 움직입니다. 물체 대신 중간 크기 또는 그보다 작은 크리처를 앰프드 스펠의 대상으로 삼습니다. 당신은 능력치 판정 대신 그 크리처의 인내 내성 굴림에 대한 스펠 공격 굴림을 시도하여 당신이 선택한 방향으로 대상을 @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{밀치기}하려 합니다. 그 크리처는 스펠이 끝날 때까지 이동 속도에 -10피트 상황 페널티를 받습니다. 당신이 스펠을 시전한 라운드 다음 라운드부터, 당신이 스펠을 유지하는 매 라운드 처음 한 번, 당신은 그 크리처를 쇼브할 수 있습니다.",
-            "Heightened": "당신은 그 크리처를 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}하는 대신 @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{밀치기}하려고 시도할 수 있습니다. 이런 방식으로 물건을 그 크리처의 손아귀에서 떨어뜨리면, 텔레키네틱 핸드는 즉시 그것을 잡습니다. 그 크리처에 대한 텔레키네틱 핸드의 모든 효과는 끝나고, 마법은 이제 당신이 증폭되지 않은 텔레키네틱 핸드로 집어 들었던 것처럼 그 물건을 운반합니다."
+            "Heightened": "당신은 그 크리처를 @UUID[Compendium.sf2e.actions.Item.Dt6B1slsBy8ipJu9]{무장 해제}하는 대신 @UUID[Compendium.sf2e.actions.Item.7blmbDrQFNfdT731]{밀치기}하려고 시도할 수 있습니다. 이런 방식으로 물건을 그 크리처의 손아귀에서 떨어뜨리면, 염동력 손는 즉시 그것을 잡습니다. 그 크리처에 대한 염동력 손의 모든 효과는 끝나고, 마법은 이제 당신이 증폭되지 않은 염동력 손로 집어 들었던 것처럼 그 물건을 운반합니다."
           },
           "TelekineticProjectile": {
             "Base": "당신은 더욱 강력한 힘으로 물체를 던져, 상대방을 물체의 폭풍 속으로 밀어붙입니다. 성공 시, 당신은 목표 대상을 당신으로부터 5피트 뒤로 밀어내고, 대성공 시에는 목표 대상을 당신으로부터 10피트 뒤로 밀어내는 것과 더불어 두 배의 피해를 줍니다.",
@@ -14645,7 +14645,7 @@
           "TesseractTunnel": "공간상의 두 지점을 연결하는 데 더 이상 물리적인 이동이 필요하지 않습니다. 당신이 테서랙트 터널 주문을 시전하면, 당신의 속도와 같은 거리 내에 정사각형으로 끝나는 터널을 생성하기만 하면 됩니다. 당신은 터널의 먼 쪽 끝 공간으로 즉시 순간이동할 수 있습니다.  게다가, 터널은 입구에서 출구로만 이동하는 것이 아니라 양방향으로 통과할 수 있습니다. 마지막으로, 주문의 지속시간은 1분으로 변경됩니다. 당신은 주문을 해제할 수 있습니다.",
           "ThermalStasis": "주문의 지속시간이 1분이 됩니다.",
           "Toggle": "앰프 사이 소마법",
-          "VectorScreen": "당신의 벡터 스크린은 더 오래 지속되며, 당신은 그것을 폭발적인 반격으로 폭파시킬 수 있습니다. 주문의 지속시간은 1분으로 증가합니다. 당신은 주문을 해제할 수 있습니다. 만약 스크린에 포획된 발사체가 있다면, 당신은 주문을 해제하는 과정의 일부로 하나의 크리처에게 발사체를 발사하기 위해 텔레키네틱 프로젝타일을 시전할 수 있습니다. 당신이 아닌 벡터 스크린이 있던 곳으로부터 텔레키네틱 프로젝타일의 사거리를 측정하십시오.",
+          "VectorScreen": "당신의 벡터 스크린은 더 오래 지속되며, 당신은 그것을 폭발적인 반격으로 폭파시킬 수 있습니다. 주문의 지속시간은 1분으로 증가합니다. 당신은 주문을 해제할 수 있습니다. 만약 스크린에 포획된 발사체가 있다면, 당신은 주문을 해제하는 과정의 일부로 하나의 크리처에게 발사체를 발사하기 위해 염동력 투사체을 시전할 수 있습니다. 당신이 아닌 벡터 스크린이 있던 곳으로부터 염동력 투사체의 사거리를 측정하십시오.",
           "WarpSpace": "당신이 시선과 효과 범위가 도달하는 30피트 이내의 정사각형을 선택하십시오. 거기서부터 당신의 주문의 시선과 효과 범위, 그리고 크리처들이 그 주문에 대해 은폐물을 가지고 있는지 여부를 결정하십시오. 당신이 선택한 정사각형으로부터 주문의 일반적인 사거리 내에 있다면, 주문은 당신으로부터 측정한 일반적인 사거리를 초과할 수 있습니다.",
           "WarpStep": {
             "Base": "당신은 거의 생각하지 않고도 공간을 압축하여 주문을 단일 행동으로 시전할 수 있습니다.",
@@ -14660,40 +14660,40 @@
           "RemoveEnergy": "에너지 제거"
         },
         "PsiCantripLabels": {
-          "Daze": "데이즈",
+          "Daze": "멍함",
           "DetectMagic": "마법 탐지",
           "DistortionLens": "왜곡 렌즈",
           "Figment": "피그먼트",
           "ForbiddenThought": "금단의 사고",
           "Frostbite": "프로스트바이트",
           "GlimpseWeakness": "약점 포착",
-          "Guidance": "지침",
+          "Guidance": "안내",
           "Ignition": "점화",
           "ImaginaryWeapon": "상상 무기",
           "Message": "메시지",
           "PhaseBolt": "페이즈 볼트",
           "Shield": "쉴드",
-          "TelekineticHand": "텔레키네틱 핸드",
-          "TelekineticProjectile": "텔레키네틱 프로젝타일",
+          "TelekineticHand": "염동력 손",
+          "TelekineticProjectile": "염동력 투사체",
           "TelekineticRend": "텔레키네틱 렌드",
           "ThermalStasis": "서멀 스테이시스",
           "WarpStep": "워프 걸음"
         },
         "SpellModification": {
-          "Daze": "당신은 먼 거리에서도 _데이즈_를 사용할 수 있습니다. 사거리는 120피트로 증가합니다.",
+          "Daze": "당신은 먼 거리에서도 _멍함_를 사용할 수 있습니다. 사거리는 120피트로 증가합니다.",
           "DeepRoots": "당신이 @UUID[Compendium.sf2e.spells.Item.aIHY2DArKFweIrpf]{조종됨} 상태를 부여하거나,  @UUID[Compendium.sf2e.spells.Item.aIHY2DArKFweIrpf]{명령} 와 같이 대상에게 특정 행동을 강제하는 주문을 시전할 때, 내성 굴림에 대실패한 대상 하나를 선택할 수 있습니다. 그 대상이 주문에 의해 지시된 모든 명령을 완료하거나, 주문이 해제 또는 무효화되면,  @Damage[(@item.level)d6[mental]] 피해를 받습니다.",
           "DetectMagic": "당신은 다른 주문 시전자들이 꿈꿀 수밖에 없는 섬세한 조종 능력을 가지고 있습니다. 당신이 _detect magic_을 시전할 때, 당신은 영향력이 미치는 곳에 있는 주문의 영향을 받는 모든 크리처나 마법 아이템을 소지한 크리처를 인지하며, 영향력이 미치는 곳에 있는 모든 마법 위험 요소 내부의 마법의 주요 위치를 (환영 탐지에 대한 일반적인 제약 사항을 고려하여) 판단합니다. 이것은 일반적으로 시각의 변화, 예를 들어 크리처나 위험 요소 주변에 부드러운 오라를 보는 것으로 나타납니다. 이러한 현상을 감지한다고 해서 어떤 주문이 크리처에게 걸려 있는지, 또는 어떤 아이템이 마법 아이템인지 명확해지는 것은 아닙니다.",
-          "Figment": "_피그먼트_의 사거리가 60피트로 증가합니다. 주문을 지속할 때 겉으로 드러나는 소리나 형상을 최대 15피트까지 이동시킬 수 있습니다. 그런 다음 평소처럼 [[/act create-a-diversion]]{주의 돌리기}를 시도할 수 있습니다. 환영을 불신한 크리처는 이 주의 돌리기의 영향을 받지 않습니다.",
-          "Frostbite": "당신은 더 먼 거리에서도 사람들을 얼릴 수 있습니다. 당신의 _프로스트바이트_ 사거리가 120피트로 증가합니다.",
-          "Guidance": "당신은 어디에나 눈이 있어서, 먼 거리에서도 사람들을 안내할 수 있습니다.  _가이던스_의 범위가 120피트로 증가합니다.",
+          "Figment": "_허상_의 사거리가 60피트로 증가합니다. 주문을 지속할 때 겉으로 드러나는 소리나 형상을 최대 15피트까지 이동시킬 수 있습니다. 그런 다음 평소처럼 [[/act create-a-diversion]]{주의 돌리기}를 시도할 수 있습니다. 환영을 불신한 크리처는 이 주의 돌리기의 영향을 받지 않습니다.",
+          "Frostbite": "당신은 더 먼 거리에서도 사람들을 얼릴 수 있습니다. 당신의 _동상_ 사거리가 120피트로 증가합니다.",
+          "Guidance": "당신은 어디에나 눈이 있어서, 먼 거리에서도 사람들을 안내할 수 있습니다.  _안내_의 범위가 120피트로 증가합니다.",
           "Ignition": "_점화_를 원거리 공격으로 사용할 때 사거리가 60피트로 증가합니다. _점화_를 근접 공격으로 사용할 때 도달 거리가 5피트 증가합니다.",
           "Message": "당신의 메시지는 장애물에 의해 그렇게 쉽게 묶이지 않습니다. 주문은 목표물에 도달하기 위해 최대 120피트까지 이동할 수 있으며, 벽과 장애물을 돌아갈 수 있습니다. 즉, 당신이 목표물의 공간을 알고 있으며 120피트 이하의 막히지 않은 경로가 있다면, 직선 효과 또는 시야가 없더라도 메시지를 시전할 수 있습니다.",
           "PhaseBolt": "당신의 _페이즈 볼트_가 적중하면, 대상의 은폐가 일시적으로 페이즈 아웃됩니다. 성공 시, 당신의 다음 턴이 시작될 때까지 대상의 AC 상황 보너스(있는 경우)를 1 감소시킵니다.",
           "PsychicRapport": "정신 특성이 있는 주문을 시전한 후 자신의 다음 턴 시작까지 속임수, 외교, 협박 판정과 [[/act sense-motive]]{동기 유추}를 위한 지각 판정에 +1 상황 보너스를 얻습니다.",
-          "Shield": "당신의 _쉴드_ 주문은 다른 사람을 위해 사용될 수 있습니다. 당신이 쉴드 주문을 시전할 때, 당신 대신 주문의 효과를 얻을 아군 대상을 30피트 이내에서 선택할 수 있습니다.  쉴드 블록으로 주문을 사용할지는 당신의 선택이며, 대상의 반응이 아닌 당신의 반응을 사용합니다.",
+          "Shield": "당신의 _방패_ 주문은 다른 사람을 위해 사용될 수 있습니다. 당신이 쉴드 주문을 시전할 때, 당신 대신 주문의 효과를 얻을 아군 대상을 30피트 이내에서 선택할 수 있습니다.  쉴드 블록으로 주문을 사용할지는 당신의 선택이며, 대상의 반응이 아닌 당신의 반응을 사용합니다.",
           "StrainMind": "당신은 주문에 1 포커스 포인트가 드는 앰프를 추가합니다. 일반적인 포커스 포인트 비용을 지불하는 대신, 코에서 피를 흘리거나 다른 눈에 보이는 긴장의 징후를 보이는 것처럼 앰프된 사이 소마법의 주문 랭크의 네 배에 해당하는 HP를 잃습니다.",
-          "TelekineticHand": "당신의 _텔레키네틱 핸드_는 경량 벌크 대신 최대 벌크 1까지 운반할 수 있습니다. 만약 주문이 3랭크 이상으로 강화된다면, 최대 벌크는 2가 됩니다. 만약 주문이 7랭크 이상으로 강화된다면, 최대 벌크는 3이 됩니다.",
-          "TelekineticProjectile": "당신의 텔레키네틱 프로젝타일은 훨씬 더 멀리 날아갈 수 있습니다. 텔레키네틱 프로젝타일의 사거리를 60피트로 증가시킵니다.",
+          "TelekineticHand": "당신의 _염동력 손_는 경량 벌크 대신 최대 벌크 1까지 운반할 수 있습니다. 만약 주문이 3랭크 이상으로 강화된다면, 최대 벌크는 2가 됩니다. 만약 주문이 7랭크 이상으로 강화된다면, 최대 벌크는 3이 됩니다.",
+          "TelekineticProjectile": "당신의 염동력 투사체은 훨씬 더 멀리 날아갈 수 있습니다. 염동력 투사체의 사거리를 60피트로 증가시킵니다.",
           "ThoughtformSummoning": "당신이 크리처를 소환할 때마다, 당신은 대신 그 크리처의 사이킥 컨스트럭트를 생성하도록 선택할 수 있습니다. 이것은 그 크리처에게 자신의 레벨의 절반에 해당하는 물리 피해 저항, 힘과 정신 피해에 대한 약점 5, 그리고 적의 공간을 통과하는 능력 (단, 차례를 끝낼 때는 점유된 공간에 있을 수 없습니다)을 부여합니다. @UUID[Compendium.sf2e.actions.Item.21WIfSu7Xd7uKqV8]{곡예 통과}",
           "WarpStep": "당신은 공간을 더욱 압축하여 워프 걸음을 사용할 때 +5피트 상태 보너스 대신 +10피트 상태 보너스를 속도에 얻습니다."
         },
@@ -14793,15 +14793,15 @@
           "Title": "삶의 반영"
         },
         "ReflectionOfLight": {
-          "Description": "당신은 타고난 신성 주문으로서 @UUID[Compendium.sf2e.spells.Item.DyiD239dNS7RIxZE]{홀리 라이트}를 시전합니다. 이 주문은 당신 레벨의 절반을 올림하여 얻은 주문 랭크로 강화됩니다.",
+          "Description": "당신은 타고난 신성 주문으로서 @UUID[Compendium.sf2e.spells.Item.DyiD239dNS7RIxZE]{성스러운 빛}를 시전합니다. 이 주문은 당신 레벨의 절반을 올림하여 얻은 주문 랭크로 강화됩니다.",
           "Title": "삶의 반영"
         },
         "ReflectionOfStone": {
-          "Description": "당신은 타고난 신성 주문으로서 @UUID[Compendium.sf2e.spells.Item.2BV2yYPfVJ5zirZt]{산악 탄력성}를 시전하는데, 그 주문의 등급은 당신 레벨의 절반을 올림한 값과 같습니다.",
+          "Description": "당신은 타고난 신성 주문으로서 @UUID[Compendium.sf2e.spells.Item.2BV2yYPfVJ5zirZt]{산의 강인함}를 시전하는데, 그 주문의 등급은 당신 레벨의 절반을 올림한 값과 같습니다.",
           "Title": "돌의 반사"
         },
         "ReflectionOfStorm": {
-          "Description": "당신은 8랭크 신성 선천 주문으로 @UUID[Compendium.sf2e.spells.Item.4MOew29Z1oCX8O28]{갱신의 순간} (자기 자신만)을 시전하고 포커스 포인트 1을 회복합니다.",
+          "Description": "당신은 8랭크 신성 선천 주문으로 @UUID[Compendium.sf2e.spells.Item.4MOew29Z1oCX8O28]{회복의 순간} (자기 자신만)을 시전하고 포커스 포인트 1을 회복합니다.",
           "Title": "폭풍의 반영"
         },
         "ReflectionOfWater": {
@@ -14810,8 +14810,8 @@
         }
       },
       "RevealingLight": {
-        "Description": "리빌링 라이트의 영향을 받는 크리처는 @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{눈부심}입니다. 만약 그 크리처가 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명}였다면, @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐}이 됩니다. 만약 그 크리처가 다른 어떤 이유로 이미 은폐되어 있었다면, 더 이상 은폐되어 있지 않습니다.",
-        "Label": "리빌링 라이트"
+        "Description": "드러내는 빛의 영향을 받는 크리처는 @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{눈부심}입니다. 만약 그 크리처가 @UUID[Compendium.sf2e.conditions.Item.zJxUflt9np0q4yML]{투명}였다면, @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐}이 됩니다. 만약 그 크리처가 다른 어떤 이유로 이미 은폐되어 있었다면, 더 이상 은폐되어 있지 않습니다.",
+        "Label": "드러내는 빛"
       },
       "RivethunInvoker": {
         "InvokeOffense": {
@@ -15049,7 +15049,7 @@
             "Psychopomp": "사이코펌프 블러드라인",
             "Shadow": "섀도우 블러드라인",
             "Undead": "훔친 생명",
-            "Wyrmblessed": "웜블레스드 블러드라인",
+            "Wyrmblessed": "웜축복드 블러드라인",
             "Aesir": "폭풍 부르기"
           },
           "Prompt": "혈통을 선택하십시오."
@@ -15271,20 +15271,20 @@
           "Description": "당신이 _애니메이트 로프_ 주문을 시전할 때, 표적을 1 @UUID[Compendium.sf2e.equipment.Item.T8EopYZLT137CsdW]{그물}로 수정할 수 있습니다. 그렇게 한다면, 주문의 기본 효과를 다음으로 대체합니다: 당신은 그물이 움직여서 그물로부터 20피트 이내의 중형 또는 그보다 작은 크리처에게 스스로 던져지게 합니다. 표적의 반사 내성 굴림 DC에 대해 주문 공격 굴림을 시도합니다. 성공하면, 표적은 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비}되고 탈출할 때까지 이동 속도에 -10피트 상황 페널티를 받습니다; 대성공이라면, 탈출할 때까지 @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{이동 불가}됩니다. 탈출 DC는 주문이 지속되는 동안 당신의 주문 DC와 같습니다. 주문이 끝나면, 탈출 DC는 그물의 일반적인 DC(보통 16)로 돌아오며, 표적과 인접한 크리처는 상호작용하여 그물을 제거할 수 있습니다."
         },
         "BarrierShield": {
-          "Description": "당신이 _쉴드_ 주문을 시전할 때, 주문을 수정하여 당신이 @UUID[Compendium.sf2e.other-effects.Item.I9lfZUiCwMiGogVi]{효과: 커버}에 사용할 수 있는 단단한 장벽을 만들 수 있지만, 방어에는 사용할 수 없습니다. 이런 식으로 주문을 수정했을 때는 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 없지만, 당신(그리고 당신만)은 행동을 소비하여 @UUID[Compendium.sf2e.actions.Item.ust1jJSCZQUhBZIz]{엄폐}하여 그것으로부터 표준 은폐물을 얻을 수 있습니다."
+          "Description": "당신이 _방패_ 주문을 시전할 때, 주문을 수정하여 당신이 @UUID[Compendium.sf2e.other-effects.Item.I9lfZUiCwMiGogVi]{효과: 커버}에 사용할 수 있는 단단한 장벽을 만들 수 있지만, 방어에는 사용할 수 없습니다. 이런 식으로 주문을 수정했을 때는 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 없지만, 당신(그리고 당신만)은 행동을 소비하여 @UUID[Compendium.sf2e.actions.Item.ust1jJSCZQUhBZIz]{엄폐}하여 그것으로부터 표준 은폐물을 얻을 수 있습니다."
         },
         "BeaconMark": {
-          "Description": "당신이 _시길_ 주문을 시전할 때, 다음과 같은 강화된 효과를 추가하도록 주문을 수정할 수 있습니다.",
+          "Description": "당신이 _마법 표식_ 주문을 시전할 때, 다음과 같은 강화된 효과를 추가하도록 주문을 수정할 수 있습니다.",
           "DescriptionHeightened": "당신은 표시된 목표물에 자신을 맞춥니다. 주문이 지속되는 동안, 당신은 집중, 탐지, 점술 특성을 가진 단일 행동을 소모하여 목표물의 위치를 찾으려 시도할 수 있으며, 1마일 이내에 있는 한 목표물의 방향을 알 수 있습니다. 목표물이 크리처가거나 크리처가 목표물인 물체를 소지하고 있는 경우, 해당 크리처는 당신의 주문 DC에 대한 @Check[will] 내성 굴림을 시도할 수 있습니다. 성공하면 목표물을 찾으려는 시도는 실패하며, 1일 동안 다시 시도할 수 없습니다. 이런 방식으로 수정된 _sigil_로 표시된 목표물은 하나만 가질 수 있습니다. 두 번째 목표물에 이 주문을 다시 시전하면 첫 번째 목표물의 _sigil_ 주문이 종료되고 표식이 사라집니다."
         },
         "ChokingSmoke": {
-          "Description": "당신이 _파이어볼_을 6랭크 이상으로 강화하여 시전할 때, 다음과 같이 주문의 기본 효과를 수정할 수 있습니다: 주문의 피해량을 6d6만큼 감소시킵니다. 당신의 _파이어볼_은 그 영역에 독성 연기의 잔류 구름을 남깁니다. 안개 대신 연기이지만, 이 구름은 그 외에는 @UUID[Compendium.sf2e.spells.Item.GKpEcy9WId6NJvtx]{악취 구름}의 효과를 가집니다."
+          "Description": "당신이 _화염구_을 6랭크 이상으로 강화하여 시전할 때, 다음과 같이 주문의 기본 효과를 수정할 수 있습니다: 주문의 피해량을 6d6만큼 감소시킵니다. 당신의 _화염구_은 그 영역에 독성 연기의 잔류 구름을 남깁니다. 안개 대신 연기이지만, 이 구름은 그 외에는 @UUID[Compendium.sf2e.spells.Item.GKpEcy9WId6NJvtx]{악취 구름}의 효과를 가집니다."
         },
         "ConfoundingImage": {
           "Description": "당신이 _미러 이미지_ 주문을 시전할 때, 지속시간을 최대 1분까지, 사거리를 30피트까지 수정할 수 있습니다. 그렇게 한다면, 주문의 기본 효과를 다음과 같이 대체합니다: 당신은 사거리 내의 비어있는 칸에 당신의 환영 복제본을 생성합니다. 환영은 공간을 차지하고 5피트의 도달 거리를 가지며, 당신의 아군은 환영과 함께 측면 공격을 할 수 있습니다.  그것은 주문 방어 주사위(AC)가 당신의 주문 방어 주사위와 같고, 내성 굴림 수정치가 당신의 주문 방어 주사위 - 10과 같은 것 외에는 일반적으로 크리처가 가지는 다른 속성을 가지고 있지 않습니다. 환영이 공격을 받거나 내성 굴림에 실패하거나, 당신이 환영으로부터 30피트 이상 멀어지면, 주문은 종료됩니다. 크리처들은 그 공간을 방해 없이 통과할 수 있습니다. 주문을 지속할 때, 당신은 환영을 사거리 내의 비어있는 칸으로 이동시킬 수 있습니다."
         },
         "DirectedPoison": {
-          "Description": "당신이 _톡식 클라우드_ 주문을 시전할 때, 지속시간을 최대 1분으로 수정하고, 표준 효과에 다음을 포함하도록 수정하십시오. 구름은 매 라운드마다 당신에게서 멀어지지 않습니다. 주문을 유지할 때 라운드당 한 번, 당신은 당신이 선택한 방향으로 구름을 10피트 이동시킬 수 있습니다."
+          "Description": "당신이 _독성 구름_ 주문을 시전할 때, 지속시간을 최대 1분으로 수정하고, 표준 효과에 다음을 포함하도록 수정하십시오. 구름은 매 라운드마다 당신에게서 멀어지지 않습니다. 주문을 유지할 때 라운드당 한 번, 당신은 당신이 선택한 방향으로 구름을 10피트 이동시킬 수 있습니다."
         },
         "DiskRider": {
           "Description": "당신이 _플로팅 디스크_ 주문을 시전할 때, 지속시간을 최대 10분까지 유지하도록 수정할 수 있습니다. 그렇게 한다면, 그 효과에 다음과 같은 강화된 항목을 추가하십시오.",
@@ -15295,21 +15295,21 @@
           "DescriptionHeightened": "당신의 미스트는 특히 습기가 많습니다. 그 지역 내의 비마법적인 불은 자동으로 꺼집니다. 그 지역 내의 마법 불이나 화염 주문 하나를 선택하고 그것을 상쇄하려고 시도하십시오."
         },
         "ForcefulPush": {
-          "Description": "당신이 _텔레키네틱 핸드_ 주문을 시전할 때, 그 대상을 크리처 1개체로 변경할 수 있습니다. 그렇게 한다면, 기본 효과를 다음으로 대체합니다. 당신은 당신의 적을 텔레키네시스로 밀어냅니다. 대상의 인내 내성 굴림 DC에 대한 주문 공격 굴림을 합니다. 성공 시, 당신은 대상을 당신으로부터 5피트 떨어진 곳으로 밀어냅니다. 대성공 시, 당신은 대상을 당신으로부터 10피트 떨어진 곳으로 밀어냅니다."
+          "Description": "당신이 _염동력 손_ 주문을 시전할 때, 그 대상을 크리처 1개체로 변경할 수 있습니다. 그렇게 한다면, 기본 효과를 다음으로 대체합니다. 당신은 당신의 적을 텔레키네시스로 밀어냅니다. 대상의 인내 내성 굴림 DC에 대한 주문 공격 굴림을 합니다. 성공 시, 당신은 대상을 당신으로부터 5피트 떨어진 곳으로 밀어냅니다. 대성공 시, 당신은 대상을 당신으로부터 10피트 떨어진 곳으로 밀어냅니다."
         },
         "Label": "주문 트릭스터",
         "LarcenousHand": {
           "Description": "_염동력 손_을 시전할 때 지속시간을 제거하고 사거리를 20피트로 변경하며, 주문의 벌크 한도 안에서 제거하는 데 오랜 시간이 걸리지 않는 소지품을 대상으로 삼도록 변경할 수 있습니다. 주문의 일반 효과에 다음을 추가합니다. 물건을 소지한 크리처가 당신이 물건을 가져가는 데 동의한다면 염동력 손이 물건을 당신에게 운반합니다. 동의하지 않는다면 도둑질 판정으로 대상 물건을 [[/act steal]]{훔치기}해야 합니다. 착용한 신발이나 방어구, 현재 휘두르는 물건처럼 제거하면 매우 눈에 띄거나 오래 걸리는 물건을 훔칠 수 없고, 전투 중이거나 경계 중인 크리처에게서는 훔칠 수 없는 등 훔치기의 일반 제한이 적용됩니다. 훔치기 판정에 성공하면 염동력 손이 물건을 당신에게 운반하며, 대실패하면 1시간 동안 이 변형을 다시 사용할 수 없습니다. 도둑질의 달인이라면 전투 중이거나 경계 중인 크리처에게서도 훔치기를 시도할 수 있지만, 이 경우 주문의 시전 시간이 행동 1개만큼 증가합니다."
         },
         "LingeringFlames": {
-          "Description": "당신이 _파이어볼_ 주문을 시전할 때, 그 효과를 변경하여 기본 피해량을 5d6으로 줄이고, 내성 굴림에 실패한 크리처에게 @Damage[(2*(@item.level - 2))[fire,persistent]] 피해를 입히고, 대실패 시에는 평소처럼 두 배의 피해를 줍니다. 만약 당신이 그렇게 한다면, 강화된 효과 설명을 다음과 같이 바꿉니다.",
+          "Description": "당신이 _화염구_ 주문을 시전할 때, 그 효과를 변경하여 기본 피해량을 5d6으로 줄이고, 내성 굴림에 실패한 크리처에게 @Damage[(2*(@item.level - 2))[fire,persistent]] 피해를 입히고, 대실패 시에는 평소처럼 두 배의 피해를 줍니다. 만약 당신이 그렇게 한다면, 강화된 효과 설명을 다음과 같이 바꿉니다.",
           "DescriptionHeightened": "피해량이 1d6만큼 증가하고, 지속적인 화염 피해량은 2만큼 증가합니다."
         },
         "ObscuredTerrain": {
           "Description": "당신이 _미스트_ 주문을 시전할 때, 주문의 기본 효과를 다음과 같이 변경할 수 있습니다. 당신은 짙은 안개 구름을 발생시켜 지역을 뒤덮어 지면을 보기 어렵게 만듭니다. 안개 속 지역은 안개나 연무를 볼 수 없는 크리처에게는 어려운 지형입니다. 당신은 구름을 소멸시킬 수 있습니다."
         },
         "ScatteredFire": {
-          "Description": "당신이 _파이어볼_ 주문을 시전할 때, 그 범위를 두 개의 겹치지 않는 @Template[burst|distance:10]{10ft 폭발형}로 수정할 수 있습니다."
+          "Description": "당신이 _화염구_ 주문을 시전할 때, 그 범위를 두 개의 겹치지 않는 @Template[burst|distance:10]{10ft 폭발형}로 수정할 수 있습니다."
         },
         "ShiningArms": {
           "Description": "당신이 _라이트_ 주문을 시전할 때,  대상을 당신 또는 기꺼이 협력하는 아군이 소지하고 있거나 소지하고 있지 않은 근접 무기 1개로 변경하고, 지속시간을 1분으로 변경할 수 있습니다. 그렇게 한다면, 다음 효과를 추가합니다: 무기를 휘두르는 크리처가 적에게 치명타를 입히면, 당신은 반응으로 주문을 해제하여 적에게 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{눈부심} 효과를 부여할 수 있습니다. 이 반응을 사용한 후에는 10분 동안 이 수정을 다시 사용할 수 없습니다.",
@@ -15317,13 +15317,13 @@
           "Note": "무기를 휘두르는 크리처가 적에게 치명타를 입히면, 당신은 반응으로 주문을 해제하여 적에게 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{눈부심} 효과를 부여할 수 있습니다."
         },
         "SiphoningTouch": {
-          "Description": "당신이 _뱀파이릭 피스트_ 주문을 시전할 때, 표준 효과를 다음과 같이 수정할 수 있습니다. 당신이 임시 HP를 얻는 대신, 30피트 이내의 아군에게 임시 HP를 부여할 수 있습니다. 1분 후, 아군은 남아있는 임시 HP를 모두 잃습니다."
+          "Description": "당신이 _흡혈의 향연_ 주문을 시전할 때, 표준 효과를 다음과 같이 수정할 수 있습니다. 당신이 임시 HP를 얻는 대신, 30피트 이내의 아군에게 임시 HP를 부여할 수 있습니다. 1분 후, 아군은 남아있는 임시 HP를 모두 잃습니다."
         },
         "SmolderingExplosion": {
-          "Description": "당신이 4랭크 이상으로 강화된 _파이어볼_ 주문을 시전할 때, 다음 효과를 기본 효과에 추가하도록 주문을 수정할 수 있습니다: 당신의 _파이어볼_은 그 영역에 짧은 연기 구름을 남깁니다. 안개 대신 연기이지만, 이 구름은 @UUID[Compendium.sf2e.spells.Item.9XHmC2JgTUIQ1CCm]{안개}의 효과를 따릅니다. 단, 1라운드만 지속됩니다."
+          "Description": "당신이 4랭크 이상으로 강화된 _화염구_ 주문을 시전할 때, 다음 효과를 기본 효과에 추가하도록 주문을 수정할 수 있습니다: 당신의 _화염구_은 그 영역에 짧은 연기 구름을 남깁니다. 안개 대신 연기이지만, 이 구름은 @UUID[Compendium.sf2e.spells.Item.9XHmC2JgTUIQ1CCm]{안개}의 효과를 따릅니다. 단, 1라운드만 지속됩니다."
         },
         "StealVitality": {
-          "Description": "당신이 _뱀파이릭 피스트_ 주문을 시전할 때, 표준 효과를 다음과 같이 수정할 수 있습니다. 임시 HP를 얻는 대신, 당신의 목표가 내성 굴림에 실패하거나 치명타로 실패하면, 그 상태의 근원을 사용하여 상쇄 랭크와 DC를 결정하여 당신 자신에게 걸린 어색함 또는 약화 상태를 제거하기 위한 상쇄 판정을 시도할 수 있습니다. 만약 그 상태가 지속 효과에 의해 발생했고 당신이 그 효과를 제거하지 않으면, 그 상태는 당신의 다음 턴이 끝날 때 돌아옵니다."
+          "Description": "당신이 _흡혈의 향연_ 주문을 시전할 때, 표준 효과를 다음과 같이 수정할 수 있습니다. 임시 HP를 얻는 대신, 당신의 목표가 내성 굴림에 실패하거나 치명타로 실패하면, 그 상태의 근원을 사용하여 상쇄 랭크와 DC를 결정하여 당신 자신에게 걸린 어색함 또는 약화 상태를 제거하기 위한 상쇄 판정을 시도할 수 있습니다. 만약 그 상태가 지속 효과에 의해 발생했고 당신이 그 효과를 제거하지 않으면, 그 상태는 당신의 다음 턴이 끝날 때 돌아옵니다."
         },
         "SummonEnsemble": {
           "Description": "당신이 _서먼 인스투르먼트_ 주문을 시전할 때, 지속시간을 최대 1분까지 지속적으로 수정할 수 있습니다. 그렇게 하면 당신의 주문 시전 능력치 수정치와 같은 수의 악기가 당신 주위를 맴돌며 저절로 연주합니다. 당신이 주문을 지속할 때마다 한 번, 30피트 이내에 당신의 연주를 들을 수 있는 적을 선택할 수 있습니다. 대상은 주문의 DC에 대한 @Check[will] 내성 굴림을 시도해야 합니다. 실패하면 당신의 연주에 산만해져서 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.AJh5ex99aV6VTggg]{무방비} 상태가 됩니다. 그런 다음 대상은 24시간 동안 일시적으로 면역됩니다."
@@ -15335,7 +15335,7 @@
           "Description": "당신이 _블랙 텐터클스_ 주문을 시전할 때, 주문의 기본 효과를 다음으로 대체하십시오: 촉수들이 구역 내 지면을 따라 미끄러져 들어가, 그 안의 모든 사람을 방해하려고 합니다. 끈적끈적한 검은 촉수들이 구역 내 각 크리처를 @UUID[Compendium.sf2e.actions.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 하려고 합니다. 각 영향받는 크리처의 반사 내성 굴림(Reflex DC)에 대한 주문 공격 굴림을 시도하십시오. 당신이 성공한 크리처는 @UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{엎드림} 되고 @Damage[3d6[bludgeoning]] 피해를 입습니다. 크리처가 그 구역에서 자신의 턴을 끝낼 때마다, 촉수들은 이미 엎드려 있지 않은 크리처를 넘어뜨리려고 시도하며, 이미 엎드려 있는 크리처에게는 @Damage[1d6[bludgeoning]] 피해를 줍니다. 크리처들은 주문의 구역을 어려운 지형으로 취급합니다."
         },
         "TracingSigil": {
-          "Description": "당신이 _시길_ 주문을 시전할 때, 주문을 수정하여 기본 효과에 다음을 추가할 수 있습니다: 대상은 당신과 다른 이들이 추적할 수 있는 마법의 흔적을 남깁니다. 당신과 다른 크리처들은 @UUID[Compendium.sf2e.actions.Item.EA5vuSgJfiHH7plD]{추적} 대상을 추적하려고 시도할 수 있으며, 생존 기술 판정 대신 비전, 자연, 신비 또는 종교 기술 판정(_시길_ 주문의 마법 전통에 맞는 것을 선택)를 사용합니다. 생존 숙련을 이용한 추적과 마찬가지로, 이것은 대상이 지나간 곳에서 이루어져야 하며 흔적을 따라가야 합니다; 이것은 멀리서 대상을 찾는 것을 허용하지 않습니다. 당신은 이런 방식으로 수정된 _시길_로 표시된 대상을 단 하나만 가질 수 있습니다. 만약 당신이 두 번째 대상에게 이 능력을 다시 사용한다면, 첫 번째 대상에게 걸린 _시길_ 주문은 끝나고, 당신의 표식은 사라집니다."
+          "Description": "당신이 _마법 표식_ 주문을 시전할 때, 주문을 수정하여 기본 효과에 다음을 추가할 수 있습니다: 대상은 당신과 다른 이들이 추적할 수 있는 마법의 흔적을 남깁니다. 당신과 다른 크리처들은 @UUID[Compendium.sf2e.actions.Item.EA5vuSgJfiHH7plD]{추적} 대상을 추적하려고 시도할 수 있으며, 생존 기술 판정 대신 비전, 자연, 신비 또는 종교 기술 판정(_마법 표식_ 주문의 마법 전통에 맞는 것을 선택)를 사용합니다. 생존 숙련을 이용한 추적과 마찬가지로, 이것은 대상이 지나간 곳에서 이루어져야 하며 흔적을 따라가야 합니다; 이것은 멀리서 대상을 찾는 것을 허용하지 않습니다. 당신은 이런 방식으로 수정된 _마법 표식_로 표시된 대상을 단 하나만 가질 수 있습니다. 만약 당신이 두 번째 대상에게 이 능력을 다시 사용한다면, 첫 번째 대상에게 걸린 _마법 표식_ 주문은 끝나고, 당신의 표식은 사라집니다."
         },
         "UneasyRest": {
           "Description": "당신이 _슬립_ 주문을 시전할 때, 다음 효과를 기본 효과에 추가하도록 주문을 수정할 수 있습니다: 당신의 주문의 대상은 불안한 꿈을 경험합니다. 내성 굴림에 실패하거나 대실패한 대상이 깨어날 때, @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}입니다."
@@ -15399,7 +15399,7 @@
         "HeraldicProclamation": "30피트 이내의 모든 아군은 @Damage[(2 * @item.rank)[healing,vitality]|shortLabel] HP를 얻고, 30피트 이내의 모든 적들은 당신의 주문 DC에 대한 @Check[will|basic] 내성 굴림으로 @Damage[(2 * @item.rank)[spirit]|traits:sanctified] 피해를 입습니다.",
         "HeroicRecovery": "목표는 다음 턴이 끝날 때까지 세 가지 보너스를 얻습니다. 속도에 +5피트 상태 보너스, 공격 굴림에 +1 상태 보너스, 그리고 피해 굴림에 +1 상태 보너스입니다.  또한, 목표가 엎드려 있는 경우, 반응을 유발하지 않는 자유 행동으로 즉시 일어설 수 있습니다.",
         "InTune": "당신의 다음 행동이 에마네이션 영역을 가진 컴포지션 주문 시전인 경우, 주문 영역은 당신이 아닌 60피트 이내의 당신이 선택한 자발적인 아군으로부터 퍼져나갑니다. 당신이 다이렉티드 오디언스를 가지고 있다면, 그 원뿔이 아군으로부터 시작되도록 할 수 있습니다.",
-        "InterweaveDispel": "당신의 다음 행동이 적에게 단일 대상 주문을 시전하는 것이고, 주문 공격 굴림으로 적을 명중시키거나 적이 내성 굴림에 실패한다면, 당신은 @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{디스펠 매직}을 적에게 자유 행동으로 시전할 수 있습니다. 일반적으로 주문 슬롯을 소모하고 적에게 영향을 미치는 하나의 주문 효과를 대상으로 합니다.",
+        "InterweaveDispel": "당신의 다음 행동이 적에게 단일 대상 주문을 시전하는 것이고, 주문 공격 굴림으로 적을 명중시키거나 적이 내성 굴림에 실패한다면, 당신은 @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{마법 해제}을 적에게 자유 행동으로 시전할 수 있습니다. 일반적으로 주문 슬롯을 소모하고 적에게 영향을 미치는 하나의 주문 효과를 대상으로 합니다.",
         "IntoTheFuture": "당신의 다음 행동이 주문을 시전하는 것이고, 그 주문을 시전하는 데 1 또는 2회의 행동이 소요되는 경우, 그 주문의 효과는 즉시 발생하는 것이 아니라 1라운드 후 당신의 다음 턴 시작 시에 발생합니다. 주문의 대상과 선택 사항은 주문을 시전할 때 결정해야 하며, 시야 및 효과 범위와 같은 요구 사항은 주문을 시전할 때와 그 효과가 발생할 때 모두 충족되어야 합니다. 주문 시전이라는 행동 자체에 대한 결과, 예를 들어 기회 공격 반응이나 적대적인 행동을 취함으로써 적의 @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{매혹} 상태를 종료하는 것은 지연되지 않습니다.",
         "KaleidoscopicEntreaty": {
           "Description": "당신의 다음 행동이 @UUID[Compendium.sf2e.spells.Item.Yph1UqZU8vMc9bJG]{영혼 간청} 주문을 시전하는 것이라면, 당신을 중심으로 한 @Template[type:emanation|distance:10] 에서 그 영혼이 빛나는 색채, 빛, 그리고 소리의 향연을 펼치도록 할 수 있습니다. 그 지역의 각 크리처는 당신의 클래스 DC 또는 주문 DC에 대한 @Check[fortitude|against:class-spell] 내성 굴림을 시도해야 하며, 결과는 다음과 같습니다.",
@@ -15472,7 +15472,7 @@
             "RollOptionLabel": "중력 수렁"
           },
           "FlowingTime": {
-            "Note": "주문의 범위 안을 중심으로 한 @Template[burst|distance:20] 영역에서 턴을 시작하는 크리처는 그 턴 동안 @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{헤이스티}의 영향을 받습니다.",
+            "Note": "주문의 범위 안을 중심으로 한 @Template[burst|distance:20] 영역에서 턴을 시작하는 크리처는 그 턴 동안 @UUID[Compendium.sf2e.spells.Item.o6YCGx4lycsYpww4]{가속}의 영향을 받습니다.",
             "RollOptionLabel": "흐르는 시간"
           }
         }
@@ -15729,8 +15729,8 @@
       "Tengu": {
         "TenguFan": {
           "GustOfWind": "당신은 텐구 깃털 부채를 활성화하여 1랭크 @UUID[Compendium.sf2e.spells.Item.g8QqHpv2CWDwmIm1]{돌풍} 주문을 시전할 수 있습니다. @Check[fortitude|against:class-spell|traits:air] 내성 굴림.",
-          "LightningBolt": "당신은 텐구 깃털 부채를 활성화하여 5랭크 @UUID[Compendium.sf2e.spells.Item.9AAkVUCwF6WVNNY2]{라이트닝 볼트} 주문을 시전할 수 있습니다. @Check[reflex|against:class-spell|basic|traits:electricity] 내성 굴림.",
-          "WallOfWind": "당신은 천구 깃털 부채를 활성화하여 3랭크 비전 @UUID[Compendium.sf2e.spells.Item.it4ZsAi6XgvGcodc]{벽풍(벽 윈드)} 주문을 시전할 수 있습니다. @Check[fortitude|against:class-spell|traits:air]{Fortitude saving throw} 내성 굴림."
+          "LightningBolt": "당신은 텐구 깃털 부채를 활성화하여 5랭크 @UUID[Compendium.sf2e.spells.Item.9AAkVUCwF6WVNNY2]{번개 화살} 주문을 시전할 수 있습니다. @Check[reflex|against:class-spell|basic|traits:electricity] 내성 굴림.",
+          "WallOfWind": "당신은 천구 깃털 부채를 활성화하여 3랭크 비전 @UUID[Compendium.sf2e.spells.Item.it4ZsAi6XgvGcodc]{바람 장벽} 주문을 시전할 수 있습니다. @Check[fortitude|against:class-spell|traits:air]{Fortitude saving throw} 내성 굴림."
         },
         "WeaponFamiliarity": {
           "Prompt1": "검 그룹에서 무기를 하나 선택하십시오.",
@@ -18043,7 +18043,7 @@
     "TraitMaraquoi": "마라코이(Maraquoi)",
     "TraitMoyishuu": "모이슈(Moyishuu)",
     "TraitMystic": "미스틱(Mystic)",
-    "TraitNightmare": "나이트메어(Nightmare)",
+    "TraitNightmare": "악몽(Nightmare)",
     "TraitNovian": "노비안(Novian)",
     "TraitNuar": "누아르(Nuar)",
     "TraitOperative": "오퍼레이티브(Operative)",
@@ -19337,7 +19337,7 @@
               "Water": "냉기 피해 방어",
               "Wood": "독 피해 방어"
             },
-            "GreaterEpiphany": "@UUID[Compendium.sf2e.spells.Item.DZOjyZBZUrzkw5q2]{원소 신성} 에피퍼니 주문을 배웁니다.",
+            "GreaterEpiphany": "@UUID[Compendium.sf2e.spells.Item.DZOjyZBZUrzkw5q2]{원소 대폭발} 에피퍼니 주문을 배웁니다.",
             "InitialEpiphany": "@UUID[Compendium.sf2e.spells.Item.d5dmu4HZ3YyrwcaF]{원소 무기} 에피퍼니 주문을 배웁니다."
           },
           "Healing": {
@@ -19348,8 +19348,8 @@
               "AddendumCounteract": "완전한 조화 상태에서는 해로운 효과에 대한 상쇄 판정이 강화됩니다.",
               "AddendumExpanded": "생명력 전송을 사용할 때 대상에게 영향을 주는 고통 하나를 상쇄하려 시도하거나, 다음 상태 중 하나를 대상에게 부여하는 효과 하나를 선택해 상쇄하려 시도합니다: @UUID[Compendium.sf2e.conditions.Item.XgEqL1kFApUbl5Z2]{실명}, @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름}, @UUID[Compendium.sf2e.conditions.Item.TkIyaNPgTZFBCCuh]{눈부심}, @UUID[Compendium.sf2e.conditions.Item.9PR9y0bi4JPKnHPR]{청각 상실}, @UUID[Compendium.sf2e.conditions.Item.3uh1r86TzbQvosxv]{파멸}, @UUID[Compendium.sf2e.conditions.Item.4D2KBtexWXa6oUMR]{고갈}, @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화}, @UUID[Compendium.sf2e.conditions.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움}, @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}."
             },
-            "AdvancedEpiphany": "@UUID[Compendium.sf2e.spells.Item.zzi7LUKxKNWr5GsG]{활력 신성} 포커스 주문을 배웁니다.",
-            "GreaterEpiphany": "@UUID[Compendium.sf2e.spells.Item.MTulATAiOZfZNQ9d]{활력 재탄생} 포커스 주문을 배웁니다.",
+            "AdvancedEpiphany": "@UUID[Compendium.sf2e.spells.Item.zzi7LUKxKNWr5GsG]{활력 대폭발} 포커스 주문을 배웁니다.",
+            "GreaterEpiphany": "@UUID[Compendium.sf2e.spells.Item.MTulATAiOZfZNQ9d]{활력 소생} 포커스 주문을 배웁니다.",
             "InitialEpiphany": "@UUID[Compendium.sf2e.spells.Item.d7Mj4nUQe8wg1mV7]{주입} 포커스 주문을 배웁니다."
           },
           "Prompt": "연결망을 선택하십시오.",
@@ -19371,9 +19371,9 @@
             "PerfectHarmony": {
               "Addendum": "생명력 전송을 사용할 때 대상은 자기 다음 턴 종료 전까지 @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음}을 한 번 사용할 수 있습니다."
             },
-            "AdvancedEpiphany": "@UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{달라붙는 그림자} 포커스 주문을 배웁니다.",
+            "AdvancedEpiphany": "@UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{들러붙는 그림자} 포커스 주문을 배웁니다.",
             "GreaterEpiphany": "@UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥} 포커스 주문을 배웁니다.",
-            "InitialEpiphany": "@UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 손가락 튕기기} 포커스 주문을 배웁니다."
+            "InitialEpiphany": "@UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 튕기기} 포커스 주문을 배웁니다."
           }
         },
         "ElementalBarrier": "원소 장벽: {item|flags.system.rulesSelections.elementalBarrier.label}",
@@ -19811,7 +19811,7 @@
           "label": "보행"
         },
         "blink": {
-          "label": "텔레포트(Teleport)"
+          "label": "순간이동(Teleport)"
         },
         "deploy": {
           "label": "전개"

@@ -55,15 +55,15 @@
           "description": "<p>당신은 별 사이의 어두운 공간에서 정신을 습격하는 섬뜩한 에너지 광선을 응축해 대상에게 발사합니다. 대상의 AC에 대해 원거리 주문 공격 굴림을 하십시오. 명중하면 2d6 정신 피해를 줍니다. 대성공하면 두 배 피해를 줍니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 1d6 증가합니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Grim Tendrils": {
-          "name": "그림 텐드릴(Grim Tendrils)",
+          "name": "음산한 촉수(Grim Tendrils)",
           "description": "<p>당신의 손가락 끝에서 어둠의 촉수가 뻗어나와 공기를 가릅니다. 당신은 2d4 공허 피해와 @Damage[(@item.level)[bleed]] 피해를 선상의 크리처에게 입힙니다. 선상의 각 크리처는 인내 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 공허 피해의 절반과 지속 출혈 피해를 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 크리처는 공허 피해의 두 배와 지속 출혈 피해의 두 배를 받습니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 공허 피해는 2d4만큼 증가하고, 지속 출혈 피해는 1만큼 증가합니다.</p>"
         },
         "Guidance": {
-          "name": "지침(Guidance)",
+          "name": "안내(Guidance)",
           "description": "<p>당신은 초자연적 존재의 인도를 구하며, 대상에게 지속시간이 끝나기 전에 시도하는 한 번의 공격 굴림, 지각 판정, 내성 굴림 또는 기술 판정에 +1 상태 보너스를 부여합니다. 대상은 굴림 전에 보너스를 사용할 굴림을 선택합니다. 대상이 보너스를 사용하면 주문이 종료됩니다. 어느 경우든 대상은 그 후 1시간 동안 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{주문 효과: 가이던스}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3LyOkV25p7wA181H]{효과: 가이던스 면역}</p>"
         },
         "Heal": {
@@ -108,7 +108,7 @@
         },
         "Religious Talisman": {
           "name": "종교 부적(Religious Talisman)",
-          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{애톤} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
+          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{속죄} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
         },
         "Repair Toolkit (Commercial)": {
           "name": "상업용 수리 도구(Repair Toolkit (Commercial))",
@@ -116,10 +116,10 @@
         },
         "Shadow": {
           "name": "그림자(Shadow)",
-          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{그림 텐드릴}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{느리게}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{플리커}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{오도하다}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{판타스마고리아}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 손가락 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{달라붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
+          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{허상}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{음산한 촉수}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{둔화}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{점멸}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{기만}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{환상극}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{들러붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
         },
         "Shadow Snap": {
-          "name": "그림자 손가락 튕기기(Shadow Snap)",
+          "name": "그림자 튕기기(Shadow Snap)",
           "description": "<p>손가락을 튕겨 대상의 그림자가 당신에게 복종하도록 부릅니다. 이 주문을 시전할 때와 이후 라운드에서 매 턴 처음 유지할 때, 그림자가 대상을 공격하거나 추적하게 할 수 있습니다. 공격을 선택하면 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다(대성공 시 두 배 피해). 이 공격은 다중 공격 페널티를 사용하고 그 페널티에 포함됩니다.</p>\n<p>추적을 선택하면 다음 당신의 턴 종료 전까지 대상이 처음으로 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 하거나, 사용 중인 이동 행동으로 칸을 떠날 때 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다. 공격이 대성공하면 그림자가 그 행동을 방해합니다.</p>\n<p>주문을 유지할 때마다 대상을 공격하거나, 다음 당신의 턴 종료까지 그림자에게 대상을 추적하라고 명령할 수 있습니다.</p><hr /><p><strong>고조(+1)</strong> 냉기 피해가 1d10 증가합니다.</p>"
         },
         "Shirren": {
@@ -143,7 +143,7 @@
           "description": "<p>당신의 영혼은 유대에 속한 이들을 연결하고 치유하는 에너지 연결망을 지탱합니다. 생명력 연결망의 최대 용량은 레벨당 HP 4에 6을 더한 값입니다. @UUID[Compendium.sf2e.actions.Item.UeMHbnnaXDa3sGfG]{생명력 전달} 행동을 얻으며, 이를 사용해 연결망의 HP를 꺼내 자신이나 동료에게 치유로 전달할 수 있습니다.</p>\n<p>생사가 걸린 상황은 동료들과의 유대를 강화합니다. 전투 중 각 턴이 시작되어 행동을 회복할 때 생명력 연결망은 HP 4를 회복합니다. 주문 DC가 달인이라면 대신 6, 전설이라면 8을 회복합니다. 재집중할 때 생명력 연결망의 HP를 모두 회복합니다.</p>"
         },
         "Void Warp": {
-          "name": "보이드 워프(Void Warp)",
+          "name": "공허 왜곡(Void Warp)",
           "description": "<p>당신은 생명력에 피해를 입히기 위해 공허를 불러냅니다.  목표는 기본 인내 내성 굴림으로 2d4 공허 피해를 받습니다. 대실패 시, 목표는 당신의 다음 턴이 시작될 때까지 @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 입니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해가 1d4만큼 증가합니다.</p>"
         },
         "Zon-Shelyn": {
@@ -209,11 +209,11 @@
           "description": "<p>당신은 대상에게 두려움을 심습니다. 대상은 의지 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}입니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}입니다.</p>\n<p><strong>대실패</strong> 대상은 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}이고 @UUID[Compendium.sf2e.conditions.Item.sDPxOjQ9kx2RZE8D]{도주} 1 라운드 동안입니다.</p>\n<hr />\n<p><strong>고조(3랭크)</strong> 당신은 최대 다섯 개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Grim Tendrils": {
-          "name": "그림 텐드릴(Grim Tendrils)",
+          "name": "음산한 촉수(Grim Tendrils)",
           "description": "<p>당신의 손가락 끝에서 어둠의 촉수가 뻗어나와 공기를 가릅니다. 당신은 2d4 공허 피해와 @Damage[(@item.level)[bleed]] 피해를 선상의 크리처에게 입힙니다. 선상의 각 크리처는 인내 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 공허 피해의 절반과 지속 출혈 피해를 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 크리처는 공허 피해의 두 배와 지속 출혈 피해의 두 배를 받습니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 공허 피해는 2d4만큼 증가하고, 지속 출혈 피해는 1만큼 증가합니다.</p>"
         },
         "Group Chat": {
@@ -221,7 +221,7 @@
           "description": "<p>유대에 속한 크리처들은 서로 120피트 이내에 있는 동안 텔레파시로 소통할 수 있습니다. 두 유대 크리처가 같은 차원에 있고 둘 다 살아 있는 한, 서로의 현재 상태와 대략적인 방향 및 거리, 그리고 의식이 있는지, @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{무의식}, @UUID[Compendium.sf2e.conditions.Item.yZRUzMqrMmfLu0V1]{죽어감}, 또는 사망 상태인지 계속 알아차립니다. @UUID[Compendium.sf2e.actions.Item.XSMTalRsPwQ0beIE]{연결망 주문} 행동을 얻습니다.</p>"
         },
         "Guidance": {
-          "name": "지침(Guidance)",
+          "name": "안내(Guidance)",
           "description": "<p>당신은 초자연적 존재의 인도를 구하며, 대상에게 지속시간이 끝나기 전에 시도하는 한 번의 공격 굴림, 지각 판정, 내성 굴림 또는 기술 판정에 +1 상태 보너스를 부여합니다. 대상은 굴림 전에 보너스를 사용할 굴림을 선택합니다. 대상이 보너스를 사용하면 주문이 종료됩니다. 어느 경우든 대상은 그 후 1시간 동안 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{주문 효과: 가이던스}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3LyOkV25p7wA181H]{효과: 가이던스 면역}</p>"
         },
         "Heal": {
@@ -282,7 +282,7 @@
         },
         "Religious Talisman": {
           "name": "종교 부적(Religious Talisman)",
-          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{애톤} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
+          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{속죄} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
         },
         "Repair Toolkit (Commercial)": {
           "name": "상업용 수리 도구(Repair Toolkit (Commercial))",
@@ -290,10 +290,10 @@
         },
         "Shadow": {
           "name": "그림자(Shadow)",
-          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{그림 텐드릴}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{느리게}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{플리커}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{오도하다}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{판타스마고리아}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 손가락 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{달라붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
+          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{허상}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{음산한 촉수}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{둔화}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{점멸}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{기만}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{환상극}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{들러붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
         },
         "Shadow Snap": {
-          "name": "그림자 손가락 튕기기(Shadow Snap)",
+          "name": "그림자 튕기기(Shadow Snap)",
           "description": "<p>손가락을 튕겨 대상의 그림자가 당신에게 복종하도록 부릅니다. 이 주문을 시전할 때와 이후 라운드에서 매 턴 처음 유지할 때, 그림자가 대상을 공격하거나 추적하게 할 수 있습니다. 공격을 선택하면 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다(대성공 시 두 배 피해). 이 공격은 다중 공격 페널티를 사용하고 그 페널티에 포함됩니다.</p>\n<p>추적을 선택하면 다음 당신의 턴 종료 전까지 대상이 처음으로 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 하거나, 사용 중인 이동 행동으로 칸을 떠날 때 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다. 공격이 대성공하면 그림자가 그 행동을 방해합니다.</p>\n<p>주문을 유지할 때마다 대상을 공격하거나, 다음 당신의 턴 종료까지 그림자에게 대상을 추적하라고 명령할 수 있습니다.</p><hr /><p><strong>고조(+1)</strong> 냉기 피해가 1d10 증가합니다.</p>"
         },
         "Shirren": {
@@ -333,7 +333,7 @@
           "description": "<p>당신의 영혼은 유대에 속한 이들을 연결하고 치유하는 에너지 연결망을 지탱합니다. 생명력 연결망의 최대 용량은 레벨당 HP 4에 6을 더한 값입니다. @UUID[Compendium.sf2e.actions.Item.UeMHbnnaXDa3sGfG]{생명력 전달} 행동을 얻으며, 이를 사용해 연결망의 HP를 꺼내 자신이나 동료에게 치유로 전달할 수 있습니다.</p>\n<p>생사가 걸린 상황은 동료들과의 유대를 강화합니다. 전투 중 각 턴이 시작되어 행동을 회복할 때 생명력 연결망은 HP 4를 회복합니다. 주문 DC가 달인이라면 대신 6, 전설이라면 8을 회복합니다. 재집중할 때 생명력 연결망의 HP를 모두 회복합니다.</p>"
         },
         "Void Warp": {
-          "name": "보이드 워프(Void Warp)",
+          "name": "공허 왜곡(Void Warp)",
           "description": "<p>당신은 생명력에 피해를 입히기 위해 공허를 불러냅니다.  목표는 기본 인내 내성 굴림으로 2d4 공허 피해를 받습니다. 대실패 시, 목표는 당신의 다음 턴이 시작될 때까지 @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 입니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해가 1d4만큼 증가합니다.</p>"
         },
         "Zon-Shelyn": {
@@ -366,7 +366,7 @@
         },
         "Communalism": {
           "name": "공동체주의(Communalism)",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>조건</strong> 10피트 이내의 동료가 3행동 이하를 요구하는 기술 판정에 실패합니다.</p><hr /><p>동료의 정신에 도움이 되는 격려나 관련 정보를 전송합니다. 동료는 조건이 된 기술 판정을 다시 굴려 더 나은 결과를 사용합니다.</p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>조건</strong> 10피트 이내의 동료가 3행동 이하를 요구하는 기술 판정에 실패합니다.</p><hr /><p>동료의 정신에 도움이 되는 격려나 관련 정보를 전언 송신 동료는 조건이 된 기술 판정을 다시 굴려 더 나은 결과를 사용합니다.</p>"
         },
         "Connection": {
           "name": "연결(Connection)",
@@ -407,15 +407,15 @@
           "description": "<p><strong>조건</strong> 피해를 받습니다.</p><hr /><p>@UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{엎드림} 상태로 누워 시체를 가장합니다. 정신만 사용하는 행동 외에는 아무 행동도 하지 않는 동안 죽은 것처럼 보입니다. 속임수를 간파하려면 크리처가 수색 또는 지식 회상으로 자신의 속임수 DC를 상대로 판정에 성공해야 합니다. 속임수에 달인이라면 이 효과를 끝내지 않고 행동 준비를 할 수 있습니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Fortitude Expertise": {
           "name": "인내 전문가(Fortitude Expertise)",
           "description": "<p><strong>엔보이</strong> 놀라울 만큼 튼튼한 신체를 지녔습니다. 인내 내성 굴림의 숙련 등급이 전문가로 상승합니다.</p><hr /><p><strong>미스틱</strong> 모험을 거치며 신체가 더욱 튼튼해졌습니다. 인내 내성 굴림의 숙련 등급이 전문가로 상승합니다.</p>"
         },
         "Grim Tendrils": {
-          "name": "그림 텐드릴(Grim Tendrils)",
+          "name": "음산한 촉수(Grim Tendrils)",
           "description": "<p>당신의 손가락 끝에서 어둠의 촉수가 뻗어나와 공기를 가릅니다. 당신은 2d4 공허 피해와 @Damage[(@item.level)[bleed]] 피해를 선상의 크리처에게 입힙니다. 선상의 각 크리처는 인내 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 공허 피해의 절반과 지속 출혈 피해를 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 크리처는 공허 피해의 두 배와 지속 출혈 피해의 두 배를 받습니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 공허 피해는 2d4만큼 증가하고, 지속 출혈 피해는 1만큼 증가합니다.</p>"
         },
         "Group Chat": {
@@ -423,7 +423,7 @@
           "description": "<p>유대에 속한 크리처들은 서로 120피트 이내에 있는 동안 텔레파시로 소통할 수 있습니다. 두 유대 크리처가 같은 차원에 있고 둘 다 살아 있는 한, 서로의 현재 상태와 대략적인 방향 및 거리, 그리고 의식이 있는지, @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{무의식}, @UUID[Compendium.sf2e.conditions.Item.yZRUzMqrMmfLu0V1]{죽어감}, 또는 사망 상태인지 계속 알아차립니다. @UUID[Compendium.sf2e.actions.Item.XSMTalRsPwQ0beIE]{연결망 주문} 행동을 얻습니다.</p>"
         },
         "Guidance": {
-          "name": "지침(Guidance)",
+          "name": "안내(Guidance)",
           "description": "<p>당신은 초자연적 존재의 인도를 구하며, 대상에게 지속시간이 끝나기 전에 시도하는 한 번의 공격 굴림, 지각 판정, 내성 굴림 또는 기술 판정에 +1 상태 보너스를 부여합니다. 대상은 굴림 전에 보너스를 사용할 굴림을 선택합니다. 대상이 보너스를 사용하면 주문이 종료됩니다. 어느 경우든 대상은 그 후 1시간 동안 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{주문 효과: 가이던스}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3LyOkV25p7wA181H]{효과: 가이던스 면역}</p>"
         },
         "Heal": {
@@ -484,7 +484,7 @@
         },
         "Religious Talisman": {
           "name": "종교 부적(Religious Talisman)",
-          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{애톤} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
+          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{속죄} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
         },
         "Repair Toolkit (Commercial)": {
           "name": "상업용 수리 도구(Repair Toolkit (Commercial))",
@@ -492,10 +492,10 @@
         },
         "Shadow": {
           "name": "그림자(Shadow)",
-          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{그림 텐드릴}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{느리게}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{플리커}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{오도하다}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{판타스마고리아}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 손가락 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{달라붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
+          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{허상}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{음산한 촉수}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{둔화}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{점멸}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{기만}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{환상극}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{들러붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
         },
         "Shadow Snap": {
-          "name": "그림자 손가락 튕기기(Shadow Snap)",
+          "name": "그림자 튕기기(Shadow Snap)",
           "description": "<p>손가락을 튕겨 대상의 그림자가 당신에게 복종하도록 부릅니다. 이 주문을 시전할 때와 이후 라운드에서 매 턴 처음 유지할 때, 그림자가 대상을 공격하거나 추적하게 할 수 있습니다. 공격을 선택하면 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다(대성공 시 두 배 피해). 이 공격은 다중 공격 페널티를 사용하고 그 페널티에 포함됩니다.</p>\n<p>추적을 선택하면 다음 당신의 턴 종료 전까지 대상이 처음으로 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 하거나, 사용 중인 이동 행동으로 칸을 떠날 때 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다. 공격이 대성공하면 그림자가 그 행동을 방해합니다.</p>\n<p>주문을 유지할 때마다 대상을 공격하거나, 다음 당신의 턴 종료까지 그림자에게 대상을 추적하라고 명령할 수 있습니다.</p><hr /><p><strong>고조(+1)</strong> 냉기 피해가 1d10 증가합니다.</p>"
         },
         "Share Pain": {
@@ -511,8 +511,8 @@
           "description": "<p>일부 주문을 더 유연하게 시전하는 법을 배워 주문 시전을 더욱 세밀하게 통제할 수 있습니다. 접근할 수 있는 각 주문 랭크마다 해당 랭크 주문 하나를 대표 주문으로 선택합니다. 대표 주문의 고조된 형태를 별도로 배울 필요 없이 자유롭게 고조할 수 있습니다. 대표 주문을 최소 랭크보다 높은 랭크로 배웠다면 낮은 랭크 형태도 별도로 배우지 않고 모두 시전할 수 있습니다. 대표 주문을 교체한다면 이전 주문을 배웠던 주문 랭크와 같은 랭크의 대체 대표 주문을 선택할 수 있습니다. 주문을 교체하지 않고 대표 주문만 해당 랭크의 다른 주문으로 바꾸도록 특별히 재훈련할 수도 있으며, 일반적으로 주문을 재훈련하는 것과 같은 시간이 걸립니다.</p>"
         },
         "Slow": {
-          "name": "느리게(Slow)",
-          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 느리게 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
+          "name": "둔화(Slow)",
+          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 둔화 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Soul Surge": {
           "name": "영혼 쇄도(Soul Surge)",
@@ -547,7 +547,7 @@
           "description": "<p>당신의 영혼은 유대에 속한 이들을 연결하고 치유하는 에너지 연결망을 지탱합니다. 생명력 연결망의 최대 용량은 레벨당 HP 4에 6을 더한 값입니다. @UUID[Compendium.sf2e.actions.Item.UeMHbnnaXDa3sGfG]{생명력 전달} 행동을 얻으며, 이를 사용해 연결망의 HP를 꺼내 자신이나 동료에게 치유로 전달할 수 있습니다.</p>\n<p>생사가 걸린 상황은 동료들과의 유대를 강화합니다. 전투 중 각 턴이 시작되어 행동을 회복할 때 생명력 연결망은 HP 4를 회복합니다. 주문 DC가 달인이라면 대신 6, 전설이라면 8을 회복합니다. 재집중할 때 생명력 연결망의 HP를 모두 회복합니다.</p>"
         },
         "Void Warp": {
-          "name": "보이드 워프(Void Warp)",
+          "name": "공허 왜곡(Void Warp)",
           "description": "<p>당신은 생명력에 피해를 입히기 위해 공허를 불러냅니다.  목표는 기본 인내 내성 굴림으로 2d4 공허 피해를 받습니다. 대실패 시, 목표는 당신의 다음 턴이 시작될 때까지 @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 입니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해가 1d4만큼 증가합니다.</p>"
         },
         "Waste Not": {
@@ -584,7 +584,7 @@
         },
         "Communalism": {
           "name": "공동체주의(Communalism)",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>조건</strong> 10피트 이내의 동료가 3행동 이하를 요구하는 기술 판정에 실패합니다.</p><hr /><p>동료의 정신에 도움이 되는 격려나 관련 정보를 전송합니다. 동료는 조건이 된 기술 판정을 다시 굴려 더 나은 결과를 사용합니다.</p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p><p><strong>조건</strong> 10피트 이내의 동료가 3행동 이하를 요구하는 기술 판정에 실패합니다.</p><hr /><p>동료의 정신에 도움이 되는 격려나 관련 정보를 전언 송신 동료는 조건이 된 기술 판정을 다시 굴려 더 나은 결과를 사용합니다.</p>"
         },
         "Connection": {
           "name": "연결(Connection)",
@@ -633,11 +633,11 @@
           "description": "<p><strong>조건</strong> 피해를 받습니다.</p><hr /><p>@UUID[Compendium.sf2e.conditions.Item.j91X7x0XSomq8d60]{엎드림} 상태로 누워 시체를 가장합니다. 정신만 사용하는 행동 외에는 아무 행동도 하지 않는 동안 죽은 것처럼 보입니다. 속임수를 간파하려면 크리처가 수색 또는 지식 회상으로 자신의 속임수 DC를 상대로 판정에 성공해야 합니다. 속임수에 달인이라면 이 효과를 끝내지 않고 행동 준비를 할 수 있습니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Flicker": {
-          "name": "플리커(Flicker)",
+          "name": "점멸(Flicker)",
           "description": "<p>당신은 현재 차원과 다른 차원 사이를 빠르게 왔다 갔다 합니다. 당신은 역장 피해를 제외한 모든 피해에 대해 5의 저항을 얻습니다. 당신의 각 턴이 끝날 때마다, GM이 결정하는 무작위 방향으로 10피트 자동으로 순간이동합니다. 당신은 이런 식으로 순간이동하기 위해 주문을 유지할 수 있습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.ZlsuhS9J0S3PuvCO]{주문 효과: 깜박임}</p>\n<hr />\n<p><strong>고조(+2)</strong> 저항이 3 증가합니다.</p>"
         },
         "Fortitude Expertise": {
@@ -649,7 +649,7 @@
           "description": "<p>당신은 대상의 유전 암호에 자극적인 재생 성질을 부여해 상처를 치유하기 시작합니다. 대상은 일시적으로 재생 7을 얻어 자신의 각 턴 시작 시 HP 7을 회복합니다. 재생을 지닌 동안 대상은 피해를 받아 사망할 수 없고, 죽어감 상태가 사망하는 수치까지 증가할 수 없습니다(대부분의 크리처는 죽어감 3에서 멈춤). 다만 부상 수치가 4 이상이 되면 상처를 치료할 때까지 @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{무의식} 상태로 남습니다. 대상이 산성 또는 화염 피해를 받으면, 다음 턴이 끝난 뒤까지 재생이 비활성화됩니다.</p>\n<p>주문의 지속시간 동안 한 번, 크리처는 그 라운드의 HP 회복을 포기하고 손상되거나 망가진 장기 하나를 재생하거나, 잘린 신체 부위를 절단된 자리로 가져다 대기 위해 상호작용 행동을 소비하여 다시 붙일 수 있습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.4cFhz9knnHUHj3wi]{주문 효과: 유전자 재생}</p><hr /><p><strong>고조(+1)</strong> 재생 수치가 2 증가합니다.</p>"
         },
         "Grim Tendrils": {
-          "name": "그림 텐드릴(Grim Tendrils)",
+          "name": "음산한 촉수(Grim Tendrils)",
           "description": "<p>당신의 손가락 끝에서 어둠의 촉수가 뻗어나와 공기를 가릅니다. 당신은 2d4 공허 피해와 @Damage[(@item.level)[bleed]] 피해를 선상의 크리처에게 입힙니다. 선상의 각 크리처는 인내 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 공허 피해의 절반과 지속 출혈 피해를 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 크리처는 공허 피해의 두 배와 지속 출혈 피해의 두 배를 받습니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 공허 피해는 2d4만큼 증가하고, 지속 출혈 피해는 1만큼 증가합니다.</p>"
         },
         "Group Chat": {
@@ -657,7 +657,7 @@
           "description": "<p>유대에 속한 크리처들은 서로 120피트 이내에 있는 동안 텔레파시로 소통할 수 있습니다. 두 유대 크리처가 같은 차원에 있고 둘 다 살아 있는 한, 서로의 현재 상태와 대략적인 방향 및 거리, 그리고 의식이 있는지, @UUID[Compendium.sf2e.conditions.Item.fBnFDH2MTzgFijKf]{무의식}, @UUID[Compendium.sf2e.conditions.Item.yZRUzMqrMmfLu0V1]{죽어감}, 또는 사망 상태인지 계속 알아차립니다. @UUID[Compendium.sf2e.actions.Item.XSMTalRsPwQ0beIE]{연결망 주문} 행동을 얻습니다.</p>"
         },
         "Guidance": {
-          "name": "지침(Guidance)",
+          "name": "안내(Guidance)",
           "description": "<p>당신은 초자연적 존재의 인도를 구하며, 대상에게 지속시간이 끝나기 전에 시도하는 한 번의 공격 굴림, 지각 판정, 내성 굴림 또는 기술 판정에 +1 상태 보너스를 부여합니다. 대상은 굴림 전에 보너스를 사용할 굴림을 선택합니다. 대상이 보너스를 사용하면 주문이 종료됩니다. 어느 경우든 대상은 그 후 1시간 동안 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{주문 효과: 가이던스}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.3LyOkV25p7wA181H]{효과: 가이던스 면역}</p>"
         },
         "Heal": {
@@ -726,7 +726,7 @@
         },
         "Religious Talisman": {
           "name": "종교 부적(Religious Talisman)",
-          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{애톤} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
+          "description": "<p>10분 만에 자신의 신격을 상징하는 종교 상징물을 만들고 축복할 수 있습니다. 이러한 부적은 전통적으로 종교 상징을 그린 종이 조각이지만, 바디 아트, 스티커, 심지어 가상 이모지 등 여러 형태를 취할 수 있습니다. 부적은 자신을 위해서만, 자신이 숭배하는 신격을 위해서만 만들 수 있습니다. 신격의 교리에 맞는 활동을 계속하는 동안 우선권 굴림에 +1 상태 보너스를 받습니다. 신격의 금기를 어기면 부적이 파괴되고, @UUID[Compendium.sf2e.spells.Item.7Fd4lxozd11MQ55N]{속죄} 의식을 완료할 때까지 우선권 굴림과 지각 판정에 –1 상태 페널티를 받습니다.</p>"
         },
         "Repair Toolkit (Commercial)": {
           "name": "상업용 수리 도구(Repair Toolkit (Commercial))",
@@ -734,10 +734,10 @@
         },
         "Shadow": {
           "name": "그림자(Shadow)",
-          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{피그먼트}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{그림 텐드릴}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{느리게}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{플리커}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{오도하다}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{판타스마고리아}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 손가락 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{달라붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
+          "description": "<p>모든 그림자가 네더월드로 통하는 문임을 알며, 점토를 빚는 예술가처럼 그 영역의 그림자 물질을 마음대로 무섭거나 경이로운 형태로 조각합니다.</p>\n<p><strong>전통</strong> 신성</p>\n<p><strong>연결 기술</strong> 은신</p>\n<p><strong>연결 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.0zU8CPejjQFnhZFI]{허상}; 1랭크: @UUID[Compendium.sf2e.spells.Item.k34hDOfIIMAxNL4a]{음산한 촉수}; 2랭크: @UUID[Compendium.sf2e.spells.Item.XXqE1eY3w3z6xJCB]{투명화}; 3랭크: @UUID[Compendium.sf2e.spells.Item.WsUwpfmhKrKwoIe3]{둔화}; 4랭크: @UUID[Compendium.sf2e.spells.Item.zR67Rt3UMHKC5evy]{점멸}; 5랭크: @UUID[Compendium.sf2e.spells.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}; 6랭크: @UUID[Compendium.sf2e.spells.Item.WPXzPl7YbMEIGWfi]{기만}; 7랭크: @UUID[Compendium.sf2e.spells.Item.0jadeyQIItIuRgeH]{일식 폭발}; 8랭크: @UUID[Compendium.sf2e.spells.Item.wfleiawxsfhpRRwf]{소실}; 9랭크: @UUID[Compendium.sf2e.spells.Item.MJx7DmjsWYzDZ3a4]{환상극}</p>\n<p><strong>깨달음 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.uh9Br4yrKvJA6zq0]{그림자 튕기기}; 상급: @UUID[Compendium.sf2e.spells.Item.rluzzX2ml4yFWnYw]{들러붙는 그림자}; 고급: @UUID[Compendium.sf2e.spells.Item.pgjlPNfXCpEYyLVu]{그림자 감옥}</p>\n<p><strong>조화</strong> 생명력 전달을 사용하면 대상의 그림자가 어두워지고 부풀어 대상의 @Template[type:emanation|distance:10] 이내 밝은 빛을 희미한 빛으로 낮춥니다. 이는 마법적 어둠의 한 형태로 비마법적 광원을 제압하거나 마법적 빛을 상쇄하려 시도할 수 있습니다. 대상은 이 희미한 빛 안에서 @UUID[Compendium.sf2e.conditions.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되며 은폐 상태를 이용해 @UUID[Compendium.sf2e.actions.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이는 다음 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>완전한 조화</strong> @UUID[Compendium.sf2e.actions.Item.u9NU2bULHg3S5FaP]{그림자 걸음} 행동을 얻습니다. 생명력 전달을 사용하면 대상은 다음 턴이 끝나기 전까지 이 행동을 한 번 사용할 수 있습니다.</p>"
         },
         "Shadow Snap": {
-          "name": "그림자 손가락 튕기기(Shadow Snap)",
+          "name": "그림자 튕기기(Shadow Snap)",
           "description": "<p>손가락을 튕겨 대상의 그림자가 당신에게 복종하도록 부릅니다. 이 주문을 시전할 때와 이후 라운드에서 매 턴 처음 유지할 때, 그림자가 대상을 공격하거나 추적하게 할 수 있습니다. 공격을 선택하면 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다(대성공 시 두 배 피해). 이 공격은 다중 공격 페널티를 사용하고 그 페널티에 포함됩니다.</p>\n<p>추적을 선택하면 다음 당신의 턴 종료 전까지 대상이 처음으로 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 하거나, 사용 중인 이동 행동으로 칸을 떠날 때 대상의 AC에 대해 주문 공격 굴림을 하여 명중 시 1d10 냉기 피해를 줍니다. 공격이 대성공하면 그림자가 그 행동을 방해합니다.</p>\n<p>주문을 유지할 때마다 대상을 공격하거나, 다음 당신의 턴 종료까지 그림자에게 대상을 추적하라고 명령할 수 있습니다.</p><hr /><p><strong>고조(+1)</strong> 냉기 피해가 1d10 증가합니다.</p>"
         },
         "Share Pain": {
@@ -753,8 +753,8 @@
           "description": "<p>일부 주문을 더 유연하게 시전하는 법을 배워 주문 시전을 더욱 세밀하게 통제할 수 있습니다. 접근할 수 있는 각 주문 랭크마다 해당 랭크 주문 하나를 대표 주문으로 선택합니다. 대표 주문의 고조된 형태를 별도로 배울 필요 없이 자유롭게 고조할 수 있습니다. 대표 주문을 최소 랭크보다 높은 랭크로 배웠다면 낮은 랭크 형태도 별도로 배우지 않고 모두 시전할 수 있습니다. 대표 주문을 교체한다면 이전 주문을 배웠던 주문 랭크와 같은 랭크의 대체 대표 주문을 선택할 수 있습니다. 주문을 교체하지 않고 대표 주문만 해당 랭크의 다른 주문으로 바꾸도록 특별히 재훈련할 수도 있으며, 일반적으로 주문을 재훈련하는 것과 같은 시간이 걸립니다.</p>"
         },
         "Slow": {
-          "name": "느리게(Slow)",
-          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 느리게 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
+          "name": "둔화(Slow)",
+          "description": "<p>당신은 대상 주위의 시간 흐름을 늦춰 그 행동을 둔화 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 1 라운드 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.sf2e.conditions.Item.xYTAsEpcJE1Ccni3]{둔화}입니다.</p>\n<hr />\n<p><strong>고조(6랭크)</strong> 당신은 최대 10개의 크리처를 대상으로 삼을 수 있습니다.</p>"
         },
         "Soul Surge": {
           "name": "영혼 쇄도(Soul Surge)",
@@ -789,7 +789,7 @@
           "description": "<p>당신의 영혼은 유대에 속한 이들을 연결하고 치유하는 에너지 연결망을 지탱합니다. 생명력 연결망의 최대 용량은 레벨당 HP 4에 6을 더한 값입니다. @UUID[Compendium.sf2e.actions.Item.UeMHbnnaXDa3sGfG]{생명력 전달} 행동을 얻으며, 이를 사용해 연결망의 HP를 꺼내 자신이나 동료에게 치유로 전달할 수 있습니다.</p>\n<p>생사가 걸린 상황은 동료들과의 유대를 강화합니다. 전투 중 각 턴이 시작되어 행동을 회복할 때 생명력 연결망은 HP 4를 회복합니다. 주문 DC가 달인이라면 대신 6, 전설이라면 8을 회복합니다. 재집중할 때 생명력 연결망의 HP를 모두 회복합니다.</p>"
         },
         "Void Warp": {
-          "name": "보이드 워프(Void Warp)",
+          "name": "공허 왜곡(Void Warp)",
           "description": "<p>당신은 생명력에 피해를 입히기 위해 공허를 불러냅니다.  목표는 기본 인내 내성 굴림으로 2d4 공허 피해를 받습니다. 대실패 시, 목표는 당신의 다음 턴이 시작될 때까지 @UUID[Compendium.sf2e.conditions.Item.MIRkyAjyBeXivMa7]{약화} 입니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해가 1d4만큼 증가합니다.</p>"
         },
         "Waste Not": {
@@ -1003,7 +1003,7 @@
         },
         "Battleblessed": {
           "name": "전투의 축복(Battleblessed)",
-          "description": "<p>뛰어난 전투 무용가이자 전사로서 예언자들의 축복을 받고 조상 전통으로 단련되어 동족의 자연적인 능력을 넘어서는 위업을 행할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{테일윈드}을 1랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다.</p>"
+          "description": "<p>뛰어난 전투 무용가이자 전사로서 예언자들의 축복을 받고 조상 전통으로 단련되어 동족의 자연적인 능력을 넘어서는 위업을 행할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{순풍}을 1랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다.</p>"
         },
         "Cat Fall": {
           "name": "캣 폴(Cat Fall)",
@@ -1139,7 +1139,7 @@
         },
         "Battleblessed": {
           "name": "전투의 축복(Battleblessed)",
-          "description": "<p>뛰어난 전투 무용가이자 전사로서 예언자들의 축복을 받고 조상 전통으로 단련되어 동족의 자연적인 능력을 넘어서는 위업을 행할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{테일윈드}을 1랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다.</p>"
+          "description": "<p>뛰어난 전투 무용가이자 전사로서 예언자들의 축복을 받고 조상 전통으로 단련되어 동족의 자연적인 능력을 넘어서는 위업을 행할 수 있습니다. @UUID[Compendium.sf2e.spells.Item.KcLVELhCUcKXxiKE]{순풍}을 1랭크 원시 선천 주문으로 얻어 하루에 한 번 시전할 수 있습니다.</p>"
         },
         "Cat Fall": {
           "name": "캣 폴(Cat Fall)",
@@ -1519,7 +1519,7 @@
       "items": {
         "Advanced Targeting System": {
           "name": "고급 조준 시스템(Advanced Targeting System)",
-          "description": "<p>안구 처리장치가 고급 조준 시스템으로 증강되어, 적을 더 쉽게 포착하고 움직임을 읽을 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{슈어 스트라이크}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
+          "description": "<p>안구 처리장치가 고급 조준 시스템으로 증강되어, 적을 더 쉽게 포착하고 움직임을 읽을 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{확실한 타격}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
         },
         "Aim": {
           "name": "조준(Aim)",
@@ -1667,7 +1667,7 @@
       "items": {
         "Advanced Targeting System": {
           "name": "고급 조준 시스템(Advanced Targeting System)",
-          "description": "<p>안구 처리장치가 고급 조준 시스템으로 증강되어, 적을 더 쉽게 포착하고 움직임을 읽을 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{슈어 스트라이크}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
+          "description": "<p>안구 처리장치가 고급 조준 시스템으로 증강되어, 적을 더 쉽게 포착하고 움직임을 읽을 수 있습니다. @UUID[Compendium.sf2e.spells.Item.Gb7SeieEvd0pL2Eh]{확실한 타격}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다.</p>"
         },
         "Aim": {
           "name": "조준(Aim)",
@@ -2899,7 +2899,7 @@
         },
         "Anomaly": {
           "name": "이상현상(Anomaly)",
-          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{디스펠 매직}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌의 벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 소환}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형태}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
+          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{마법 해제}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌 장벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 부르기}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형상}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
         },
         "Arcane Focus Spells": {
           "name": "비전 포커스 주문(Arcane Focus Spells)"
@@ -2936,11 +2936,11 @@
           "description": "<p>조심스럽고 빠르게 발을 내딛습니다. 어려운 지형으로 걸음할 수 있습니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Force Barrage": {
-          "name": "포스 배러지(Force Barrage)",
+          "name": "역장 탄막(Force Barrage)",
           "description": "<p>당신은 당신이 볼 수 있는 크리처에게 고체화된 마법의 파편을 발사합니다. 이것은 자동으로 적중하여 1d4+1 역장 피해를 줍니다. 주문을 시전할 때 사용하는 추가 행동 하나당 발사하는 파편의 수가 하나씩 증가하며, 행동 3개를 사용하면 최대 3개의 파편까지 발사할 수 있습니다. 당신은 각 파편의 목표를 개별적으로 선택합니다. 같은 목표물에 파편을 2개 이상 발사하는 경우, 피해 보너스나 페널티, 저항, 약점 등을 적용하기 전에 피해를 합산합니다.</p>\n<hr />\n<p><strong>고조(+2)</strong> 당신은 사용하는 각 행동마다 추가로 한 개의 파편을 발사합니다.</p>"
         },
         "Grifter": {
@@ -2956,7 +2956,7 @@
           "description": "<p>이 작은 원통에는 다음 중 한 가지 효과를 일으키는 특수 나나이트가 들어 있습니다.</p><ul><li>@UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로} 상태를 제거합니다.</li><li>@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 또는 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 상태의 수치를 1 감소시킵니다.</li></ul>"
         },
         "Injury Echo": {
-          "name": "부상 메아리(Injury Echo)",
+          "name": "상흔의 메아리(Injury Echo)",
           "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
         },
         "Light": {
@@ -3014,7 +3014,7 @@
           "description": "<p>대개 착용하거나 부속지 하나로 들 수 있는 작은 물건이 위안을 줍니다. 감정적인 가치가 있는 장신구나 의복, 손장난용 장치일 수도 있고, 단순히 촉감이 마음에 드는 물건일 수도 있습니다.</p><p><strong>닻 혜택</strong> 선택한 물체의 존재감이나 무게가 당신을 이 현실에 붙들어 둡니다. 환영과 홀로그램에 대한 지각 판정과 의지 내성 굴림 모두에 +1 상황 보너스를 얻습니다.</p><p><strong>정박 효과</strong> @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음} 상태를 1만큼 감소시킵니다. 겁먹음 상태가 아니라면 대신 다음 턴이 시작될 때까지 공포 효과에 대한 의지 내성 굴림에 +1 상황 보너스를, 자신을 @UUID[Compendium.sf2e.actions.Item.2u915NdUyQan6uKF]{사기 저하}하려는 시도에 대한 의지 DC에 +2 상황 보너스를 얻습니다. 이 혜택은 라운드마다 한 번만 받을 수 있습니다.</p><p>@UUID[Compendium.sf2e.feat-effects.Item.nvB1852vEPVqjxhR]{효과: 유형의 물체(고정 효과)}</p>"
         },
         "Thunderstrike": {
-          "name": "썬더스트라이크(Thunderstrike)",
+          "name": "낙뢰(Thunderstrike)",
           "description": "<p>당신은 천둥이 치는 번개의 덩굴을 불러내어, 기본 반사 내성 굴림으로 목표 대상에게 1d12 전기 피해와 1d4 음파 피해를 줍니다. 금속 갑옷을 착용하거나 금속으로 만들어진 대상은 내성 굴림에 -1 상황 보너스를 받으며, 주문에 의해 피해를 입으면 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 1라운드 동안 지속됩니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 전기 피해 1d12와 음파 피해 1d4가 증가합니다.</p>"
         },
         "Versatile Human": {
@@ -3053,7 +3053,7 @@
         },
         "Anomaly": {
           "name": "이상현상(Anomaly)",
-          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{디스펠 매직}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌의 벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 소환}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형태}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
+          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{마법 해제}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌 장벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 부르기}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형상}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
         },
         "Arcane Focus Spells": {
           "name": "비전 포커스 주문(Arcane Focus Spells)"
@@ -3094,7 +3094,7 @@
           "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
         },
         "Dispel Magic": {
-          "name": "디스펠 매직(Dispel Magic)",
+          "name": "마법 해제(Dispel Magic)",
           "description": "<p>당신은 주문이나 효과 뒤에 숨겨진 마법을 풀어냅니다. 대상에 대해 상쇄 판정을 시도하십시오. 마법 아이템의 반격에 성공하면, 그 아이템은 10분 동안 같은 종류의 평범한 아이템이 됩니다. 이것은 아이템의 비마법적 속성을 변경하지 않습니다. 대상이 아티팩트나 유사한 아이템인 경우, 당신은 자동으로 실패합니다.</p>"
         },
         "Feather Step": {
@@ -3102,15 +3102,15 @@
           "description": "<p>조심스럽고 빠르게 발을 내딛습니다. 어려운 지형으로 걸음할 수 있습니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Fleet": {
           "name": "쾌속(Fleet)",
           "description": "<p>도보로 더 빠르게 움직입니다. 이동속도가 5피트 증가합니다.</p>"
         },
         "Force Barrage": {
-          "name": "포스 배러지(Force Barrage)",
+          "name": "역장 탄막(Force Barrage)",
           "description": "<p>당신은 당신이 볼 수 있는 크리처에게 고체화된 마법의 파편을 발사합니다. 이것은 자동으로 적중하여 1d4+1 역장 피해를 줍니다. 주문을 시전할 때 사용하는 추가 행동 하나당 발사하는 파편의 수가 하나씩 증가하며, 행동 3개를 사용하면 최대 3개의 파편까지 발사할 수 있습니다. 당신은 각 파편의 목표를 개별적으로 선택합니다. 같은 목표물에 파편을 2개 이상 발사하는 경우, 피해 보너스나 페널티, 저항, 약점 등을 적용하기 전에 피해를 합산합니다.</p>\n<hr />\n<p><strong>고조(+2)</strong> 당신은 사용하는 각 행동마다 추가로 한 개의 파편을 발사합니다.</p>"
         },
         "Grifter": {
@@ -3126,7 +3126,7 @@
           "description": "<p>이 작은 원통에는 다음 중 한 가지 효과를 일으키는 특수 나나이트가 들어 있습니다.</p><ul><li>@UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로} 상태를 제거합니다.</li><li>@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 또는 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 상태의 수치를 1 감소시킵니다.</li></ul>"
         },
         "Injury Echo": {
-          "name": "부상 메아리(Injury Echo)",
+          "name": "상흔의 메아리(Injury Echo)",
           "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
         },
         "Isolated Spell Matrix": {
@@ -3134,8 +3134,8 @@
           "description": "<p>다음 행동으로 사거리가 있는 주문을 시전한다면 그 주문의 사거리를 100피트로 증가시킵니다. 그 주문은 당신의 양자장 안에 있는 표적에게만 영향을 주며, 주문의 범위는 양자장 밖으로 확장되지 않습니다.</p>"
         },
         "Jump": {
-          "name": "점프(Jump)",
-          "description": "<p>당신의 다리에 힘이 솟구쳐, 높이 그리고 멀리 도약할 준비가 되었습니다. 당신은 지면에 닿지 않고 어떤 방향으로든 30피트 점프합니다. 당신은 당신으로부터 30피트 이내의 단단한 지면에 착지해야 하며, 그렇지 않으면 다음 행동을 사용한 후에 넘어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong>  사거리가 접촉으로 바뀌고, 대상은 접촉한 크리처 하나로 바뀌며, 지속시간은 1분이 되어, 대상은 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약} 행동을 취할 때마다 설명된 대로 점프할 수 있습니다.</p>"
+          "name": "도약(Jump)",
+          "description": "<p>당신의 다리에 힘이 솟구쳐, 높이 그리고 멀리 도약할 준비가 되었습니다. 당신은 지면에 닿지 않고 어떤 방향으로든 30피트 도약합니다. 당신은 당신으로부터 30피트 이내의 단단한 지면에 착지해야 하며, 그렇지 않으면 다음 행동을 사용한 후에 넘어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong>  사거리가 접촉으로 바뀌고, 대상은 접촉한 크리처 하나로 바뀌며, 지속시간은 1분이 되어, 대상은 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약} 행동을 취할 때마다 설명된 대로 도약할 수 있습니다.</p>"
         },
         "Light": {
           "name": "빛(Light)",
@@ -3200,7 +3200,7 @@
           "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>템프위브 방어복은 열 조절 직물과 환기용 선으로 짠 후드 달린 강화 의복으로, 카스트로벨이나 풀로니스의 밀림 같은 습한 기후를 여행할 때 널리 착용합니다.</p>"
         },
         "Thunderstrike": {
-          "name": "썬더스트라이크(Thunderstrike)",
+          "name": "낙뢰(Thunderstrike)",
           "description": "<p>당신은 천둥이 치는 번개의 덩굴을 불러내어, 기본 반사 내성 굴림으로 목표 대상에게 1d12 전기 피해와 1d4 음파 피해를 줍니다. 금속 갑옷을 착용하거나 금속으로 만들어진 대상은 내성 굴림에 -1 상황 보너스를 받으며, 주문에 의해 피해를 입으면 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 1라운드 동안 지속됩니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 전기 피해 1d12와 음파 피해 1d4가 증가합니다.</p>"
         },
         "Versatile Human": {
@@ -3243,7 +3243,7 @@
         },
         "Anomaly": {
           "name": "이상현상(Anomaly)",
-          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{디스펠 매직}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌의 벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 소환}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형태}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
+          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{마법 해제}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌 장벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 부르기}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형상}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
         },
         "Arcane Focus Spells": {
           "name": "비전 포커스 주문(Arcane Focus Spells)"
@@ -3280,7 +3280,7 @@
           "description": "<p>용기에는 배낭, 서류가방, 더플백, 핸드백이 포함됩니다. 용기는 최대 벌크 4까지 담을 수 있으며, 그 안에 든 아이템 중 처음 벌크 2는 당신의 벌크 한도에 계산하지 않습니다. 용기를 몸에 착용하지 않고 들고 다니거나 수납하고 있다면, 용기의 벌크는 무시가 아니라 가벼움입니다.</p>"
         },
         "Cozy Crashpad": {
-          "name": "안락한 간이 숙소(Cozy Crashpad)",
+          "name": "안락한 임시 숙소(Cozy Crashpad)",
           "description": "<p>당신은 각 변이 20피트이고 높이가 10피트인 오두막을 만듭니다. 이 오두막은 구조물 특성을 지니며, 구조물을 생성하는 마법 아이템과 같은 제약을 받습니다. 오두막의 벽은 단순한 금속으로 되어 있고 작은 금속 덧문이 달린 창문들이 있으며, 금속 문 하나가 있습니다. 자체 자물쇠는 없지만 자물쇠를 달 수 있는 걸쇠가 있습니다.</p>\n<p>내부에는 간이침대 세 개, 화장실 하나, 마법으로 작동하는 작은 난로가 있습니다. 작은 마법 조명이 실내를 밝히며, 유지 행동으로 마음대로 켜거나 끌 수 있습니다. 오두막 내부의 기후는 쾌적하며 안에 있는 크리처가 대부분의 혹독한 날씨를 견딜 수 있게 하지만, 믿기 어려울 정도의 고온이나 저온, 강력한 폭풍, 허리케인급 이상의 바람은 오두막을 파괴합니다. 다른 크리처는 오두막을 손상시키지 않고 자유롭게 드나들 수 있지만, 당신이 오두막을 나가면 주문이 끝납니다. 당신은 주문을 해제할 수 있습니다.</p>"
         },
         "Credstick": {
@@ -3292,7 +3292,7 @@
           "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
         },
         "Dispel Magic": {
-          "name": "디스펠 매직(Dispel Magic)",
+          "name": "마법 해제(Dispel Magic)",
           "description": "<p>당신은 주문이나 효과 뒤에 숨겨진 마법을 풀어냅니다. 대상에 대해 상쇄 판정을 시도하십시오. 마법 아이템의 반격에 성공하면, 그 아이템은 10분 동안 같은 종류의 평범한 아이템이 됩니다. 이것은 아이템의 비마법적 속성을 변경하지 않습니다. 대상이 아티팩트나 유사한 아이템인 경우, 당신은 자동으로 실패합니다.</p>"
         },
         "Favored Disguise": {
@@ -3304,15 +3304,15 @@
           "description": "<p>조심스럽고 빠르게 발을 내딛습니다. 어려운 지형으로 걸음할 수 있습니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "Fleet": {
           "name": "쾌속(Fleet)",
           "description": "<p>도보로 더 빠르게 움직입니다. 이동속도가 5피트 증가합니다.</p>"
         },
         "Force Barrage": {
-          "name": "포스 배러지(Force Barrage)",
+          "name": "역장 탄막(Force Barrage)",
           "description": "<p>당신은 당신이 볼 수 있는 크리처에게 고체화된 마법의 파편을 발사합니다. 이것은 자동으로 적중하여 1d4+1 역장 피해를 줍니다. 주문을 시전할 때 사용하는 추가 행동 하나당 발사하는 파편의 수가 하나씩 증가하며, 행동 3개를 사용하면 최대 3개의 파편까지 발사할 수 있습니다. 당신은 각 파편의 목표를 개별적으로 선택합니다. 같은 목표물에 파편을 2개 이상 발사하는 경우, 피해 보너스나 페널티, 저항, 약점 등을 적용하기 전에 피해를 합산합니다.</p>\n<hr />\n<p><strong>고조(+2)</strong> 당신은 사용하는 각 행동마다 추가로 한 개의 파편을 발사합니다.</p>"
         },
         "Grifter": {
@@ -3320,7 +3320,7 @@
           "description": "<p>당신은 의심하지 않는 호구의 재산을 뜯고 순진한 이들을 협박하는 협잡꾼이자 사기꾼입니다. 개인적인 감정은 없습니다. 그저 크레딧을 벌 뿐입니다. 부업으로 사기판을 벌이거나, 현장에서 붙잡힐 때까지 정착지에서 정착지로 옮겨 다니며 평생 이 일을 할 수 있습니다.</p>\n<p>두 가지 능력치 상승을 선택합니다. 하나는 <strong>지능</strong> 또는 <strong>매력</strong>이어야 하며, 나머지 하나는 자유 능력치 상승입니다.</p>\n<p>속임수 기술과 전문 지식이 있는 척하는 직업 또는 주제에 관련된 지식 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.B6HbYsLBWb1RR6Fx]{매력적인 거짓말쟁이} 기술 피트를 얻습니다.</p>"
         },
         "Haste": {
-          "name": "헤이스티(Haste)",
+          "name": "가속(Haste)",
           "description": "<p>마법은 대상이 더 빠르게 행동하도록 강화합니다.  대상은 @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{가속} 상태가 되며, 매 라운드 추가 행동을 타격과 보행 행동에만 사용할 수 있습니다.</p>\n<hr />\n<p><strong>고조(7랭크)</strong> 당신은 최대 6개의 크리처를 대상으로 삼을 수 있습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{주문 효과: 헤이스트}</p>"
         },
         "Human": {
@@ -3332,7 +3332,7 @@
           "description": "<p>이 작은 원통에는 다음 중 한 가지 효과를 일으키는 특수 나나이트가 들어 있습니다.</p><ul><li>@UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로} 또는 @UUID[Compendium.sf2e.conditions.Item.6uEgoh53GbXuHpTF]{마비} 상태를 제거합니다.</li><li>@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 또는 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 상태의 수치를 1 감소시킵니다.</li></ul>"
         },
         "Injury Echo": {
-          "name": "부상 메아리(Injury Echo)",
+          "name": "상흔의 메아리(Injury Echo)",
           "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
         },
         "Isolated Spell Matrix": {
@@ -3340,15 +3340,15 @@
           "description": "<p>다음 행동으로 사거리가 있는 주문을 시전한다면 그 주문의 사거리를 100피트로 증가시킵니다. 그 주문은 당신의 양자장 안에 있는 표적에게만 영향을 주며, 주문의 범위는 양자장 밖으로 확장되지 않습니다.</p>"
         },
         "Jump": {
-          "name": "점프(Jump)",
-          "description": "<p>당신의 다리에 힘이 솟구쳐, 높이 그리고 멀리 도약할 준비가 되었습니다. 당신은 지면에 닿지 않고 어떤 방향으로든 30피트 점프합니다. 당신은 당신으로부터 30피트 이내의 단단한 지면에 착지해야 하며, 그렇지 않으면 다음 행동을 사용한 후에 넘어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong>  사거리가 접촉으로 바뀌고, 대상은 접촉한 크리처 하나로 바뀌며, 지속시간은 1분이 되어, 대상은 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약} 행동을 취할 때마다 설명된 대로 점프할 수 있습니다.</p>"
+          "name": "도약(Jump)",
+          "description": "<p>당신의 다리에 힘이 솟구쳐, 높이 그리고 멀리 도약할 준비가 되었습니다. 당신은 지면에 닿지 않고 어떤 방향으로든 30피트 도약합니다. 당신은 당신으로부터 30피트 이내의 단단한 지면에 착지해야 하며, 그렇지 않으면 다음 행동을 사용한 후에 넘어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong>  사거리가 접촉으로 바뀌고, 대상은 접촉한 크리처 하나로 바뀌며, 지속시간은 1분이 되어, 대상은 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약} 행동을 취할 때마다 설명된 대로 도약할 수 있습니다.</p>"
         },
         "Light": {
           "name": "빛(Light)",
           "description": "<p>당신은 자신이 선택한 색깔의 빛으로 20피트 반경(그리고 그 다음 20피트까지는 희미한 빛)을 비추는 빛의 구체를 만듭니다. 만약 기꺼이 하는 크리처와 같은 공간에 빛을 생성한다면, 그 크리처에 빛을 붙일 수 있으며, 그 크리처가 움직일 때 그 근처에 빛이 떠다니게 됩니다. 당신은 최대 60피트까지 빛을 이동시키도록 주문을 유지할 수 있으며, 이 이동의 일부로 빛을 크리처에 붙이거나 떼어낼 수 있습니다.</p>\n<p>당신은 주문을 해제할 수 있습니다. 만약 당신이 이미 네 개의 <em>light</em> 주문이 활성화된 상태에서 주문을 시전한다면, 기존 주문 중 하나를 종료해야 합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{주문 효과: 라이트}</p>\n<hr />\n<p><strong>고조 (4th)</strong> 구체는 60피트 반경(그리고 그 다음 60피트까지는 희미한 빛)을 비추는 빛을 발합니다.</p>"
         },
         "Lightning Bolt": {
-          "name": "라이트닝 볼트(Lightning Bolt)",
+          "name": "번개 화살(Lightning Bolt)",
           "description": "<p>당신의 손에서 번개가 튀어나와 4d12의 전기 피해를 줍니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해량이 1d12 증가합니다.</p>"
         },
         "Medpatch (Tactical)": {
@@ -3411,7 +3411,7 @@
         },
         "Spell Gem of Translate (Rank 3)": {
           "name": "번역 주문 보석(3랭크)(Spell Gem of Translate (Rank 3))",
-          "description": "<p>@UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{번역하십시오.}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
+          "description": "<p>@UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{통역}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
         },
         "Spell Repertoire": {
           "name": "주문 목록(Spell Repertoire)",
@@ -3430,7 +3430,7 @@
           "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>템프위브 방어복은 열 조절 직물과 환기용 선으로 짠 후드 달린 강화 의복으로, 카스트로벨이나 풀로니스의 밀림 같은 습한 기후를 여행할 때 널리 착용합니다.</p>"
         },
         "Thunderstrike": {
-          "name": "썬더스트라이크(Thunderstrike)",
+          "name": "낙뢰(Thunderstrike)",
           "description": "<p>당신은 천둥이 치는 번개의 덩굴을 불러내어, 기본 반사 내성 굴림으로 목표 대상에게 1d12 전기 피해와 1d4 음파 피해를 줍니다. 금속 갑옷을 착용하거나 금속으로 만들어진 대상은 내성 굴림에 -1 상황 보너스를 받으며, 주문에 의해 피해를 입으면 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 1라운드 동안 지속됩니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 전기 피해 1d12와 음파 피해 1d4가 증가합니다.</p>"
         },
         "Untrained Improvisation": {
@@ -3481,7 +3481,7 @@
         },
         "Anomaly": {
           "name": "이상현상(Anomaly)",
-          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{디스펠 매직}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌의 벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 소환}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형태}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
+          "description": "<p>당신의 존재는 현재 현실의 정상적인 법칙을 거스르는 변칙입니다. 존재의 핵심을 뒤흔든 무언가와 조우했거나, 대체 현실 또는 뒤틀린 시간선의 장막을 넘어왔을 수 있습니다.</p><p><strong>전통</strong> 비전</p><p><strong>역설 기술</strong> 속임수</p><p><strong>역설 주문</strong> 소마법: @UUID[Compendium.sf2e.spells.Item.jgN33YSYXB8iIHTw]{휘청임}; 1랭크: @UUID[Compendium.sf2e.spells.Item.7P4eBdqWcgQJAFCa]{변환 쇄도}; 2랭크: @UUID[Compendium.sf2e.spells.Item.9HpwDN4MYQJnW0LG]{마법 해제}; 3랭크: @UUID[Compendium.sf2e.spells.Item.qkehzRdn7JeGrR6E]{공허의 속삭임}; 4랭크: @UUID[Compendium.sf2e.spells.Item.jyrxfWeeCsrkhNit]{섬뜩한 분노}; 5랭크: @UUID[Compendium.sf2e.spells.Item.kOa055FIrO9Smnya]{돌 장벽}; 6랭크: @UUID[Compendium.sf2e.spells.Item.a02hsymtiVRQvh3i]{현실 절단}; 7랭크: @UUID[Compendium.sf2e.spells.Item.zdzeVZlKHkMAt2Rf]{사형 선고}; 8랭크: @UUID[Compendium.sf2e.spells.Item.sTpdXXaaKhoGOIxh]{공허의 그릇}; 9랭크: @UUID[Compendium.sf2e.spells.Item.J3zMwmhIVgI2yzxm]{우주 부르기}</p><p><strong>왜곡 주문</strong> 초급: @UUID[Compendium.sf2e.spells.Item.TN2pHF9l3k4ZJ7di]{지형 왜곡}; 상급: @UUID[Compendium.sf2e.spells.Item.9w90nlUdV5HBRWFm]{세계 왜곡}; 최상급: @UUID[Compendium.sf2e.spells.Item.XoYUZP9OYdDMz4I0]{평행 형상}</p><p><strong>양자장</strong> 적들의 대체된 모습이 주위에서 깜빡이며 움직임이 흐릿해집니다. 양자장 안의 적이 집중 특성이 있는 행동을 시도하면 @Check[flat|dc:5|showDC:all]에 성공하지 않는 한 그 행동이 방해됩니다. 크리처가 처음 이 판정에 실패하면 24시간 동안 일시적 면역을 얻습니다.</p>"
         },
         "Arcane Focus Spells": {
           "name": "비전 포커스 주문(Arcane Focus Spells)"
@@ -3518,7 +3518,7 @@
           "description": "<p>용기에는 배낭, 서류가방, 더플백, 핸드백이 포함됩니다. 용기는 최대 벌크 4까지 담을 수 있으며, 그 안에 든 아이템 중 처음 벌크 2는 당신의 벌크 한도에 계산하지 않습니다. 용기를 몸에 착용하지 않고 들고 다니거나 수납하고 있다면, 용기의 벌크는 무시가 아니라 가벼움입니다.</p>"
         },
         "Cozy Crashpad": {
-          "name": "안락한 간이 숙소(Cozy Crashpad)",
+          "name": "안락한 임시 숙소(Cozy Crashpad)",
           "description": "<p>당신은 각 변이 20피트이고 높이가 10피트인 오두막을 만듭니다. 이 오두막은 구조물 특성을 지니며, 구조물을 생성하는 마법 아이템과 같은 제약을 받습니다. 오두막의 벽은 단순한 금속으로 되어 있고 작은 금속 덧문이 달린 창문들이 있으며, 금속 문 하나가 있습니다. 자체 자물쇠는 없지만 자물쇠를 달 수 있는 걸쇠가 있습니다.</p>\n<p>내부에는 간이침대 세 개, 화장실 하나, 마법으로 작동하는 작은 난로가 있습니다. 작은 마법 조명이 실내를 밝히며, 유지 행동으로 마음대로 켜거나 끌 수 있습니다. 오두막 내부의 기후는 쾌적하며 안에 있는 크리처가 대부분의 혹독한 날씨를 견딜 수 있게 하지만, 믿기 어려울 정도의 고온이나 저온, 강력한 폭풍, 허리케인급 이상의 바람은 오두막을 파괴합니다. 다른 크리처는 오두막을 손상시키지 않고 자유롭게 드나들 수 있지만, 당신이 오두막을 나가면 주문이 끝납니다. 당신은 주문을 해제할 수 있습니다.</p>"
         },
         "Credstick": {
@@ -3530,11 +3530,11 @@
           "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
         },
         "Dispel Magic": {
-          "name": "디스펠 매직(Dispel Magic)",
+          "name": "마법 해제(Dispel Magic)",
           "description": "<p>당신은 주문이나 효과 뒤에 숨겨진 마법을 풀어냅니다. 대상에 대해 상쇄 판정을 시도하십시오. 마법 아이템의 반격에 성공하면, 그 아이템은 10분 동안 같은 종류의 평범한 아이템이 됩니다. 이것은 아이템의 비마법적 속성을 변경하지 않습니다. 대상이 아티팩트나 유사한 아이템인 경우, 당신은 자동으로 실패합니다.</p>"
         },
         "Enlarge Quantum Field": {
-          "name": "양자장 확대(Enlarge Quantum Field)",
+          "name": "양자장 거대화(Enlarge Quantum Field)",
           "description": "<p>양자장이 서서히 현실을 잠식합니다. 양자장 반지름을 10피트 증가시킵니다. 양자장이 비활성화될 때까지, 턴마다 한 번 양자장을 유지할 때 반지름을 추가로 5피트 증가시킵니다(최대 추가 50피트).</p>"
         },
         "Expert Spellcaster": {
@@ -3550,8 +3550,8 @@
           "description": "<p>조심스럽고 빠르게 발을 내딛습니다. 어려운 지형으로 걸음할 수 있습니다.</p>"
         },
         "Figment": {
-          "name": "피그먼트(Figment)",
-          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>피그먼트</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 피그먼트}</p>"
+          "name": "허상(Figment)",
+          "description": "<p>당신은 간단한 환영의 소리나 환영을 만들어냅니다. 소리는 주문에 청각적 특성을 추가하며, 그 소리는 알아들을 수 있는 단어나 정교한 음악을 포함할 수 없습니다. 환영은 시각적 특성을 추가하며, 5피트 세제곱보다 클 수 없고, 15피트 이내에서 본다면 명백히 조잡하고 세부 사항이 부족합니다. 당신이 주문을 시전하거나 유지할 때, 환영과 함께 @UUID[Compendium.sf2e.actions.Item.GkmbTGfg8KcgynOA]{주의 돌리기}을 시도하여 속임수 판정에 +2 상황 보너스를 얻을 수 있습니다. 만약 어떤 크리처에 대한 시도가 실패하면, 그 크리처는 <em>허상</em>를 믿지 않습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.2Hg3a06gZCSnUgSA]{주문 효과: 허상}</p>"
         },
         "First Ones Lore": {
           "name": "최초의 존재 지식(First Ones Lore)"
@@ -3565,7 +3565,7 @@
           "description": "<p>대상은 공중을 날 수 있으며, 자신의 이동 속도 또는 20피트 중 더 큰 값에 해당하는 비행 속도를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.MuRBCiZn5IKeaoxi]{주문 효과: 플라이}</p>\n<hr />\n<p><strong>고조(7랭크)</strong> 지속시간이 1시간으로 증가합니다.</p>"
         },
         "Force Barrage": {
-          "name": "포스 배러지(Force Barrage)",
+          "name": "역장 탄막(Force Barrage)",
           "description": "<p>당신은 당신이 볼 수 있는 크리처에게 고체화된 마법의 파편을 발사합니다. 이것은 자동으로 적중하여 1d4+1 역장 피해를 줍니다. 주문을 시전할 때 사용하는 추가 행동 하나당 발사하는 파편의 수가 하나씩 증가하며, 행동 3개를 사용하면 최대 3개의 파편까지 발사할 수 있습니다. 당신은 각 파편의 목표를 개별적으로 선택합니다. 같은 목표물에 파편을 2개 이상 발사하는 경우, 피해 보너스나 페널티, 저항, 약점 등을 적용하기 전에 피해를 합산합니다.</p>\n<hr />\n<p><strong>고조(+2)</strong> 당신은 사용하는 각 행동마다 추가로 한 개의 파편을 발사합니다.</p>"
         },
         "Grifter": {
@@ -3573,7 +3573,7 @@
           "description": "<p>당신은 의심하지 않는 호구의 재산을 뜯고 순진한 이들을 협박하는 협잡꾼이자 사기꾼입니다. 개인적인 감정은 없습니다. 그저 크레딧을 벌 뿐입니다. 부업으로 사기판을 벌이거나, 현장에서 붙잡힐 때까지 정착지에서 정착지로 옮겨 다니며 평생 이 일을 할 수 있습니다.</p>\n<p>두 가지 능력치 상승을 선택합니다. 하나는 <strong>지능</strong> 또는 <strong>매력</strong>이어야 하며, 나머지 하나는 자유 능력치 상승입니다.</p>\n<p>속임수 기술과 전문 지식이 있는 척하는 직업 또는 주제에 관련된 지식 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.B6HbYsLBWb1RR6Fx]{매력적인 거짓말쟁이} 기술 피트를 얻습니다.</p>"
         },
         "Haste": {
-          "name": "헤이스티(Haste)",
+          "name": "가속(Haste)",
           "description": "<p>마법은 대상이 더 빠르게 행동하도록 강화합니다.  대상은 @UUID[Compendium.sf2e.conditions.Item.nlCjDvLMf2EkV2dl]{가속} 상태가 되며, 매 라운드 추가 행동을 타격과 보행 행동에만 사용할 수 있습니다.</p>\n<hr />\n<p><strong>고조(7랭크)</strong> 당신은 최대 6개의 크리처를 대상으로 삼을 수 있습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{주문 효과: 헤이스트}</p>"
         },
         "Human": {
@@ -3585,7 +3585,7 @@
           "description": "<p>이 작은 원통에는 다음 중 한 가지 효과를 일으키는 특수 나나이트가 들어 있습니다.</p><ul><li>@UUID[Compendium.sf2e.conditions.Item.HL2l2VRSaQHu9lUw]{피로} 또는 @UUID[Compendium.sf2e.conditions.Item.6uEgoh53GbXuHpTF]{마비} 상태를 제거합니다.</li><li>@UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 또는 @UUID[Compendium.sf2e.conditions.Item.fesd1n5eVhpCSS18]{메스꺼움} 상태의 수치를 1 감소시킵니다.</li></ul>"
         },
         "Injury Echo": {
-          "name": "부상 메아리(Injury Echo)",
+          "name": "상흔의 메아리(Injury Echo)",
           "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
         },
         "Isolated Spell Matrix": {
@@ -3593,15 +3593,15 @@
           "description": "<p>다음 행동으로 사거리가 있는 주문을 시전한다면 그 주문의 사거리를 100피트로 증가시킵니다. 그 주문은 당신의 양자장 안에 있는 표적에게만 영향을 주며, 주문의 범위는 양자장 밖으로 확장되지 않습니다.</p>"
         },
         "Jump": {
-          "name": "점프(Jump)",
-          "description": "<p>당신의 다리에 힘이 솟구쳐, 높이 그리고 멀리 도약할 준비가 되었습니다. 당신은 지면에 닿지 않고 어떤 방향으로든 30피트 점프합니다. 당신은 당신으로부터 30피트 이내의 단단한 지면에 착지해야 하며, 그렇지 않으면 다음 행동을 사용한 후에 넘어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong>  사거리가 접촉으로 바뀌고, 대상은 접촉한 크리처 하나로 바뀌며, 지속시간은 1분이 되어, 대상은 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약} 행동을 취할 때마다 설명된 대로 점프할 수 있습니다.</p>"
+          "name": "도약(Jump)",
+          "description": "<p>당신의 다리에 힘이 솟구쳐, 높이 그리고 멀리 도약할 준비가 되었습니다. 당신은 지면에 닿지 않고 어떤 방향으로든 30피트 도약합니다. 당신은 당신으로부터 30피트 이내의 단단한 지면에 착지해야 하며, 그렇지 않으면 다음 행동을 사용한 후에 넘어집니다.</p>\n<hr />\n<p><strong>고조 (3rd)</strong>  사거리가 접촉으로 바뀌고, 대상은 접촉한 크리처 하나로 바뀌며, 지속시간은 1분이 되어, 대상은 @UUID[Compendium.sf2e.actions.Item.d5I6018Mci2SWokk]{도약} 행동을 취할 때마다 설명된 대로 도약할 수 있습니다.</p>"
         },
         "Light": {
           "name": "빛(Light)",
           "description": "<p>당신은 자신이 선택한 색깔의 빛으로 20피트 반경(그리고 그 다음 20피트까지는 희미한 빛)을 비추는 빛의 구체를 만듭니다. 만약 기꺼이 하는 크리처와 같은 공간에 빛을 생성한다면, 그 크리처에 빛을 붙일 수 있으며, 그 크리처가 움직일 때 그 근처에 빛이 떠다니게 됩니다. 당신은 최대 60피트까지 빛을 이동시키도록 주문을 유지할 수 있으며, 이 이동의 일부로 빛을 크리처에 붙이거나 떼어낼 수 있습니다.</p>\n<p>당신은 주문을 해제할 수 있습니다. 만약 당신이 이미 네 개의 <em>light</em> 주문이 활성화된 상태에서 주문을 시전한다면, 기존 주문 중 하나를 종료해야 합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{주문 효과: 라이트}</p>\n<hr />\n<p><strong>고조 (4th)</strong> 구체는 60피트 반경(그리고 그 다음 60피트까지는 희미한 빛)을 비추는 빛을 발합니다.</p>"
         },
         "Lightning Bolt": {
-          "name": "라이트닝 볼트(Lightning Bolt)",
+          "name": "번개 화살(Lightning Bolt)",
           "description": "<p>당신의 손에서 번개가 튀어나와 4d12의 전기 피해를 줍니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 피해량이 1d12 증가합니다.</p>"
         },
         "Medpatch (Tactical)": {
@@ -3664,7 +3664,7 @@
         },
         "Spell Gem of Translate (Rank 3)": {
           "name": "번역 주문 보석(3랭크)(Spell Gem of Translate (Rank 3))",
-          "description": "<p>@UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{번역하십시오.}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
+          "description": "<p>@UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{통역}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
         },
         "Spell Repertoire": {
           "name": "주문 목록(Spell Repertoire)",
@@ -3683,11 +3683,11 @@
           "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>템프위브 방어복은 열 조절 직물과 환기용 선으로 짠 후드 달린 강화 의복으로, 카스트로벨이나 풀로니스의 밀림 같은 습한 기후를 여행할 때 널리 착용합니다.</p>"
         },
         "Thunderstrike": {
-          "name": "썬더스트라이크(Thunderstrike)",
+          "name": "낙뢰(Thunderstrike)",
           "description": "<p>당신은 천둥이 치는 번개의 덩굴을 불러내어, 기본 반사 내성 굴림으로 목표 대상에게 1d12 전기 피해와 1d4 음파 피해를 줍니다. 금속 갑옷을 착용하거나 금속으로 만들어진 대상은 내성 굴림에 -1 상황 보너스를 받으며, 주문에 의해 피해를 입으면 @UUID[Compendium.sf2e.conditions.Item.i3OJZU2nk64Df3xm]{서투름} 1라운드 동안 지속됩니다.</p>\n<hr />\n<p><strong>고조(+1)</strong> 전기 피해 1d12와 음파 피해 1d4가 증가합니다.</p>"
         },
         "Translocate": {
-          "name": "트랜스로케이트(Translocate)",
+          "name": "전위(Translocate)",
           "description": "<p>당신은 현재 위치에서 당신이 착용하고 들고 있는 모든 물건과 함께 당신이 볼 수 있는 사거리 내의 비어 있는 공간으로 순간이동합니다. 만약 이것이 다른 크리처를 당신과 함께 이동시키는 결과를 초래한다면 — 심지어 당신이 그것을 초차원 용기에 담고 있더라도 — 주문은 실패합니다.</p>\n<hr />\n<p><strong>고조 (5th)</strong> 사거리가 1마일로 증가합니다. 과거에 그곳에 있었고 당신으로부터의 상대적인 위치와 거리를 알고 있다면, 목적지를 볼 필요가 없습니다. 그런 다음 1시간 동안 일시적으로 면역됩니다.</p>"
         },
         "Trick Magic Item": {
@@ -3695,8 +3695,8 @@
           "description": "<p>평소에는 사용할 수 없는 마법 아이템을 살펴보고 속여 일시적으로 활성화하려 합니다. 예를 들어 솔저가 주문 보석이나 주문칩에서 주문을 시전하거나, 미스틱이 주문 보석을 사용해 자신의 연결 전통 목록에 없는 주문을 시전할 수 있습니다. 아이템 활성화가 무엇을 하는지 알고 있어야 하며, 그렇지 않으면 속이기를 시도할 수 없습니다.</p>\n<p>아이템의 마법 전통에 맞는 기술로 판정을 시도합니다. 아이템에서 주문을 시전하려는 경우에는 그 주문이 목록에 포함된 전통의 기술을 사용할 수도 있습니다. 관련 기술은 비전 전통에는 비전학, 원시 전통에는 자연, 오컬트 전통에는 신비학, 신성 전통에는 종교이며, 마법 특성은 있지만 전통 특성이 없는 아이템에는 네 기술 중 어느 것이든 사용할 수 있습니다. GM은 아이템 레벨을 바탕으로 DC를 정합니다(아이템이나 상황에 따라 조정될 수 있습니다).</p>\n<p>주문 공격 수정치 또는 주문 DC가 필요한 마법 아이템을 활성화하는데 해당 수치에 숙련되지 않았다면, 숙련 보너스로 자신의 레벨을 사용하고 지능·지혜·매력 수정치 중 가장 높은 것을 사용합니다. 아이템 전통에 맞는 기술에 달인이라면 대신 훈련 숙련 보너스를 사용하고, 전설이라면 대신 전문가 숙련 보너스를 사용합니다.</p><hr /><p><strong>성공</strong> 현재 턴이 끝날 때까지 평소 사용할 수 있는 것처럼 행동을 소비해 아이템을 활성화할 수 있습니다.</p>\n<p><strong>실패</strong> 이번 턴에는 아이템을 사용할 수도 다시 속이려 할 수도 없지만, 이후 턴에는 다시 시도할 수 있습니다.</p>\n<p><strong>대실패</strong> 아이템을 사용할 수 없으며, 다음 일일 준비 전까지 다시 속이려 할 수 없습니다.</p>"
         },
         "Unfettered Movement": {
-          "name": "자유로운 이동(Unfettered Movement)",
-          "description": "<p>당신은 크리처를 방해하거나 이동 속도를 늦추는 효과를 격퇴합니다. 이 주문의 효과를 받는 동안, 대상은 속도에 상황 페널티를 부여하는 효과를 무시합니다. 대상이 @UUID[Compendium.sf2e.actions.Item.SkZAQRkLLkmBQNB9]{탈출} 효과에 @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{이동 불가}, @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘}, 또는 @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{구속}하려고 시도할 때, 그 효과가 마법적이며 <em>자유로운 이동</em> 주문보다 계급이 높지 않다면 자동으로 성공합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.CdAyAiMGESvgNQtz]{주문 효과: 언페터드 무브먼트}</p>"
+          "name": "자유 이동(Unfettered Movement)",
+          "description": "<p>당신은 크리처를 방해하거나 이동 속도를 늦추는 효과를 격퇴합니다. 이 주문의 효과를 받는 동안, 대상은 속도에 상황 페널티를 부여하는 효과를 무시합니다. 대상이 @UUID[Compendium.sf2e.actions.Item.SkZAQRkLLkmBQNB9]{탈출} 효과에 @UUID[Compendium.sf2e.conditions.Item.eIcWbB5o3pP6OIMe]{이동 불가}, @UUID[Compendium.sf2e.conditions.Item.kWc1fhmv9LBiTuei]{붙잡힘}, 또는 @UUID[Compendium.sf2e.conditions.Item.VcDeM8A5oI6VqhbM]{구속}하려고 시도할 때, 그 효과가 마법적이며 <em>자유 이동</em> 주문보다 계급이 높지 않다면 자동으로 성공합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.CdAyAiMGESvgNQtz]{주문 효과: 언페터드 무브먼트}</p>"
         },
         "Untrained Improvisation": {
           "name": "비숙련 즉흥술(Untrained Improvisation)",

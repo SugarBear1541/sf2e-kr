@@ -180,7 +180,7 @@
     },
     "Effect: One with the Stone": {
       "name": "효과: 하나 지닌 돌(Effect: One with the Stone)",
-      "description": "<p>@UUID[Compendium.sf2e.feats.Item.DnWPKyaMOcOghXQf]{돌과 하나 되기}이 부여합니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{확대}가 적용되는 동안 자신의 레벨과 같은 임시 HP를 얻습니다.</p>"
+      "description": "<p>@UUID[Compendium.sf2e.feats.Item.DnWPKyaMOcOghXQf]{돌과 하나 되기}이 부여합니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.wzctak6BxOW8xvFV]{거대화}가 적용되는 동안 자신의 레벨과 같은 임시 HP를 얻습니다.</p>"
     },
     "Effect: Nanite Surge": {
       "name": "효과: 나나이트 서지(Effect: Nanite Surge)",

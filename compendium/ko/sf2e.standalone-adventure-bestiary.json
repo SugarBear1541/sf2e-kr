@@ -22,11 +22,11 @@
       "items": {
         "Akashic Download": {
           "name": "아카식 다운로드(Akashic Download)",
-          "description": "<p>특정 주제에 관한 정보를 찾기 위해 아카식 기록을 심령적으로 검색하고, 그 데이터를 통신 장치 또는 컴퓨터에 마법으로 전송합니다. 이 주문을 시전할 때, @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 행동이 있으며 당신이 숙련인 기술 하나를 선택합니다.</p>\n<p>지속시간 중 언제든 선택한 기술로 지식 회상 판정을 시도하면서 통신 장치를 참조할 수 있습니다. 이 판정은 +1 상태 보너스를 얻습니다. 통신 장치를 확인하는 것은 지식 회상 행동의 일부이며, 장치를 들고 있어야 합니다. 통신 장치는 주제와 관련된 다양한 매체의 발췌문과 선택 자료를 즉시 취합해 표시하여 이 보너스를 줍니다. 판정에서 대실패를 굴리면 대신 실패를 얻습니다. 판정에 성공하고 주제가 크리처라면 그 크리처에 관한 추가 정보 또는 맥락을 얻습니다. 통신 장치를 한 번 참조하면 주문이 끝납니다. 주문이 끝나면 아카식 기록에 대한 접속이 종료되고 다운로드한 모든 정보가 아카식 기록으로 돌아갑니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.h1i8c47U0IOrMrHJ]{주문 효과: 아카식 다운로드}</p><hr /><p><strong>고조(3랭크)</strong> 주문이 끝나기 전에 통신 장치를 세 번 참조할 수 있습니다.</p>"
+          "description": "<p>특정 주제에 관한 정보를 찾기 위해 아카식 기록을 심령적으로 검색하고, 그 데이터를 통신 장치 또는 컴퓨터에 마법으로 전언 송신 이 주문을 시전할 때, @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 행동이 있으며 당신이 숙련인 기술 하나를 선택합니다.</p>\n<p>지속시간 중 언제든 선택한 기술로 지식 회상 판정을 시도하면서 통신 장치를 참조할 수 있습니다. 이 판정은 +1 상태 보너스를 얻습니다. 통신 장치를 확인하는 것은 지식 회상 행동의 일부이며, 장치를 들고 있어야 합니다. 통신 장치는 주제와 관련된 다양한 매체의 발췌문과 선택 자료를 즉시 취합해 표시하여 이 보너스를 줍니다. 판정에서 대실패를 굴리면 대신 실패를 얻습니다. 판정에 성공하고 주제가 크리처라면 그 크리처에 관한 추가 정보 또는 맥락을 얻습니다. 통신 장치를 한 번 참조하면 주문이 끝납니다. 주문이 끝나면 아카식 기록에 대한 접속이 종료되고 다운로드한 모든 정보가 아카식 기록으로 돌아갑니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.h1i8c47U0IOrMrHJ]{주문 효과: 아카식 다운로드}</p><hr /><p><strong>고조(3랭크)</strong> 주문이 끝나기 전에 통신 장치를 세 번 참조할 수 있습니다.</p>"
         },
         "Analyze Target": {
-          "name": "표적 분석(Analyze Target)",
-          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+          "name": "대상 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 대상 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 대상 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
         },
         "Battleglove": {
           "name": "전투 장갑(Battleglove)",
@@ -37,7 +37,7 @@
           "description": "<p>당신은 마법의 존재를 감지하는 파동을 방출합니다. 마법의 존재 여부를 제외한 다른 정보는 얻지 못합니다. 당신과 아군의 마법 아이템이나 지속 중인 주문처럼 완전히 알고 있는 마법은 무시하도록 선택할 수 있습니다. 당신의 <em>마법 탐지</em> 주문 랭크보다 낮은 랭크의 효과를 지닌 환영 마법만 감지합니다. 다만 외형을 속이지 않는 환영 오라를 지닌 아이템(예: <em>투명화 물약</em>)은 보통 정상적으로 감지됩니다.</p><hr /><p><strong>고조(3랭크)</strong> GM이 결정한 대로, 주문이 감지한 가장 강력한 마법 효과의 랭크 또는 레벨을 알게 됩니다.</p>\n<p><strong>고조(4랭크)</strong> 3랭크와 같지만, 가장 높은 랭크 마법의 근원을 특정합니다. 부정확한 감각과 마찬가지로 정확한 위치는 알 수 없지만, 그 근원을 5피트 정육면체 안으로 좁힐 수 있습니다(근원이 그보다 크다면 가장 가까운 부분).</p>"
         },
         "Doom Scroll": {
-          "name": "파멸 스크롤(Doom Scroll)",
+          "name": "파멸의 두루마리(Doom Scroll)",
           "description": "<p>당신은 주변 장치, 홀로 프로젝터, 화면, 기타 디스플레이(방어구의 통신 장치 포함)에 암울한 소식을 마법으로 송출합니다. 하나 이상의 디스플레이를 볼 수 있는 영역 안의 크리처는 의지 내성 굴림을 시도해야 합니다.</p><hr /><p><strong>대성공</strong> 크리처는 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 크리처는 디스플레이에 @UUID[Compendium.sf2e.conditions.Item.AdPVz7rbaVSRxHFg]{매혹}됩니다.</p>\n<p><strong>실패</strong> 크리처는 디스플레이에 매혹되고 @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}가 됩니다(매혹이 끝나더라도 공포는 유지됩니다).</p>\n<p><strong>대실패</strong> 크리처는 디스플레이에 매혹되고, @UUID[Compendium.sf2e.conditions.Item.TBSHQspnbcqxsmjL]{겁먹음}과 @UUID[Compendium.sf2e.conditions.Item.3uh1r86TzbQvosxv]{파멸}이 됩니다(매혹이 끝나더라도 두 상태는 유지됩니다).</p>"
         },
         "Eldritch Lance": {
@@ -45,7 +45,7 @@
           "description": "<p>당신은 별 사이의 어두운 공간에서 정신을 습격하는 섬뜩한 에너지 광선을 응축해 대상에게 발사합니다. 대상의 AC에 대해 원거리 주문 공격 굴림을 하십시오. 명중하면 2d6 정신 피해를 줍니다. 대성공하면 두 배 피해를 줍니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 1d6 증가합니다.</p>"
         },
         "Entropy Strike": {
-          "name": "엔트로피 일격(Entropy Strike)",
+          "name": "엔트로피 타격(Entropy Strike)",
           "description": "<p>당신은 물질을 빠르고 무차별적으로 붕괴시키는 엔트로피 광선을 방출합니다. 대상의 AC에 대해 원거리 주문 공격을 하십시오. 명중하면 대상은 5d8 공허 피해를 받습니다. 대상이 기술 특성을 지녔다면 대신 2d6 지속 산성 피해를 받고 오작동 1이 됩니다. 대성공하면 피해가 두 배가 되며, 크리처가 기술 특성을 지녔다면 오작동 2와 @UUID[Compendium.sf2e.conditions.Item.dfCMdR4wnpbYNTix]{기절}이 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 주사위 1개만큼 증가합니다.</p>"
         },
         "Flashlight (Commercial)": {
@@ -69,7 +69,7 @@
           "description": "<p>도둑질 기술로 @UUID[Compendium.sf2e.actions.Item.2EE4aF4SZpYf0R6H]{자물쇠 따기} 또는 일부 유형의 @UUID[Compendium.sf2e.actions.Item.cYdz2grcOcRt4jk6]{장치 무력화}를 하려면 잠입자 도구가 필요합니다.</p>"
         },
         "Injury Echo": {
-          "name": "부상 메아리(Injury Echo)",
+          "name": "상흔의 메아리(Injury Echo)",
           "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
         },
         "Isolated Spell Matrix": {
@@ -81,7 +81,7 @@
           "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p>의료 패치는 신체의 자연 치유를 가속합니다. @Damage[(3d6+6)[healing]] HP를 회복하고 10분 동안 질병과 독에 대한 내성 굴림에 +1 아이템 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.equipment-effects.Item.VKSOvJQMwUby4fba]{효과: 메드패치}</p>"
         },
         "Mind Skewer": {
-          "name": "정신 꼬챙이(Mind Skewer)",
+          "name": "정신 꿰기(Mind Skewer)",
           "description": "<p>당신은 넘쳐나는 정신 정보 또는 신성한 판결로 크리처의 정신을 하중 초과시킵니다. 정신적 맹공은 2d6 정신 피해를 줍니다. 대실패하면 대상은 추가로 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{우둔}가 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 2d6 증가합니다.</p>"
         },
         "Occult Spontaneous Spells": {
@@ -103,8 +103,8 @@
           "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>단발식 저격 소총인 이 무기는 최소한의 정비만으로도 안정성과 신뢰성이 높아 광대한 우주에서 가장 인기 있는 무기 중 하나입니다.</p>"
         },
         "Shield": {
-          "name": "쉴드(Shield)",
-          "description": "<p>당신은 마법의 힘으로 방패를 소환합니다. 이것은 레이즈 어 실드(Raise a Shield) 행동을 사용하는 것으로 간주되어 다음 턴이 시작될 때까지 AC에 +1 상황 보너스를 제공하지만, 사용하는 데 손이 필요하지 않습니다.</p>\n<p>주문 효과가 지속되는 동안, 당신은 마법 방패로 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 있습니다. 방패의 경도는 5입니다. 당신은 주문의 반응을 사용하여 물리적 피해를 주지 않는 주문이나 마법 효과로부터 받는 피해를 감소시킬 수 있습니다. 실드 블록(Shield Block)을 사용한 후, 주문은 종료되며 10분 동안 다시 시전할 수 없습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.Jemq5UknGdMO7b73]{주문 효과: 쉴드}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{효과: 쉴드 면역}</p>\n<hr />\n<p><strong>고조(+2)</strong> 방패의 경도가 5 증가합니다.</p>"
+          "name": "방패(Shield)",
+          "description": "<p>당신은 마법의 힘으로 방패를 소환합니다. 이것은 레이즈 어 실드(Raise a Shield) 행동을 사용하는 것으로 간주되어 다음 턴이 시작될 때까지 AC에 +1 상황 보너스를 제공하지만, 사용하는 데 손이 필요하지 않습니다.</p>\n<p>주문 효과가 지속되는 동안, 당신은 마법 방패로 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 있습니다. 방패의 경도는 5입니다. 당신은 주문의 반응을 사용하여 물리적 피해를 주지 않는 주문이나 마법 효과로부터 받는 피해를 감소시킬 수 있습니다. 실드 블록(Shield Block)을 사용한 후, 주문은 종료되며 10분 동안 다시 시전할 수 없습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.Jemq5UknGdMO7b73]{주문 효과: 방패}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{효과: 방패 면역}</p>\n<hr />\n<p><strong>고조(+2)</strong> 방패의 경도가 5 증가합니다.</p>"
         },
         "Shifting Surge": {
           "name": "변환 쇄도(Shifting Surge)",
@@ -120,7 +120,7 @@
         },
         "Spell Gem of Translate (Rank 3)": {
           "name": "번역 주문 보석(3랭크)(Spell Gem of Translate (Rank 3))",
-          "description": "<p>@UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{번역하십시오.}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
+          "description": "<p>@UUID[Compendium.sf2e.spells.Item.vTQvfYu2llKQedmY]{통역}</p><hr /><p>격자 구조의 이 보석은 실리콘 외피 안에 떠 있으며, 단 하나의 특정 주문을 시전하는 데 필요한 마법 문자가 새겨져 있습니다. 주문 보석으로 주문을 시전하려면 한손에 보석을 들고 해당 주문의 일반적인 행동 수를 사용하는 주문 시전 활동으로 활성화해야 합니다. 그 주문은 당신의 주문 목록에 있어야 합니다. 주문을 시전하는 주체는 당신이므로 자신의 주문 공격 수정치와 주문 DC를 사용합니다. 주문은 당신의 주문 시전 전통에 속해야 합니다. 주문 보석에 든 주문은 한 번만 시전할 수 있으며, 시전의 일부로 주문 보석이 파괴됩니다. 주문 보석에는 소마법이나 의식을 담을 수 없습니다. 이 아이템의 특성은 담긴 주문에 따라 달라집니다.</p>\n<p><strong>활성화</strong> 주문 시전</p>\n<p><strong>효과</strong> 표시된 랭크로 주문을 시전합니다.</p>"
         },
         "Temporal Bullets": {
           "name": "시간 탄환(Temporal Bullets)",
@@ -422,11 +422,11 @@
         },
         "Akashic Download": {
           "name": "아카식 다운로드(Akashic Download)",
-          "description": "<p>특정 주제에 관한 정보를 찾기 위해 아카식 기록을 심령적으로 검색하고, 그 데이터를 통신 장치 또는 컴퓨터에 마법으로 전송합니다. 이 주문을 시전할 때, @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 행동이 있으며 당신이 숙련인 기술 하나를 선택합니다.</p>\n<p>지속시간 중 언제든 선택한 기술로 지식 회상 판정을 시도하면서 통신 장치를 참조할 수 있습니다. 이 판정은 +1 상태 보너스를 얻습니다. 통신 장치를 확인하는 것은 지식 회상 행동의 일부이며, 장치를 들고 있어야 합니다. 통신 장치는 주제와 관련된 다양한 매체의 발췌문과 선택 자료를 즉시 취합해 표시하여 이 보너스를 줍니다. 판정에서 대실패를 굴리면 대신 실패를 얻습니다. 판정에 성공하고 주제가 크리처라면 그 크리처에 관한 추가 정보 또는 맥락을 얻습니다. 통신 장치를 한 번 참조하면 주문이 끝납니다. 주문이 끝나면 아카식 기록에 대한 접속이 종료되고 다운로드한 모든 정보가 아카식 기록으로 돌아갑니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.h1i8c47U0IOrMrHJ]{주문 효과: 아카식 다운로드}</p><hr /><p><strong>고조(3랭크)</strong> 주문이 끝나기 전에 통신 장치를 세 번 참조할 수 있습니다.</p>"
+          "description": "<p>특정 주제에 관한 정보를 찾기 위해 아카식 기록을 심령적으로 검색하고, 그 데이터를 통신 장치 또는 컴퓨터에 마법으로 전언 송신 이 주문을 시전할 때, @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 행동이 있으며 당신이 숙련인 기술 하나를 선택합니다.</p>\n<p>지속시간 중 언제든 선택한 기술로 지식 회상 판정을 시도하면서 통신 장치를 참조할 수 있습니다. 이 판정은 +1 상태 보너스를 얻습니다. 통신 장치를 확인하는 것은 지식 회상 행동의 일부이며, 장치를 들고 있어야 합니다. 통신 장치는 주제와 관련된 다양한 매체의 발췌문과 선택 자료를 즉시 취합해 표시하여 이 보너스를 줍니다. 판정에서 대실패를 굴리면 대신 실패를 얻습니다. 판정에 성공하고 주제가 크리처라면 그 크리처에 관한 추가 정보 또는 맥락을 얻습니다. 통신 장치를 한 번 참조하면 주문이 끝납니다. 주문이 끝나면 아카식 기록에 대한 접속이 종료되고 다운로드한 모든 정보가 아카식 기록으로 돌아갑니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.h1i8c47U0IOrMrHJ]{주문 효과: 아카식 다운로드}</p><hr /><p><strong>고조(3랭크)</strong> 주문이 끝나기 전에 통신 장치를 세 번 참조할 수 있습니다.</p>"
         },
         "Analyze Target": {
-          "name": "표적 분석(Analyze Target)",
-          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 표적 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 표적 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
+          "name": "대상 분석(Analyze Target)",
+          "description": "<p>표적에게 집중하여 마법 홀로그램에 정보가 표시되는 동안 데이터를 수집합니다. 시전이 끝나면 지문, 의학적 상태 및 기타 기본적인 생리 정보 등 표적의 생체 정보를 알아냅니다. 당신 또는 분석 내용을 조언받은 누구든 그 크리처를 @UUID[Compendium.sf2e.actions.Item.AJstokjdG6iDjVjE]{가장하기}하기 위한 판정, 그 크리처에게 @UUID[Compendium.sf2e.actions.Item.1kGNdIIhuglAjIp9]{상처 치료}를 하기 위한 판정, 그 크리처에 관한 @UUID[Compendium.sf2e.actions.Item.1OagaWtBpVXExToo]{지식 회상} 판정에 +1 상태 보너스를 얻습니다. 표적이 환영이거나 환영 마법의 영향을 받고 있다면, 그 효과의 랭크가 대상 분석의 랭크보다 낮을 때만 이를 감지합니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.7r6mw8H87SUaj9Tq]{주문 효과: 대상 분석}</p><hr /><p><strong>고조(3랭크)</strong> 상태 보너스가 +2로 증가하고 최대 10크리처를 표적으로 삼을 수 있습니다.</p>\n<p><strong>고조(6랭크)</strong> 상태 보너스가 +3으로 증가하고 원하는 수의 크리처를 표적으로 삼을 수 있습니다.</p>"
         },
         "Arcane Innate Spells": {
           "name": "비전 선천 주문(Arcane Innate Spells)"
@@ -541,16 +541,16 @@
           "description": "<p><strong>조건</strong> 메커나이저가 기술 특성이 있는 아이템 또는 크리처의 공격 대상이 됩니다.</p>\n<p><strong>빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 메커나이저는 우주의 보편 코드를 건드려 발동한 아이템을 @UUID[Compendium.sf2e.conditions.Item.6A2QDy8wRGCVQsSd]{오작동} (@Check[will|dc:13] 상태로 만듭니다(내성 굴림으로 무효). 아이템과 그것을 사용하는 크리처가 모두 기술 특성을 지녔다면 아이템에 적용됩니다.</p>"
         },
         "Cellular Stimulant Spell Amp": {
-          "name": "세포 자극제 주문 증폭기(Cellular Stimulant Spell Amp)",
-          "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.QiW8VNdBf0SFUq69]{세포 자극제} 주문(DC 15)</p>"
+          "name": "세포 자극 주문 증폭기(Cellular Stimulant Spell Amp)",
+          "description": "<p>대부분의 세계에서 ‘주문 증폭기’로 알려진 주문 앰풀은 지정된 랭크 주문의 이점을 부여하는 즉시 사용 가능한 마법 주사입니다.</p>\n<p><strong>활성화—주입</strong> <span class=\"action-glyph\">1</span> (조작)</p><hr /><p><strong>효과</strong> 1랭크 @UUID[Compendium.sf2e.spells.Item.QiW8VNdBf0SFUq69]{세포 자극} 주문(DC 15)</p>"
         },
         "Integrated Knife": {
           "name": "통합형 단검(Integrated Knife)",
           "description": "<p><strong>업그레이드:</strong> 1</p><hr /><p>무기와 도구 모두로 매우 유용한 나이프는 스타메탈에서 세라믹까지 다양한 형태, 양식과 소재로 만들어집니다.</p>"
         },
         "Jump": {
-          "name": "점프(Jump)",
-          "description": "<p>메커나이저 사보추어는 몸에 설치된 점프 제트를 작동해 최대 높이 10피트로 20피트까지 비행하거나, 수직 위로 20피트까지 비행합니다. 이 이동이 끝날 때 착지하지 않으면 추락합니다. 점프 제트는 메커나이저의 몸에서 제거하면 작동하지 않습니다.</p>"
+          "name": "도약(Jump)",
+          "description": "<p>메커나이저 사보추어는 몸에 설치된 도약 제트를 작동해 최대 높이 10피트로 20피트까지 비행하거나, 수직 위로 20피트까지 비행합니다. 이 이동이 끝날 때 착지하지 않으면 추락합니다. 도약 제트는 메커나이저의 몸에서 제거하면 작동하지 않습니다.</p>"
         },
         "Knife": {
           "name": "나이프(Knife)"
@@ -749,14 +749,14 @@
           "name": "서리 광선(Frost Ray)"
         },
         "Injury Echo": {
-          "name": "부상 메아리(Injury Echo)",
+          "name": "상흔의 메아리(Injury Echo)",
           "description": "<p>당신은 미래 또는 과거의 부상을 현현시켜 현재의 크리처를 해칩니다. 타격, 관통 또는 참격 피해를 선택하십시오. 대상은 기본 의지 내성 굴림과 함께 선택한 유형의 1d8 피해를 받습니다. 대상이 내성 굴림에 실패하고 당신의 다음 턴이 끝나기 전에 같은 유형의 피해를 받으면, 추가로 @Damage[ceil((@item.level)/2)d4[persistent,bleed]] 피해를 받습니다.</p><hr /><p><strong>고조(+2)</strong> 최초 피해가 1d8 증가하고, 실패 시 지속 피해가 1d4 증가합니다.</p>"
         },
         "Leg Blade": {
           "name": "다리 칼날(Leg Blade)"
         },
         "Mind Skewer": {
-          "name": "정신 꼬챙이(Mind Skewer)",
+          "name": "정신 꿰기(Mind Skewer)",
           "description": "<p>당신은 넘쳐나는 정신 정보 또는 신성한 판결로 크리처의 정신을 하중 초과시킵니다. 정신적 맹공은 2d6 정신 피해를 줍니다. 대실패하면 대상은 추가로 1라운드 동안 @UUID[Compendium.sf2e.conditions.Item.e1XGnhKNSQIm5IXg]{우둔}가 됩니다.</p><hr /><p><strong>고조(+1)</strong> 피해가 2d6 증가합니다.</p>"
         },
         "Occult Spontaneous Spells": {
@@ -767,8 +767,8 @@
           "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 진술은 자신의 생명력 연결망에 HP 4점을 회복합니다.</p>"
         },
         "Shield": {
-          "name": "쉴드(Shield)",
-          "description": "<p>당신은 마법의 힘으로 방패를 소환합니다. 이것은 레이즈 어 실드(Raise a Shield) 행동을 사용하는 것으로 간주되어 다음 턴이 시작될 때까지 AC에 +1 상황 보너스를 제공하지만, 사용하는 데 손이 필요하지 않습니다.</p>\n<p>주문 효과가 지속되는 동안, 당신은 마법 방패로 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 있습니다. 방패의 경도는 5입니다. 당신은 주문의 반응을 사용하여 물리적 피해를 주지 않는 주문이나 마법 효과로부터 받는 피해를 감소시킬 수 있습니다. 실드 블록(Shield Block)을 사용한 후, 주문은 종료되며 10분 동안 다시 시전할 수 없습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.Jemq5UknGdMO7b73]{주문 효과: 쉴드}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{효과: 쉴드 면역}</p>\n<hr />\n<p><strong>고조(+2)</strong> 방패의 경도가 5 증가합니다.</p>"
+          "name": "방패(Shield)",
+          "description": "<p>당신은 마법의 힘으로 방패를 소환합니다. 이것은 레이즈 어 실드(Raise a Shield) 행동을 사용하는 것으로 간주되어 다음 턴이 시작될 때까지 AC에 +1 상황 보너스를 제공하지만, 사용하는 데 손이 필요하지 않습니다.</p>\n<p>주문 효과가 지속되는 동안, 당신은 마법 방패로 @UUID[Compendium.sf2e.feats.Item.jM72TjJ965jocBV8]{방패 막기} 반응을 사용할 수 있습니다. 방패의 경도는 5입니다. 당신은 주문의 반응을 사용하여 물리적 피해를 주지 않는 주문이나 마법 효과로부터 받는 피해를 감소시킬 수 있습니다. 실드 블록(Shield Block)을 사용한 후, 주문은 종료되며 10분 동안 다시 시전할 수 없습니다.</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.Jemq5UknGdMO7b73]{주문 효과: 방패}</p>\n<p>@UUID[Compendium.sf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{효과: 방패 면역}</p>\n<hr />\n<p><strong>고조(+2)</strong> 방패의 경도가 5 증가합니다.</p>"
         },
         "Sonic Scream": {
           "name": "음파 비명(Sonic Scream)",

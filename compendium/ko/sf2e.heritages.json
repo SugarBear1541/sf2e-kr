@@ -134,7 +134,7 @@
     },
     "Stone-Blooded Madrosarai": {
       "name": "돌피 마드로사라이(Stone-Blooded Madrosarai)",
-      "description": "<p>억제된 마드로사라이 혈통 중 하나인 돌피는 흔히 의무병이나 철학자로 일합니다. 성급하게 반응하기보다 언제나 시간을 들여 상황을 분석합니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.NkvRoN33RbDg3fl9]{표적 분석} 소마법을 비전 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다. 대상 분석이 부여하는 상태 보너스를 1 증가시킵니다.</p>"
+      "description": "<p>억제된 마드로사라이 혈통 중 하나인 돌피는 흔히 의무병이나 철학자로 일합니다. 성급하게 반응하기보다 언제나 시간을 들여 상황을 분석합니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.NkvRoN33RbDg3fl9]{대상 분석} 소마법을 비전 선천 주문으로 마음대로 시전할 수 있습니다. 소마법은 자신의 레벨 절반을 올림한 값과 같은 주문 랭크로 고양됩니다. 대상 분석이 부여하는 상태 보너스를 1 증가시킵니다.</p>"
     },
     "Citadel Dwarf": {
       "name": "성채 드워프(Citadel Dwarf)",
@@ -318,7 +318,7 @@
     },
     "Surithic Worlanisi": {
       "name": "수리식 월라니시(Surithic Worlanisi)",
-      "description": "<p>선조들이 고대에 사용했던 정신 공예를 추구해 왔습니다. 뿔 원뿔이 불러들이는 정신 공명은 고통스러울 수 있지만, 절제와 인내를 통해 선조들의 사냥 솜씨와 비슷한 능력을 개발했습니다.</p>\n<p>사냥감이 남긴 정신적 메아리에 집중하여 우주의 진공처럼 가장 혹독한 환경에서도 사냥하고 추적할 수 있습니다. 생존에 훈련됩니다. 배경이나 클래스 등의 이유로 생존에 자동으로 훈련될 경우, 대신 원하는 다른 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.urQZwmzg2kS53vd5]{숙련된 추적자} 기술 피트를 얻습니다. 또한 20피트 범위의 부정확한 사고 감지를 얻습니다. 그러나 정신 반향으로 받는 정신 피해 약점이 레벨의 절반(최소 1)으로 증가합니다.</p>"
+      "description": "<p>선조들이 고대에 사용했던 정신 공예를 추구해 왔습니다. 뿔 원뿔이 불러들이는 정신 공명은 고통스러울 수 있지만, 절제와 인내를 통해 선조들의 사냥 솜씨와 비슷한 능력을 개발했습니다.</p>\n<p>사냥감이 남긴 정신적 메아리에 집중하여 우주의 진공처럼 가장 혹독한 환경에서도 사냥하고 추적할 수 있습니다. 생존에 훈련됩니다. 배경이나 클래스 등의 이유로 생존에 자동으로 훈련될 경우, 대신 원하는 다른 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.urQZwmzg2kS53vd5]{숙련된 추적자} 기술 피트를 얻습니다. 또한 20피트 범위의 부정확한 생각 탐지를 얻습니다. 그러나 정신 반향으로 받는 정신 피해 약점이 레벨의 절반(최소 1)으로 증가합니다.</p>"
     },
     "Izalraan Izalguun": {
       "name": "이잘란 이잘군(Izalraan Izalguun)",
@@ -362,7 +362,7 @@
     },
     "Static Mind Lashunta": {
       "name": "정전기 정신 라슌타(Static Mind Lashunta)",
-      "description": "<p>역사 기록에 따르면 고대 라슌타에게는 현대의 정신 능력이 없었으며, 그러한 능력은 공동체 생활과 함께 진화하고 유전자 조작으로 강화되었습니다. 당신은 이 원시 시대의 휴면 유전자를 지녀 전형적인 라슌타의 텔레파시 능력이 발달하지 않았거나, 생애 후반에 그 능력에 접근할 수 없게 되었습니다.</p>\n<p>종족으로 얻는 제한적 텔레파시를 포함한 어떤 형태의 텔레파시도 사용할 수 없으며, 선결 조건을 충족하는 목적에서도 텔레파시를 가진 것으로 간주되지 않습니다. 텔레파시 능력이 있는 크리처는 당신의 정신을 밀려드는 정전기처럼 감지합니다. 정신이나 사고에 접근하는 효과(예: @UUID[Compendium.sf2e.spells.Item.vLzFcIaSXs7YTIqJ]{메시지}, @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{마음 읽기}, @UUID[Compendium.sf2e.ancestry-features.Item.HOYa3N9R5VLS1kvv]{사고 감지})를 받으면 지각 수정치를 상쇄 수정치로 사용해 자동으로 상쇄를 시도합니다. 텔레파시로 소통하는 크리처의 생각을 자발적으로 듣는 것은 여전히 가능하며, 미스틱의 그룹 채팅처럼 클래스 기능으로 텔레파시 소통을 자발적으로 사용할 수도 있습니다.</p>"
+      "description": "<p>역사 기록에 따르면 고대 라슌타에게는 현대의 정신 능력이 없었으며, 그러한 능력은 공동체 생활과 함께 진화하고 유전자 조작으로 강화되었습니다. 당신은 이 원시 시대의 휴면 유전자를 지녀 전형적인 라슌타의 텔레파시 능력이 발달하지 않았거나, 생애 후반에 그 능력에 접근할 수 없게 되었습니다.</p>\n<p>종족으로 얻는 제한적 텔레파시를 포함한 어떤 형태의 텔레파시도 사용할 수 없으며, 선결 조건을 충족하는 목적에서도 텔레파시를 가진 것으로 간주되지 않습니다. 텔레파시 능력이 있는 크리처는 당신의 정신을 밀려드는 정전기처럼 감지합니다. 정신이나 사고에 접근하는 효과(예: @UUID[Compendium.sf2e.spells.Item.vLzFcIaSXs7YTIqJ]{전언}, @UUID[Compendium.sf2e.spells.Item.KHnhPHL4x1AQHfbC]{생각 읽기}, @UUID[Compendium.sf2e.ancestry-features.Item.HOYa3N9R5VLS1kvv]{생각 탐지})를 받으면 지각 수정치를 상쇄 수정치로 사용해 자동으로 상쇄를 시도합니다. 텔레파시로 소통하는 크리처의 생각을 자발적으로 듣는 것은 여전히 가능하며, 미스틱의 그룹 채팅처럼 클래스 기능으로 텔레파시 소통을 자발적으로 사용할 수도 있습니다.</p>"
     },
     "Manufacturer Barathu": {
       "name": "제조자 바라투(Manufacturer Barathu)",
@@ -378,7 +378,7 @@
     },
     "Wyrd Kasatha": {
       "name": "위어드 카사타(Wyrd Kasatha)",
-      "description": "<p>카사스의 일부 대가문은 은하계와 외부 존재계를 떠돌며 교역하는 폐쇄적인 외계 상인 집단인 위치위어드와 긴밀한 관계를 유지합니다. 당신은 그러한 가문 중 하나의 후손으로, 전통적인 마법 기법을 배우며 성장했습니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.gKKqvLohtrSJj3BM]{포스 배러지}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다. 또한 @UUID[Compendium.sf2e.actions.Item.Hq7duW66un55uGoA]{역장 튕겨내기} 반응 행동을 얻습니다.</p>"
+      "description": "<p>카사스의 일부 대가문은 은하계와 외부 존재계를 떠돌며 교역하는 폐쇄적인 외계 상인 집단인 위치위어드와 긴밀한 관계를 유지합니다. 당신은 그러한 가문 중 하나의 후손으로, 전통적인 마법 기법을 배우며 성장했습니다.</p>\n<p>@UUID[Compendium.sf2e.spells.Item.gKKqvLohtrSJj3BM]{역장 탄막}을 1랭크 비전 선천 주문으로 하루에 한 번 시전할 수 있습니다. 또한 @UUID[Compendium.sf2e.actions.Item.Hq7duW66un55uGoA]{역장 튕겨내기} 반응 행동을 얻습니다.</p>"
     },
     "Frilled Vesk": {
       "name": "목주름 베스크(Frilled Vesk)",
@@ -614,7 +614,7 @@
     },
     "Mutant Goblin": {
       "name": "돌연변이 고블린(Mutant Goblin)",
-      "description": "<p>가속된 진화 경로와 방사선에 대한 애정 때문에 많은 고블린에게 기괴한 돌연변이가 자주 자랍니다. 돌연변이 특성을 얻습니다. 아래 목록에서 돌연변이 하나를 선택합니다.</p><ul><li><strong>생체전기</strong> 1d4 전기 피해를 주는 바이오쇼크 비무장 공격을 얻습니다. 바이오쇼크 공격은 전격 무기군에 속하며 기교, 비살상, 비무장 특성을 가집니다.</li><li><strong>색소포</strong> 은신에 훈련됩니다. 배경이나 클래스 등의 이유로 은신에 자동으로 훈련될 경우, 대신 원하는 다른 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.beyw5bdA5hkQbmaG]{지형 추적자} 기술 피트를 얻지만, 선택한 어려운 지형 대신 대형 네온사인이나 나이트클럽처럼 밝은 인공 조명 구역에 인접하거나 그 안에 있을 때 이 피트를 사용할 수 있습니다.</li><li><strong>추가 사지</strong> 두 번째 팔 한 쌍이 자랍니다. @UUID[Compendium.sf2e.feats.Item.EPeo604ByeeAx3AL]{전원 갑판으로} 및 @UUID[Compendium.sf2e.feats.Item.61txGmMLr22B93cU]{이중 뽑기} 표준 종족 피트를 선택할 수 있습니다.</li><li><strong>비행</strong> 20피트 비행 속도를 얻습니다.</li><li><strong>아가미</strong> 25피트 수영 속도를 얻고 한 번에 1분 동안 수중에서 호흡할 수 있습니다.</li><li><strong>제한적 텔레파시</strong> 15피트 이내의 크리처와 정신적으로 소통할 수 있습니다. 언어를 공유하는 크리처하고만 소통할 수 있습니다. 이 능력은 상대의 생각에 접근하게 하지 않으며, 일반적인 말보다 더 많은 정보를 전달하지 않습니다.</li><li><strong>돌연변이 마법</strong> @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(원시; @UUID[Compendium.sf2e.spells.Item.thAHF1zxNplLCJPO]{카우스틱 블래스트}) 표준 종족 피트를 얻습니다. 단, 입에서 산성 덩어리를 뱉기 때문에 주문은 조작 특성을 가지지 않습니다.</li><li><p><strong>흡반</strong> 20피트 등반 속도를 얻습니다.</p></li></ul>"
+      "description": "<p>가속된 진화 경로와 방사선에 대한 애정 때문에 많은 고블린에게 기괴한 돌연변이가 자주 자랍니다. 돌연변이 특성을 얻습니다. 아래 목록에서 돌연변이 하나를 선택합니다.</p><ul><li><strong>생체전기</strong> 1d4 전기 피해를 주는 바이오쇼크 비무장 공격을 얻습니다. 바이오쇼크 공격은 전격 무기군에 속하며 기교, 비살상, 비무장 특성을 가집니다.</li><li><strong>색소포</strong> 은신에 훈련됩니다. 배경이나 클래스 등의 이유로 은신에 자동으로 훈련될 경우, 대신 원하는 다른 기술 하나에 훈련됩니다. @UUID[Compendium.sf2e.feats.Item.beyw5bdA5hkQbmaG]{지형 추적자} 기술 피트를 얻지만, 선택한 어려운 지형 대신 대형 네온사인이나 나이트클럽처럼 밝은 인공 조명 구역에 인접하거나 그 안에 있을 때 이 피트를 사용할 수 있습니다.</li><li><strong>추가 사지</strong> 두 번째 팔 한 쌍이 자랍니다. @UUID[Compendium.sf2e.feats.Item.EPeo604ByeeAx3AL]{전원 갑판으로} 및 @UUID[Compendium.sf2e.feats.Item.61txGmMLr22B93cU]{이중 뽑기} 표준 종족 피트를 선택할 수 있습니다.</li><li><strong>비행</strong> 20피트 비행 속도를 얻습니다.</li><li><strong>아가미</strong> 25피트 수영 속도를 얻고 한 번에 1분 동안 수중에서 호흡할 수 있습니다.</li><li><strong>제한적 텔레파시</strong> 15피트 이내의 크리처와 정신적으로 소통할 수 있습니다. 언어를 공유하는 크리처하고만 소통할 수 있습니다. 이 능력은 상대의 생각에 접근하게 하지 않으며, 일반적인 말보다 더 많은 정보를 전달하지 않습니다.</li><li><strong>돌연변이 마법</strong> @UUID[Compendium.sf2e.feats.Item.IEQmMRA1uMPb0rJo]{선조의 소마법}(원시; @UUID[Compendium.sf2e.spells.Item.thAHF1zxNplLCJPO]{부식성 폭발}) 표준 종족 피트를 얻습니다. 단, 입에서 산성 덩어리를 뱉기 때문에 주문은 조작 특성을 가지지 않습니다.</li><li><p><strong>흡반</strong> 20피트 등반 속도를 얻습니다.</p></li></ul>"
     },
     "Stonehail G'folian": {
       "name": "석우박 지폴리안(Stonehail G'folian)",
@@ -662,7 +662,7 @@
     },
     "Electric Kalo": {
       "name": "전기 칼로(Electric Kalo)",
-      "description": "<p>칼로-마호이의 유광층에 사는 외딴 부족의 후손으로, 블룸의 영향이나 전기가오리를 먹던 고대 식습관 때문에 포식자에 맞서는 생체전기 방어를 발달시켰습니다. @UUID[Compendium.sf2e.spells.Item.kBhaPuzLUSwS6vVf]{일렉트릭 아크} 소마법을 원시 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 레벨의 절반을 올림한 값과 같은 주문 랭크로 고조됩니다. 이 주문을 대상 하나에게만 시전하면 다음 턴이 끝날 때까지 레벨의 절반과 같은 전기 저항(최소 1)을 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.feat-effects.Item.xQvyfiOh05xK2A5A]{효과: 전기 칼로}</p>"
+      "description": "<p>칼로-마호이의 유광층에 사는 외딴 부족의 후손으로, 블룸의 영향이나 전기가오리를 먹던 고대 식습관 때문에 포식자에 맞서는 생체전기 방어를 발달시켰습니다. @UUID[Compendium.sf2e.spells.Item.kBhaPuzLUSwS6vVf]{전기 호} 소마법을 원시 선천 주문으로 횟수 제한 없이 시전할 수 있습니다. 소마법은 레벨의 절반을 올림한 값과 같은 주문 랭크로 고조됩니다. 이 주문을 대상 하나에게만 시전하면 다음 턴이 끝날 때까지 레벨의 절반과 같은 전기 저항(최소 1)을 얻습니다.</p>\n<p>@UUID[Compendium.sf2e.feat-effects.Item.xQvyfiOh05xK2A5A]{효과: 전기 칼로}</p>"
     },
     "Odd-Horned Nuar": {
       "name": "홀수뿔 누아르(Odd-Horned Nuar)",
@@ -810,7 +810,7 @@
     },
     "Wild Astrazoan": {
       "name": "야생 아스트라조안(Wild Astrazoan)",
-      "description": "<p>대부분의 아스트라조안은 인구가 밀집된 정착지의 공동체로 모이지만, 일부는 자연 속 황야에서 살며 자신의 운명을 개척하거나 심지어 다른 이들의 영향으로부터 낙원을 지키기로 선택합니다. 형태 변환으로 선택할 수 있는 종족은 하나뿐이지만, 형태 변환을 사용해 1랭크 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{페스트 폼}의 수치를 가진 동물로 변신할 수도 있습니다.</p>"
+      "description": "<p>대부분의 아스트라조안은 인구가 밀집된 정착지의 공동체로 모이지만, 일부는 자연 속 황야에서 살며 자신의 운명을 개척하거나 심지어 다른 이들의 영향으로부터 낙원을 지키기로 선택합니다. 형태 변환으로 선택할 수 있는 종족은 하나뿐이지만, 형태 변환을 사용해 1랭크 @UUID[Compendium.sf2e.spells.Item.gfPjmG6Fe6D3MFjl]{해충 형상}의 수치를 가진 동물로 변신할 수도 있습니다.</p>"
     },
     "Kasath Survivalist": {
       "name": "카사스 생존자(Kasath Survivalist)",
@@ -994,7 +994,7 @@
     },
     "Ancestor's Armor Osharu": {
       "name": "선조의 갑주 오샤루(Ancestor's Armor Osharu)",
-      "description": "<p>일부 현대 오샤루는 유연한 팔 판갑을 다시 자라게 하고 선조의 방어 능력 일부를 되찾기 위해 마법유전학적 변형을 받습니다. 특히 파바크 바로 앞 우주에 스웜의 영역이 갑작스럽게 나타나면서 불어닥친 군사적 열기에 휩쓸린 젊은 오샤루 사이에서 이 유행이 크게 번졌습니다.</p>\n<p>선조와 같은 비늘 팔 판갑을 발달시키는 광범위한 과정을 거쳤습니다. 당신의 @UUID[Compendium.sf2e.equipment.Item.V4kcwGZw9t2zAW1k]{팔 비늘판}은 @UUID[Compendium.sf2e.equipment.Item.j66fZJrm1nECG3UM]{상업용 피부 장갑판} 증강처럼 기능하지만, 신체의 영구적인 일부이며 기술 특성이 없고 증강 슬롯을 차지하지 않습니다. 진피 장갑판과 같은 방식으로 크레딧을 소비해 팔 판갑을 업그레이드할 수 있습니다. 또한 @UUID[Compendium.sf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{쉴드 블록} 일반 피트를 얻습니다.</p>"
+      "description": "<p>일부 현대 오샤루는 유연한 팔 판갑을 다시 자라게 하고 선조의 방어 능력 일부를 되찾기 위해 마법유전학적 변형을 받습니다. 특히 파바크 바로 앞 우주에 스웜의 영역이 갑작스럽게 나타나면서 불어닥친 군사적 열기에 휩쓸린 젊은 오샤루 사이에서 이 유행이 크게 번졌습니다.</p>\n<p>선조와 같은 비늘 팔 판갑을 발달시키는 광범위한 과정을 거쳤습니다. 당신의 @UUID[Compendium.sf2e.equipment.Item.V4kcwGZw9t2zAW1k]{팔 비늘판}은 @UUID[Compendium.sf2e.equipment.Item.j66fZJrm1nECG3UM]{상업용 피부 장갑판} 증강처럼 기능하지만, 신체의 영구적인 일부이며 기술 특성이 없고 증강 슬롯을 차지하지 않습니다. 진피 장갑판과 같은 방식으로 크레딧을 소비해 팔 판갑을 업그레이드할 수 있습니다. 또한 @UUID[Compendium.sf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{방패 블록} 일반 피트를 얻습니다.</p>"
     },
     "Code-Sworn Vulkarisu": {
       "name": "코드의 맹세 불카리수(Code-Sworn Vulkarisu)",
@@ -1094,7 +1094,7 @@
     },
     "Thoughtseeker Contemplative": {
       "name": "사고탐구 컨템플러티브(Thoughtseeker Contemplative)",
-      "description": "<p>자신의 생각만으로 만족하지 못한 일부 컨템플러티브는 은하계 전역에서 지식을 구하는 다른 정신에 자신을 열었고, 그 결과 멀리까지 미치는 인식을 개발했습니다. 당신은 이 정신 탐험가들의 후손이거나 그 계승자들에게 광범위한 훈련을 받았습니다. @UUID[Compendium.sf2e.spells.Item.qOLMHvkAGsVYLhtn]{사고 감지}를 2랭크 오컬트 선천 주문으로 얻으며 10분마다 한 번 시전할 수 있습니다. 12레벨에는 이를 4랭크 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p>자신의 생각만으로 만족하지 못한 일부 컨템플러티브는 은하계 전역에서 지식을 구하는 다른 정신에 자신을 열었고, 그 결과 멀리까지 미치는 인식을 개발했습니다. 당신은 이 정신 탐험가들의 후손이거나 그 계승자들에게 광범위한 훈련을 받았습니다. @UUID[Compendium.sf2e.spells.Item.qOLMHvkAGsVYLhtn]{생각 탐지}를 2랭크 오컬트 선천 주문으로 얻으며 10분마다 한 번 시전할 수 있습니다. 12레벨에는 이를 4랭크 오컬트 선천 주문으로 시전할 수 있습니다.</p>"
     },
     "Cataclyst Human": {
       "name": "파국 생존자 인간(Cataclyst Human)",
@@ -1138,7 +1138,7 @@
     },
     "Inflorescent": {
       "name": "개화체(Inflorescent)",
-      "description": "<p>생명 에너지의 샘에서 힘을 끌어내 늘 꽃을 피운 상태를 유지합니다. @UUID[Compendium.sf2e.spells.Item.SnjhtQYexDtNDdEg]{안정화} 또는 @UUID[Compendium.sf2e.spells.Item.kcelf6IHl3L9VXXg]{활력 채찍 (활력 채찍)} 중 소마법 하나를 선택합니다. 선택한 주문을 원시 선천 주문으로 마음대로 시전할 수 있습니다. 이 선택은 변경할 수 없습니다. 소마법은 레벨의 절반을 올림한 값과 같은 주문 랭크로 고양됩니다. 또한 공허 효과에 대한 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
+      "description": "<p>생명 에너지의 샘에서 힘을 끌어내 늘 꽃을 피운 상태를 유지합니다. @UUID[Compendium.sf2e.spells.Item.SnjhtQYexDtNDdEg]{안정화} 또는 @UUID[Compendium.sf2e.spells.Item.kcelf6IHl3L9VXXg]{활력 채찍} 중 소마법 하나를 선택합니다. 선택한 주문을 원시 선천 주문으로 마음대로 시전할 수 있습니다. 이 선택은 변경할 수 없습니다. 소마법은 레벨의 절반을 올림한 값과 같은 주문 랭크로 고양됩니다. 또한 공허 효과에 대한 내성 굴림에 +1 상황 보너스를 얻습니다.</p>"
     },
     "Ascendant Psychic Lashunta": {
       "name": "초월 정신능력자 라슌타(Ascendant Psychic Lashunta)",

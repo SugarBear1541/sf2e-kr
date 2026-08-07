@@ -49,3 +49,22 @@ html[lang="ko"] :is(.prosemirror,#prosemirror-dropdown) :is(button,a,li)::before
 html[lang="ko"] :is(.prosemirror,#prosemirror-dropdown) :is(button,a,li)::after {
   font-family: var(--font-awesome, "Font Awesome 6") !important;
 }
+
+/* SF2e-KR 1.0.6: keep the language selector details field compact. */
+html[lang="ko"] #language-selector footer .form-group.stacked.details {
+  display: grid !important;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 0.35rem;
+}
+html[lang="ko"] #language-selector footer .form-group.stacked.details > label {
+  width: auto !important;
+  margin: 0 !important;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+html[lang="ko"] #language-selector footer .form-group.stacked.details > input {
+  min-width: 0;
+  width: 100%;
+}
